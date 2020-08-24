@@ -2,9 +2,16 @@ This is a guide intended to aid developers in their first days in the company.
 
 # Principles for success and teamwork philosphy
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B9XGUpQZY38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Principles for succes by Ray Dalio
+https://www.youtube.com/embed/B9XGUpQZY38
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4lLl5B8Oazw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Charity Majors - The Sociotechnical Path to High-Performing Teams
+https://www.youtube.com/watch?v=4lLl5B8Oazw
+
+# Erlang
+
+Learn you some Erlang
+https://learnyousomeerlang.com/content
 
 
 # Getting started
