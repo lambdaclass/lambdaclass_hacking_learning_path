@@ -1,8 +1,10 @@
+# Lambda handbook for new employees
+
 This is a guide intended to aid developers in their first days in the company.
 
 # Principles for success and teamwork philosphy
 
-We follow a very strict code of conduct that must be followed to ensure a safe space in the team
+We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
 
 
 Principles for succes by Ray Dalio
@@ -15,14 +17,14 @@ https://www.youtube.com/watch?v=4lLl5B8Oazw
 
 # Erlang
 
-Learn you some Erlang
+Read the book "Learn you some Erlang for great good!" if you want to learn some Erlang
 
 https://learnyousomeerlang.com/content
 
 
 # JuliaLang
 
-Julia Koans that will give you some short but effective comprehension
+Julia Koans that will give you some short but effective understanding
 
 https://github.com/lambdaclass/julia_koans
 
@@ -49,7 +51,7 @@ Progress in any project must be pushed every day. This must be done within a bra
 
 There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
 
-When working on projects, the specific tasks to tackle are written in clickup
+When working on projects, the specific tasks to tackle are written in clickup.
 
 
 
