@@ -25,6 +25,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 
 ## GitHub
 
+* If you are new to GitHub, you can put your hands on with [this course](https://lab.github.com/githubtraining/introduction-to-github)
 * Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master. 
 * Never push to master directly, and only reviewers can merge branches to master.
 
@@ -35,6 +36,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 
 ## Design and coding standards
 
+* Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 * [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#71e8). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 * [Postgresql is the default database](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398).
 * Write tests.
@@ -43,8 +45,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 * Do not write tests before you have solved the problem, you may waste time writing tests for the wrong implementation.
 * Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
 * Don't try to foresee future uses of your program: [You aren't gonna need it](https://martinfowler.com/bliki/Yagni.html).
-* Write for humans: coding for computers is easy, but writing
-  code that is understandable by another person is an art.
+* Write for humans: coding for computers is easy, but writing code that is understandable by another person is an art.
 * Code and document in english, unless you have a very specific reason no to.
 * Use meaningful, readable names for variables, functions and files. Don't try to save characters.
 * Documentation is a sign of the quality of an API. It's easier to write it when the design is right.
@@ -60,6 +61,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 
 ### Open source projects
 
+* Suggested reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 * Use MIT license.
 * Fill the `description` field at the top of the repo page.
 * Write a decent README.
