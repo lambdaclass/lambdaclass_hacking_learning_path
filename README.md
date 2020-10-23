@@ -98,3 +98,5 @@ To participate in the reading club, take a look at the following document:
 
 Here we collect suggestions and maintain a record of what we have read.
 
+The group gathers on Tuesdays at 18:00. Ping someone to get added to the calendar event. 
+
