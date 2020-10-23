@@ -89,3 +89,12 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 * Use [pipenv](https://github.com/pypa/pipenv) to escape from environment hell in Python. You can even do this locally in projects that are set up to use virtualenv and virtualenvwrapper.
 * If you also need to stick with a specific minor version of Python (e.g. Python 2.7.14) you can use [pyenv](https://github.com/pyenv/pyenv) in combination with pipenv.
 
+## Reading Club
+
+Some of us at Lambda have formed a reading club, where we propose, vote, select, read, and discuss books, papers, posts, videos, or any material we feel is interesting or advances our skills as developers and humans.
+To participate in the reading club, take a look at the following document:
+
+- [HackMD](https://hackmd.io/_YxcAp5qQvCNtUIjMUyMXw?view)
+
+Here we collect suggestions and maintain a record of what we have read.
+
