@@ -2,6 +2,24 @@
 
 This is a guide intended to aid developers in their first days in the company.
 
+<!--ts-->
+   * [Lambda handbook for new employees](#lambda-handbook-for-new-employees)
+      * [Principles for success and teamwork philosphy](#principles-for-success-and-teamwork-philosphy)
+      * [Erlang](#erlang)
+      * [JuliaLang](#julialang)
+      * [Getting started](#getting-started)
+      * [GitHub](#github)
+      * [Working method](#working-method)
+      * [Design and coding standards](#design-and-coding-standards)
+         * [Open source projects](#open-source-projects)
+         * [Erlang projects](#erlang-projects)
+         * [Python projects](#python-projects)
+      * [Reading Club](#reading-club)
+
+<!-- Added by: igaray, at: Fri 23 Oct 2020 01:33:02 PM -03 -->
+
+<!--te-->
+
 ## Principles for success and teamwork philosphy
 
 We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
