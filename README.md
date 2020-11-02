@@ -37,7 +37,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 ## Design and coding standards
 
 * Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
-* [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#71e8). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
+* [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 * [Postgresql is the default database](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398).
 * Write tests.
 * Favor integration tests over unit tests, but do write unit tests
