@@ -15,6 +15,7 @@ This is a guide intended to aid developers in their first days in the company.
          * [Erlang projects](#erlang-projects)
          * [Python projects](#python-projects)
       * [Reading Club](#reading-club)
+      * [Community projects](#Community-projects)
 
 <!-- Added by: igaray, at: Fri 23 Oct 2020 01:33:02 PM -03 -->
 
@@ -117,4 +118,13 @@ To participate in the reading club, take a look at the following document:
 Here we collect suggestions and maintain a record of what we have read.
 
 The group gathers on Tuesdays at 18:00. Ping someone to get added to the calendar event. 
+
+## Community projects
+
+We organize activities where we share thoughts and interests with anyone who want to join us.
+ 
+* [BuzzConf](https://buzzconf.org) A conference for developers, by developers. Past talks [here.](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos)
+* [Zruput](https://zruput.org) Digital Communications Conference.
+* [This is not a monad tutorial](https://notamonadtutorial.com) Writings, reviews and interviews about programming.
+* [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba) 
 
