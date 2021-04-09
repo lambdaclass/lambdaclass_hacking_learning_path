@@ -1,1 +1,1 @@
-# Lambda handbook for new employees
+# LambdaClass Employee Handbook
