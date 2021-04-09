@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Development Workflow - LambdaClass Employee Handbook</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="home.html"><strong aria-hidden="true">1.</strong> Home</a></li><li class="chapter-item expanded "><a href="company_culture.html"><strong aria-hidden="true">2.</strong> Company Culture</a></li><li class="chapter-item expanded "><a href="teams.html"><strong aria-hidden="true">3.</strong> Teams</a></li><li class="chapter-item expanded "><a href="development_workflow.html" class="active"><strong aria-hidden="true">4.</strong> Development Workflow</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="python.html"><strong aria-hidden="true">4.1.</strong> Python</a></li><li class="chapter-item expanded "><a href="julia.html"><strong aria-hidden="true">4.2.</strong> Julia</a></li><li class="chapter-item expanded "><a href="erlang_elixir.html"><strong aria-hidden="true">4.3.</strong> Erlang &amp; Elixir</a></li><li class="chapter-item expanded "><a href="rust.html"><strong aria-hidden="true">4.4.</strong> Rust</a></li></ol></li><li class="chapter-item expanded "><a href="reading_club.html"><strong aria-hidden="true">5.</strong> Reading Club</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">LambdaClass Employee Handbook</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="development-workflow"><a class="header" href="#development-workflow">Development Workflow</a></h1>
+<h2 id="getting-started"><a class="header" href="#getting-started">Getting started</a></h2>
+<ul>
+<li>Two-step authentication is mandatory for every login of the company accounts (e.g. Slack, mail, GitHub).</li>
+<li>Also, the company's GitHub repositories are <a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">accessed via SSH</a></li>
+</ul>
+<h2 id="github--gitlab"><a class="header" href="#github--gitlab">GitHub &amp; GitLab</a></h2>
+<ul>
+<li>If you are new to GitHub, you can put your hands on with <a href="https://lab.github.com/githubtraining/introduction-to-github">this course</a></li>
+<li>Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.</li>
+<li>Never push to master directly, and only reviewers can merge branches to master.</li>
+</ul>
+<h2 id="working-method"><a class="header" href="#working-method">Working method</a></h2>
+<ul>
+<li>There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.</li>
+<li>When working on projects, the specific tasks to tackle are written in clickup.</li>
+</ul>
+<h2 id="design-and-coding-standards"><a class="header" href="#design-and-coding-standards">Design and coding standards</a></h2>
+<ul>
+<li>Suggested reading: <a href="https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483">Coders at work</a></li>
+<li><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398">make is the build tool</a>. Consider <a href="http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/">these notes</a>.</li>
+<li><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398">Postgresql is the default database</a>.</li>
+<li>Write tests.</li>
+<li>Favor integration tests over unit tests, but do write unit tests
+when the functions merit them.</li>
+<li>Do not write tests before you have solved the problem, you may waste time writing tests for the wrong implementation.</li>
+<li>Start with <a href="http://www.artima.com/intv/simplest3.html">the simplest thing that could possibly work</a>.</li>
+<li>Don't try to foresee future uses of your program: <a href="https://martinfowler.com/bliki/Yagni.html">You aren't gonna need it</a>.</li>
+<li>Write for humans: coding for computers is easy, but writing code that is understandable by another person is an art.</li>
+<li>Code and document in english, unless you have a very specific reason no to.</li>
+<li>Use meaningful, readable names for variables, functions and files. Don't try to save characters.</li>
+<li>Documentation is a sign of the quality of an API. It's easier to write it when the design is right.</li>
+<li>The less code you have the better. Deleted code is debugged code.</li>
+<li>Aim for simplicity, not performance. The latter is a by-product of the first.</li>
+<li>Only introduce optimizations if you have benchmarks that proof an improvement and that the improvement is relevant in the context of the program.</li>
+<li>Only introduce optimizations if they represent a concrete gain (e.g. cost savings, improved user experience).</li>
+<li>Follow the <a href="https://www.python.org/dev/peps/pep-0020/">Zen of Python</a>, regardless of the language you are using at the moment. English also counts as a language.</li>
+<li>Don't introduce dependencies prematurely. You must evaluate your requirements, maintenance and integration costs first.</li>
+<li>If you want to upgrade a dependency, test it first.</li>
+<li>Always lock your dependencies. Pin a specific version and a commit of a dependency, don't use the version at master.</li>
+<li>Use git and commit often, even in one-person projects.</li>
+</ul>
+<h3 id="open-source-projects"><a class="header" href="#open-source-projects">Open source projects</a></h3>
+<ul>
+<li>Suggested reading: <a href="http://aosabook.org/en/index.html">The Architecture of Open Source Applications</a></li>
+<li>Use MIT license.</li>
+<li>Fill the <code>description</code> field at the top of the repo page.</li>
+<li>Write a decent README.</li>
+<li>A good readme starts with a succint description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.</li>
+<li>Use continuous integration, most likely travis.org.</li>
+<li>Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.</li>
+</ul>
+<h2 id="community-projects"><a class="header" href="#community-projects">Community projects</a></h2>
+<p>We organize activities where we share thoughts and interests with anyone who want to join us.</p>
+<ul>
+<li><a href="https://buzzconf.org">BuzzConf</a> A conference for developers, by developers. Past talks <a href="https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos">here.</a></li>
+<li><a href="https://zruput.org">Zruput</a> Digital Communications Conference.</li>
+<li><a href="https://notamonadtutorial.com">This is not a monad tutorial</a> Writings, reviews and interviews about programming.</li>
+<li><a href="https://github.com/papers-we-love/buenos-aires">Papers We Love Buenos Aires</a> Once a month we organize a meeting where we discuss scientific papers we love. Join us on <a href="https://t.me/pwlba">Telegram</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="teams.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="python.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="teams.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="python.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
