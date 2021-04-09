@@ -1,6 +1,6 @@
 # Company Culture
 
-## Principles for success and teamwork philosphy
+## Principles for success and teamwork philosophy
 
 We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
 
