@@ -26,9 +26,9 @@
 
 ## Git
 * [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)
+* [Learning Git Branching](https://learngitbranching.js.org)
 * [Pro Git](https://git-scm.com/book/en/v2)
     * Pages [10-106]
-* [Learning Git Branching](https://learngitbranching.js.org)
 * [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 * [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 * [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
