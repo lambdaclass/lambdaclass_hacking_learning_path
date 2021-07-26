@@ -49,7 +49,7 @@
 * [SQL Bolt](https://sqlbolt.com/)
 * [Mystery solver with SQL](https://mystery.knightlab.com/ )
 * [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
-    * Introduction, chapters 1 and 8
+    * Introduction, chapters 2 and 8
 * [The Little Redis book](https://openmymind.net/2012/1/23/The-Little-Redis-Book/)
 
 ## Docker
