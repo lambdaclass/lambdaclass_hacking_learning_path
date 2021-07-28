@@ -30,7 +30,7 @@ We read the first 2 chapters.
 #### You can Change Your Organization or Change Your Organization
 James Shore
 
-Es una especie de diario autobiográfico documentando su trabajo en una empresa nueva, semana a semana.
+We read all the entries from this autobiographic diary about how to tackle organizational change.
 
 https://www.jamesshore.com/v2/projects/change-diary
 
