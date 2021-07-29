@@ -5,11 +5,17 @@
 * [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
     * Chapters [8-10]
 
+## GDB 
+* [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs) 
+* [Introduction to Ptrace syscall](https://www.linuxjournal.com/article/6100)
+* [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
+
 # Unix Philosophy
 * [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
 * [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 * [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html)
 * [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
+
 
 ## Python
 * [Datacamp Python Fundamentals](https://www.datacamp.com)
@@ -60,6 +66,10 @@
 * [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 * [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
     * Chapter 1
+
+##  Concepts of computing 
+* [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
+
 
 ## Theory
 * [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
