@@ -45,7 +45,7 @@
 
 * [asdf package manager](https://asdf-vm.com/) It contains plugins for Erlang, Elixir, Terraform and [more](https://github.com/asdf-community).
 * [zoxide](https://github.com/ajeetdsouza/zoxide): A powerful `cd` replacement made in Rust.
-
+* [fish shell](https://fishshell.com/) 
 
 ### Open source projects
 
