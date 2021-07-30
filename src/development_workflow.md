@@ -41,6 +41,12 @@
 * Always lock your dependencies. Pin a specific version and a commit of a dependency, don't use the version at master.
 * Use git and commit often, even in one-person projects.
 
+### Useful tools
+
+* [asdf package manager](https://asdf-vm.com/) It contains plugins for Erlang, Elixir, Terraform and [more](https://github.com/asdf-community).
+* [zoxide](https://github.com/ajeetdsouza/zoxide): A powerful `cd` replacement made in Rust.
+
+
 ### Open source projects
 
 * Suggested reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
