@@ -11,6 +11,9 @@
 ## Phoenix
 * [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
 
+## Clojure
+* [Clojure, Made Simple](https://www.youtube.com/watch?v=VSdnJDO-xdg)
+
 ## Possible projects
     The idea is to apply everything learned.
 * [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
