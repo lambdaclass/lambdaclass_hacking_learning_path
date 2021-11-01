@@ -6,6 +6,7 @@
 - [Learning](./learning.md)
   - [Level 1](./learning_level1.md)
   - [Level 2](./learning_level2.md)
+  - [Rust](./learning_rust.md)
 - [Development Workflow](./development_workflow.md)
   - [Python](./python.md)
   - [Julia](./julia.md)
