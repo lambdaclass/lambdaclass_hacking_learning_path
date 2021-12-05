@@ -1,4 +1,4 @@
-# LambdaClass Employee Handbook
+# LambdaClass Training Handbook
 
 ## Home
 
