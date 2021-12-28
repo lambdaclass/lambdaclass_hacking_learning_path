@@ -1,4 +1,4 @@
-# LambdaClass Training Handbook
+# LambdaClass Hacking Learning Path Handbook
 
 ## Home
 
