@@ -60,12 +60,12 @@ This section is meant to guide you during your learning period.
     - Chapters [8-10]
  
 - Some Questions to guide your knowledge
-¿Qué hace ls -l /bin/usr > ls-output.txt 2>&1?
-¿Qué hace ls /bin /usr/bin | sort | uniq | less?
-¿Qué hace ls /bin /usr/bin | sort | uniq | grep zip?
-¿Como determina linux como interpretar el formato de un archivo?
-¿Qué representa el directorio sda2?
-¿Qué se guarda en /root y /usr/bin?
+   - ¿Qué hace ls -l /bin/usr > ls-output.txt 2>&1?
+   - ¿Qué hace ls /bin /usr/bin | sort | uniq | less?
+   - ¿Qué hace ls /bin /usr/bin | sort | uniq | grep zip?
+   - ¿Como determina linux como interpretar el formato de un archivo?
+   - ¿Qué representa el directorio sda2?
+   - ¿Qué se guarda en /root y /usr/bin?
  
  
 ### GDB
@@ -86,10 +86,10 @@ This section is meant to guide you during your learning period.
 - [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
  
 - Some Questions to guide your knowledge
-¿Qué cuesta más, tiempo de programador o tiempo de máquina?
-¿Cuándo se debe escribir un programa complejo?
-¿Hay un camino correcto a la hora de programar?
-¿Qué tan ruidosos tienen que ser los errores?
+   - ¿Qué cuesta más, tiempo de programador o tiempo de máquina?
+   - ¿Cuándo se debe escribir un programa complejo?
+   - ¿Hay un camino correcto a la hora de programar?
+   - ¿Qué tan ruidosos tienen que ser los errores?
  
  
 ### Python
@@ -113,16 +113,16 @@ This section is meant to guide you during your learning period.
  
  
 - Some Questions to guide your knowledge
-¿Cómo se transmiten los datos vía Internet?
-¿Qué funciones cumple las capas del modelo OSI?
-¿Cuál es la diferencia entre TCP y UDP?
-¿Qué es ARP?
-¿Cómo empiezan las direcciones IP privadas?
-¿Qué propone solucionar IPv6 frente a IPv4?
-¿Qué asegura IPSec?
-¿Qué es DNS y cómo funciona?
-¿Cuál es la diferencia entre HTTPS y HTTP?
-¿Cuál es la diferencia entre criptografía simétrica y asimétrica?
+   - ¿Cómo se transmiten los datos vía Internet?
+   - ¿Qué funciones cumple las capas del modelo OSI?
+   - ¿Cuál es la diferencia entre TCP y UDP?
+   - ¿Qué es ARP?
+   - ¿Cómo empiezan las direcciones IP privadas?
+   - ¿Qué propone solucionar IPv6 frente a IPv4?
+   - ¿Qué asegura IPSec?
+   - ¿Qué es DNS y cómo funciona?
+   - ¿Cuál es la diferencia entre HTTPS y HTTP?
+   - ¿Cuál es la diferencia entre criptografía simétrica y asimétrica?
  
  
 ### Git
@@ -138,15 +138,15 @@ This section is meant to guide you during your learning period.
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
  
 - Some Questions to guide your knowledge
-Diferencia entre merge y rebase
-¿Qué hace un git cherry-pick?
-¿Qué es un stash en git?
-¿Es buena práctica pushear a master?
-¿Qué hace el comando git reset --hard HEAD?
-¿Cómo volver a un commit anterior?
-¿Cómo se hace un pull request?
-https://git-scm.com/docs/git-reflog
-¿Cómo se clona un repositorio vía SSH
+   - ¿Cuál es la diferencia entre merge y rebase?
+   - ¿Qué hace un git cherry-pick?
+   - ¿Qué es un stash en git?
+   - ¿Es buena práctica pushear a master?
+   - ¿Qué hace el comando git reset --hard HEAD?
+   - ¿Cómo volver a un commit anterior?
+   - ¿Cómo se hace un pull request?
+   - https://git-scm.com/docs/git-reflog
+   - ¿Cómo se clona un repositorio vía SSH?
  
  
 ### Company philosophy
@@ -175,10 +175,10 @@ https://git-scm.com/docs/git-reflog
 - [The Little Redis book](https://openmymind.net/2012/1/23/The-Little-Redis-Book/)
  
 - Some Questions to guide your knowledge
-¿Cómo utilizar un wildcard como carácter?
-¿Para qué sirve COALESCE?
-¿Para qué sirve LIKE 'S%' ?
-¿Cuál es la diferencia entre PostgreSQL y Redis?
+   - ¿Cómo utilizar un wildcard como carácter?
+   - ¿Para qué sirve COALESCE?
+   - ¿Para qué sirve LIKE 'S%' ?
+   - ¿Cuál es la diferencia entre PostgreSQL y Redis?
  
  
 ### Docker
@@ -226,9 +226,9 @@ https://git-scm.com/docs/git-reflog
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
  
 - Some Questions to guide your knowledge
-¿Qué clase de lenguaje es ERLANG?
-¿Por qué se usa ERLANG? ¿Cuáles son las ventajas y desventajas frente a otros lenguajes?
-¿Qué significa “Let It Crash” en el contexto de Erlang?
+   - ¿Qué clase de lenguaje es ERLANG?
+   - ¿Por qué se usa ERLANG? ¿Cuáles son las ventajas y desventajas frente a otros lenguajes?
+   - ¿Qué significa “Let It Crash” en el contexto de Erlang?
  
 Para aprender gramatica y cosas especificas learnyousomeerlang.com 
  
@@ -239,7 +239,8 @@ Para aprender gramatica y cosas especificas learnyousomeerlang.com
 - [Elixir in Action](https://www.manning.com/books/elixir-in-action)
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
  
-¿Qué propone mejorar Elixir frente a Erlang?
+- Some Questions to guide your knowledge
+   - ¿Qué propone mejorar Elixir frente a Erlang?
  
  
 ### Phoenix
