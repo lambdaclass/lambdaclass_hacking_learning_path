@@ -6,6 +6,8 @@ Welcome! This is a guide intended to aid employees in their first days in the co
 
 ## Disclaimer
 
+> Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's Blue Pill
+
 > "With great power, comes great responsibility" probably Uncle Ben, but who knows
 
 At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
