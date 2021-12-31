@@ -6,6 +6,7 @@
 *Estimate reading time: 4-5 hours*
 * [The Linux Command Line](https://nostarch.com/tlcl2)
     * Chapters [1-7], [9-10], 14, [16-17]
+*No need to use Kali*
 * [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
     * Chapters [8-10]
 
