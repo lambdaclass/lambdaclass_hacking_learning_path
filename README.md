@@ -6,7 +6,7 @@ Welcome! This is a guide intended to aid employees in their first days in the co
 
 ## Disclaimer
 
-"With great power, comes great responsibility" probably Uncle Ben, but who knows.
+> "With great power, comes great responsibility" probably Uncle Ben, but who knows
 
 LambdaClass is not an old-fashioned company. We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
