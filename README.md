@@ -49,9 +49,19 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 4-5 hours*
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
-    - Chapters [1-7], [9-10], 14, [16-17]
+     - Chapters [1-7], [9-10], 14, [16-17]
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-    - Chapters [8-10]
+     - Chapters [8-10]
+
+#### Some questions to guide your knowledge
+
+- What do the following commands do?:
+    - `ls -l /bin/usr > ls-output.txt 2>&1`
+    - `ls /bin /usr/bin | sort | uniq | less`
+    - `ls /bin /usr/bin | sort | uniq | grep zip`
+- How does Linux determine how to interpret the format of a file?
+- What does the `sda2` folder represent?
+- What do `/root` and `/usr/bin` store?
 
 ### GDB
 
@@ -70,6 +80,12 @@ This section is meant to guide you during your learning period.
 - [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html)
 - [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
 
+#### Some questions to guide your knowledge
+- What costs more, programmer time or machine time?
+- When should a complex program be written?
+- Is there a right way to code?
+- How noisy do errors have to be?
+
 ### Python
 
 *Estimate reading time: 3-4 hours*
@@ -77,29 +93,54 @@ This section is meant to guide you during your learning period.
 - Datacamp Python Fundamentals
 - HTTP server in Python with Flask
 - Automate the Boring Stuff with Python
-    - Chapter 11
+     - Chapter 11
 
 ### Networks
 
 *Estimate reading time: 4-5 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
-    - Chapters [2-5]
+     - Chapters [2-5] (RECOMMENDABLE)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
-    - Chapters 1, [3-4], [6-8]
+     - Chapters 1, [3-4], [6-8]
 - [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
+
+
+#### Some questions to guide your knowledge
+- How are data transmitted over the Internet?
+- What functions do the layers of the OSI model perform?
+- What is the difference between TCP and UDP?
+- What does ARP mean?
+- What range corresponds to private IP addresses?
+- What does IPv6 propose to solve against IPv4?
+- What does IPsec guarantee?
+- What does DNS mean? How does it work?
+- What is the difference between HTTPS and HTTP?
+- What is the difference between asymmetric and symmetric cryptography?
 
 ### Git
 
 *Estimate reading time: 7-8 hours*
 
-- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)
-- [Learning Git Branching](https://learngitbranching.js.org/)
+- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
+- [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
-    - Pages [10-106]
+     - Pages [10-106]
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+#### Some questions to guide your knowledge
+- What is the difference between `merge` and `rebase`?
+- What is a stash?
+- What does `cherry-pick` do?
+- What does `reflog` do?
+- Is pushing to `master` a good practice?
+- What does `git reset --hard HEAD` do?
+- How to get back to a previous commit?
+- How to do a pull request?
+- How to clone a repository using SSH?
+
 
 ### Company philosophy
 
@@ -108,9 +149,9 @@ This section is meant to guide you during your learning period.
     a.k.a "The way we do things around here"
 
 - [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-    - Chapters 1, 15
+     - Chapters 1, 15
 - [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
-    - Chapter 1
+     - Chapter 1
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ### Database management
@@ -118,13 +159,19 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 8-9 hours*
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
-    - Chapters [1-11]
+     - Chapters [1-11]
 - [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
-- [SQL Bolt](https://sqlbolt.com/)
-- [Mystery solver with SQL](https://mystery.knightlab.com/)
+- [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
+- [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
-    - Introduction, chapters 2 and 8
+     - Introduction, chapters 2 and 8
 - [The Little Redis book](https://openmymind.net/2012/1/23/The-Little-Redis-Book/)
+
+#### Some questions to guide your knowledge
+- How to use a wildcard as a character?
+- What does `COALESCE` do?
+- What does `LIKE 'S%'` do in a query?
+- What is the difference between PostgreSQL and Redis?
 
 ### Docker
 
@@ -139,7 +186,7 @@ This section is meant to guide you during your learning period.
 
 - [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
-    - Chapter 1
+     - Chapter 1
 
 ### Concepts of computing
 
@@ -170,6 +217,10 @@ This section is meant to guide you during your learning period.
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
 
+#### Some questions to guide your knowledge
+- In what programming paradigm was Erlang built?
+- Why is Erlang used? What are the pros and cons versus other languages?
+- What does *"Let it Crash"* mean in the context of Erlang?
 
 ### Elixir
 
@@ -177,7 +228,6 @@ This section is meant to guide you during your learning period.
 
 - [Elixir in Action](https://www.manning.com/books/elixir-in-action)
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
-
 
 ### Phoenix
 
