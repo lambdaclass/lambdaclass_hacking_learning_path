@@ -1,4 +1,4 @@
-# LambdaClass Hobby Club - Hacking Learning Path Handbook
+# LambdaClass Hacking Learning Path Handbook
 
 ## Home
 
@@ -6,11 +6,9 @@ Welcome! This is a guide intended to aid employees in their first days in the co
 
 ## Disclaimer
 
-> Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's [Blue Pill](https://thebluepill.eth.link/)
+"With great power, comes great responsibility" probably Uncle Ben, but who knows.
 
-> "With great power, comes great responsibility" probably Uncle Ben, but who knows
-
-At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
+LambdaClass is not an old-fashioned company. We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
 
 If you feel healthy and are comfortable, you will be able to solve more efficiently the problems you have in front of you. And even better, you will contribute to a healthier workspace.
@@ -21,7 +19,7 @@ There are three key elements we want you to have present at every moment: *Commu
 
 - **Communication** is a key aspect for every human relationship. If you can measure your words to give a positive clear message, you can achieve anything in life through teamwork. Try labeling your emotions before communicating, since it is likely that people in front of you do not know what is going through your head. Also, be transparent but assertive if you disagree about something, it will help understand your point of view. Finally, try to avoid direct messages, working on channels allows more people to be on the loop and better feedback can be given.
 - **Accountability**. Everyone makes mistakes, learners do something about them. If you get something wrong, communicate poorly or even feel overwhelmed about a situation, raise your hand and say it. It's very likely that a process failed, not you. Many people will be there to help you sort the issue, and you will surely learn something along the way. If you keep quiet and don't say anything you will regret it later when the truth burst through another hole.
-- About **empathy**, we are all human beings and have complex emotions, if you are feeling great, it doesn't mean your colleague isn't feeling like shit. Perhaps your coworkers don't feel comfortable talking about emotions, so go talk with them and help them. You can talk to them or to their manager if you feel something is going on with them. There is a time when everybody feels weak and needs someone else for support. So be a hero, be empathic.
+- About **empathy**, we are all human beings and have complex emotions, if you are feeling great, it doesn't mean your colleague isn't feeling like shit. Perhaps your coworkers don't feel comfortable talking about emotions, so be a hero and help them. You can talk to them or to their manager if you feel something is going on with them. There is a time when everybody feels weak and needs someone else for support. So be a hero, be empathic.
 
 If you are reading this, you are probably giving your first -or second- steps on the long journey towards being a good developer, but first try to be a good human being and you will see how far that can get you.
 
@@ -296,6 +294,34 @@ We organize activities where we share thoughts and interests with anyone who wan
 - Supervised processes provide guarantees in their initialization phase, not a best effort. [If you expect failure to happen on an external service, do not make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
 - Try to avoid timer:sleep on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
 - Prefer maps to records.
+
+## Useful tools and installations
+
+Here are some tools that can be crucial for projects and some help with the installing of compilers and interpreters
+
+### asdf - Version manager
+
+-  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating enviromental variables to choose the specific version desired. Remember that in order to be able to use the enviromental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+
+### Node.js
+
+- [Node.js](https://nodejs.org/es/download/) is necesary for some elixir versions so is recommended to keep up to date and manage versions as needed.
+
+### Installing Erlang and Elixir
+
+- On Mac distributions, you can just *brew install erlang* to get the latest installation. In case of needing an specific version you can use asdf and install with *asdf install erlang [VERSION_DESIRED]*.
+
+- Same can be achieved with Elixir through the same means *brew install elixir* for latest version, use asdf fo specific version.
+
+- For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
+
+### Installing phoenix
+
+- For phoenix all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database.
+
+### Installing Clojure
+
+- All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
 
 ## Reading Club
 
