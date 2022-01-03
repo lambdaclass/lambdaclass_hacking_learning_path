@@ -1,4 +1,4 @@
-# LambdaClass Hacking Learning Path Handbook
+# LambdaClass Hobby Club - Hacking Learning Path Handbook
 
 ## Home
 
