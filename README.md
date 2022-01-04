@@ -60,6 +60,8 @@ This section is meant to guide you during your learning period.
 - [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
 - [Introduction to Ptrace syscall](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
 - [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
+- [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
+- [Dtrace Guide](https://www.brendangregg.com/dtrace.html#Guide)
 
 ### Unix Philosophy
 
@@ -97,6 +99,7 @@ This section is meant to guide you during your learning period.
 - [Learning Git Branching](https://learngitbranching.js.org/)
 - [Pro Git](https://git-scm.com/book/en/v2)
     - Pages [10-106]
+- [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
@@ -165,6 +168,7 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 3-4 hours*
 
+- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
 - [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
@@ -177,6 +181,7 @@ This section is meant to guide you during your learning period.
 
 - [Elixir in Action](https://www.manning.com/books/elixir-in-action)
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
+- [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
 
 ### Phoenix
