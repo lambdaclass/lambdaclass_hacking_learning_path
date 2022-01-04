@@ -56,9 +56,9 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 4-5 hours*
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
-     - Chapters [1-7], [9-10], 14, [16-17]
+    - Chapters [1-7], [9-10], 14, [16-17]
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-     - Chapters [8-10]
+    - Chapters [8-10]
 
 #### Some questions to guide your knowledge
 
@@ -100,16 +100,16 @@ This section is meant to guide you during your learning period.
 - Datacamp Python Fundamentals
 - HTTP server in Python with Flask
 - Automate the Boring Stuff with Python
-     - Chapter 11
+    - Chapter 11
 
 ### Networks
 
 *Estimate reading time: 4-5 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
-     - Chapters [2-5] (RECOMMENDABLE)
+    - Chapters [2-5] (RECOMMENDABLE)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
-     - Chapters 1, [3-4], [6-8]
+    - Chapters 1, [3-4], [6-8]
 - [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
 
 
@@ -132,7 +132,7 @@ This section is meant to guide you during your learning period.
 - [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
 - [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
-     - Pages [10-106]
+    - Pages [10-106]
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
@@ -156,9 +156,9 @@ This section is meant to guide you during your learning period.
     a.k.a "The way we do things around here"
 
 - [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-     - Chapters 1, 15
+    - Chapters 1, 15
 - [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
-     - Chapter 1
+    - Chapter 1
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ### Database management
@@ -166,12 +166,12 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 8-9 hours*
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
-     - Chapters [1-11]
+    - Chapters [1-11]
 - [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
-     - Introduction, chapters 2 and 8
+    - Introduction, chapters 2 and 8
 - [The Little Redis book](https://openmymind.net/2012/1/23/The-Little-Redis-Book/)
 
 #### Some questions to guide your knowledge
@@ -193,7 +193,7 @@ This section is meant to guide you during your learning period.
 
 - [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
-     - Chapter 1
+    - Chapter 1
 
 ### Concepts of computing
 
