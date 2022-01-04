@@ -112,7 +112,6 @@ This section is meant to guide you during your learning period.
     - Chapters 1, [3-4], [6-8]
 - [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
 
-
 #### Some questions to guide your knowledge
 - How are data transmitted over the Internet?
 - What functions do the layers of the OSI model perform?
@@ -147,7 +146,6 @@ This section is meant to guide you during your learning period.
 - How to get back to a previous commit?
 - How to do a pull request?
 - How to clone a repository using SSH?
-
 
 ### Company philosophy
 
