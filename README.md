@@ -74,9 +74,9 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 3-4 hours*
 
-- Datacamp Python Fundamentals
-- HTTP server in Python with Flask
-- Automate the Boring Stuff with Python
+- [Datacamp Python Fundamentals](https://www.datacamp.com/)
+- [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
+- [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
     - Chapter 11
 
 ### Networks
@@ -130,8 +130,8 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 2-3 hours*
 
-- Getting Started
-- Docker Talk
+- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
+- [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
 
 ### Management
 
