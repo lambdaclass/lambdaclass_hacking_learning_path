@@ -49,9 +49,9 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 4-5 hours*
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
-    - Chapters [1-7], [9-10], 14, [16-17]
+    - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-    - Chapters [8-10]
+    - Chapters [8-10] Bash scripting, Filesystems and compression
 
 ### GDB
 
@@ -166,7 +166,7 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 3-4 hours*
 
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
-- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
+- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
 
@@ -206,9 +206,9 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 5-6 hours*
 
-- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
-- [Learning Rust](https://learning-rust.github.io/)
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic sintax, very easy if you know C
+- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
+- [Learning Rust](https://learning-rust.github.io/) Example project
 
 ## Development Workflow
 
