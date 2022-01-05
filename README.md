@@ -154,8 +154,9 @@ This section is meant to guide you during your learning period.
 
 ### Theory
 
-*Estimate reading time: 15 minutes*
+*Estimate reading time: 1-2 hours*
 
+- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
 ### Activities
