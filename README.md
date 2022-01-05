@@ -42,7 +42,7 @@ This section is meant to guide you during your learning period.
 
 ## Practice Level 1
 
-*Estimate time: 43-47 hours*
+*Estimate time: 53-57 hours*
 
 ### Linux
 
@@ -83,7 +83,7 @@ This section is meant to guide you during your learning period.
 
 ### Networks
 
-*Estimate reading time: 4-5 hours*
+*Estimate reading time: 5-6 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
     - Chapters [2-5]
@@ -106,7 +106,7 @@ This section is meant to guide you during your learning period.
 
 ### Company philosophy
 
-*Estimate reading time: 3-4 hours*
+*Estimate reading time: 5-6 hours*
 
     a.k.a "The way we do things around here"
 
@@ -118,7 +118,7 @@ This section is meant to guide you during your learning period.
 
 ### Database management
 
-*Estimate reading time: 8-9 hours*
+*Estimate reading time: 9-10 hours*
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
     - Chapters [1-11]
@@ -140,7 +140,7 @@ This section is meant to guide you during your learning period.
 
 ### Management
 
-*Estimate reading time: 1-2 hours*
+*Estimate reading time: 8-9 hours*
 
 - [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
@@ -165,11 +165,11 @@ This section is meant to guide you during your learning period.
 
 ## Practice Level 2
 
-*Estimate time 30-34 hours*
+*Estimate time 64-67 hours*
 
 - Erlang
 
-*Estimate reading time: 3-4 hours*
+*Estimate reading time: 4-5 hours*
 
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
 - [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
@@ -182,7 +182,7 @@ This section is meant to guide you during your learning period.
 
 ### Elixir
 
-*Estimate reading time: 8-9 hours*
+*Estimate reading time: 12 hours*
 
 - [Elixir in Action](https://www.manning.com/books/elixir-in-action)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
@@ -193,7 +193,7 @@ This section is meant to guide you during your learning period.
 
 ### Phoenix
 
-*Estimate reading time: 11-12 hours*
+*Estimate reading time: 36 hours*
 
 - [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
 
