@@ -194,7 +194,7 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 11-12 hours*
 
-- Phoenix in Action
+- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
 
 ### Clojure
 
