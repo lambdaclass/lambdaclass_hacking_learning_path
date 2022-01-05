@@ -122,12 +122,14 @@ This section is meant to guide you during your learning period.
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
     - Chapters [1-11]
-- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
 - [SQL Bolt](https://sqlbolt.com/)
 - [Mystery solver with SQL](https://mystery.knightlab.com/)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
     - Introduction, chapters 2 and 8
 - [The Little Redis book](https://openmymind.net/2012/1/23/The-Little-Redis-Book/)
+
+> Reference:
+>- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
 
 ### Docker
 
@@ -168,11 +170,13 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 3-4 hours*
 
-- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
 - [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
+
+> Reference:
+>- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 
 
 ### Elixir
@@ -180,8 +184,10 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 8-9 hours*
 
 - [Elixir in Action](https://www.manning.com/books/elixir-in-action)
-- [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
+
+> Reference:
+>- [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 
 
 ### Phoenix
