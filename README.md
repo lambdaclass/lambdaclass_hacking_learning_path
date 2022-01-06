@@ -156,7 +156,6 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 1-2 hours*
 
-- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
 ### Activities
@@ -165,9 +164,16 @@ This section is meant to guide you during your learning period.
 
 ## Practice Level 2
 
-*Estimate time: 56-60 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
+*Estimate time: 53-62 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
 
-- Erlang
+### Functional Programming
+
+*Estimate reading time: 2 hours*
+
+- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
+- [Immutable Data](src/immutable_data.md)
+
+### Erlang
 
 *Estimate reading time: 4-5 hours*
 
