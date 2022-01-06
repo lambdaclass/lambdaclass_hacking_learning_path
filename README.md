@@ -164,7 +164,7 @@ This section is meant to guide you during your learning period.
 
 ## Practice Level 2
 
-*Estimate time: 53-62 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
+*Estimate time: 46-56 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
 
 ### Functional Programming
 
