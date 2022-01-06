@@ -165,7 +165,7 @@ This section is meant to guide you during your learning period.
 
 ## Practice Level 2
 
-*Estimate time 64-67 hours*
+*Estimate time: 56-60 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
 
 - Erlang
 
@@ -182,7 +182,7 @@ This section is meant to guide you during your learning period.
 
 ### Elixir
 
-*Estimate reading time: 12 hours*
+*Estimate reading time: 40 hours*
 
 - [Elixir in Action](https://www.manning.com/books/elixir-in-action)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
@@ -193,7 +193,7 @@ This section is meant to guide you during your learning period.
 
 ### Phoenix
 
-*Estimate reading time: 36 hours*
+*Estimate reading time: 40 hours*
 
 - [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
 
