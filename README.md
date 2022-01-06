@@ -222,7 +222,7 @@ This section is meant to guide you during your learning period.
 
 ## Rust
 
-*Estimate reading time: 5-6 hours*
+*Estimate reading time: 7-8 hours*
 
 - [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 - [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
