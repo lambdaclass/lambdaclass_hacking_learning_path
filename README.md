@@ -297,6 +297,12 @@ We organize activities where we share thoughts and interests with anyone who wan
 - Try to avoid timer:sleep on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
 - Prefer maps to records.
 
+# Reading code
+
+This is a list of interesting projects to read code and learn:
+
+- [500 Lines or Less](https://github.com/aosabook/500lines)
+
 ## Reading Club
 
 Some of us at Lambda have formed a reading club, where we propose, vote, select, read, and discuss books, papers, posts, videos, or any material we feel is interesting or advances our skills as developers and humans.
