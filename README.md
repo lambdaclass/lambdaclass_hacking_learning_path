@@ -129,10 +129,12 @@ This section is meant to guide you during your learning period.
 - [Mystery solver with SQL](https://mystery.knightlab.com/)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
     - Introduction, chapters 2 and 8
-- [The Little Redis book](https://openmymind.net/2012/1/23/The-Little-Redis-Book/)
+- [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
+- [Redis Transactions](https://redis.io/topics/transactions)
 
 > Reference:
 >- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
+>- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
 
 ### Docker
 
