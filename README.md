@@ -157,7 +157,7 @@ This section is meant to guide you during your learning period.
 
 ### Theory
 
-*Estimate reading time: 1-2 hours*
+*Estimate reading time: 15 minutes*
 
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
