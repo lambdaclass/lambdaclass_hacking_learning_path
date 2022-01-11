@@ -49,11 +49,11 @@ iex(12)> Agent.get(mutable_data, fn a -> a end)
 
 ## Concurrency
 
-Now, note that since data is immutable by default, this facilitates concurrency! There is no need to worry about in-memory state changes, as a functional language will always preserve previous copies of the data you are working with. If we want to parallelize the Python example, we’re going to have to make sure that memory access is in the order you’re looking for, or we might end up with something inconsistent, involving a lot of headaches :sweat_smile:. Elixir, being immutable by default, does not suffer from this.
+Now, note that since data is immutable by default, this facilitates concurrency! There is no need to worry about in-memory state changes, as a functional language will always preserve previous copies of the data you are working with. If we want to parallelize the Python example, we're going to have to make sure that memory access is in the order you're looking for, or we might end up with something inconsistent, involving a lot of headaches :sweat_smile:. Elixir, being immutable by default, does not suffer from this.
 
 ## Old copies
 
-We imagine one question that might arise when one reads *"functional preserves earlier copies"* is that there are no references, and everything is passed as a copy. But no, that’s not the case. In particular, Elixir uses something known as [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure). They're data structures that preserve their "ancestors".
+We imagine one question that might arise when one reads *"functional preserves earlier copies"* is that there are no references, and everything is passed as a copy. But no, that's not the case. In particular, Elixir uses something known as [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure). They're data structures that preserve their "ancestors".
 
 A very simple example is the simply linked list. If we have `[1,2,3,4]`, we can add it a `0`, then: `[0,1,2,3,4]`. The previous version still exists, just take the tail of the "new" list. This idea extends to all data structures in Elixir.
 
