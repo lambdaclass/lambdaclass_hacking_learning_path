@@ -4,7 +4,7 @@ Functional languages often work with immutable data (there are people on the Int
 
 ## Examples
 
-In Python I can do this safely:
+In Python we can do this safely:
 
 ```python
 >>> a = [1,2,3,4]
@@ -32,7 +32,7 @@ iex(8)> a
 iex(9)>
 ```
 
-In other languages, more far-fetched examples appear. One thing I often read from people who code in Ruby on Rails is that the framework has thousands of side effects, and often knowing what happens to a variable is hard to follow.
+In other languages, more far-fetched examples appear. One thing we often read from people who code in Ruby on Rails is that the framework has thousands of side effects, and often knowing what happens to a variable is hard to follow.
 All of this doesn't imply that functional languages don't have a way of handling side effects, they have their special mechanisms: Haskell has Monads, Elixir has Processes.
 
 We can repeat the example from Python in Elixir, using an Agent:
@@ -53,8 +53,8 @@ Now, note that since data is immutable by default, this facilitates concurrency!
 
 ## Old copies
 
-I imagine one question that might arise when one reads *"functional preserves earlier copies"* is that there are no references, and everything is passed as a copy. But no, that’s not the case. In particular, Elixir uses something known as [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure). They're data structures that preserve their "ancestors".
+We imagine one question that might arise when one reads *"functional preserves earlier copies"* is that there are no references, and everything is passed as a copy. But no, that’s not the case. In particular, Elixir uses something known as [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure). They're data structures that preserve their "ancestors".
 
-A very simple example is the simply linked list. If I have `[1,2,3,4]`, I can add it a `0`, then: `[0,1,2,3,4]`. The previous version still exists, just take the tail of the "new" list. This idea extends to all data structures in Elixir.
+A very simple example is the simply linked list. If we have `[1,2,3,4]`, we can add it a `0`, then: `[0,1,2,3,4]`. The previous version still exists, just take the tail of the "new" list. This idea extends to all data structures in Elixir.
 
  Ritch Hickey has a very good talk about this, highly recommended: https://www.youtube.com/watch?v=wASCH_gPnDw
