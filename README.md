@@ -124,7 +124,7 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 9-10 hours*
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
-    - Chapters [1-11]
+    - Chapters [10-11]
 - [SQL Bolt](https://sqlbolt.com/)
 - [Mystery solver with SQL](https://mystery.knightlab.com/)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
