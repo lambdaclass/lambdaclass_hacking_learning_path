@@ -173,10 +173,9 @@ This section is meant to guide you during your learning period.
 
 ### Functional Programming
 
-*Estimate reading time: 2 hours*
+*Estimate reading time: 1-2 hours*
 
 - [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
-- [Immutable Data](src/immutable_data.md)
 
 ### Erlang
 
@@ -195,11 +194,9 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 40 hours*
 
-- [Elixir in Action](https://www.manning.com/books/elixir-in-action)
+- [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
+- [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
-
-> Reference:
->- [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 
 
 ### Phoenix
