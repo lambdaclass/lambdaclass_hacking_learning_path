@@ -206,7 +206,7 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 5-6 hours*
 
-- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic sintax, very easy if you know C
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
 - [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
 - [Learning Rust](https://learning-rust.github.io/) Example project
 
