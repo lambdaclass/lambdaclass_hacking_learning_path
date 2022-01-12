@@ -295,6 +295,32 @@ We organize activities where we share thoughts and interests with anyone who wan
 - Try to avoid timer:sleep on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
 - Prefer maps to records.
 
+## Services and Infrastructure
+
+### ASW
+
+- Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+
+### ASW tools
+
+- IAM: It's used for managing users, groups, access policies & roles.
+- EC2: A web service that provides secure, resizable compute capacity in the cloud.
+- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
+- ECS:  "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
+ 
+To further learn about ASW and it's practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/aws) for exercises. (AWS - EC2/IAM/Containers)
+
+### Kubernetes
+
+Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
+- [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- [Kubernete Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/kubernetes)
+
+### Azure
+
+-[Azure FAQ]From devops-exercises repositories(https://github.com/bregman-arie/devops-exercises#azure)
+
 ## Useful tools and installations
 
 Here are some tools that can be crucial for projects and some help with the installing of compilers and interpreters
