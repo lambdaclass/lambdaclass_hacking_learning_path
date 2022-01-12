@@ -8,7 +8,7 @@ Welcome! This is a guide intended to aid employees in their first days in the co
 
 > Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's [Blue Pill](https://thebluepill.eth.link/)
 
-"With great power, comes great responsibility" probably Uncle Ben, but who knows.
+> "With great power, comes great responsibility" probably Uncle Ben, but who knows
 
 At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
