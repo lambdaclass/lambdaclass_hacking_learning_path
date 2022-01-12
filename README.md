@@ -49,7 +49,7 @@ This section is meant to guide you during your learning period.
 
 ## Practice Level 1
 
-*Estimate time: 43-47 hours*
+*Estimate time: 53-57 hours*
 
 ### Linux
 
@@ -75,8 +75,13 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 2 hours*
 
 - [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
-- [Introduction to Ptrace syscall](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
 - [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
+- [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
+- [Tracing in Linux and macOS](https://blog.xfbs.net/posts/tracing-linux-macos)
+
+> Reference:
+>- [Ptrace](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
+>- [Dtrace One Liners](https://www.brendangregg.com/dtrace.html#OneLiners)
 
 ### Unix Philosophy
 
@@ -97,14 +102,14 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 3-4 hours*
 
-- Datacamp Python Fundamentals
-- HTTP server in Python with Flask
-- Automate the Boring Stuff with Python
+- [Datacamp Python Fundamentals](https://www.datacamp.com/)
+- [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
+- [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
     - Chapter 11
 
 ### Networks
 
-*Estimate reading time: 4-5 hours*
+*Estimate reading time: 5-6 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
     - Chapters [2-5] (RECOMMENDABLE)
@@ -132,6 +137,7 @@ This section is meant to guide you during your learning period.
 - [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
     - Pages [10-106]
+- [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
@@ -149,7 +155,7 @@ This section is meant to guide you during your learning period.
 
 ### Company philosophy
 
-*Estimate reading time: 3-4 hours*
+*Estimate reading time: 5-6 hours*
 
     a.k.a "The way we do things around here"
 
@@ -161,16 +167,20 @@ This section is meant to guide you during your learning period.
 
 ### Database management
 
-*Estimate reading time: 8-9 hours*
+*Estimate reading time: 9-10 hours*
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
-    - Chapters [1-11]
-- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
+    - Chapters [10-11]
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
     - Introduction, chapters 2 and 8
-- [The Little Redis book](https://openmymind.net/2012/1/23/The-Little-Redis-Book/)
+- [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
+- [Redis Transactions](https://redis.io/topics/transactions)
+
+> Reference:
+>- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
+>- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
 
 #### Some questions to guide your knowledge
 - How to use a wildcard as a character?
@@ -182,14 +192,13 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 2-3 hours*
 
-- Getting Started
-- Docker Talk
+- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
+- [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
 
 ### Management
 
-*Estimate reading time: 1-2 hours*
+*Estimate reading time: 1 hour*
 
-- [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
     - Chapter 1
 
@@ -211,16 +220,25 @@ This section is meant to guide you during your learning period.
 
 ## Practice Level 2
 
-*Estimate time 30-34 hours*
+*Estimate time: 46-56 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
 
-- Erlang
+### Functional Programming
 
-*Estimate reading time: 3-4 hours*
+*Estimate reading time: 1-2 hours*
+
+- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
+
+### Erlang
+
+*Estimate reading time: 4-5 hours*
 
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
 - [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
+
+> Reference:
+>- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 
 #### Some questions to guide your knowledge
 - In what programming paradigm was Erlang built?
@@ -229,16 +247,19 @@ This section is meant to guide you during your learning period.
 
 ### Elixir
 
-*Estimate reading time: 8-9 hours*
+*Estimate reading time: 40 hours*
 
-- [Elixir in Action](https://www.manning.com/books/elixir-in-action)
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
+- [Immutable Data](src/immutable_data.md)
+- [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
 ### Phoenix
 
-*Estimate reading time: 11-12 hours*
+*Estimate reading time: 40 hours*
 
-- Phoenix in Action
+- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
+    - All chapters except 2 and 12
+- [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
 
 ### Clojure
 
@@ -254,15 +275,15 @@ This section is meant to guide you during your learning period.
 - [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
 - [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
 - [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
-- [Phoenix chat](https://github.com/dwyl/phoenix-chat-example)
 
 
 ## Rust
 
-*Estimate reading time: 5-6 hours*
+*Estimate reading time: 7-8 hours*
 
 - [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 - [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
+- [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
 - [Learning Rust](https://learning-rust.github.io/)
 
 ## Development Workflow
@@ -351,6 +372,12 @@ We organize activities where we share thoughts and interests with anyone who wan
 - Supervised processes provide guarantees in their initialization phase, not a best effort. [If you expect failure to happen on an external service, do not make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
 - Try to avoid timer:sleep on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
 - Prefer maps to records.
+
+# Reading code
+
+This is a list of interesting projects to read code and learn:
+
+- [500 Lines or Less](https://github.com/aosabook/500lines)
 
 ## Reading Club
 
