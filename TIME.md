@@ -18,3 +18,12 @@
 - Tracing in Linux and MacOs, 15-25min.
 
 
+### Unix Philosophy
+
+- Unix Timeline, 0-20 mins.
+
+- Basics of the Unix Philosophy, 1 - 1,5 hours.
+
+- Modularity, 
+
+- Transparency, 1 hour.
