@@ -245,11 +245,6 @@ This section is meant to guide you during your learning period.
 > Reference:
 >- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 
-#### Some questions to guide your knowledge
-- In what programming paradigm was Erlang built?
-- Why is Erlang used? What are the pros and cons versus other languages?
-- What does *"Let it Crash"* mean in the context of Erlang?
-
 ### Elixir
 
 *Estimate reading time: 40 hours*
