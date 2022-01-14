@@ -153,14 +153,15 @@ This section is meant to guide you during your learning period.
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 #### Some questions to guide your knowledge
+- Why is branching necessary?
 - What is the difference between `merge` and `rebase`?
 - What is a stash?
 - What does `cherry-pick` do?
 - What does `reflog` do?
-- Is pushing to `master` a good practice?
 - What does `git reset --hard HEAD` do?
 - How to get back to a previous commit?
 - How to do a pull request?
+- Why are pull requests important?
 - How to clone a repository using SSH?
 
 ### Company philosophy
