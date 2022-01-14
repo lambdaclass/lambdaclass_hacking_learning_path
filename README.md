@@ -197,6 +197,8 @@ This section is meant to guide you during your learning period.
 - What does `COALESCE` do?
 - What does `LIKE 'S%'` do in a query?
 - What is the difference between PostgreSQL and Redis?
+- What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
+- What makes each database type unique?
 
 ### Docker
 
