@@ -33,7 +33,7 @@
 
 
 ### Python
-*Estimated reading time*
+*Estimated reading time:*
 
 - Datacamp Python Fundamentals
     - Introduction To Python 1-2 hours with previous knowledge. 3-4 Without it.
@@ -45,3 +45,10 @@
 
 - Automate the boring stuff with Python, 30 - 1 hour with previous knowledge, 1 - 1.5 hours without it.
 
+### Networks
+*Estimated reading time:*
+- How the Internet Really Works
+  - Chapters[2-5]
+- Practical Packet analysis with Wireshark
+  - Chapters 1, [3-4], [6-8]
+- Burp
