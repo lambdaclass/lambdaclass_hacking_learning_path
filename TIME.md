@@ -30,3 +30,18 @@
 - Modularity, 1 hour. 
 
 - Transparency, 1 hour.
+
+
+### Python
+*Estimated reading time*
+
+- Datacamp Python Fundamentals
+    - Introduction To Python 1-2 hours with previous knowledge. 3-4 Without it.
+    - Intermediate Python, 
+    - Investigating Netflix Movies and Guest Star in the Office
+    - Data manipulating with Pandas 
+
+- HTTP server in Python with Flask, 0 - 30mins hour with previous pnowledge, 30 - 1 hours without it .
+
+- Automate the boring stuff with Python, 30 - 1 hour with previous knowledge, 1 - 1.5 hours without it.
+
