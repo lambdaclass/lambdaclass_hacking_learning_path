@@ -112,6 +112,11 @@ This section is meant to guide you during your learning period.
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
     - Chapter 11
 
+#### Some questions to guide your knowledge
+- How do you return how many times a certain character appears in a string using Python?
+- How do you handle different routes for your web app in Flask?
+- Using the `logging` library, how do you log to a file?
+
 ### Networks
 
 *Estimate reading time: 5-6 hours*
