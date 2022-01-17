@@ -143,6 +143,8 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 7-8 hours*
 
+*Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
+
 - [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
 - [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
