@@ -1,5 +1,7 @@
 # LambdaClass Hobby Club - Hacking Learning Path Handbook
 
+DISCLAIMER: We are updating the hacking learning path. We are adding more exercises and we want to write an introduction to each chapter or post.
+
 ## Home
 
 Welcome! This is a guide intended to aid employees in their first days in the company.
