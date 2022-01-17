@@ -348,7 +348,7 @@ Kubernetes is a portable, extensible, open-source platform for managing containe
 
 ### Azure
 
--[Azure FAQ From devops-exercises repositories](https://github.com/bregman-arie/devops-exercises#azure)
+- [Azure FAQ From devops-exercises repositories](https://github.com/bregman-arie/devops-exercises#azure)
 
 ## Useful tools and installations
 
@@ -364,9 +364,9 @@ Here are some tools that can be crucial for projects and some help with the inst
 
 ### Installing Erlang and Elixir
 
-- On Mac distributions, you can just <!--*brew install erlang--> to get the latest installation. In case of needing an specific version you can use asdf and install with <!--asdf install erlang [VERSION_DESIRED]-->.
+- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing an specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
 
-- Same can be achieved with Elixir through the same means *brew install elixir* for latest version, use asdf fo specific version.
+- Same can be achieved with Elixir through the same means `brew install elixir` for latest version, use asdf fo specific version.
 
 - For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
 
