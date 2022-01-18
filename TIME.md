@@ -46,9 +46,9 @@
 - Automate the boring stuff with Python, 30 - 1 hour with previous knowledge, 1 - 1.5 hours without it.
 
 ### Networks
-*Estimated reading time:*
-- How the Internet Really Works
-  - Chapters[2-5]
-- Practical Packet analysis with Wireshark
-  - Chapters 1, [3-4], [6-8]
-- Burp
+*Estimated reading time: 9-11hs*
+- How the Internet Really Works, 4hs. I also readed Chapter 1 for a better understanding, but with previous knowledge it's not neccesary.
+  - Chapters[2-5] 
+- Practical Packet Analysis with Wireshark
+  - Chapters 1, [3-4], [6-8] 6hs, practice included.
+- Burp, 1hr
