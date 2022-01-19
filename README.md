@@ -328,6 +328,60 @@ This is a list of interesting projects to read code and learn:
 
 - [500 Lines or Less](https://github.com/aosabook/500lines)
 
+## Services and Infrastructure
+
+### AWS
+
+- Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+
+### AWS tools
+
+- IAM: It's used for managing users, groups, access policies & roles.
+- EC2: A web service that provides secure, resizable compute capacity in the cloud.
+- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
+- ECS:  "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
+ 
+To further learn about AWS and it's practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/aws) for exercises. (AWS - EC2/IAM/Containers)
+
+### Kubernetes
+
+Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
+- [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/kubernetes)
+
+### Azure
+
+- [Azure FAQ From devops-exercises repositories](https://github.com/bregman-arie/devops-exercises#azure)
+
+## Useful tools and installations
+
+Here are some tools that can be crucial for projects and some help with the installing of compilers and interpreters
+
+### asdf - Version manager
+
+-  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating enviromental variables to choose the specific version desired. Remember that in order to be able to use the enviromental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+
+### Node.js
+
+- [Node.js](https://nodejs.org/es/download/) is necesary for some elixir versions so is recommended to keep up to date and manage versions as needed.
+
+### Installing Erlang and Elixir
+
+- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing an specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
+
+- Same can be achieved with Elixir through the same means `brew install elixir` for latest version, use asdf fo specific version.
+
+- For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
+
+### Installing Phoenix
+
+- For Phoenix all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database.
+
+### Installing Clojure
+
+- All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
+
 ## Reading Club
 
 Some of us at Lambda have formed a reading club, where we propose, vote, select, read, and discuss books, papers, posts, videos, or any material we feel is interesting or advances our skills as developers and humans.
