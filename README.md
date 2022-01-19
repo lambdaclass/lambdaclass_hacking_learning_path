@@ -27,6 +27,13 @@ There are three key elements we want you to have present at every moment: *Commu
 
 If you are reading this, you are probably giving your first -or second- steps on the long journey towards being a good developer, but first try to be a good human being and you will see how far that can get you.
 
+## Learn to fail
+
+As with most proyect making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
+
+- **Avoid docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
+- **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
+
 ## Company Culture
 
 ### Principles for success and teamwork philosophy
@@ -55,6 +62,16 @@ This section is meant to guide you during your learning period.
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
     - Chapters [8-10]
 
+#### Some questions to guide your knowledge
+
+- What do the following commands do?:
+    - `ls -l /bin/usr > ls-output.txt 2>&1`
+    - `ls /bin /usr/bin | sort | uniq | less`
+    - `ls /bin /usr/bin | sort | uniq | grep zip`
+- How does Linux determine how to interpret the format of a file?
+- What does the `sda2` folder represent?
+- What do `/root` and `/usr/bin` store?
+
 ### GDB
 
 *Estimate reading time: 2 hours*
@@ -77,6 +94,17 @@ This section is meant to guide you during your learning period.
 - [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html)
 - [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
 
+#### Some questions to guide your knowledge
+- How does complexity relate to modularity?
+- Why is the text-stream interface important in the Unix Philosophy?
+- Why should design for transparency encourage simple interfaces?
+- How does robustness relate to transparency and simplicity?
+- Even now with video processing, why output of programs should be terse?
+- According to the Unix Philosophy, how noisy do errors have to be?
+- How does economy of programmer time relate to robustness?
+- Why premature local optimization reduces overall performance?
+- There is the approach of doing things in "one true way", how does it affect extensibility?
+
 ### Python
 
 *Estimate reading time: 3-4 hours*
@@ -86,15 +114,32 @@ This section is meant to guide you during your learning period.
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
     - Chapter 11
 
+#### Some questions to guide your knowledge
+- How do you return how many times a certain character appears in a string using Python?
+- How do you handle different routes for your web app in Flask?
+- Using the `logging` library, how do you log to a file?
+
 ### Networks
 
 *Estimate reading time: 5-6 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
-    - Chapters [2-5]
+    - Chapters [2-5] (RECOMMENDABLE)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
     - Chapters 1, [3-4], [6-8]
 - [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
+
+#### Some questions to guide your knowledge
+- How are data transmitted over the Internet?
+- What functions do the layers of the OSI model perform?
+- What is the difference between TCP and UDP?
+- What does ARP mean?
+- What range corresponds to private IP addresses?
+- What does IPv6 propose to solve against IPv4?
+- What does IPsec guarantee?
+- What does DNS mean? How does it work?
+- What is the difference between HTTPS and HTTP?
+- What is the difference between asymmetric and symmetric cryptography?
 
 ### Git
 
@@ -102,14 +147,26 @@ This section is meant to guide you during your learning period.
 
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
-- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)
-- [Learning Git Branching](https://learngitbranching.js.org/)
+- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
+- [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
     - Pages [10-106]
 - [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+#### Some questions to guide your knowledge
+- Why is branching necessary?
+- What is the difference between `merge` and `rebase`?
+- What is a stash?
+- What does `cherry-pick` do?
+- What does `reflog` do?
+- What does `git reset --hard HEAD` do?
+- How to get back to a previous commit?
+- How to do a pull request?
+- Why are pull requests important?
+- How to clone a repository using SSH?
 
 ### Company philosophy
 
@@ -129,8 +186,8 @@ This section is meant to guide you during your learning period.
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
     - Chapters [10-11]
-- [SQL Bolt](https://sqlbolt.com/)
-- [Mystery solver with SQL](https://mystery.knightlab.com/)
+- [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
+- [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
     - Introduction, chapters 2 and 8
 - [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
@@ -140,12 +197,27 @@ This section is meant to guide you during your learning period.
 >- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
 >- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
 
+#### Some questions to guide your knowledge
+- How to use a wildcard as a character?
+- What does `COALESCE` do?
+- What does `LIKE 'S%'` do in a query?
+- What is the difference between PostgreSQL and Redis?
+- What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
+- What makes each database type unique?
+
 ### Docker
 
 *Estimate reading time: 2-3 hours*
 
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
 - [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
+
+#### Some questions to guide your knowledge
+
+- In which scenarios would you use containers and in which you would prefer to use VMs?
+- How do you retrieve and run the latest ubuntu image?
+- In a Dockerfile, what is the difference between `RUN` and `CMD`?
+- Using port 8080, how do you run an image that exposes port 80?
 
 ### Management
 
@@ -192,7 +264,6 @@ This section is meant to guide you during your learning period.
 > Reference:
 >- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 
-
 ### Elixir
 
 *Estimate reading time: 40 hours*
@@ -203,7 +274,6 @@ This section is meant to guide you during your learning period.
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 - [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
-
 
 ### Phoenix
 
