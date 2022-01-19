@@ -10,9 +10,6 @@
 
 ## Elixir
 *Estimate reading time: 8-9 hours*
-* [Learning Functional Programming With Elixir](https://pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/)
- - Must read: Chapter 1.
- - Recommended to read: Chapters 3, 4, 5.
 * [Elixir in Action](https://www.manning.com/books/elixir-in-action)
 * [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 
