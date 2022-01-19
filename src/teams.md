@@ -1,5 +1,0 @@
-# Teams
-
-## Product
-
-## Data Science

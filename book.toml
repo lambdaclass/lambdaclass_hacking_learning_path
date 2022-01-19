@@ -1,6 +1,0 @@
-[book]
-authors = ["Iñaki Garay"]
-language = "en"
-multilingual = false
-src = "src"
-title = "LambdaClass Training Handbook"
