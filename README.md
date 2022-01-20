@@ -10,7 +10,7 @@ Welcome! This is a guide intended to aid employees in their first days in the co
 
 > Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's [Blue Pill](https://thebluepill.eth.link/)
 
-> "With great power, comes great responsibility" probably Uncle Ben, but who knows
+> "With great power, comes great responsibility" probably Uncle Ben, but who knows.
 
 At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
@@ -58,9 +58,9 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 4-5 hours*
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
-    - Chapters [1-7], [9-10], 14, [16-17]
+    - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-    - Chapters [8-10]
+    - Chapters [8-10] Bash scripting, Filesystems and compression
 
 #### Some questions to guide your knowledge
 
@@ -257,7 +257,7 @@ This section is meant to guide you during your learning period.
 *Estimate reading time: 4-5 hours*
 
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
-- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
+- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
 
@@ -303,10 +303,10 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 7-8 hours*
 
-- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
+- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
-- [Learning Rust](https://learning-rust.github.io/)
+- [Learning Rust](https://learning-rust.github.io/) Example project
 
 ## Development Workflow
 
