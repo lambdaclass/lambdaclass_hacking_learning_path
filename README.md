@@ -401,7 +401,6 @@ This is a list of interesting projects to read code and learn:
 
 - [500 Lines or Less](https://github.com/aosabook/500lines)
 
-
 ## Services and Infrastructure
 
 ### AWS
@@ -441,7 +440,6 @@ Here are some tools that can be crucial for projects and some help with the inst
 - [Node.js](https://nodejs.org/es/download/) is necesary for some elixir versions so is recommended to keep up to date and manage versions as needed.
 
 ### Installing Erlang and Elixir
-
 
 - On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing an specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
 
