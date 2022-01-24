@@ -36,9 +36,9 @@
 *Estimated reading time:*
 
 - Datacamp Python Fundamentals
-    - Introduction To Python 1-2 hours with previous knowledge. 2-3 Without it.
+    - Introduction To Python, 1-2 hours with previous knowledge. 2-3 Without it.
     - Intermediate Python, 1-2 hours with previous knowledge, 2-3 without it.
-    - Python Data Science Toolbox (Part 1). 
+    - Python Data Science Toolbox (Part 1), 1-2 hours with previous knowledge, 2-3 without it.
     - Python Data Science Toolbox (Parte 2). 
 
 - HTTP server in Python with Flask, 0 - 30mins hour with previous pnowledge, 30 - 1 hours without it .
@@ -54,7 +54,7 @@
 - Burp, 1hr
 
 ### Git
-*Estimated rading time: 10-11hs*
+*Estimated reading time: 10-11hs*
 - Introduction to GitHub, 35 mins
 - Learning Git Branching], 3hr. It would be better doing it after you read Pro Git. 
 - Pro Git (https://git-scm.com/book/en/v2) 4hr
@@ -63,3 +63,12 @@
 - The Git Parable, 30 min
 - How to write a Git Commit message, 30 min
 - Merging vs Rebasing, 30 min
+
+
+### Company Philosophy
+*Estimated reading time: 3hs* 
+- Antifragile: Things That Gain from Disorder, 2:30hs.
+  - Chapters 1, 15
+- Data science in Julia for hackers
+  - Capter 1 20mins.
+- How to Make Your Code Reviewer Fall in Love with You, 30mins.
