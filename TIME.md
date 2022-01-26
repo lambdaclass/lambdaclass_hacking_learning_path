@@ -33,13 +33,13 @@
 
 
 ### Python
-*Estimated reading time:*
+*Estimated reading time: 4-5hs, upto 12hrs without previous knowledge*
 
 - Datacamp Python Fundamentals
     - Introduction To Python, 1-2 hours with previous knowledge. 2-3 Without it.
     - Intermediate Python, 1-2 hours with previous knowledge, 2-3 without it.
     - Python Data Science Toolbox (Part 1), 1-2 hours with previous knowledge, 2-3 without it.
-    - Python Data Science Toolbox (Parte 2). 
+    - Python Data Science Toolbox (Parte 2), 1-2 hours with previous knowldge, 2-3 without it.
 
 - HTTP server in Python with Flask, 0 - 30mins hour with previous pnowledge, 30 - 1 hours without it .
 
@@ -71,4 +71,35 @@
   - Chapters 1, 15
 - Data science in Julia for hackers
   - Capter 1 20mins.
-- How to Make Your Code Reviewer Fall in Love with You, 30mins.
+- How to Make Your Code Reviewer Fall in Love with You, 30mins
+
+### Database Management
+*Estimate reading time: 9-11hs*
+
+*SQL: Practical Guide for Developers
+	* Chapters[10-11], 2Hs
+*SQL Bolt, 2HS
+*Mystery solver with SQL, 40mins.
+*Seven Databases in Seven Weeks
+  * PostgreSQL, 3hrs.
+  * Redis, 2hrs
+*An introduction to Redis data types and abstractions, 1hs
+*Redis Transactions, 30min
+
+## Docker
+*Estimate reading time: 2-3hs*
+* Getting Started, 30mins.
+* Docker Talk, 2hs
+
+### Management
+*Estimate reading time: 1 hour*
+* The Manager's Path
+  * Chapter 1.
+
+## Concepts of Computing
+*Estimate reading time: *
+  * Moore's Law, Microprocessors, and First Principles 2hs.
+
+### Theory
+* *Estimate reading time: 15 minutes*
+  * Big O Notation. It could be set as a optional.
