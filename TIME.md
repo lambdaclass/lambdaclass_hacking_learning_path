@@ -1,5 +1,6 @@
 # Reading times
 
+## Level 1
 
 ### Linux
 *Estimate reading time 13-14hs* 
@@ -103,3 +104,32 @@
 ### Theory
 * *Estimate reading time: 15 minutes*
   * Big O Notation. It could be set as a optional.
+
+
+## Level 2
+
+### Functional Programming
+*Estimate reading time: 1:30hs*
+* Lambda Calculus vs. Turing Machines*
+  
+### Erlang
+*Estimate reading time: 3hs*
+* Where Erlang Blooms, 40mins
+* The Zen of Erlang, 1:30 hs
+* How erlang does Scheduling, 25mins
+* Stacking theory for systems design, 30mins,
+
+### Elixir
+*Estimate reading time: 18-19hs*
+* Elixir getting started, 8hs
+* Learning Functional Programming with Elixir, 10hrs
+* Inmutable Data, 5mins
+* StreamData: Property-based testing and data generation, 30mins
+
+
+### Phoenix 
+*Estimate reading time:*
+* Phoenix in Action, currently: 20hs
+* Phoenix Chat Example
+
+
