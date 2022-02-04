@@ -87,7 +87,7 @@
 *An introduction to Redis data types and abstractions, 1hs
 *Redis Transactions, 30min
 
-## Docker
+### Docker
 *Estimate reading time: 2-3hs*
 * Getting Started, 30mins.
 * Docker Talk, 2hs
@@ -97,7 +97,7 @@
 * The Manager's Path
   * Chapter 1.
 
-## Concepts of Computing
+### Concepts of Computing
 *Estimate reading time: *
   * Moore's Law, Microprocessors, and First Principles 2hs.
 
@@ -131,5 +131,3 @@
 *Estimate reading time:*
 * Phoenix in Action, currently: 20hs
 * Phoenix Chat Example
-
-
