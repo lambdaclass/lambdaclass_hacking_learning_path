@@ -34,11 +34,26 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [Principles for succes by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=4lLl5B8Oazw).
 
+## Tools and Utils
+Before beginning with this Journey, you may need some tools or utils for a better experience
+in your learning path.
+
+### Homebrew
+[Homebrew](https://brew.sh/) is a package manager for macOS.
+
+### GNU tools
+Once you have installed Homebrew in your macOS system, you'll need to install some of the GNU tools/utilities for a better work experience.  
+Just type in your shell the following command lines:  
+
+* [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
+* [*inetutils*](https://www.gnu.org/software/coreutils/): `brew install inetutils`
+
 ## Learning
 
 *Note: Reading order is from top to bottom.*
 
 This section is meant to guide you during your learning period.
+
 
 ## Practice Level 1
 
