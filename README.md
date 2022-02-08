@@ -63,6 +63,9 @@ This section is meant to guide you during your learning period.
 
 *Estimate reading time: 4-5 hours*
 
+There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you could use
+[Docker](https://docs.docker.com/engine/reference/commandline/exec/) for it(Once you reached that section or just skip right into it, or even if you have previous knowledge)
+
 - [The Linux Command Line](https://nostarch.com/tlcl2)
     - Chapters [1-7], [9-10], 14, [16-17]
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
@@ -71,7 +74,6 @@ This section is meant to guide you during your learning period.
 ### GDB
 
 *Estimate reading time: 2 hours*
-
 - [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
 - [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
 - [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
