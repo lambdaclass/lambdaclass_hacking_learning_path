@@ -29,7 +29,7 @@ If you are reading this, you are probably giving your first -or second- steps on
 
 ## Learn to fail
 
-As with most proyect making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
+As with most project making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
 
 - **Avoid docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
 - **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
@@ -52,6 +52,23 @@ This section is meant to guide you during your learning period.
 ## Practice Level 1
 
 *Estimate time: 53-57 hours*
+
+## Homebrew (if you're using a Mac)
+
+- [Homebrew](https://brew.sh/) is a package manager for macOS.
+
+### Docker
+*Estimate reading time: 2-3 hours*
+
+- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
+- [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
+
+
+#### Some questions to guide your knowledge
+
+- In which scenarios would you use containers and in which you would prefer to use VMs?
+- How do you retrieve and run the latest ubuntu image?
+- In a Dockerfile, what is the difference between `RUN` and `CMD`?
 
 ### Linux
 
@@ -140,6 +157,8 @@ This section is meant to guide you during your learning period.
 - What does DNS mean? How does it work?
 - What is the difference between HTTPS and HTTP?
 - What is the difference between asymmetric and symmetric cryptography?
+- In Docker, using port 8080, how do you run an image that exposes port 80?
+
 
 ### Git
 
@@ -204,20 +223,6 @@ This section is meant to guide you during your learning period.
 - What is the difference between PostgreSQL and Redis?
 - What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
 - What makes each database type unique?
-
-### Docker
-
-*Estimate reading time: 2-3 hours*
-
-- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
-- [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
-
-#### Some questions to guide your knowledge
-
-- In which scenarios would you use containers and in which you would prefer to use VMs?
-- How do you retrieve and run the latest ubuntu image?
-- In a Dockerfile, what is the difference between `RUN` and `CMD`?
-- Using port 8080, how do you run an image that exposes port 80?
 
 ### Management
 
@@ -496,3 +501,5 @@ https://www.jamesshore.com/v2/projects/change-diary
 **Designing Data-Intensive Applications**
 
 Martin Kleppmann We discussed every chapter of the book.
+### Homebrew
+[Homebrew](https://brew.sh/) is a package manager for macOS.
