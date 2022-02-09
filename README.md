@@ -35,8 +35,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=4lLl5B8Oazw).
 
 ## Tools and Utils
-Before beginning with this Journey, you may need some tools or utils for a better experience
-in your learning path.
+Before beginning with this Journey, if you're macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
 
 ### Homebrew
 [Homebrew](https://brew.sh/) is a package manager for macOS.
