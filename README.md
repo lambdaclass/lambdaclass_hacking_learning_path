@@ -501,5 +501,3 @@ https://www.jamesshore.com/v2/projects/change-diary
 **Designing Data-Intensive Applications**
 
 Martin Kleppmann We discussed every chapter of the book.
-### Homebrew
-[Homebrew](https://brew.sh/) is a package manager for macOS.
