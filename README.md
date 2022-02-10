@@ -45,7 +45,7 @@ Once you have installed Homebrew in your macOS system, you'll need to install so
 Just type in your shell the following command lines:  
 
 * [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
-* [*inetutils*](https://www.gnu.org/software/coreutils/): `brew install inetutils`
+* [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
 ## Learning
 
