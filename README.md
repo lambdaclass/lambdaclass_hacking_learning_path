@@ -175,7 +175,7 @@ This section is meant to guide you during your learning period.
     a.k.a "The way we do things around here"
 
 - [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-    - Chapters 1, 15
+    - Chapters 1 & 15
 - [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
     - Chapter 1
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
