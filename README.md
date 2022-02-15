@@ -355,8 +355,6 @@ This section is meant to guide you during your learning period.
 - Write tests.
 - Favor integration tests over unit tests, but do write unit tests when the functions merit them.
 - Do not write tests before you have solved the problem, you may waste time writing tests for the wrong implementation.
-- Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
-- Don't try to foresee future uses of your program: [You aren't gonna need it](https://martinfowler.com/bliki/Yagni.html).
 - Write for humans: coding for computers is easy, but writing code that is understandable by another person is an art.
 - Code and document in english, unless you have a very specific reason no to.
 - Use meaningful, readable names for variables, functions and files. Don't try to save characters.
