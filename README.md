@@ -296,6 +296,9 @@ This section is meant to guide you during your learning period.
 - [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
+
+
+
 ### Phoenix
 
 *Estimate reading time: 40 hours*
@@ -303,6 +306,9 @@ This section is meant to guide you during your learning period.
 - [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
     - All chapters except 2 and 12
 - [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
+
+### ExCheck (QuickCheck)
+QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
 
 ### OpenAPI
 
