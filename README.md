@@ -29,7 +29,7 @@ If you are reading this, you are probably giving your first -or second- steps on
 
 ## Learn to fail
 
-As with most proyect making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
+As with most project making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
 
 - **Avoid docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
 - **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
@@ -40,12 +40,18 @@ As with most proyect making mistakes fast and loud will make you learn faster, s
 
 We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
 
-- [Principles for succes by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
+- [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=4lLl5B8Oazw).
 
+## Do The Simplest Thing That Could Possibly Work
+Strive for solving problems in the simplest way possible. In order to achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider that will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code being as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
+> "Always implement things when you actually need them, never when you just foresee that you need them" - Ron Jeffries
+- [Do The Simplest Thing That Could Possibly Work](https://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork)
+- [Yagni by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
+
+
 ## Tools and Utils
-Before beginning with this Journey, you may need some tools or utils for a better experience
-in your learning path.
+Before beginning with this Journey, if you're macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
 
 ### Homebrew
 [Homebrew](https://brew.sh/) is a package manager for macOS.
@@ -55,7 +61,7 @@ Once you have installed Homebrew in your macOS system, you'll need to install so
 Just type in your shell the following command lines:  
 
 * [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
-* [*inetutils*](https://www.gnu.org/software/coreutils/): `brew install inetutils`
+* [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
 ## Learning
 
@@ -192,7 +198,7 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
     a.k.a "The way we do things around here"
 
 - [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-    - Chapters 1, 15
+    - Chapters 1 & 15
 - [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
     - Chapter 1
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
@@ -351,8 +357,6 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 - Write tests.
 - Favor integration tests over unit tests, but do write unit tests when the functions merit them.
 - Do not write tests before you have solved the problem, you may waste time writing tests for the wrong implementation.
-- Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
-- Don't try to foresee future uses of your program: [You aren't gonna need it](https://martinfowler.com/bliki/Yagni.html).
 - Write for humans: coding for computers is easy, but writing code that is understandable by another person is an art.
 - Code and document in english, unless you have a very specific reason no to.
 - Use meaningful, readable names for variables, functions and files. Don't try to save characters.
@@ -373,7 +377,7 @@ Use git and commit often, even in one-person projects.
 - Use MIT license.
 - Fill the description field at the top of the repo page.
 - Write a decent README.
-- A good readme starts with a succint description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
+- A good readme starts with a succinct description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
 - Use continuous integration, most likely travis.org.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
@@ -450,11 +454,11 @@ Here are some tools that can be crucial for projects and some help with the inst
 
 ### asdf - Version manager
 
--  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating enviromental variables to choose the specific version desired. Remember that in order to be able to use the enviromental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+-  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that in order to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
 ### Node.js
 
-- [Node.js](https://nodejs.org/es/download/) is necesary for some elixir versions so is recommended to keep up to date and manage versions as needed.
+- [Node.js](https://nodejs.org/es/download/) is necessary for some elixir versions so is recommended to keep up to date and manage versions as needed.
 
 ### Installing Erlang and Elixir
 
