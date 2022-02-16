@@ -77,9 +77,7 @@ This section is meant to guide you during your learning period.
 ### Linux
 
 *Estimate reading time: 4-5 hours*
-
-There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you could use
-[Docker](https://docs.docker.com/engine/reference/commandline/exec/) for it(Once you reached that section or just skip right into it, or even if you have previous knowledge)
+As you already installed GNU-tools, there's no need on installing Kali-Linux on a VM(Virtual Machine).
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
     - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
