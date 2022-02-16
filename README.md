@@ -1,5 +1,7 @@
 # LambdaClass Hobby Club - Hacking Learning Path Handbook
 
+DISCLAIMER: We are updating the hacking learning path. We are adding more exercises and we want to write an introduction to each chapter or post.
+
 ## Home
 
 Welcome! This is a guide intended to aid employees in their first days in the company.
@@ -8,7 +10,7 @@ Welcome! This is a guide intended to aid employees in their first days in the co
 
 > Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's [Blue Pill](https://thebluepill.eth.link/)
 
-> "With great power, comes great responsibility" probably Uncle Ben, but who knows
+> "With great power, comes great responsibility" probably Uncle Ben, but who knows.
 
 At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
@@ -24,6 +26,13 @@ There are three key elements we want you to have present at every moment: *Commu
 - About **empathy**, we are all human beings and have complex emotions, if you are feeling great, it doesn't mean your colleague isn't feeling like shit. Perhaps your coworkers don't feel comfortable talking about emotions, so go talk with them and help them. You can talk to them or to their manager if you feel something is going on with them. There is a time when everybody feels weak and needs someone else for support. So be a hero, be empathic.
 
 If you are reading this, you are probably giving your first -or second- steps on the long journey towards being a good developer, but first try to be a good human being and you will see how far that can get you.
+
+## Learn to fail
+
+As with most proyect making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
+
+- **Avoid docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
+- **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
 
 ## Company Culture
 
@@ -67,9 +76,19 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 [Docker](https://docs.docker.com/engine/reference/commandline/exec/) for it(Once you reached that section or just skip right into it, or even if you have previous knowledge)
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
-    - Chapters [1-7], [9-10], 14, [16-17]
+    - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-    - Chapters [8-10]
+    - Chapters [8-10] Bash scripting, Filesystems and compression
+
+#### Some questions to guide your knowledge
+
+- What do the following commands do?:
+    - `ls -l /bin/usr > ls-output.txt 2>&1`
+    - `ls /bin /usr/bin | sort | uniq | less`
+    - `ls /bin /usr/bin | sort | uniq | grep zip`
+- How does Linux determine how to interpret the format of a file?
+- What does the `sda2` folder represent?
+- What do `/root` and `/usr/bin` store?
 
 ### GDB
 
@@ -92,6 +111,17 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 - [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html)
 - [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
 
+#### Some questions to guide your knowledge
+- How does complexity relate to modularity?
+- Why is the text-stream interface important in the Unix Philosophy?
+- Why should design for transparency encourage simple interfaces?
+- How does robustness relate to transparency and simplicity?
+- Even now with video processing, why output of programs should be terse?
+- According to the Unix Philosophy, how noisy do errors have to be?
+- How does economy of programmer time relate to robustness?
+- Why premature local optimization reduces overall performance?
+- There is the approach of doing things in "one true way", how does it affect extensibility?
+
 ### Python
 
 *Estimate reading time: 3-4 hours*
@@ -101,28 +131,59 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
     - Chapter 11
 
+#### Some questions to guide your knowledge
+- How do you return how many times a certain character appears in a string using Python?
+- How do you handle different routes for your web app in Flask?
+- Using the `logging` library, how do you log to a file?
+
 ### Networks
 
 *Estimate reading time: 5-6 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
-    - Chapters [2-5]
+    - Chapters [2-5] (RECOMMENDABLE)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
     - Chapters 1, [3-4], [6-8]
 - [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
+
+#### Some questions to guide your knowledge
+- How are data transmitted over the Internet?
+- What functions do the layers of the OSI model perform?
+- What is the difference between TCP and UDP?
+- What does ARP mean?
+- What range corresponds to private IP addresses?
+- What does IPv6 propose to solve against IPv4?
+- What does IPsec guarantee?
+- What does DNS mean? How does it work?
+- What is the difference between HTTPS and HTTP?
+- What is the difference between asymmetric and symmetric cryptography?
 
 ### Git
 
 *Estimate reading time: 7-8 hours*
 
-- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)
-- [Learning Git Branching](https://learngitbranching.js.org/)
+*Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
+
+- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
+- [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
     - Pages [10-106]
 - [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+#### Some questions to guide your knowledge
+- Why is branching necessary?
+- What is the difference between `merge` and `rebase`?
+- What is a stash?
+- What does `cherry-pick` do?
+- What does `reflog` do?
+- What does `git reset --hard HEAD` do?
+- How to get back to a previous commit?
+- How to do a pull request?
+- Why are pull requests important?
+- How to clone a repository using SSH?
 
 ### Company philosophy
 
@@ -142,8 +203,8 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
     - Chapters [10-11]
-- [SQL Bolt](https://sqlbolt.com/)
-- [Mystery solver with SQL](https://mystery.knightlab.com/)
+- [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
+- [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
     - Introduction, chapters 2 and 8
 - [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
@@ -153,12 +214,27 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 >- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
 >- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
 
+#### Some questions to guide your knowledge
+- How to use a wildcard as a character?
+- What does `COALESCE` do?
+- What does `LIKE 'S%'` do in a query?
+- What is the difference between PostgreSQL and Redis?
+- What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
+- What makes each database type unique?
+
 ### Docker
 
 *Estimate reading time: 2-3 hours*
 
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
 - [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
+
+#### Some questions to guide your knowledge
+
+- In which scenarios would you use containers and in which you would prefer to use VMs?
+- How do you retrieve and run the latest ubuntu image?
+- In a Dockerfile, what is the difference between `RUN` and `CMD`?
+- Using port 8080, how do you run an image that exposes port 80?
 
 ### Management
 
@@ -198,22 +274,23 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 *Estimate reading time: 4-5 hours*
 
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
-- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
+- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
 
 > Reference:
 >- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 
-
 ### Elixir
 
 *Estimate reading time: 40 hours*
 
+- [Learning Functional Programming With Elixir](https://pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/)
+    - Must read: Chapter 1.
+    - Recommended to read: Chapters 3, 4, 5.
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 - [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
-
 
 ### Phoenix
 
@@ -243,10 +320,10 @@ There's no need on installing Kali-Linux on a VM(Virtual Machine), instead, you 
 
 *Estimate reading time: 7-8 hours*
 
-- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust)
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
+- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
-- [Learning Rust](https://learning-rust.github.io/)
+- [Learning Rust](https://learning-rust.github.io/) Example project
 
 ## Development Workflow
 
@@ -340,6 +417,60 @@ We organize activities where we share thoughts and interests with anyone who wan
 This is a list of interesting projects to read code and learn:
 
 - [500 Lines or Less](https://github.com/aosabook/500lines)
+
+## Services and Infrastructure
+
+### AWS
+
+- Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+
+### AWS tools
+
+- IAM: It's used for managing users, groups, access policies & roles.
+- EC2: A web service that provides secure, resizable compute capacity in the cloud.
+- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
+- ECS:  "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
+ 
+To further learn about AWS and it's practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/aws) for exercises. (AWS - EC2/IAM/Containers)
+
+### Kubernetes
+
+Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
+- [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/kubernetes)
+
+### Azure
+
+- [Azure FAQ From devops-exercises repositories](https://github.com/bregman-arie/devops-exercises#azure)
+
+## Useful tools and installations
+
+Here are some tools that can be crucial for projects and some help with the installing of compilers and interpreters
+
+### asdf - Version manager
+
+-  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating enviromental variables to choose the specific version desired. Remember that in order to be able to use the enviromental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+
+### Node.js
+
+- [Node.js](https://nodejs.org/es/download/) is necesary for some elixir versions so is recommended to keep up to date and manage versions as needed.
+
+### Installing Erlang and Elixir
+
+- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing an specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
+
+- Same can be achieved with Elixir through the same means `brew install elixir` for latest version, use asdf fo specific version.
+
+- For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
+
+### Installing Phoenix
+
+- For Phoenix all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database.
+
+### Installing Clojure
+
+- All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
 
 ## Reading Club
 
