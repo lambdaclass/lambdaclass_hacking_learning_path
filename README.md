@@ -304,6 +304,13 @@ This section is meant to guide you during your learning period.
     - All chapters except 2 and 12
 - [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
 
+### OpenAPI
+
+- [Property-based testing library for Elixir (QuickCheck style)](https://github.com/parroty/excheck)
+- [Open API Specifications for Elixir Plug applications](https://github.com/open-api-spex/open_api_spex)
+- [Swagger integration to Phoenix framework](https://github.com/xerions/phoenix_swagger)
+- [Auto generate and run tests using swagger/OpenAPI spec, no coding needed](https://github.com/meqaio/swagger_meqa)
+
 ### Clojure
 
 *Estimate reading time: 1-2 hours*
