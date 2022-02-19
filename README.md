@@ -77,6 +77,7 @@ This section is meant to guide you during your learning period.
 ### Linux
 
 *Estimate reading time: 4-5 hours*
+As you already installed GNU-tools, there's no need to install Linux on a VM (Virtual Machine).
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
     - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
@@ -96,7 +97,6 @@ This section is meant to guide you during your learning period.
 ### GDB
 
 *Estimate reading time: 2 hours*
-
 - [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
 - [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
 - [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
