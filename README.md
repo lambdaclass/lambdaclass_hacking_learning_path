@@ -77,6 +77,7 @@ This section is meant to guide you during your learning period.
 ### Linux
 
 *Estimate reading time: 4-5 hours*
+As you already installed GNU-tools, there's no need to install Linux on a VM (Virtual Machine).
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
     - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
@@ -295,6 +296,9 @@ This section is meant to guide you during your learning period.
 - [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
+
+
+
 ### Phoenix
 
 *Estimate reading time: 40 hours*
@@ -302,6 +306,17 @@ This section is meant to guide you during your learning period.
 - [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
     - All chapters except 2 and 12
 - [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
+
+### ExCheck (QuickCheck)
+QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
+
+### OpenAPI
+
+The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
+
+- [Open API Specifications for Elixir Plug applications](https://github.com/open-api-spex/open_api_spex)
+- [Swagger integration to Phoenix framework](https://github.com/xerions/phoenix_swagger)
+- [Auto generate and run tests using swagger/OpenAPI spec, no coding needed](https://github.com/meqaio/swagger_meqa)
 
 ### Clojure
 
