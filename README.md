@@ -393,6 +393,12 @@ Use git and commit often, even in one-person projects.
 - Use continuous integration, most likely travis.org.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
+### Helpful reading
+This readings pretend to help you in your workflow and also teach you how to improve your soft skills.
+
+- [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
+- [The Sunk Cost Falacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
+
 ### Community projects
 
 We organize activities where we share thoughts and interests with anyone who want to join us.
