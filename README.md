@@ -356,7 +356,7 @@ We suggest you to:
 and here are some sources you might find useful in this journey:
 
 - [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-- [Introduction to Rust+Wasm *(1 to 3 & 4.3)*](https://rustwasm.github.io/book/)
+- [Rust+Wasm Unofficial Book *(1 to 3 & 4.3)*](https://rustwasm.github.io/book/)
 - [Macroquad crate](https://github.com/not-fl3/macroquad)
 - [Wasm bindgen (*Optional*)](https://rustwasm.github.io/wasm-bindgen/)
 
