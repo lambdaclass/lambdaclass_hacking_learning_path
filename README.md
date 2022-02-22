@@ -343,6 +343,23 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
 - [Learning Rust](https://learning-rust.github.io/) Example project
 
+### Exercise: Rusty Merkle Tree
+*Estimate reading time: 4-8 hours*
+
+Implement a simple Merkle Tree in Rust.
+
+- A Merkle Tree can be built out of an array.
+- A Merkle Tree can generate a proof of that it contains an element.
+- A Merkle Tree can verify that a given hash is contained in it.
+- A Merke Tree can be dynamic, this means that elements can be added once it is built.
+
+We suggest to start simple, do not optimize prematurely because it's pretty sure that you're not gonna need those optimizations.
+
+Here are some sources that you might find useful:
+
+- [Merkle Tree - Brilliant.org](https://brilliant.org/wiki/merkle-tree/)
+- [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
+
 ## Development Workflow
 
 ### Getting started
