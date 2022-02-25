@@ -277,13 +277,20 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 
 *Estimate reading time: 4-5 hours*
 
-- [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
+Introductory
 - [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
+- [When would you choose Erlang?](https://blog.troutwine.us/2013/07/10/choose-erlang/)
+- [An Open Letter to the Erlang Beginner](https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html) Erlang's quirks and perks
+- [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
+
+Language Tutorial
+- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
+
+Additional Theory
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
 
-> Reference:
->- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
+
 
 ### Elixir
 
