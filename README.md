@@ -1,4 +1,4 @@
-# LambdaClass Hobby Club - Hacking Learning Path Handbook
+# LambdaClass Hacking Learning Path
 
 DISCLAIMER: We are updating the hacking learning path. We are adding more exercises and we want to write an introduction to each chapter or post.
 
