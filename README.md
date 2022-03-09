@@ -290,6 +290,9 @@ Additional Theory
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
 
+Exercises
+- [Erlings](https://github.com/lambdaclass/erlings/)
+
 
 
 ### Elixir
