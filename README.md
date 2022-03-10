@@ -350,6 +350,10 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
 - [Learning Rust](https://learning-rust.github.io/) Example project
 
+Exercises
+
+- [Rustlings](https://github.com/rust-lang/rustlings)
+
 ## Development Workflow
 
 ### Getting started
