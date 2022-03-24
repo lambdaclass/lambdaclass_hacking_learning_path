@@ -49,6 +49,17 @@ Strive for solving problems in the simplest way possible. In order to achieve th
 - [Do The Simplest Thing That Could Possibly Work](https://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork)
 - [Yagni by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 
+## Do's and dont's about the use of Vertical Whitespace
+
+- Minimize use of vertical whitespace.
+- Do not end functions with blank lines.
+- Do not start functions with blank lines.
+- Do not use blank lines when you do not have to.
+- Do not put more than one blank line between functions.
+- Blank lines inside a chain of if-else blocks may well help readability.
+- Blank lines at the beginning or end of a function very rarely help readability.
+- Don't leave blank lines at the end of a file.
+- Don't forget to put a *single* end of line at the end of a file.
 
 ## Tools and Utils
 Before beginning with this Journey, if you're macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
