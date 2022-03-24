@@ -165,6 +165,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 ### Git
 
 *Estimate reading time: 7-8 hours*
+**No one** should merge his/her own PR. The merge should **always** be done by another person (co-worker or client).
 
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
