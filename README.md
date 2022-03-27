@@ -1,4 +1,4 @@
-# LambdaClass Hobby Club - Hacking Learning Path Handbook
+# LambdaClass Hacking Learning Path
 
 DISCLAIMER: We are updating the hacking learning path. We are adding more exercises and we want to write an introduction to each chapter or post.
 
@@ -162,6 +162,15 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - What is the difference between HTTPS and HTTP?
 - What is the difference between asymmetric and symmetric cryptography?
 
+### SSH Keys
+
+*Estimate reading time: 10 minutes*
+
+Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it you will be able to connect to GitHub without supplying your username and personal access token each time.
+
+- [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
+- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
 ### Git
 
 *Estimate reading time: 7-8 hours*
@@ -169,6 +178,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
 - [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
+- [Flujos de desarrollo en GIT](https://drive.google.com/file/d/1_jSx8Z6hg2u1MsKwszonluihuuFxy4y1/view?usp=sharing)
 - [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
     - Pages [10-106]
@@ -277,13 +287,23 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 
 *Estimate reading time: 4-5 hours*
 
-- [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
+Introductory
 - [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
+- [When would you choose Erlang?](https://blog.troutwine.us/2013/07/10/choose-erlang/)
+- [An Open Letter to the Erlang Beginner](https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html) Erlang's quirks and perks
+- [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
+
+Language Tutorial
+- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
+
+Additional Theory
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
 
-> Reference:
->- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
+Exercises
+- [Erlings](https://github.com/lambdaclass/erlings/)
+
+
 
 ### Elixir
 
@@ -342,6 +362,10 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 - [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
 - [Learning Rust](https://learning-rust.github.io/) Example project
+
+Exercises
+
+- [Rustlings](https://github.com/rust-lang/rustlings)
 
 ### Excercise: Conway's Game of Life
 *Estimate time: 3-5 hours*
