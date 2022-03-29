@@ -51,6 +51,8 @@ Strive for solving problems in the simplest way possible. In order to achieve th
 
 ## Do's and dont's about the use of Vertical Whitespace
 
+- If you'd like to have visualize more vertical whitespace than it's established in these Do's and dont's configure your text editor to show more space.
+- Most of these rules can be enforced automatically in your text editor, configure it to enforce them. 
 - Minimize use of vertical whitespace.
 - Do not end functions with blank lines.
 - Do not start functions with blank lines.
