@@ -367,6 +367,13 @@ Exercises
 
 - [Rustlings](https://github.com/rust-lang/rustlings)
 
+##  Interpreters/Virtual machines
+
+### Possible projects
+
+- [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+- [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
+
 ## Development Workflow
 
 ### Getting started
