@@ -299,6 +299,7 @@ Language Tutorial
 Additional Theory
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
+- [EEP 49: Value-Based Error Handling Mechanisms](https://www.erlang.org/eeps/eep-0049)
 
 Exercises
 - [Erlings](https://github.com/lambdaclass/erlings/)
