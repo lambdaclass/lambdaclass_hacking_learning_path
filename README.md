@@ -186,6 +186,7 @@ Before you embark on your Git journey, it is important to learn what an SSH Key 
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+- [Configure your end of line (EOL) managment in your development enviroment](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)
 
 #### Some questions to guide your knowledge
 - Why is branching necessary?
