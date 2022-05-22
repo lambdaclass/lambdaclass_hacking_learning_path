@@ -185,6 +185,9 @@ Before you embark on your Git journey, it is important to learn what an SSH Key 
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
+#### Note on Newlines at end of file
+It is considered good style - and sometimes a necessity - to always end files with a newline (see [here](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline) and [here](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)). Make sure your editor of choice is correctly configured to add them automatically.
+
 #### Some questions to guide your knowledge
 - Why is branching necessary?
 - What is the difference between `merge` and `rebase`?
