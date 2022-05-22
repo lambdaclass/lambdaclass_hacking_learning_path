@@ -173,6 +173,8 @@ Before you embark on your Git journey, it is important to learn what an SSH Key 
 
 *Estimate reading time: 7-8 hours*
 
+**No one** should merge his/her own PR without it being reviewed and approved from a co-worker and/or a client.
+
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
 - [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
