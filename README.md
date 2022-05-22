@@ -49,7 +49,6 @@ Strive for solving problems in the simplest way possible. In order to achieve th
 - [Do The Simplest Thing That Could Possibly Work](https://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork)
 - [Yagni by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 
-
 ## Tools and Utils
 Before beginning with this Journey, if you're macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
 
@@ -68,7 +67,6 @@ Just type in your shell the following command lines:
 *Note: Reading order is from top to bottom.*
 
 This section is meant to guide you during your learning period.
-
 
 ## Practice Level 1
 
@@ -304,8 +302,6 @@ Additional Theory
 Exercises
 - [Erlings](https://github.com/lambdaclass/erlings/)
 
-
-
 ### Elixir
 
 *Estimate reading time: 40 hours*
@@ -316,9 +312,6 @@ Exercises
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 - [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
-
-
-
 
 ### Phoenix
 
@@ -353,7 +346,6 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 - [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
 - [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
 - [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
-
 
 ## Rust
 
