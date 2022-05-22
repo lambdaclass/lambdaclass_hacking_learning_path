@@ -374,6 +374,12 @@ Exercises
 - [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
 
+## Distributed Systems
+
+### Readings
+
+- [Trie, Merkle, Patricia: A Blockchain Story](http://kronosapiens.github.io/blog/2018/07/04/patricia-trees.html)
+
 ## Development Workflow
 
 ### Getting started
