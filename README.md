@@ -42,6 +42,11 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 
 - [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=4lLl5B8Oazw).
+- [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
+    - Chapters 1 & 15
+- [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
+    - Chapter 1
+- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ## Do The Simplest Thing That Could Possibly Work
 Strive for solving problems in the simplest way possible. In order to achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider that will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code being as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
@@ -202,18 +207,6 @@ It is considered good style - and sometimes a necessity - to always end files wi
 - How to do a pull request?
 - Why are pull requests important?
 - How to clone a repository using SSH?
-
-### Company philosophy
-
-*Estimate reading time: 5-6 hours*
-
-    a.k.a "The way we do things around here"
-
-- [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-    - Chapters 1 & 15
-- [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
-    - Chapter 1
-- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ### Database management
 
