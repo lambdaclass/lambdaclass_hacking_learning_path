@@ -136,7 +136,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 
 *Estimate reading time: 3-4 hours*
 
-- [Datacamp Python Fundamentals](https://www.datacamp.com/)
+- [Datacamp Python Fundamentals](https://app.datacamp.com/learn/skill-tracks/python-fundamentals)
 - [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
     - Chapter 11
