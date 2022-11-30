@@ -269,10 +269,6 @@ It is considered good style - and sometimes a necessity - to always end files wi
 
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
-### Activities
-
-- Join the [reading club](https://lambdaclass.com/lambda_employee_handbook/reading_club.html)
-
 ## Practice Level 2
 
 *Estimate time: 46-56 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
