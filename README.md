@@ -1,5 +1,12 @@
 # LambdaClass Hacking Learning Path
 
+> A boring codebase doesn't make a bored developer, on the contrary it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
+
+
+> Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's Blue Pill
+
+> "With great power, comes great responsibility" probably Uncle Ben, but who knows.
+
 DISCLAIMER: We are updating the hacking learning path. We are adding more exercises and we want to write an introduction to each chapter or post.
 
 ## Home
@@ -7,10 +14,6 @@ DISCLAIMER: We are updating the hacking learning path. We are adding more exerci
 Welcome! This is a guide intended to aid employees in their first days in the company.
 
 ## Disclaimer
-
-> Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's [Blue Pill](https://thebluepill.eth.link/)
-
-> "With great power, comes great responsibility" probably Uncle Ben, but who knows.
 
 At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
@@ -42,6 +45,11 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 
 - [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=4lLl5B8Oazw).
+- [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
+    - Chapters 1 & 15
+- [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
+    - Chapter 1
+- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 
 ## Do The Simplest Thing That Could Possibly Work
 Strive for solving problems in the simplest way possible. In order to achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider that will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code being as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
@@ -81,7 +89,6 @@ Just type in your shell the following command lines:
 *Note: Reading order is from top to bottom.*
 
 This section is meant to guide you during your learning period.
-
 
 ## Practice Level 1
 
@@ -143,7 +150,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 
 *Estimate reading time: 3-4 hours*
 
-- [Datacamp Python Fundamentals](https://www.datacamp.com/)
+- [Datacamp Python Fundamentals](https://app.datacamp.com/learn/skill-tracks/python-fundamentals)
 - [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
     - Chapter 11
@@ -175,13 +182,25 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - What is the difference between HTTPS and HTTP?
 - What is the difference between asymmetric and symmetric cryptography?
 
+### SSH Keys
+
+*Estimate reading time: 10 minutes*
+
+Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it you will be able to connect to GitHub without supplying your username and personal access token each time.
+
+- [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
+- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
 ### Git
 
 *Estimate reading time: 7-8 hours*
 
+**No one** should merge his/her own PR without it being reviewed and approved from a co-worker and/or a client.
+
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
 - [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
+- [Flujos de desarrollo en GIT](https://drive.google.com/file/d/1_jSx8Z6hg2u1MsKwszonluihuuFxy4y1/view?usp=sharing)
 - [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
     - Pages [10-106]
@@ -189,6 +208,10 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+- [Configure your end of line (EOL) management in your development environment](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)
+
+#### Note on Newlines at end of file
+It is considered good style - and sometimes a necessity - to always end files with a newline (see [here](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline) and [here](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)). Make sure your editor of choice is correctly configured to add them automatically.
 
 #### Some questions to guide your knowledge
 - Why is branching necessary?
@@ -202,26 +225,14 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - Why are pull requests important?
 - How to clone a repository using SSH?
 
-### Company philosophy
-
-*Estimate reading time: 5-6 hours*
-
-    a.k.a "The way we do things around here"
-
-- [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-    - Chapters 1 & 15
-- [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
-    - Chapter 1
-- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
-
 ### Database management
 
 *Estimate reading time: 9-10 hours*
 
-- [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
-    - Chapters [10-11]
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
+- [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
+    - Chapters [10-11]
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
     - Introduction, chapters 2 and 8
 - [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
@@ -272,10 +283,6 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
-### Activities
-
-- Join the [reading club](https://lambdaclass.com/lambda_employee_handbook/reading_club.html)
-
 ## Practice Level 2
 
 *Estimate time: 46-56 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
@@ -302,8 +309,10 @@ Language Tutorial
 Additional Theory
 - [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
 - [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
+- [EEP 49: Value-Based Error Handling Mechanisms](https://www.erlang.org/eeps/eep-0049)
 
-
+Exercises
+- [Erlings](https://github.com/lambdaclass/erlings/)
 
 ### Elixir
 
@@ -315,9 +324,6 @@ Additional Theory
 - [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
 - [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
-
-
-
 
 ### Phoenix
 
@@ -335,6 +341,7 @@ QuickCheck is a testing method (formerly a [Haskell library](https://hackage.has
 The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
 
 - [Open API Specifications for Elixir Plug applications](https://github.com/open-api-spex/open_api_spex)
+- [How to design better APIs. 15 language-agnostic, actionable tips on REST API design](https://r.bluethl.net/how-to-design-better-apis)
 - [Swagger integration to Phoenix framework](https://github.com/xerions/phoenix_swagger)
 - [Auto generate and run tests using swagger/OpenAPI spec, no coding needed](https://github.com/meqaio/swagger_meqa)
 
@@ -353,7 +360,6 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 - [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
 - [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
 
-
 ## Rust
 
 *Estimate reading time: 7-8 hours*
@@ -361,7 +367,25 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 - [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
 - [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
+- [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 - [Learning Rust](https://learning-rust.github.io/) Example project
+
+Exercises
+
+- [Rustlings](https://github.com/rust-lang/rustlings)
+
+##  Interpreters/Virtual machines
+
+### Possible projects
+
+- [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+- [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
+
+## Distributed Systems
+
+### Readings
+
+- [Trie, Merkle, Patricia: A Blockchain Story](http://kronosapiens.github.io/blog/2018/07/04/patricia-trees.html)
 
 ## Development Workflow
 
@@ -374,8 +398,10 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 
 - If you are new to GitHub, you can put your hands on with [this course](https://lab.github.com/githubtraining/introduction-to-github)
 - Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
+- Doc files should always be added via pull request.
+  - Be sure those files are written in Markdown. 
+  - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for flowcharts, sequence diagrams, graphs, etc.
 - Never push to master directly, and only reviewers can merge branches to master.
-
 ### Working method
 
 - There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
