@@ -1,0 +1,10 @@
+[book]
+authors = ["LambdaClass"]
+language = "en"
+multilingual = false
+src = "src"
+title = "LambdaClass Hacking Learning Path"
+
+[output.html]
+default-theme = "dark"
+preferred-dark-theme = "ayu"
