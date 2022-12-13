@@ -285,7 +285,7 @@ It is considered good style - and sometimes a necessity - to always end files wi
 
 ## Practice Level 2
 
-*Estimate time: 46-56 hours (assuming you read either 'Elixir in Action' or 'Phoenix in Action')*
+*Estimate time: 46-56 hours (assuming you read 'Phoenix in Action')*
 
 ### Functional Programming
 
