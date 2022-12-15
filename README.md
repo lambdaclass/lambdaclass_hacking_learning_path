@@ -254,6 +254,8 @@ It is considered good style - and sometimes a necessity - to always end files wi
 
 *Estimate reading time: 2-3 hours*
 
+- [Replacing Docker Desktop for Mac with Colima](https://www.arthurkoziel.com/replacing-docker-desktop-for-mac-with-colima/)
+- [Colima setup for macOS](src/colima.md)
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
 - [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
 
