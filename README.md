@@ -54,7 +54,6 @@
       - [Kubernetes](#kubernetes)
     - [Continuous Integration](#continuous-integration)
       - [Github Actions](#github-actions)
-    - [Systems Programming](#systems-programming)
     - [Rust](#rust)
       - [Excercise: Conway's Game of Life](#excercise-conways-game-of-life)
     - [Performance Engineering](#performance-engineering)
@@ -591,8 +590,6 @@ Kubernetes is a portable, extensible, open-source platform for managing containe
 ### Continuous Integration
 
 #### Github Actions
-
-### Systems Programming
 
 ### Rust
 *Estimate reading time: 7-8 hours*
