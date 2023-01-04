@@ -1,1 +1,0 @@
-# LambdaClass Hacking Learning Path
