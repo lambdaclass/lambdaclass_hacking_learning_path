@@ -619,6 +619,23 @@ and here are some sources you might find useful in this journey:
 - [Macroquad crate](https://github.com/not-fl3/macroquad)
 - [Wasm bindgen (*Optional*)](https://rustwasm.github.io/wasm-bindgen/)
 
+#### Exercise: Rusty Merkle Tree
+*Estimate reading time: 4-8 hours*
+
+Implement a simple Merkle Tree in Rust.
+
+- A Merkle Tree can be built out of an array.
+- A Merkle Tree can generate a proof that it contains an element.
+- A Merkle Tree can verify that a given hash is contained in it.
+- A Merke Tree can be dynamic, this means that elements can be added once it is built.
+
+We suggest to start simple, do not optimize prematurely because it's pretty sure that you're not gonna need those optimizations.
+
+Here are some sources that you might find useful:
+
+- [Merkle Tree - Brilliant.org](https://brilliant.org/wiki/merkle-tree/)
+- [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
+
 ### Performance Engineering
 
 ## Advanced
