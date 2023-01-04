@@ -1,20 +1,147 @@
 # LambdaClass Hacking Learning Path
 
-> A boring codebase doesn't make a bored developer, on the contrary it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
+## Table of Contents
+- [LambdaClass Hacking Learning Path](#lambdaclass-hacking-learning-path)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Company Culture](#company-culture)
+    - [Learn to fail](#learn-to-fail)
+    - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
+    - [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-aka-kiss)
+    - [Development process / workflow](#development-process--workflow)
+    - [Design and coding standards](#design-and-coding-standards)
+      - [GitHub \& GitLab](#github--gitlab)
+    - [Working on open source projects](#working-on-open-source-projects)
+    - [Community projects](#community-projects)
+  - [Development Environment Setup](#development-environment-setup)
+    - [Homebrew](#homebrew)
+    - [GNU tools](#gnu-tools)
+    - [asdf Version manager](#asdf-version-manager)
+    - [Code Editors and IDEs](#code-editors-and-ides)
+  - [Foundations](#foundations)
+    - [Unix Philosophy](#unix-philosophy)
+    - [Linux](#linux)
+      - [Networking](#networking)
+      - [SSH](#ssh)
+      - [Git](#git)
+    - [Python](#python)
+    - [Docker](#docker)
+      - [Colima setup for macOS](#colima-setup-for-macos)
+    - [Databases](#databases)
+      - [SQL and PostgreSQL](#sql-and-postgresql)
+      - [Redis](#redis)
+    - [Functional Programming](#functional-programming)
+      - [Referential Transparency](#referential-transparency)
+      - [Immutability](#immutability)
+      - [Functions as first-class citizens](#functions-as-first-class-citizens)
+    - [Debugging](#debugging)
+    - [Testing](#testing)
+      - [Unit Testing](#unit-testing)
+      - [Integration Testing](#integration-testing)
+      - [Property-based Testing](#property-based-testing)
+      - [Fuzzy Testing](#fuzzy-testing)
+  - [Core](#core)
+    - [Erlang](#erlang)
+    - [Elixir](#elixir)
+    - [Phoenix](#phoenix)
+      - [ExCheck (QuickCheck)](#excheck-quickcheck)
+      - [OpenAPI](#openapi)
+      - [Projects](#projects)
+    - [Distributed Systems](#distributed-systems)
+    - [Observability](#observability)
+    - [Cloud Environments](#cloud-environments)
+      - [AWS and other cloud providers](#aws-and-other-cloud-providers)
+      - [Kubernetes](#kubernetes)
+    - [Continuous Integration](#continuous-integration)
+      - [Github Actions](#github-actions)
+    - [Rust](#rust)
+      - [Excercise: Conway's Game of Life](#excercise-conways-game-of-life)
+    - [Performance Engineering](#performance-engineering)
+  - [Advanced](#advanced)
+    - [Hardware](#hardware)
+    - [Parsing](#parsing)
+    - [Type Systems](#type-systems)
+    - [Virtual Machines and Runtimes](#virtual-machines-and-runtimes)
+    - [Algorithmics](#algorithmics)
+    - [Computability](#computability)
+    - [Consensus](#consensus)
+    - [Cryptography](#cryptography)
 
+---
+> A boring codebase doesn't make a bored developer, on the contrary it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
 
 > Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's Blue Pill
 
 > "With great power, comes great responsibility" probably Uncle Ben, but who knows.
 
-DISCLAIMER: We are updating the hacking learning path. We are adding more exercises and we want to write an introduction to each chapter or post.
-
-## Home
-
+## Introduction
 Welcome! This is a guide intended to aid employees in their first days in the company.
+It will guide you in setting up expectations and working tools, and a whirlwind tour of the background knowledge and tools necessary to work on the kind of projects common at LambdaClass.
 
-## Disclaimer
+The learning path is structured as a series of topics and exercises.
 
+```mermaid
+flowchart TB
+    start([Start])
+    culture([Culture])
+    devenv([Development Environment])
+    linux([Linux])
+    python([Python])
+    containers([Containers])
+    databases([Databases])
+    fp([Functional Programming])
+    debugging([Debugging])
+    testing([Testing])
+    core([Core])
+    erlang([Erlang])
+    elixir([Elixir])
+    phoenix([Phoenix])
+    o11y([Observability])
+    cloud([Cloud Environments])
+    ci([Continuous Integration])
+    rust([Rust])
+    perfeng([Performance Engineering])
+    
+    finish([Conclusion])
+    advanced([Advanced])
+
+    start --> culture
+    culture --> devenv
+    devenv --> linux
+    debugging --> core
+    core --> erlang
+    core --> o11y
+    core --> rust
+    phoenix --> finish
+    ci --> finish
+    perfeng --> finish
+    finish -.-> advanced
+
+    subgraph "Foundations"
+      linux --> python
+      python --> containers
+      containers --> databases
+      databases --> fp
+      fp --> testing
+      testing --> debugging 
+    end
+    
+    subgraph "BEAM Ecosystem"
+      erlang --> elixir
+      elixir --> phoenix
+    end
+    
+    subgraph "Distributed Systems"
+      o11y --> cloud
+      cloud --> ci
+    end
+    
+    subgraph "Systems Programming"
+      rust --> perfeng
+    end
+```
+
+## Company Culture
 At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
 
@@ -30,17 +157,13 @@ There are three key elements we want you to have present at every moment: *Commu
 
 If you are reading this, you are probably giving your first -or second- steps on the long journey towards being a good developer, but first try to be a good human being and you will see how far that can get you.
 
-## Learn to fail
-
+### Learn to fail
 As with most project making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
 
 - **Avoid docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
 - **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
 
-## Company Culture
-
 ### Principles for success and teamwork philosophy
-
 We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
 
 - [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
@@ -50,401 +173,22 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
     - Chapter 1
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
+- [The Biggest Mistake I See Engineers Make](https://web.archive.org/web/20220125174724/https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
+- [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
 
-## Do The Simplest Thing That Could Possibly Work
+### Do The Simplest Thing That Could Possibly Work (aka KISS)
 Strive for solving problems in the simplest way possible. In order to achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider that will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code being as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
 > "Always implement things when you actually need them, never when you just foresee that you need them" - Ron Jeffries
 - [Do The Simplest Thing That Could Possibly Work](https://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork)
 - [Yagni by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 
-## Do's and dont's about the use of Vertical Whitespace
-
-- If you'd like to have visualize more vertical whitespace than it's established in these Do's and dont's configure your text editor to show more space.
-- Most of these rules can be enforced automatically in your text editor, configure it to enforce them. 
-- Minimize use of vertical whitespace.
-- Do not end functions with blank lines.
-- Do not start functions with blank lines.
-- Do not use blank lines when you do not have to.
-- Do not put more than one blank line between functions.
-- Blank lines inside a chain of if-else blocks may well help readability.
-- Blank lines at the beginning or end of a function very rarely help readability.
-- Don't leave blank lines at the end of a file.
-- Don't forget to put a *single* end of line at the end of a file.
-
-## Tools and Utils
-Before beginning with this Journey, if you're macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
-
-### Homebrew
-[Homebrew](https://brew.sh/) is a package manager for macOS.
-
-### GNU tools
-Once you have installed Homebrew in your macOS system, you'll need to install some of the GNU tools/utilities for a better work experience.  
-Just type in your shell the following command lines:  
-
-* [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
-* [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
-
-## Learning
-
-*Note: Reading order is from top to bottom.*
-
-This section is meant to guide you during your learning period.
-
-## Practice Level 1
-
-*Estimate time: 53-57 hours*
-
-### Linux
-
-*Estimate reading time: 4-5 hours*
-As you already installed GNU-tools, there's no need to install Linux on a VM (Virtual Machine).
-
-- [The Linux Command Line](https://nostarch.com/tlcl2)
-    - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
-- [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-    - Chapters [8-10] Bash scripting, Filesystems and compression
-
-#### Some questions to guide your knowledge
-
-- What do the following commands do?:
-    - `ls -l /bin/usr > ls-output.txt 2>&1`
-    - `ls /bin /usr/bin | sort | uniq | less`
-    - `ls /bin /usr/bin | sort | uniq | grep zip`
-- How does Linux determine how to interpret the format of a file?
-- What does the `sda2` folder represent?
-- What do `/root` and `/usr/bin` store?
-
-### GDB
-
-*Estimate reading time: 2 hours*
-- [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
-- [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
-- [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
-- [Tracing in Linux and macOS](https://blog.xfbs.net/posts/tracing-linux-macos)
-
-> Reference:
->- [Ptrace](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
->- [Dtrace One Liners](https://www.brendangregg.com/dtrace.html#OneLiners)
-
-### Unix Philosophy
-
-*Estimate reading time: 2-3 hours*
-
-- [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
-- [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
-- [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html)
-- [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
-
-#### Some questions to guide your knowledge
-- How does complexity relate to modularity?
-- Why is the text-stream interface important in the Unix Philosophy?
-- Why should design for transparency encourage simple interfaces?
-- How does robustness relate to transparency and simplicity?
-- Even now with video processing, why output of programs should be terse?
-- According to the Unix Philosophy, how noisy do errors have to be?
-- How does economy of programmer time relate to robustness?
-- Why premature local optimization reduces overall performance?
-- There is the approach of doing things in "one true way", how does it affect extensibility?
-
-### Python
-
-*Estimate reading time: 3-4 hours*
-
-- [Datacamp Python Fundamentals](https://app.datacamp.com/learn/skill-tracks/python-fundamentals)
-- [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
-- [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
-    - Chapter 11
-
-#### Some questions to guide your knowledge
-- How do you return how many times a certain character appears in a string using Python?
-- How do you handle different routes for your web app in Flask?
-- Using the `logging` library, how do you log to a file?
-
-### Networks
-
-*Estimate reading time: 5-6 hours*
-
-- [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
-    - Chapters [2-5] (RECOMMENDABLE)
-- [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
-    - Chapters 1, [3-4], [6-8]
-- [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
-
-#### Some questions to guide your knowledge
-- How are data transmitted over the Internet?
-- What functions do the layers of the OSI model perform?
-- What is the difference between TCP and UDP?
-- What does ARP mean?
-- What range corresponds to private IP addresses?
-- What does IPv6 propose to solve against IPv4?
-- What does IPsec guarantee?
-- What does DNS mean? How does it work?
-- What is the difference between HTTPS and HTTP?
-- What is the difference between asymmetric and symmetric cryptography?
-
-### SSH Keys
-
-*Estimate reading time: 10 minutes*
-
-Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it you will be able to connect to GitHub without supplying your username and personal access token each time.
-
-- [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
-- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-
-### Git
-
-*Estimate reading time: 7-8 hours*
-
-**No one** should merge his/her own PR without it being reviewed and approved from a co-worker and/or a client.
-
-*Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
-
-- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
-- [Flujos de desarrollo en GIT](https://drive.google.com/file/d/1_jSx8Z6hg2u1MsKwszonluihuuFxy4y1/view?usp=sharing)
-- [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
-- [Pro Git](https://git-scm.com/book/en/v2)
-    - Pages [10-106]
-- [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
-- [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
-- [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
-- [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-- [Configure your end of line (EOL) management in your development environment](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)
-
-#### Note on Newlines at end of file
-It is considered good style - and sometimes a necessity - to always end files with a newline (see [here](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline) and [here](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)). Make sure your editor of choice is correctly configured to add them automatically.
-
-#### Some questions to guide your knowledge
-- Why is branching necessary?
-- What is the difference between `merge` and `rebase`?
-- What is a stash?
-- What does `cherry-pick` do?
-- What does `reflog` do?
-- What does `git reset --hard HEAD` do?
-- How to get back to a previous commit?
-- How to do a pull request?
-- Why are pull requests important?
-- How to clone a repository using SSH?
-
-### Database management
-
-*Estimate reading time: 9-10 hours*
-
-- [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
-- [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
-- [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
-    - Chapters [10-11]
-- [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
-    - Introduction, chapters 2 and 8
-- [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
-- [Redis Transactions](https://redis.io/topics/transactions)
-
-> Reference:
->- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
->- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
-
-#### Some questions to guide your knowledge
-- How to use a wildcard as a character?
-- What does `COALESCE` do?
-- What does `LIKE 'S%'` do in a query?
-- What is the difference between PostgreSQL and Redis?
-- What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
-- What makes each database type unique?
-
-### Docker
-
-*Estimate reading time: 2-3 hours*
-
-- [Replacing Docker Desktop for Mac with Colima](https://www.arthurkoziel.com/replacing-docker-desktop-for-mac-with-colima/)
-- [Colima setup for macOS](src/colima.md)
-- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
-- [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
-
-#### Some questions to guide your knowledge
-
-- In which scenarios would you use containers and in which you would prefer to use VMs?
-- How do you retrieve and run the latest ubuntu image?
-- In a Dockerfile, what is the difference between `RUN` and `CMD`?
-- Using port 8080, how do you run an image that exposes port 80?
-
-### Management
-
-*Estimate reading time: 1 hour*
-
-- [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
-    - Chapter 1
-
-### Concepts of computing
-
-*Estimate reading time: 2 hours*
-
-- [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
-
-### Theory
-
-*Estimate reading time: 15 minutes*
-
-- [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
-
-## Practice Level 2
-
-*Estimate time: 46-56 hours (assuming you read 'Phoenix in Action')*
-
-### Functional Programming
-
-*Estimate reading time: 1-2 hours*
-
-- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
-
-### Erlang
-
-*Estimate reading time: 4-5 hours*
-
-Introductory
-- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
-- [When would you choose Erlang?](https://blog.troutwine.us/2013/07/10/choose-erlang/)
-- [An Open Letter to the Erlang Beginner](https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html) Erlang's quirks and perks
-- [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
-
-Language Tutorial
-- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
-
-Additional Theory
-- [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
-- [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
-- [EEP 49: Value-Based Error Handling Mechanisms](https://www.erlang.org/eeps/eep-0049)
-
-Exercises
-- [Erlings](https://github.com/lambdaclass/erlings/)
-
-### Elixir
-
-*Estimate reading time: 40 hours*
-
-- [Learning Functional Programming With Elixir](https://pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/)
-    - Must read: Chapter 1.
-    - Recommended to read: Chapters 3, 4, 5.
-- [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
-- [Immutable Data](src/immutable_data.md)
-- [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
-
-### Phoenix
-
-*Estimate reading time: 40 hours*
-
-- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
-    - All chapters except 2 and 12
-- [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
-
-### ExCheck (QuickCheck)
-QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
-
-### OpenAPI
-
-The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
-
-- [Open API Specifications for Elixir Plug applications](https://github.com/open-api-spex/open_api_spex)
-- [How to design better APIs. 15 language-agnostic, actionable tips on REST API design](https://r.bluethl.net/how-to-design-better-apis)
-- [Swagger integration to Phoenix framework](https://github.com/xerions/phoenix_swagger)
-- [Auto generate and run tests using swagger/OpenAPI spec, no coding needed](https://github.com/meqaio/swagger_meqa)
-
-### Clojure
-
-*Estimate reading time: 1-2 hours*
-
-- [Clojure, Made Simple](https://www.youtube.com/watch?v=VSdnJDO-xdg)
-
-### Possible projects
-
-*Estimate time: 6-7 hours The idea is to apply everything learned.*
-
-- [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-- [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
-- [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
-- [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
-
-## Rust
-
-*Estimate reading time: 7-8 hours*
-
-- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
-- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
-- [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
-- [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
-- [Learning Rust](https://learning-rust.github.io/) Example project
-
-Exercises
-
-- [Rustlings](https://github.com/rust-lang/rustlings)
-
-### Excercise: Conway's Game of Life
-*Estimate time: 3-5 hours*
-
-Implement a Conway's Game of Life using Rust + Wasm.
-
-We suggest you to:
-
-- Use the macroquad crate
-- Do not follow the tutorial from section 4 of [Introduction to Rust+Wasm](https://rustwasm.github.io/book/) (read only 4.3 because the rules are better explained there than on Wikipedia)
-
-and here are some sources you might find useful in this journey:
-
-- [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-- [Rust+Wasm Unofficial Book *(1 to 3 & 4.3)*](https://rustwasm.github.io/book/)
-- [Macroquad crate](https://github.com/not-fl3/macroquad)
-- [Wasm bindgen (*Optional*)](https://rustwasm.github.io/wasm-bindgen/)
-
-### Exercise: Rusty Merkle Tree
-*Estimate reading time: 4-8 hours*
-
-Implement a simple Merkle Tree in Rust.
-
-- A Merkle Tree can be built out of an array.
-- A Merkle Tree can generate a proof that it contains an element.
-- A Merkle Tree can verify that a given hash is contained in it.
-- A Merke Tree can be dynamic, this means that elements can be added once it is built.
-
-We suggest to start simple, do not optimize prematurely because it's pretty sure that you're not gonna need those optimizations.
-
-Here are some sources that you might find useful:
-
-- [Merkle Tree - Brilliant.org](https://brilliant.org/wiki/merkle-tree/)
-- [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
-
-##  Interpreters/Virtual machines
-
-### Possible projects
-
-- [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
-- [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
-
-## Distributed Systems
-
-### Readings
-
-- [Trie, Merkle, Patricia: A Blockchain Story](http://kronosapiens.github.io/blog/2018/07/04/patricia-trees.html)
-
-## Development Workflow
-
-### Getting started
-
-- Two-step authentication is mandatory for every login of the company accounts (e.g. Slack, mail, GitHub).
-- Also, the company's GitHub repositories are [accessed via SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
-
-### GitHub & GitLab
-
-- If you are new to GitHub, you can put your hands on with [this course](https://lab.github.com/githubtraining/introduction-to-github)
-- Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
-- Doc files should always be added via pull request.
-  - Be sure those files are written in Markdown. 
-  - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for flowcharts, sequence diagrams, graphs, etc.
-- Never push to master directly, and only reviewers can merge branches to master.
-### Working method
-
+### Development process / workflow
 - There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
 - When working on projects, the specific tasks to tackle are written in clickup.
+- [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
+    - Chapter 1 *Estimate reading time: 1 hour*
 
 ### Design and coding standards
-
 - Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 - Postgresql is the default database.
@@ -465,8 +209,15 @@ Here are some sources that you might find useful:
 - Always lock your dependencies. Pin a specific version and a commit of a dependency, don't use the version at master.
 Use git and commit often, even in one-person projects.
 
-### Open source projects
+#### GitHub & GitLab
+- If you are new to GitHub, you can put your hands on with [this course](https://lab.github.com/githubtraining/introduction-to-github)
+- Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
+- Doc files should always be added via pull request.
+  - Be sure those files are written in Markdown. 
+  - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for flowcharts, sequence diagrams, graphs, etc.
+- Never push to master directly, and only reviewers can merge branches to master.
 
+### Working on open source projects
 - Suggested reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html).
 - Use MIT license.
 - Fill the description field at the top of the repo page.
@@ -475,14 +226,7 @@ Use git and commit often, even in one-person projects.
 - Use continuous integration, most likely travis.org.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
-### Helpful reading
-This readings pretend to help you in your workflow and also teach you how to improve your soft skills.
-
-- [The Biggest Mistake I See Engineers Make](https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
-- [The Sunk Cost Falacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
-
 ### Community projects
-
 We organize activities where we share thoughts and interests with anyone who want to join us.
 
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
@@ -490,8 +234,148 @@ We organize activities where we share thoughts and interests with anyone who wan
 - [This is not a monad tutorial](https://notamonadtutorial.com/) Writings, reviews and interviews about programming.
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
 
-## Python
+## Development Environment Setup
+Before beginning with this Journey, if you're macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
 
+- Two-step authentication is mandatory for every login of the company accounts (e.g. Slack, mail, GitHub).
+- Also, the company's GitHub repositories are [accessed via SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+### Homebrew
+[Homebrew](https://brew.sh/) is a package manager for macOS.
+
+### GNU tools
+Once you have installed Homebrew in your macOS system, you'll need to install some of the GNU tools/utilities for a better work experience.  
+Just type in your shell the following command lines:  
+
+* [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
+* [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
+
+### asdf Version manager
+-  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that in order to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+
+### Code Editors and IDEs
+**Do's and dont's about the use of Vertical Whitespace**
+- If you'd like to have visualize more vertical whitespace than it's established in these Do's and dont's configure your text editor to show more space.
+- Most of these rules can be enforced automatically in your text editor, configure it to enforce them. 
+- Minimize use of vertical whitespace.
+- Do not end functions with blank lines.
+- Do not start functions with blank lines.
+- Do not use blank lines when you do not have to.
+- Do not put more than one blank line between functions.
+- Blank lines inside a chain of if-else blocks may well help readability.
+- Blank lines at the beginning or end of a function very rarely help readability.
+- Don't leave blank lines at the end of a file.
+- Don't forget to put a *single* end of line at the end of a file.
+
+## Foundations
+
+### Unix Philosophy
+*Estimate reading time: 2-3 hours*
+
+- [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
+- [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
+- [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html)
+- [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
+
+**Some questions to guide your learning**
+- How does complexity relate to modularity?
+- Why is the text-stream interface important in the Unix Philosophy?
+- Why should design for transparency encourage simple interfaces?
+- How does robustness relate to transparency and simplicity?
+- Even now with video processing, why output of programs should be terse?
+- According to the Unix Philosophy, how noisy do errors have to be?
+- How does economy of programmer time relate to robustness?
+- Why premature local optimization reduces overall performance?
+- There is the approach of doing things in "one true way", how does it affect extensibility?
+
+### Linux
+*Estimate reading time: 4-5 hours*
+
+As you already installed GNU-tools, there's no need to install Linux on a VM (Virtual Machine).
+
+- [The Linux Command Line](https://nostarch.com/tlcl2)
+    - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
+- [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
+    - Chapters [8-10] Bash scripting, Filesystems and compression
+
+**Some questions to guide your learning**
+- What do the following commands do?:
+    - `ls -l /bin/usr > ls-output.txt 2>&1`
+    - `ls /bin /usr/bin | sort | uniq | less`
+    - `ls /bin /usr/bin | sort | uniq | grep zip`
+- How does Linux determine how to interpret the format of a file?
+- What does the `sda2` folder represent?
+- What do `/root` and `/usr/bin` store?
+
+#### Networking
+*Estimate reading time: 5-6 hours*
+
+- [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
+    - Chapters [2-5] (RECOMMENDABLE)
+- [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
+    - Chapters 1, [3-4], [6-8]
+- [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
+
+**Some questions to guide your learning**
+- How are data transmitted over the Internet?
+- What functions do the layers of the OSI model perform?
+- What is the difference between TCP and UDP?
+- What does ARP mean?
+- What range corresponds to private IP addresses?
+- What does IPv6 propose to solve against IPv4?
+- What does IPsec guarantee?
+- What does DNS mean? How does it work?
+- What is the difference between HTTPS and HTTP?
+- What is the difference between asymmetric and symmetric cryptography?
+
+#### SSH 
+*Estimate reading time: 10 minutes*
+
+Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it you will be able to connect to GitHub without supplying your username and personal access token each time.
+
+- [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
+- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+#### Git
+*Estimate reading time: 7-8 hours*
+
+**No one** should merge his/her own PR without it being reviewed and approved from a co-worker and/or a client.
+
+*Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
+
+- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
+- [Flujos de desarrollo en GIT](https://drive.google.com/file/d/1_jSx8Z6hg2u1MsKwszonluihuuFxy4y1/view?usp=sharing)
+- [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
+- [Pro Git](https://git-scm.com/book/en/v2)
+    - Pages [10-106]
+- [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
+- [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
+- [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
+- [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+- [Configure your end of line (EOL) management in your development environment](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)
+
+**Note on Newlines at end of file**
+It is considered good style - and sometimes a necessity - to always end files with a newline (see [here](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline) and [here](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)). Make sure your editor of choice is correctly configured to add them automatically.
+
+**Some questions to guide your learning**
+- Why is branching necessary?
+- What is the difference between `merge` and `rebase`?
+- What is a stash?
+- What does `cherry-pick` do?
+- What does `reflog` do?
+- What does `git reset --hard HEAD` do?
+- How to get back to a previous commit?
+- How to do a pull request?
+- Why are pull requests important?
+- How to clone a repository using SSH?
+
+### Python
+*Estimate reading time: 3-4 hours*
+
+- [Datacamp Python Fundamentals](https://app.datacamp.com/learn/skill-tracks/python-fundamentals)
+- [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
+- [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
+    - Chapter 11
 - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) is your bible.
 - Use Python 3 in greenfield projects.
 - Strive to migrate to Python 3 in non greenfield projects.
@@ -499,14 +383,136 @@ We organize activities where we share thoughts and interests with anyone who wan
 - Use [pipenv](https://github.com/pypa/pipenv) to escape from environment hell in Python. You can even do this locally in projects that are set up to use virtualenv and virtualenvwrapper.
 - If you also need to stick with a specific minor version of Python (e.g. Python 2.7.14) you can use [pyenv](https://github.com/pyenv/pyenv) in combination with pipenv.
 
-## Julia
 
-- [Julia Koans](https://github.com/lambdaclass/julia_koans) that will give you some short but effective understanding.
-- [Julia Academy](https://juliaacademy.com/) for getting your hands dirty with some great tutorials.
+**Some questions to guide your learning**
+- How do you return how many times a certain character appears in a string using Python?
+- How do you handle different routes for your web app in Flask?
+- Using the `logging` library, how do you log to a file?
 
-## Erlang & Elixir
+### Docker
+*Estimate reading time: 2-3 hours*
 
-- Read the book [Learn you some Erlang for great good!](https://learnyousomeerlang.com/content) if you want to learn some Erlang.
+- [Replacing Docker Desktop for Mac with Colima](https://www.arthurkoziel.com/replacing-docker-desktop-for-mac-with-colima/)
+- [Colima setup for macOS](src/colima.md)
+- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
+- [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
+
+**Some questions to guide your learning**
+- In which scenarios would you use containers and in which you would prefer to use VMs?
+- How do you retrieve and run the latest ubuntu image?
+- In a Dockerfile, what is the difference between `RUN` and `CMD`?
+- Using port 8080, how do you run an image that exposes port 80?
+
+#### Colima setup for macOS
+Install Colima and Docker, then start Colima:
+```bash
+brew install colima
+brew install docker
+echo "{ \"credStore\" : \"desktop\" }" > ~/.docker/config.json
+colima start
+```
+
+```bash
+$ uname
+Darwin
+
+$ colima ssh -- uname
+Linux
+```
+
+**Sharing Files**
+```bash
+$ echo "files under /Users on macOS filesystem are readable from Linux" > some-file
+
+$ colima ssh -- cat some-file
+files under /Users on macOS filesystem are readable from Linux
+
+$ colima ssh -- sh -c 'echo "/tmp/colima is writable from both macOS and Linux" > /tmp/colima/another-file'
+
+$ cat /tmp/colima/another-file
+/tmp/colima is writable from both macOS and Linux
+```
+
+### Databases
+
+#### SQL and PostgreSQL
+*Estimate reading time: 9-10 hours*
+
+- [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
+- [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
+- [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
+    - Chapters [10-11]
+- [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
+    - Introduction, chapters 2 and 8
+
+> Reference:
+>- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
+
+**Some questions to guide your learning**
+- How to use a wildcard as a character?
+- What does `COALESCE` do?
+- What does `LIKE 'S%'` do in a query?
+
+#### Redis
+- [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
+- [Redis Transactions](https://redis.io/topics/transactions)
+
+> Reference:
+>- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
+
+**Some questions to guide your learning**
+- What is the difference between PostgreSQL and Redis?
+- What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
+- What makes each database type unique?
+
+### Functional Programming
+*Estimate reading time: 1-2 hours*
+
+- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
+
+#### Referential Transparency
+
+#### Immutability
+
+#### Functions as first-class citizens
+
+### Debugging
+
+### Testing
+
+#### Unit Testing
+
+#### Integration Testing
+
+#### Property-based Testing
+
+#### Fuzzy Testing
+
+## Core
+
+### Erlang
+*Estimate reading time: 4-5 hours*
+
+**Installing Erlang and Elixir**
+- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing an specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
+- Same can be achieved with Elixir through the same means `brew install elixir` for latest version, use asdf fo specific version.
+- For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
+
+**Introductory**
+- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
+- [When would you choose Erlang?](https://blog.troutwine.us/2013/07/10/choose-erlang/)
+- [An Open Letter to the Erlang Beginner](https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html) Erlang's quirks and perks
+- [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
+
+**Language Tutorial**
+- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
+
+**Additional Theory**
+- [How Erlang does Scheduling](http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html)
+- [Stacking theory for systems design](https://medium.com/@jlouis666/stacking-theory-for-systems-design-2450e6300689)
+- [EEP 49: Value-Based Error Handling Mechanisms](https://www.erlang.org/eeps/eep-0049)
+
+**Some coding guidelines**
 - Use rebar3. Include the binary in the repository so it's not an external dependency and the tested version is used. rebar3 is not used directly but through make targets.
 - Support the most recent Erlang version.
 - When building libraries, try to make them both easily usable from the shell and easily configurable via application environment.
@@ -516,20 +522,58 @@ We organize activities where we share thoughts and interests with anyone who wan
 - Try to avoid timer:sleep on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
 - Prefer maps to records.
 
-# Reading code
+**Exercises**
+- [Erlings](https://github.com/lambdaclass/erlings/)
 
-This is a list of interesting projects to read code and learn:
+### Elixir
+*Estimate reading time: 40 hours*
 
-- [500 Lines or Less](https://github.com/aosabook/500lines)
+- [Learning Functional Programming With Elixir](https://pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/)
+    - Must read: Chapter 1.
+    - Recommended to read: Chapters 3, 4, 5.
+- [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
+- [Immutable Data](src/immutable_data.md)
+- [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
-## Services and Infrastructure
+### Phoenix
+*Estimate reading time: 40 hours*
 
-### AWS
+- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
+    - All chapters except 2 and 12
+- [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
 
-- Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+**Installing Phoenix**
+- For Phoenix all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database.
 
-### AWS tools
+#### ExCheck (QuickCheck)
+QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
 
+#### OpenAPI
+The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
+
+- [Open API Specifications for Elixir Plug applications](https://github.com/open-api-spex/open_api_spex)
+- [How to design better APIs. 15 language-agnostic, actionable tips on REST API design](https://r.bluethl.net/how-to-design-better-apis)
+- [Swagger integration to Phoenix framework](https://github.com/xerions/phoenix_swagger)
+- [Auto generate and run tests using swagger/OpenAPI spec, no coding needed](https://github.com/meqaio/swagger_meqa)
+
+#### Projects
+*Estimate time: 6-7 hours The idea is to apply everything learned.*
+
+- [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
+- [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
+- [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
+- [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
+
+### Distributed Systems
+
+### Observability 
+
+### Cloud Environments
+
+#### AWS and other cloud providers
+Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+
+**AWS tools**
 - IAM: It's used for managing users, groups, access policies & roles.
 - EC2: A web service that provides secure, resizable compute capacity in the cloud.
 - AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
@@ -537,83 +581,87 @@ This is a list of interesting projects to read code and learn:
  
 To further learn about AWS and it's practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/aws) for exercises. (AWS - EC2/IAM/Containers)
 
-### Kubernetes
-
+#### Kubernetes
 Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 - [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 - [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/kubernetes)
 
-### Azure
+### Continuous Integration
 
-- [Azure FAQ From devops-exercises repositories](https://github.com/bregman-arie/devops-exercises#azure)
+#### Github Actions
 
-## Useful tools and installations
+### Rust
+*Estimate reading time: 7-8 hours*
 
-Here are some tools that can be crucial for projects and some help with the installing of compilers and interpreters
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
+- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
+- [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
+- [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
+- [Learning Rust](https://learning-rust.github.io/) Example project
 
-### asdf - Version manager
+Exercises
+- [Rustlings](https://github.com/rust-lang/rustlings)
 
--  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that in order to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+#### Excercise: Conway's Game of Life
+*Estimate time: 3-5 hours*
 
-### Node.js
+Implement a Conway's Game of Life using Rust + Wasm.
 
-- [Node.js](https://nodejs.org/es/download/) is necessary for some elixir versions so is recommended to keep up to date and manage versions as needed.
+We suggest you to:
+- Use the macroquad crate
+- Do not follow the tutorial from section 4 of [Introduction to Rust+Wasm](https://rustwasm.github.io/book/) (read only 4.3 because the rules are better explained there than on Wikipedia)
 
-### Installing Erlang and Elixir
+and here are some sources you might find useful in this journey:
 
-- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing an specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
+- [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+- [Rust+Wasm Unofficial Book *(1 to 3 & 4.3)*](https://rustwasm.github.io/book/)
+- [Macroquad crate](https://github.com/not-fl3/macroquad)
+- [Wasm bindgen (*Optional*)](https://rustwasm.github.io/wasm-bindgen/)
 
-- Same can be achieved with Elixir through the same means `brew install elixir` for latest version, use asdf fo specific version.
+#### Exercise: Rusty Merkle Tree
+*Estimate reading time: 4-8 hours*
 
-- For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
+Implement a simple Merkle Tree in Rust.
 
-### Installing Phoenix
+- A Merkle Tree can be built out of an array.
+- A Merkle Tree can generate a proof that it contains an element.
+- A Merkle Tree can verify that a given hash is contained in it.
+- A Merke Tree can be dynamic, this means that elements can be added once it is built.
 
-- For Phoenix all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database.
+We suggest to start simple, do not optimize prematurely because it's pretty sure that you're not gonna need those optimizations.
 
-### Installing Clojure
+Here are some sources that you might find useful:
 
-- All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
+- [Merkle Tree - Brilliant.org](https://brilliant.org/wiki/merkle-tree/)
+- [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
 
-## Reading Club
+### Performance Engineering
 
-Some of us at Lambda have formed a reading club, where we propose, vote, select, read, and discuss books, papers, posts, videos, or any material we feel is interesting or advances our skills as developers and humans.
+## Advanced
+The articles, book chapters, exercises, and projects here are just the tip of the iceberg, there is a lot more material that unfortunately cannot be covered. Here are some relevant but more advanced topics. 
+There is even more present in the [reference material chapter](Reference.md). You can go over all that at your own pace.
 
-### How to propose a book/post/talk
+### Hardware
+*Estimate reading time: 2 hours*
 
-Please visit the following document for adding reading suggestions:
+- [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
 
-- [HackMD](https://hackmd.io/_YxcAp5qQvCNtUIjMUyMXw?view)
+### Parsing
 
-The group gathers on Tuesdays at 17:00. Ping someone to get added to the calendar event.
+### Type Systems
 
-### Previous Readings
+### Virtual Machines and Runtimes
+- [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+- [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
 
-**A Pipeline Made of Airbags**
+### Algorithmics
+*Estimate reading time: 15 minutes*
 
-Fred Hebert https://ferd.ca/a-pipeline-made-of-airbags.html
+- [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
-**Complexity Has to Live Somewhere**
+### Computability
 
-Fred Hebert https://ferd.ca/complexity-has-to-live-somewhere.html
+### Consensus
 
-**The Mythical Man-Month + The Tar Pit**
-
-Frederick Brooks We read the first 2 chapters.
-
-**You can Change Your Organization or Change Your Organization**
-
-James Shore
-
-We read all the entries from this autobiographic diary about how to tackle organizational change.
-
-https://www.jamesshore.com/v2/projects/change-diary
-
-**Understanding, detecting and localizing partial failures in large system software**
-
-(Talk & PDF) The Morning Paper's post about the paper
-
-**Designing Data-Intensive Applications**
-
-Martin Kleppmann We discussed every chapter of the book.
+### Cryptography
