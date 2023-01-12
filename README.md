@@ -210,7 +210,7 @@ Strive for solving problems in the simplest way possible. In order to achieve th
 Use git and commit often, even in one-person projects.
 
 #### GitHub & GitLab
-- If you are new to GitHub, you can put your hands on with [this course](https://lab.github.com/githubtraining/introduction-to-github)
+- If you are new to GitHub, you can put your hands on with [this course](https://github.com/skills/introduction-to-github)
 - Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
 - Doc files should always be added via pull request.
   - Be sure those files are written in Markdown. 
@@ -343,7 +343,7 @@ Before you embark on your Git journey, it is important to learn what an SSH Key 
 
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
-- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (MUST)
+- [Introduction to GitHub](https://github.com/skills/introduction-to-github) (MUST)
 - [Flujos de desarrollo en GIT](https://drive.google.com/file/d/1_jSx8Z6hg2u1MsKwszonluihuuFxy4y1/view?usp=sharing)
 - [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
