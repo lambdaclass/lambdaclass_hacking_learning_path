@@ -635,6 +635,7 @@ Here are some sources that you might find useful:
 
 - [Merkle Tree - Brilliant.org](https://brilliant.org/wiki/merkle-tree/)
 - [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
+- [Other resources](https://nimble-aftershave-74f.notion.site/Resources-a632c530ccfd477d9454c4345c1c554f)
 
 ### Performance Engineering
 
