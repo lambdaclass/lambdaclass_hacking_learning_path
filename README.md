@@ -26,7 +26,11 @@
       - [Git](#git)
     - [Python](#python)
     - [Docker](#docker)
+      - [Replacing Docker Desktop for Mac with Colima](#replacing-docker-desktop-for-mac-with-colima)
       - [Colima setup for macOS](#colima-setup-for-macos)
+      - [Getting Started](#getting-started)
+      - [Docker Talk](#docker-talk)
+      - [Anti-Patterns When Building Docker Images](#anti-patterns-when-building-docker-images)
     - [Databases](#databases)
       - [SQL and PostgreSQL](#sql-and-postgresql)
       - [Redis](#redis)
@@ -396,6 +400,7 @@ It is considered good style - and sometimes a necessity - to always end files wi
 - [Colima setup for macOS](src/colima.md)
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
 - [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
+- [Anti-Patterns When Building Docker Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
 
 **Some questions to guide your learning**
 - In which scenarios would you use containers and in which you would prefer to use VMs?
