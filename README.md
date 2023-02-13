@@ -26,7 +26,7 @@
       - [Git](#git)
     - [Python](#python)
     - [Docker](#docker)
-      - [Replacing Docker Desktop for Mac with Colima](#replacing-docker-desktop-for-mac-with-colima)
+      - [Replacing Docker Desktop for Mac with Colima](https://www.arthurkoziel.com/replacing-docker-desktop-for-mac-with-colima/)
       - [Colima setup for macOS](#colima-setup-for-macos)
       - [Getting Started](#getting-started)
       - [Docker Talk](#docker-talk)
