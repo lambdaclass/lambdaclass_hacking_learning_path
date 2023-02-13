@@ -30,7 +30,7 @@
       - [Colima setup for macOS](#colima-setup-for-macos)
       - [Getting Started](#getting-started)
       - [Docker Talk](#docker-talk)
-      - [Anti-Patterns When Building Docker Images](#anti-patterns-when-building-docker-images)
+      - [Anti-Patterns When Building Docker Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
     - [Databases](#databases)
       - [SQL and PostgreSQL](#sql-and-postgresql)
       - [Redis](#redis)
