@@ -7,6 +7,7 @@
   - [Company Culture](#company-culture)
     - [Learn to fail](#learn-to-fail)
     - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
+    - [Even if you work with a client you're working for Lambda at the end](#even-if-you-work-with-a-client-youre-working-for-lambda-at-the-end)
     - [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-aka-kiss)
     - [Development process / workflow](#development-process--workflow)
     - [Design and coding standards](#design-and-coding-standards)
@@ -174,6 +175,13 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
 - [The Biggest Mistake I See Engineers Make](https://web.archive.org/web/20220125174724/https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
+
+### Even if you work with a client you're working for Lambda at the end
+
+It's commonplace in Lambda to work collaboratively with clients in the development of apps and features, so maybe you will have more day to day rapport with them than with your other Lambda coworkers. If you're in that situation you should always remember a few key things:
+
+- Your work relation is with Lambda, not with the client so expect to get feedback from your Lambda's Tech Lead and Project Manager and not by the client, don't ask for it either.
+- The Lambda-client relationship is kept by the Tech Leads and Project Managers. If someone from the client ask you something through a DM please contact your Tech Lead and Project Manager about it.
 
 ### Do The Simplest Thing That Could Possibly Work (aka KISS)
 Strive for solving problems in the simplest way possible. In order to achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider that will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code being as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
