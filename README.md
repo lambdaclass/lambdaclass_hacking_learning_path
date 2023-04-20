@@ -343,7 +343,7 @@ Before you embark on your Git journey, it is important to learn what an SSH Key 
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
 - [Introduction to GitHub](https://github.com/skills/introduction-to-github) (MUST)
-- [Flujos de desarrollo en GIT](https://drive.google.com/file/d/1_jSx8Z6hg2u1MsKwszonluihuuFxy4y1/view?usp=sharing)
+- [Development workflows in GIT](https://docs.google.com/document/d/1k11yRykUpFjNEycxmjZbvg4piFqWAnjzujCmFXiK3ns/edit?usp=sharing)
 - [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
 - [Pro Git](https://git-scm.com/book/en/v2)
     - Pages [10-106]
