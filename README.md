@@ -67,7 +67,7 @@
     - [Cryptography](#cryptography)
 
 ---
-> A boring codebase doesn't make a bored developer, on the contrary it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
+> A boring codebase doesn't make a bored developer, on the contrary, it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
 
 > Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's Blue Pill
 
@@ -141,26 +141,26 @@ flowchart TB
 ```
 
 ## Company Culture
-At Lambda We won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
-Of course you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous or a bit under the weather; we actually prefer it that way.
+At Lambda we won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
+Of course, you can have days off to study, or if you feel sick, but you can also have days off if you feel brain fog, nervous, or a bit under the weather; we actually prefer it that way.
 
-If you feel healthy and are comfortable, you will be able to solve more efficiently the problems you have in front of you. And even better, you will contribute to a healthier workspace.
+If you feel healthy and comfortable, you will be able to solve more efficiently the problems you have in front of you. And even better, you will contribute to a healthier workspace.
 
-Nobody wants to give up, that's a common emotion. The good news is that you are not giving up, you are getting to know yourself better, so you can recharge energies and keep learning and improving. In turn, when you are working we expect you to hit goals, be proactive and be a valuable member of the team.
+Nobody wants to give up, that's a common emotion. The good news is that you are not giving up, you are getting to know yourself better, so you can recharge your energies and keep learning and improving. In turn, when you are working we expect you to hit goals, be proactive, and be a valuable member of the team.
 
-There are three key elements we want you to have present at every moment: *Communication, Accountability and Empathy*.
+There are three key elements we want you to have present at every moment: *Communication, Accountability, and Empathy*.
 
-- **Communication** is a key aspect for every human relationship. If you can measure your words to give a positive clear message, you can achieve anything in life through teamwork. Try labeling your emotions before communicating, since it is likely that people in front of you do not know what is going through your head. Also, be transparent but assertive if you disagree about something, it will help understand your point of view. Finally, try to avoid direct messages, working on channels allows more people to be on the loop and better feedback can be given.
-- **Accountability**. Everyone makes mistakes, learners do something about them. If you get something wrong, communicate poorly or even feel overwhelmed about a situation, raise your hand and say it. It's very likely that a process failed, not you. Many people will be there to help you sort the issue, and you will surely learn something along the way. If you keep quiet and don't say anything you will regret it later when the truth burst through another hole.
-- About **empathy**, we are all human beings and have complex emotions, if you are feeling great, it doesn't mean your colleague isn't feeling like shit. Perhaps your coworkers don't feel comfortable talking about emotions, so go talk with them and help them. You can talk to them or to their manager if you feel something is going on with them. There is a time when everybody feels weak and needs someone else for support. So be a hero, be empathic.
+- **Communication** is a key aspect of every human relationship. If you can measure your words to give a positive clear message, you can achieve anything in life through teamwork. Try labeling your emotions before communicating, since it is likely that people in front of you do not know what is going through your head. Also, be transparent but assertive if you disagree about something, it will help understand your point of view. Finally, try to avoid direct messages, working on channels allows more people to be in the loop and better feedback can be given.
+- **Accountability**. Everyone makes mistakes, learners do something about them. If you get something wrong, communicate poorly, or even feel overwhelmed about a situation, raise your hand and say it. It's very likely that a process failed, not you. Many people will be there to help you sort out the issue, and you will surely learn something along the way. If you keep quiet and don't say anything you will regret it later when the truth burst through another hole.
+- About **empathy**, we are all human beings and have complex emotions, if you are feeling great, it doesn't mean your colleague isn't feeling like shit. Perhaps your coworkers don't feel comfortable talking about emotions, so go talk with them and help them. You can talk to them or their manager if you feel something is going on with them. There is a time when everybody feels weak and needs someone else for support. So be a hero, be empathic.
 
 If you are reading this, you are probably giving your first -or second- steps on the long journey towards being a good developer, but first try to be a good human being and you will see how far that can get you.
 
 ### Learn to fail
-As with most project making mistakes fast and loud will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
+As with most projects making mistakes fast and loudly will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
 
 - **Avoid docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
-- **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
+- **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes mean more people eager to help you
 
 ### Principles for success and teamwork philosophy
 We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
@@ -176,12 +176,12 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
 
 ### Do The Simplest Thing That Could Possibly Work (aka KISS)
-Strive for solving problems in the simplest way possible. In order to achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider that will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code being as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
+Strive for solving problems in the simplest way possible. To achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
 > "Always implement things when you actually need them, never when you just foresee that you need them" - Ron Jeffries
 - [Do The Simplest Thing That Could Possibly Work](https://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork)
 - [Yagni by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 
-### Development process / workflow
+### Development process/workflow
 - There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
 - When working on projects, the specific tasks to tackle are written in clickup.
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
@@ -195,15 +195,15 @@ Strive for solving problems in the simplest way possible. In order to achieve th
 - Favor integration tests over unit tests, but do write unit tests when the functions merit them.
 - Do not write tests before you have solved the problem, you may waste time writing tests for the wrong implementation.
 - Write for humans: coding for computers is easy, but writing code that is understandable by another person is an art.
-- Code and document in english, unless you have a very specific reason no to.
-- Use meaningful, readable names for variables, functions and files. Don't try to save characters.
+- Code and document in english unless you have a very specific reason not to.
+- Use meaningful, readable names for variables, functions, and files. Don't try to save characters.
 - Documentation is a sign of the quality of an API. It's easier to write it when the design is right.
 - The less code you have the better. Deleted code is debugged code.
 - Aim for simplicity, not performance. The latter is a by-product of the first.
-- Only introduce optimizations if you have benchmarks that proof an improvement and that the improvement is relevant in the context of the program.
+- Only introduce optimizations if you have benchmarks that prove an improvement and that the improvement is relevant in the context of the program.
 - Only introduce optimizations if they represent a concrete gain (e.g. cost savings, improved user experience).
 - Follow the [Zen of Python](https://www.python.org/dev/peps/pep-0020/), regardless of the language you are using at the moment. English also counts as a language.
-- Don't introduce dependencies prematurely. You must evaluate your requirements, maintenance and integration costs first.
+- Don't introduce dependencies prematurely. You must evaluate your requirements, maintenance, and integration costs first.
 - If you want to upgrade a dependency, test it first.
 - Always lock your dependencies. Pin a specific version and a commit of a dependency, don't use the version at master.
 Use git and commit often, even in one-person projects.
@@ -226,7 +226,7 @@ Use git and commit often, even in one-person projects.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
 ### Community projects
-We organize activities where we share thoughts and interests with anyone who want to join us.
+We organize activities where we share thoughts and interests with anyone who wants to join us.
 
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
 - [Zruput](https://zruput.org/) Digital Communications Conference.
@@ -234,7 +234,7 @@ We organize activities where we share thoughts and interests with anyone who wan
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
 
 ## Development Environment Setup
-Before beginning with this Journey, if you're macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
+Before beginning with this Journey, if you're a macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
 
 - Two-step authentication is mandatory for every login of the company accounts (e.g. Slack, mail, GitHub).
 - Also, the company's GitHub repositories are [accessed via SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
@@ -250,13 +250,13 @@ Just type in your shell the following command lines:
 * [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
 ### asdf Version manager
--  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that in order to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+-  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
 ### Code Editors and IDEs
-**Do's and dont's about the use of Vertical Whitespace**
-- If you'd like to have visualize more vertical whitespace than it's established in these Do's and dont's configure your text editor to show more space.
+**Do's and don'ts about the use of Vertical Whitespace**
+- If you'd like to visualize more vertical whitespace than it's established in these Do's and don'ts configure your text editor to show more space.
 - Most of these rules can be enforced automatically in your text editor, configure it to enforce them. 
-- Minimize use of vertical whitespace.
+- Minimize the use of vertical whitespace.
 - Do not end functions with blank lines.
 - Do not start functions with blank lines.
 - Do not use blank lines when you do not have to.
@@ -264,7 +264,7 @@ Just type in your shell the following command lines:
 - Blank lines inside a chain of if-else blocks may well help readability.
 - Blank lines at the beginning or end of a function very rarely help readability.
 - Don't leave blank lines at the end of a file.
-- Don't forget to put a *single* end of line at the end of a file.
+- Don't forget to put a *single* end of the line at the end of a file.
 
 ## Foundations
 
@@ -283,7 +283,7 @@ Just type in your shell the following command lines:
 - How does robustness relate to transparency and simplicity?
 - Even now with video processing, why output of programs should be terse?
 - According to the Unix Philosophy, how noisy do errors have to be?
-- How does economy of programmer time relate to robustness?
+- How does the economy of programmer time relate to robustness?
 - Why premature local optimization reduces overall performance?
 - There is the approach of doing things in "one true way", how does it affect extensibility?
 
@@ -295,7 +295,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - [The Linux Command Line](https://nostarch.com/tlcl2)
     - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-    - Chapters [8-10] Bash scripting, Filesystems and compression
+    - Chapters [8-10] Bash scripting, Filesystems, and compression
 
 **Some questions to guide your learning**
 - What do the following commands do?:
@@ -330,7 +330,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 #### SSH 
 *Estimate reading time: 10 minutes*
 
-Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it you will be able to connect to GitHub without supplying your username and personal access token each time.
+Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it, you will be able to connect to GitHub without supplying your username and personal access token each time.
 
 - [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
@@ -338,9 +338,9 @@ Before you embark on your Git journey, it is important to learn what an SSH Key 
 #### Git
 *Estimate reading time: 7-8 hours*
 
-**No one** should merge his/her own PR without it being reviewed and approved from a co-worker and/or a client.
+**No one** should merge his/her own PR without it being reviewed and approved by a co-worker and/or a client.
 
-*Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, it's very likely that you will have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
+*Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, you will likely have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
 - [Introduction to GitHub](https://github.com/skills/introduction-to-github) (MUST)
 - [Flujos de desarrollo en GIT](https://drive.google.com/file/d/1_jSx8Z6hg2u1MsKwszonluihuuFxy4y1/view?usp=sharing)
@@ -399,7 +399,7 @@ It is considered good style - and sometimes a necessity - to always end files wi
 
 **Some questions to guide your learning**
 - In which scenarios would you use containers and in which you would prefer to use VMs?
-- How do you retrieve and run the latest ubuntu image?
+- How do you retrieve and run the latest Ubuntu image?
 - In a Dockerfile, what is the difference between `RUN` and `CMD`?
 - Using port 8080, how do you run an image that exposes port 80?
 
@@ -494,8 +494,8 @@ $ cat /tmp/colima/another-file
 *Estimate reading time: 4-5 hours*
 
 **Installing Erlang and Elixir**
-- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing an specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
-- Same can be achieved with Elixir through the same means `brew install elixir` for latest version, use asdf fo specific version.
+- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing a specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
+- Same can be achieved with Elixir through the same means `brew install elixir` for the latest version, use `asdf` for a specific version.
 - For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
 
 **Introductory**
@@ -543,7 +543,7 @@ $ cat /tmp/colima/another-file
 - [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
 
 **Installing Phoenix**
-- For Phoenix all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database.
+- For Phoenix, all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database.
 
 #### ExCheck (QuickCheck)
 QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
@@ -579,7 +579,7 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 - AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
 - ECS:  "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
  
-To further learn about AWS and it's practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/aws) for exercises. (AWS - EC2/IAM/Containers)
+To further learn about AWS and its practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/aws) for exercises. (AWS - EC2/IAM/Containers)
 
 #### Kubernetes
 Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
@@ -606,9 +606,9 @@ Exercises
 #### Excercise: Conway's Game of Life
 *Estimate time: 3-5 hours*
 
-Implement a Conway's Game of Life using Rust + Wasm.
+Implement Conway's Game of Life using Rust + Wasm.
 
-We suggest you to:
+We suggest you:
 - Use the macroquad crate
 - Do not follow the tutorial from section 4 of [Introduction to Rust+Wasm](https://rustwasm.github.io/book/) (read only 4.3 because the rules are better explained there than on Wikipedia)
 
