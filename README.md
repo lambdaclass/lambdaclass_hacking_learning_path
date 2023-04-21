@@ -142,7 +142,7 @@ flowchart TB
 
 ## Company Culture
 At Lambda we won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
-Of course, you can have days off to study or if you feel sick, but you can also have days off if you feel brain fog, nervous, or a bit under the weather; we actually prefer it that way.
+Of course, you can have days off to study, or if you feel sick, but you can also have days off if you feel brain fog, nervous, or a bit under the weather; we actually prefer it that way.
 
 If you feel healthy and comfortable, you will be able to solve more efficiently the problems you have in front of you. And even better, you will contribute to a healthier workspace.
 
