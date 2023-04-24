@@ -180,7 +180,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 
 It's commonplace in Lambda to work collaboratively with clients in the development of apps and features, so maybe you will have more day to day rapport with them than with your other Lambda coworkers. If you're in that situation you should always remember a few key things:
 
-- Your work relation is with Lambda, not with the client so expect to get feedback from your Lambda's Tech Lead and Project Manager and not by the client, don't ask for it either.
+- Your work relation is with Lambda, not with the client so expect to get feedback from your Lambda's Tech Lead and Project Manager and not from the client, don't ask for it either.
 - The Lambda-client relationship is kept by the Tech Leads and Project Managers. If someone from the client ask you something through a DM please contact your Tech Lead and Project Manager about it.
 
 ### Do The Simplest Thing That Could Possibly Work (aka KISS)
