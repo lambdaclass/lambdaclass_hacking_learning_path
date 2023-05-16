@@ -402,7 +402,6 @@ It is considered good style - and sometimes a necessity - to always end files wi
 - [Replacing Docker Desktop for Mac with Colima](https://www.arthurkoziel.com/replacing-docker-desktop-for-mac-with-colima/)
 - [Colima setup for macOS](src/colima.md)
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
-- [Docker Talk](https://drive.google.com/file/d/1hPlXivcCRm5uPR8sn0P3lhnQ0eQqdPrV/view)
 - [Anti-Patterns When Building Docker Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
 
 **Some questions to guide your learning**
@@ -477,24 +476,6 @@ $ cat /tmp/colima/another-file
 *Estimate reading time: 1-2 hours*
 
 - [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
-
-#### Referential Transparency
-
-#### Immutability
-
-#### Functions as first-class citizens
-
-### Debugging
-
-### Testing
-
-#### Unit Testing
-
-#### Integration Testing
-
-#### Property-based Testing
-
-#### Fuzzy Testing
 
 ## Core
 
