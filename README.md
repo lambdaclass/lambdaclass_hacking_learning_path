@@ -477,6 +477,24 @@ $ cat /tmp/colima/another-file
 
 - [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
 
+#### Referential Transparency
+
+#### Immutability
+
+#### Functions as first-class citizens
+
+### Debugging
+
+### Testing
+
+#### Unit Testing
+
+#### Integration Testing
+
+#### Property-based Testing
+
+#### Fuzzy Testing
+
 ## Core
 
 ### Erlang
