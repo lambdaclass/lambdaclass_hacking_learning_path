@@ -587,7 +587,7 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 - AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
 - ECS:  "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
  
-To further learn about AWS and its practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/tree/master/exercises/aws) for exercises. (AWS - EC2/IAM/Containers)
+(Optional) To further learn about AWS and its practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/blob/master/topics/aws) for exercises. (AWS - EC2/IAM/Containers). These exercises are purely optional and require creating a free tier AWS account, and even then, some of the exercises require a paid account.
 
 #### Kubernetes
 Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
