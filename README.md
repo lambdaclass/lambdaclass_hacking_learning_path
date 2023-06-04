@@ -53,7 +53,7 @@
       - [AWS and other cloud providers](#aws-and-other-cloud-providers)
       - [Kubernetes](#kubernetes)
     - [Continuous Integration](#continuous-integration)
-      - [Github Actions](#github-actions)
+      - [GitHub Actions](#github-actions)
     - [Rust](#rust)
       - [Excercise: Conway's Game of Life](#excercise-conways-game-of-life)
     - [Performance Engineering](#performance-engineering)
@@ -597,7 +597,10 @@ Kubernetes is a portable, extensible, open-source platform for managing containe
 
 ### Continuous Integration
 
-#### Github Actions
+#### GitHub Actions
+- [About continuous integration](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration)
+- [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+- [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
 ### Rust
 *Estimate reading time: 7-8 hours*
