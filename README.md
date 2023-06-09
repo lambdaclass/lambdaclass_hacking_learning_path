@@ -9,10 +9,11 @@
     - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
     - [Even if you work with a client you're working for Lambda at the end](#even-if-you-work-with-a-client-youre-working-for-lambda-at-the-end)
     - [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-aka-kiss)
-    - [Development process / workflow](#development-process--workflow)
+    - [Development process/workflow](#development-processworkflow)
     - [Design and coding standards](#design-and-coding-standards)
       - [GitHub \& GitLab](#github--gitlab)
     - [Working on open source projects](#working-on-open-source-projects)
+  - [Slack channels](#slack-channels)
     - [Community projects](#community-projects)
   - [Development Environment Setup](#development-environment-setup)
     - [Homebrew](#homebrew)
@@ -27,6 +28,7 @@
       - [Git](#git)
     - [Python](#python)
     - [Docker](#docker)
+      - [Colima setup for macOS](#colima-setup-for-macos)
     - [Databases](#databases)
       - [SQL and PostgreSQL](#sql-and-postgresql)
       - [Redis](#redis)
@@ -56,6 +58,7 @@
       - [GitHub Actions](#github-actions)
     - [Rust](#rust)
       - [Excercise: Conway's Game of Life](#excercise-conways-game-of-life)
+      - [Exercise: Rusty Merkle Tree](#exercise-rusty-merkle-tree)
     - [Performance Engineering](#performance-engineering)
   - [Advanced](#advanced)
     - [Hardware](#hardware)
@@ -232,6 +235,17 @@ Use git and commit often, even in one-person projects.
 - A good readme starts with a succinct description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
 - Use continuous integration, most likely travis.org.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
+
+## Slack channels
+
+We use Slack as our main source of communication between the teams and within the company. As such you should always take into account a couple of things:
+1. Slack is a work tool and you have to behave accordingly, you always have to be polite.
+2. Feel free to join any public channel that sparks your interest *but* be careful with your messages on team-related channels, especially if you don't belong to that team.
+3. We encourage everyone to join in the discussions in Slack, don't be shy if you think that you have something interesting to say about any topics.
+4. Try to always post accordingly to the topic of the channel. Straying a little from it is not an issue but if you want to joke about something completely unrelated to the channel please post it on the #random channel.
+5. As a rule of thumb most of your Slack communication has to happen on the channels and not on the DMs.
+   1. This last one is particularly relevant when talking with someone outside of Lambda, always defer to channels when talking with them.
+6. Try to not create channels unless they're really necessary. The idea is to have only the channels that we need, please don't create channels to make some kind of joke.
 
 ### Community projects
 We organize activities where we share thoughts and interests with anyone who wants to join us.
