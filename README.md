@@ -403,6 +403,7 @@ It is considered good style - and sometimes a necessity - to always end files wi
 - [Colima setup for macOS](src/colima.md)
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
 - [Anti-Patterns When Building Docker Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
+- [From Rookie To Pro (Spanish)](https://www.youtube.com/watch?v=CV_Uf3Dq-EU)
 
 **Some questions to guide your learning**
 - In which scenarios would you use containers and in which you would prefer to use VMs?
