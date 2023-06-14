@@ -194,7 +194,7 @@ Strive for solving problems in the simplest way possible. To achieve this, you f
 
 ### Development process/workflow
 - There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
-- When working on projects, the specific tasks to tackle are written in clickup.
+- When working on projects, the specific tasks to tackle are written in tickets on a project management software (i.e. Clickup, Trello, Jira, or Github Projects).
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
     - Chapter 1 *Estimate reading time: 1 hour*
 
