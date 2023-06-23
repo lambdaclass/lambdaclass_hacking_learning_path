@@ -163,8 +163,8 @@ If you are reading this, you are probably giving your first -or second- steps on
 ### Learn to fail
 As with most projects making mistakes fast and loudly will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
 
-- **Avoid docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
-- **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes mean more people eager to help you
+- **Avoid google docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
+- **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
 
 ### Principles for success and teamwork philosophy
 We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
