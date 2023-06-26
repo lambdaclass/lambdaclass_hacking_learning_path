@@ -173,6 +173,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=4lLl5B8Oazw).
 - [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
     - Chapters 1 & 15
+- [Citogenesis in science and the importance of real problems](https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/)
 - [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
     - Chapter 1
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
