@@ -465,7 +465,7 @@ $ cat /tmp/colima/another-file
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
     - Chapters [10-11]
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
-    - Introduction, chapters 2 and 8
+    - Introduction, chapters 2 and 8 (Day 1 and 2)
 
 > Reference:
 >- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
@@ -476,6 +476,7 @@ $ cat /tmp/colima/another-file
 - What does `LIKE 'S%'` do in a query?
 
 #### Redis
+- [Introduction to Redis performance](https://www.youtube.com/watch?v=-5RTyEim384)
 - [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
 - [Redis Transactions](https://redis.io/topics/transactions)
 
