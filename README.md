@@ -228,13 +228,13 @@ Use git and commit often, even in one-person projects.
   - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for flowcharts, sequence diagrams, graphs, etc.
 - Never push to master directly, and only reviewers can merge branches to master.
 
-### Working on open source projects
+### Working on open-source projects
 - Suggested reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html).
 - Use MIT license.
 - Fill the description field at the top of the repo page.
 - Write a decent README.
 - A good readme starts with a succinct description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
-- Use continuous integration, most likely Github Actions.
+- Use continuous integration, most likely GitHub Actions.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
 ## Slack channels
@@ -242,8 +242,8 @@ Use git and commit often, even in one-person projects.
 We use Slack as our main source of communication between the teams and within the company. As such you should always take into account a couple of things:
 1. Slack is a work tool and you have to behave accordingly, you always have to be polite.
 2. Feel free to join any public channel that sparks your interest *but* be careful with your messages on team-related channels, especially if you don't belong to that team.
-3. We encourage everyone to join in the discussions in Slack, don't be shy if you think that you have something interesting to say about any topics.
-4. Try to always post accordingly to the topic of the channel. Straying a little from it is not an issue but if you want to joke about something completely unrelated to the channel please post it on the #random channel.
+3. We encourage everyone to join in the discussions in Slack, don't be shy if you think you have something interesting to say about any topic.
+4. Try to always post according to the topic of the channel. Straying a little from it is not an issue but if you want to joke about something completely unrelated to the channel please post it on the #random channel.
 5. As a rule of thumb most of your Slack communication has to happen on the channels and not on the DMs.
    1. This last one is particularly relevant when talking with someone outside of Lambda, always defer to channels when talking with them.
 6. Try to not create channels unless they're really necessary. The idea is to have only the channels that we need, please don't create channels to make some kind of joke.
@@ -253,7 +253,7 @@ We organize activities where we share thoughts and interests with anyone who wan
 
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
 - [Zruput](https://zruput.org/) Digital Communications Conference.
-- [This is not a monad tutorial](https://notamonadtutorial.com/) Writings, reviews and interviews about programming.
+- [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and interviews about programming.
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
 
 ## Development Environment Setup
