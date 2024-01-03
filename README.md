@@ -628,7 +628,10 @@ Kubernetes is a portable, extensible, open-source platform for managing containe
 - [Learning Rust](https://learning-rust.github.io/) Example project
 
 Exercises
-- [Rustlings](https://github.com/rust-lang/rustlings)
+- [Rustlings](https://github.com/rust-lang/rustlings). To enable *rust-analyzer* and its features (such as autocomplete and documentation), run this command in the rustlings directory: 
+```bash
+rustlings lsp
+```
 
 #### Excercise: Conway's Game of Life
 *Estimate time: 3-5 hours*
