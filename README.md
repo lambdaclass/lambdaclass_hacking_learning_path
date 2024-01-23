@@ -180,6 +180,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [The XY Problem](https://xyproblem.info/)
 - [The Biggest Mistake I See Engineers Make](https://web.archive.org/web/20220125174724/https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
+- [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
 
 ### Even if you work with a client you're working for Lambda at the end
 
