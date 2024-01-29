@@ -698,6 +698,6 @@ There is even more present in the [reference material chapter](Reference.md). Yo
 ### Consensus
 
 ### Cryptography
-*Estimate reading time: 8-10 hours*
+*Estimate time: 6 hours*
 - [Introduction To Cryptocurrency](https://nakamoto.com/introduction-to-cryptocurrency/) A brief introduction to cryptography and P2P networking used in Bitcoin. 
 Avoid The History of Bitcoin module. Also, if you already implemented the Rusty Merkle Tree you can skip the Merkle Trees lecture
