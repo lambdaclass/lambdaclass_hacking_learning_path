@@ -4,6 +4,10 @@
 - [LambdaClass Hacking Learning Path](#lambdaclass-hacking-learning-path)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+  - [Our Worldview](#our-worldview)
+    - [Gaming](#gaming)
+    - [Machine Learning](#machine-learning)
+    - [Cryptography](#cryptography)
   - [Company Culture](#company-culture)
     - [Learn to fail](#learn-to-fail)
     - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
@@ -143,6 +147,17 @@ flowchart TB
       rust --> perfeng
     end
 ```
+
+## Our Worldview
+
+### Gaming
+
+### Machine Learning
+
+### Cryptography
+
+- [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
+- [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
 
 ## Company Culture
 At Lambda we won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
