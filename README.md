@@ -14,9 +14,15 @@
     - [Even if you work with a client you're working for Lambda at the end](#even-if-you-work-with-a-client-youre-working-for-lambda-at-the-end)
     - [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-aka-kiss)
     - [Development process/workflow](#development-processworkflow)
+      - [Daily (15' max)](#daily-15-max)
+      - [Weekly (30' max)](#weekly-30-max)
+      - [Sprint Planning (30' max)](#sprint-planning-30-max)
+      - [Retrospective (10' max)](#retrospective-10-max)
+      - [All hands (or Federico's updates) (varies)](#all-hands-or-federicos-updates-varies)
+      - [One on ones (30' max)](#one-on-ones-30-max)
     - [Design and coding standards](#design-and-coding-standards)
       - [GitHub \& GitLab](#github--gitlab)
-    - [Working on open source projects](#working-on-open-source-projects)
+    - [Working on open-source projects](#working-on-open-source-projects)
   - [Slack channels](#slack-channels)
     - [Community projects](#community-projects)
   - [Development Environment Setup](#development-environment-setup)
@@ -72,7 +78,7 @@
     - [Algorithmics](#algorithmics)
     - [Computability](#computability)
     - [Consensus](#consensus)
-    - [Cryptography](#cryptography)
+    - [Cryptography](#cryptography-1)
 
 ---
 > A boring codebase doesn't make a bored developer, on the contrary, it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
@@ -211,9 +217,32 @@ Strive for solving problems in the simplest way possible. To achieve this, you f
 - [Yagni by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 
 ### Development process/workflow
-- There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
+
+#### Daily (15' max)
+
+A call that's done at the same time every workday to focus on the problems of the daily tasks.
+
+#### Weekly (30' max)
+
+A weekly call with every member of the team to set the most important goals of the week.
+
+#### Sprint Planning (30' max)
+
 - When working on projects, the specific tasks to tackle are written in tickets on Github Projects. Some actual Lambda's projects are working on other project management software, but these are legacy.
-- [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
+- There's a weekly or every to weeks call named Sprint Planning to create a new sprint on the Github Project and select the issues that will be worked on. The Tech Lead and the Project Manager (where is applicable) will lead these meetings.
+
+#### Retrospective (10' max)
+
+- Before or after every sprint planning there will be a space for the team to reflect on what has been done right or wrong during the sprint and to propose practices to mantain or avoid.
+
+#### All hands (or Federico's updates) (varies)
+
+- These are sporadic meetings where upper management tell updates about the company.
+
+#### One on ones (30' max)
+
+- These are meetings between the individual contributor and one of the people he reports to (Tech Lead or PM).
+- The idea of these meetings is explained in chapter 1 of this book: [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
     - Chapter 1 *Estimate reading time: 1 hour*
 
 ### Design and coding standards
