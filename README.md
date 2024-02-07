@@ -220,7 +220,7 @@ Strive for solving problems in the simplest way possible. To achieve this, you f
 
 #### Daily (15' max)
 
-A call that's done at the same time every workday to focus on the problems of the daily tasks.
+A call that's done at the same time every workday to to go through general updates, personal yesterday's work, personal tasks of today, and blockers/possible risks.
 
 #### Weekly (30' max)
 
@@ -229,11 +229,11 @@ A weekly call with every member of the team to set the most important goals of t
 #### Sprint Planning (30' max)
 
 - When working on projects, the specific tasks to tackle are written in tickets on Github Projects. Some actual Lambda's projects are working on other project management software, but these are legacy.
-- There's a weekly or every to weeks call named Sprint Planning to create a new sprint on the Github Project and select the issues that will be worked on. The Tech Lead and the Project Manager (where is applicable) will lead these meetings.
+- Every week or every two weeks there's a call named Sprint Planning to create a new sprint on the Github Project and select the issues that will be worked on. The Tech Lead and the Project Manager (where applicable) will lead these meetings.
 
 #### Retrospective (10' max)
 
-- Before or after every sprint planning there will be a space for the team to reflect on what has been done right or wrong during the sprint and to propose practices to mantain or avoid.
+- Before or after every sprint planning there will be a space for the team to reflect on what has been done right or wrong during the sprint and to propose practices to mantain or avoid. We don't always do these meetings, but having the praxis to reflect and balance is a useful tool.
 
 #### All hands (or Federico's updates) (varies)
 
