@@ -14,12 +14,12 @@
     - [Even if you work with a client you're working for Lambda at the end](#even-if-you-work-with-a-client-youre-working-for-lambda-at-the-end)
     - [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-aka-kiss)
     - [Development process/workflow](#development-processworkflow)
-      - [Daily (15' max)](#daily-15-max)
+      - [Daily standups (15' max)](#daily-standups-15-max)
       - [Weekly (30' max)](#weekly-30-max)
       - [Sprint Planning (30' max)](#sprint-planning-30-max)
       - [Retrospective (10' max)](#retrospective-10-max)
       - [All hands (or Federico's updates) (varies)](#all-hands-or-federicos-updates-varies)
-      - [One on ones (30' max)](#one-on-ones-30-max)
+      - [One-on-ones (30' max)](#one-on-ones-30-max)
     - [Design and coding standards](#design-and-coding-standards)
       - [GitHub \& GitLab](#github--gitlab)
     - [Working on open-source projects](#working-on-open-source-projects)
@@ -218,9 +218,9 @@ Strive for solving problems in the simplest way possible. To achieve this, you f
 
 ### Development process/workflow
 
-#### Daily (15' max)
+#### Daily standups (15' max)
 
-A call that's done at the same time every workday to to go through general updates, personal yesterday's work, personal tasks of today, and blockers/possible risks.
+A call that's done at the same time every workday to go through general updates, personal yesterday's work, personal tasks of today, and blockers/possible risks. The reason it's called a "stand-up" is because if attendees participate while standing, the ensuing discomfort will keep the meeting short.
 
 #### Weekly (30' max)
 
@@ -233,13 +233,13 @@ A weekly call with every member of the team to set the most important goals of t
 
 #### Retrospective (10' max)
 
-- Before or after every sprint planning there will be a space for the team to reflect on what has been done right or wrong during the sprint and to propose practices to mantain or avoid. We don't always do these meetings, but having the praxis to reflect and balance is a useful tool.
+- Before or after every sprint planning there will be a space for the team to reflect on what has been done right or wrong during the sprint and to propose practices to maintain or avoid. We don't always do these meetings, but having the praxis to reflect and balance is a useful tool.
 
 #### All hands (or Federico's updates) (varies)
 
-- These are sporadic meetings where upper management tell updates about the company.
+- These are sporadic meetings where upper management tells updates about the company.
 
-#### One on ones (30' max)
+#### One-on-ones (30' max)
 
 - These are meetings between the individual contributor and one of the people he reports to (Tech Lead or PM).
 - The idea of these meetings is explained in chapter 1 of this book: [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
