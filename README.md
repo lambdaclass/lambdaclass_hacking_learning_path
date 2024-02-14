@@ -384,11 +384,11 @@ Before you embark on your Git journey, it is important to learn what an SSH Key 
 
 - [Introduction to GitHub](https://github.com/skills/introduction-to-github) (MUST)
 - [Development workflows in GIT](https://docs.google.com/document/d/1k11yRykUpFjNEycxmjZbvg4piFqWAnjzujCmFXiK3ns/edit?usp=sharing)
-- [Learning Git Branching](https://learngitbranching.js.org/) (Very useful-RECOMMENDED)
-- [Pro Git](https://git-scm.com/book/en/v2)
-    - Pages [10-106]
-- [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
 - [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
+- [Pro Git](https://git-scm.com/book/en/v2)
+    - Pages [10-50]
+- [Learning Git Branching](https://learngitbranching.js.org/)
+- [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
 - [How to write a Git Commit message](https://chris.beams.io/posts/git-commit/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 - [Configure your end of line (EOL) management in your development environment](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)
