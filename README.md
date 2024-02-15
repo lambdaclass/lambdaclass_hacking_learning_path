@@ -540,7 +540,7 @@ $ cat /tmp/colima/another-file
 
 **Introductory**
 - [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
-- [When would you choose Erlang?](https://blog.troutwine.us/2013/07/10/choose-erlang/)
+- [When would you choose Erlang?](https://web.archive.org/web/20230529050818/https://blog.troutwine.us/2013/07/10/choose-erlang/)
 - [An Open Letter to the Erlang Beginner](https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html) Erlang's quirks and perks
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
 
