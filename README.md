@@ -247,7 +247,9 @@ Use git and commit often, even in one-person projects.
 
 ### Working on open-source projects
 - Suggested reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html).
-- Use MIT license.
+- Use MIT or Apache 2.0 license.
+	- [Apache vs MIT](https://snyk.io/learn/apache-license/)
+	- [How to make sense of the Apache 2 patent license](https://opensource.com/article/18/2/apache-2-patent-license)
 - Fill the description field at the top of the repo page.
 - Write a decent README.
 - A good readme starts with a succinct description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
