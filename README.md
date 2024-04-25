@@ -18,8 +18,8 @@
       - [GitHub \& GitLab](#github--gitlab)
     - [Working on open source projects](#working-on-open-source-projects)
   - [Slack channels](#slack-channels)
-    - [Community projects](#community-projects)
   - [Tool stack](#tool-stack)
+  - [Community projects](#community-projects)
   - [Development Environment Setup](#development-environment-setup)
     - [Homebrew](#homebrew)
     - [GNU tools](#gnu-tools)
@@ -269,12 +269,12 @@ We use Slack as our main source of communication between the teams and within th
    1. This last one is particularly relevant when talking with someone outside of Lambda, always defer to channels when talking with them.
 6. Try to not create channels unless they're really necessary. The idea is to have only the channels that we need, please don't create channels to make some kind of joke.
 
-# Tool Stack
+## Tool Stack
 Many other tools are used to facilitate many tasks, as well as enforcing security for all employees.
 
 For more information, please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), that aims to provide a simple overview for all of our tools.
 
-### Community projects
+## Community projects
 We organize activities where we share thoughts and interests with anyone who wants to join us.
 
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
