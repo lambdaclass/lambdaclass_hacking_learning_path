@@ -310,7 +310,7 @@ Just type in your shell the following command lines:
 
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
 - [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
-- [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html)
+- [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html) (Whole chapter)
 - [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
 
 **Some questions to guide your learning**
