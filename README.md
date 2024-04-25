@@ -261,7 +261,7 @@ Use git and commit often, even in one-person projects.
 ## Tool Stack
 We use a suite of tools to facilitate many tasks, as well as to enforce our security standards for all employees.
 
-Please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), that aims to provide a simple overview for all of our tools.
+Please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), which aims to provide a simple overview of all of our tools.
 
 ## Community projects
 We organize activities where we share thoughts and interests with anyone who wants to join us.
