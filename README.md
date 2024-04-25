@@ -270,7 +270,7 @@ We use Slack as our main source of communication between the teams and within th
 6. Try to not create channels unless they're really necessary. The idea is to have only the channels that we need, please don't create channels to make some kind of joke.
 
 # Tool Stack
-Many other tools are used to facilitate many task, as well as enforcing security for all employees.
+Many other tools are used to facilitate many tasks, as well as enforcing security for all employees.
 
 For more information, please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), that aims to provide a simple overview for all of our tools.
 
