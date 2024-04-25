@@ -17,8 +17,8 @@
     - [Design and coding standards](#design-and-coding-standards)
       - [GitHub \& GitLab](#github--gitlab)
     - [Working on open source projects](#working-on-open-source-projects)
-  - [Slack channels](#slack-channels)
-    - [Community projects](#community-projects)
+  - [Tool stack](#tool-stack)
+  - [Community projects](#community-projects)
   - [Development Environment Setup](#development-environment-setup)
     - [Homebrew](#homebrew)
     - [GNU tools](#gnu-tools)
@@ -258,18 +258,12 @@ Use git and commit often, even in one-person projects.
 - Use continuous integration, most likely GitHub Actions.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
-## Slack channels
+## Tool Stack
+We use a suite of tools to facilitate many tasks, as well as to enforce our security standards for all employees.
 
-We use Slack as our main source of communication between the teams and within the company. As such you should always take into account a couple of things:
-1. Slack is a work tool and you have to behave accordingly, you always have to be polite.
-2. Feel free to join any public channel that sparks your interest *but* be careful with your messages on team-related channels, especially if you don't belong to that team.
-3. We encourage everyone to join in the discussions in Slack, don't be shy if you think you have something interesting to say about any topic.
-4. Try to always post according to the topic of the channel. Straying a little from it is not an issue but if you want to joke about something completely unrelated to the channel please post it on the #random channel.
-5. As a rule of thumb most of your Slack communication has to happen on the channels and not on the DMs.
-   1. This last one is particularly relevant when talking with someone outside of Lambda, always defer to channels when talking with them.
-6. Try to not create channels unless they're really necessary. The idea is to have only the channels that we need, please don't create channels to make some kind of joke.
+Please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), which aims to provide a simple overview of all of our tools.
 
-### Community projects
+## Community projects
 We organize activities where we share thoughts and interests with anyone who wants to join us.
 
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
