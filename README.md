@@ -1,4 +1,5 @@
 # LambdaClass Hacking Learning Path
+[Hacker Manifesto](http://phrack.org/issues/7/3.html)
 
 ## Table of Contents
 - [LambdaClass Hacking Learning Path](#lambdaclass-hacking-learning-path)
