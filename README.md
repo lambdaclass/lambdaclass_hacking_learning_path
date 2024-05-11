@@ -77,11 +77,11 @@
 ---
 > You can choose a life of ease and comfort or you can choose a life of service and adventure - Jeff Bezos
 
-> A boring codebase doesn't make a bored developer, on the contrary, it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
+> My algorithm has always been: You put smart people together, you give them a lot of freedom, create an atmosphere where everyone talks to everyone else. They're not hiding in the corner with their own little thing. They talk to everybody else. And you  provide the best infrastructure. The best computers and so on that people can work with and make everyone partners. - Jim Simons
 
 > Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's Blue Pill
 
-> "With great power, comes great responsibility" probably Uncle Ben, but who knows.
+> A boring codebase doesn't make a bored developer, on the contrary, it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
 
 ## Introduction
 Welcome! This is a guide intended to aid employees in their first days in the company.
