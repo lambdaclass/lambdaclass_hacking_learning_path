@@ -581,7 +581,7 @@ $ cat /tmp/colima/another-file
   - Introduction
     - Except for _Community_
   - Guides
-    - Except for _Telemetry_ and _Asset Management_
+    - Except for _Asset Management_
   - Authentication
   - Testing
     - Except for _Testing Channels_
