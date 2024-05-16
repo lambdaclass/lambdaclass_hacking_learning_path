@@ -577,7 +577,7 @@ $ cat /tmp/colima/another-file
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
 ### Phoenix
-- [Phoenix Official Guides](https://hexdocs.pm/phoenix/up_and_running.html)
+- [Phoenix Official Guides](https://hexdocs.pm/phoenix/overview.html)
   - Introduction
     - Except for _Community_
   - Guides
