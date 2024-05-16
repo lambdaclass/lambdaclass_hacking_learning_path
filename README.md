@@ -577,10 +577,15 @@ $ cat /tmp/colima/another-file
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
 ### Phoenix
-*Estimate reading time: 40 hours*
+- [Phoenix Official Guides](https://hexdocs.pm/phoenix/overview.html)
+  - Introduction
+    - Except for _Community_
+  - Guides
+    - Except for _Asset Management_
+  - Authentication
+  - Testing
+    - Except for _Testing Channels_
 
-- [Phoenix in Action](https://www.manning.com/books/phoenix-in-action)
-    - All chapters except 2 and 12
 - [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
 
 **Installing Phoenix**
