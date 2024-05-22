@@ -61,7 +61,7 @@
     - [Continuous Integration](#continuous-integration)
       - [GitHub Actions](#github-actions)
     - [Rust](#rust)
-      - [Excercise: Conway's Game of Life](#excercise-conways-game-of-life)
+      - [Exercise: Conway's Game of Life](#exercise-conways-game-of-life)
       - [Exercise: Rusty Merkle Tree](#exercise-rusty-merkle-tree)
     - [Performance Engineering](#performance-engineering)
   - [Advanced](#advanced)
@@ -657,7 +657,7 @@ Exercises
 rustlings lsp
 ```
 
-#### Excercise: Conway's Game of Life
+#### Exercise: Conway's Game of Life
 *Estimate time: 3-5 hours*
 
 Implement Conway's Game of Life using Rust + Wasm.
