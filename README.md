@@ -336,6 +336,11 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
     - Chapters [8-10] Bash scripting, Filesystems, and compression
 
+#### How to try some commands in MacOS with a VM
+1. There’s some commands that doesn’t work in MacOS. If you want to try them, you can use a VM to use Linux. For this, we can use [UTM](https://mac.getutm.app/), a Virtual Machine for MacOS. Follow the next steps [here](https://docs.getutm.app/guides/ubuntu/).
+2.  After the installation is complete, close the VM and press “Stop selected VM”.
+3.  Now you can use this VM to run the commands.
+
 **Some questions to guide your learning**
 - What do the following commands do?:
     - `ls -l /bin/usr > ls-output.txt 2>&1`
