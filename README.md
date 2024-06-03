@@ -355,7 +355,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 *Estimate reading time: 5-6 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
-    - Chapters [2-5] (RECOMMENDABLE)
+    - Chapters [1-5] (RECOMMENDABLE)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
     - Chapters 1, [3-4], [7-10]
 - [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
