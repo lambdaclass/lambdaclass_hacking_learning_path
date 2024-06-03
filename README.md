@@ -355,7 +355,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 *Estimate reading time: 5-6 hours*
 
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
-    - Chapters [2-5] (RECOMMENDABLE)
+    - Chapters [1-5] (RECOMMENDED)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
     - Chapters 1, [3-4], [7-10]
 - [Burp](https://www.youtube.com/watch?v=G3hpAeoZ4ek)
@@ -483,8 +483,8 @@ $ cat /tmp/colima/another-file
 #### SQL and PostgreSQL
 *Estimate reading time: 9-10 hours*
 
-- [SQL Bolt](https://sqlbolt.com/) (RECOMMENDABLE)
-- [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDABLE)
+- [SQL Bolt](https://sqlbolt.com/) (RECOMMENDED)
+- [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDED)
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
     - Chapters [10-11]
 - [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
