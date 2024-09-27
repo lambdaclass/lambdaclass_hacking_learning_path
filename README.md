@@ -196,6 +196,7 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
     - Chapter 1
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
+- [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
 - [The XY Problem](https://xyproblem.info/)
 - [The Biggest Mistake I See Engineers Make](https://web.archive.org/web/20220125174724/https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
