@@ -526,6 +526,8 @@ $ cat /tmp/colima/another-file
 
 ### Debugging
 
+[Give me 15 minutes and I'll change your view of Linux tracing](https://www.youtube.com/watch?v=GsMs3n8CB6g)
+
 ### Testing
 
 #### Unit Testing
