@@ -1,0 +1,58 @@
+flowchart TB
+    start([Start])
+    culture([Culture])
+    devenv([Development Environment])
+    linux([Linux])
+    python([Python])
+    containers([Containers])
+    databases([Databases])
+    fp([Functional Programming])
+    debugging([Debugging])
+    testing([Testing])
+    core([Core])
+    erlang([Erlang])
+    elixir([Elixir])
+    phoenix([Phoenix])
+    o11y([Observability])
+    cloud([Cloud Environments])
+    ci([Continuous Integration])
+    rust([Rust])
+    perfeng([Performance Engineering])
+    
+    finish([Conclusion])
+    advanced([Advanced])
+
+    start --> culture
+    culture --> devenv
+    devenv --> linux
+    debugging --> core
+    core --> erlang
+    core --> o11y
+    core --> rust
+    phoenix --> finish
+    ci --> finish
+    perfeng --> finish
+    finish -.-> advanced
+
+    subgraph "Foundations"
+      linux --> python
+      python --> containers
+      containers --> databases
+      databases --> fp
+      fp --> testing
+      testing --> debugging 
+    end
+    
+    subgraph "BEAM Ecosystem"
+      erlang --> elixir
+      elixir --> phoenix
+    end
+    
+    subgraph "Distributed Systems"
+      o11y --> cloud
+      cloud --> ci
+    end
+    
+    subgraph "Systems Programming"
+      rust --> perfeng
+    end
