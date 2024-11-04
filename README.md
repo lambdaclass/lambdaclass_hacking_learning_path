@@ -223,7 +223,7 @@ Strive for solving problems in the simplest way possible. To achieve this, you f
 
 ### Design and coding standards
 - Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
-- [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
+- [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 - Postgresql is the default database.
 - Write tests.
 - Favor integration tests over unit tests. A project's first tests should be end-to-end smoke and sanity tests, and only after that, if ever, should unit tests be written to test API's, system invariants and help pinpoint bug causes and locations.
