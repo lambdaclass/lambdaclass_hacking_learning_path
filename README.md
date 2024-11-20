@@ -689,7 +689,7 @@ Implement a simple Merkle Tree in Rust.
 - A Merkle Tree can be built out of an array.
 - A Merkle Tree can generate a proof that it contains an element.
 - A Merkle Tree can verify that a given hash is contained in it.
-- A Merke Tree can be dynamic, this means that elements can be added once it is built.
+- A Merkle Tree can be dynamic, this means that elements can be added once it is built.
 
 We suggest to start simple, do not optimize prematurely because it's pretty sure that you're not gonna need those optimizations.
 
