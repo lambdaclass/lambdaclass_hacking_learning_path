@@ -1,80 +1,70 @@
 # LambdaClass Hacking Learning Path
 
 ## Table of Contents
-- [LambdaClass Hacking Learning Path](#lambdaclass-hacking-learning-path)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Our Worldview](#our-worldview)
-    - [Gaming](#gaming)
-    - [Machine Learning](#machine-learning)
-    - [Cryptography](#cryptography)
-  - [Company Culture](#company-culture)
-    - [Learn to fail](#learn-to-fail)
-    - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
-    - [Even if you work with a client you're working for Lambda at the end](#even-if-you-work-with-a-client-youre-working-for-lambda-at-the-end)
-    - [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-aka-kiss)
-    - [Development process/workflow](#development-processworkflow)
-    - [Design and coding standards](#design-and-coding-standards)
-      - [GitHub \& GitLab](#github--gitlab)
-    - [Working on open source projects](#working-on-open-source-projects)
-  - [Tool stack](#tool-stack)
-  - [Community projects](#community-projects)
-  - [Development Environment Setup](#development-environment-setup)
-    - [Homebrew](#homebrew)
-    - [GNU tools](#gnu-tools)
-    - [asdf Version manager](#asdf-version-manager)
-    - [Code Editors and IDEs](#code-editors-and-ides)
-  - [Foundations](#foundations)
-    - [Unix Philosophy](#unix-philosophy)
-    - [Linux](#linux)
-      - [Networking](#networking)
-      - [SSH](#ssh)
-      - [Git](#git)
-    - [Python](#python)
-    - [Docker](#docker)
-      - [Colima setup for macOS](#colima-setup-for-macos)
-    - [Databases](#databases)
-      - [SQL and PostgreSQL](#sql-and-postgresql)
-      - [Redis](#redis)
-    - [Functional Programming](#functional-programming)
-      - [Referential Transparency](#referential-transparency)
-      - [Immutability](#immutability)
-      - [Functions as first-class citizens](#functions-as-first-class-citizens)
-    - [Debugging](#debugging)
-    - [Testing](#testing)
-      - [Unit Testing](#unit-testing)
-      - [Integration Testing](#integration-testing)
-      - [Property-based Testing](#property-based-testing)
-      - [Fuzzy Testing](#fuzzy-testing)
-  - [Core](#core)
-    - [Erlang](#erlang)
-    - [Elixir](#elixir)
-    - [Phoenix](#phoenix)
-      - [ExCheck (QuickCheck)](#excheck-quickcheck)
-      - [OpenAPI](#openapi)
-      - [Projects](#projects)
-    - [Distributed Systems](#distributed-systems)
-    - [Observability](#observability)
-    - [Cloud Environments](#cloud-environments)
-      - [AWS and other cloud providers](#aws-and-other-cloud-providers)
-      - [Kubernetes](#kubernetes)
-    - [Continuous Integration](#continuous-integration)
-      - [GitHub Actions](#github-actions)
-    - [Rust](#rust)
-      - [Exercise: Conway's Game of Life](#exercise-conways-game-of-life)
-      - [Exercise: Rusty Merkle Tree](#exercise-rusty-merkle-tree)
-    - [Performance Engineering](#performance-engineering)
-  - [Advanced](#advanced)
-    - [Hardware](#hardware)
-    - [Parsing](#parsing)
-    - [Type Systems](#type-systems)
-    - [Virtual Machines and Runtimes](#virtual-machines-and-runtimes)
-    - [Algorithmics](#algorithmics)
-    - [Computability](#computability)
-    - [Consensus](#consensus)
-    - [Cryptography](#cryptography)
+
+1. [Introduction](#introduction)
+1. [Part I The Foundation](#part-i-the-foundation)
+    1. [Our Worldview & Company Culture](#our-worldview-&-company-culture)
+        1. [Learn to fail](#learn-to-fail)
+        1. [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
+        1. [Even if you work with a client you're working for Lambda at the end](#even-if-you-work-with-a-client-you're-working-for-lambda-at-the-end)
+        1. [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-(aka-kiss))
+        1. [Development process/workflow](#development-process/workflow)
+        1. [Design and coding standards](#design-and-coding-standards)
+        1. [Working on open-source projects](#working-on-open-source-projects)
+        1. [Cryptography](#cryptography)
+        1. [Machine Learning](#machine-learning)
+        1. [Gaming](#gaming)
+        1. [Community projects](#community-projects)
+    1. [Tool Stack & Development Environment](#tool-stack-&-development-environment)
+        1. [Homebrew](#homebrew)
+        1. [GNU tools](#gnu-tools)
+        1. [asdf Version manager](#asdf-version-manager)
+        1. [Code Editors and IDEs](#code-editors-and-ides)
+    1. [Unix Philosophy](#unix-philosophy)
+    1. [Linux](#linux)
+        1. [How to try some commands in MacOS with a VM](#how-to-try-some-commands-in-macos-with-a-vm)
+        1. [Networking](#networking)
+        1. [SSH](#ssh)
+        1. [Git](#git)
+        1. [GitHub & GitLab](#github-&-gitlab)
+    1. [Docker](#docker)
+    1. [Debugging](#debugging)
+    1. [Testing](#testing)
+    1. [Databases](#databases)
+    1. [Cloud Environments](#cloud-environments)
+        1. [AWS and other cloud providers](#aws-and-other-cloud-providers)
+        1. [Kubernetes](#kubernetes)
+    1. [Continuous Integration](#continuous-integration)
+        1. [GitHub Actions](#github-actions)
+        1. [SQL and PostgreSQL](#sql-and-postgresql)
+        1. [Redis](#redis)
+1. [Part II](#part-ii)
+    1. [Functional Programming](#functional-programming)
+        1. [Referential Transparency](#referential-transparency)
+        1. [Immutability](#immutability)
+        1. [Functions as first-class citizens](#functions-as-first-class-citizens)
+    1. [Python](#python)
+    1. [The BEAM Ecosystem](#the-beam-ecosystem)
+        1. [Phoenix](#phoenix)
+        1. [OpenAPI](#openapi)
+        1. [ExCheck (QuickCheck)](#excheck-(quickcheck))
+    1. [Rust](#rust)
+        1. [Exercise: Conway's Game of Life](#exercise:-conway's-game-of-life)
+        1. [Exercise: Rusty Merkle Tree](#exercise:-rusty-merkle-tree)
+    1. [Julia](#julia)
+    1. [Distributed Systems](#distributed-systems)
+        1. [Consensus](#consensus)
+    1. [Observability](#observability)
+    1. [Performance Engineering](#performance-engineering)
+        1. [Algorithmics](#algorithmics)
+    1. [Cryptography and Blockchains](#cryptography-and-blockchains)
+    1. [Language Engineering](#language-engineering)
+        1. [Virtual Machines & Runtimes](#virtual-machines-&-runtimes)
+        1. [Parsing](#parsing)
 
 ---
+## Introduction
 > You can choose a life of ease and comfort or you can choose a life of service and adventure - Jeff Bezos
 
 > My algorithm has always been: You put smart people together, you give them a lot of freedom, create an atmosphere where everyone talks to everyone else. They're not hiding in the corner with their own little thing. They talk to everybody else. And you  provide the best infrastructure. The best computers and so on that people can work with and make everyone partners. - Jim Simons
@@ -83,14 +73,12 @@
 
 > A boring codebase doesn't make a bored developer, on the contrary, it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that.
 
-- Read the [Hacker Manifesto](http://phrack.org/issues/7/3.html). 
-
-## Introduction
 Welcome! This is a guide intended to aid employees in their first days in the company.
 It will guide you in setting up expectations and working tools, and a whirlwind tour of the background knowledge and tools necessary to work on the kind of projects common at LambdaClass.
 
 The learning path is structured as a series of topics and exercises.
 
+TODO: redo the mermaid diagram
 ```mermaid
 flowchart TB
     start([Start])
@@ -152,18 +140,16 @@ flowchart TB
     end
 ```
 
-## Our Worldview
+---
 
-### Gaming
+## Part I The Foundation
 
-### Machine Learning
+TODO: add introduction about this part
 
-### Cryptography
+### Our Worldview & Company Culture
 
-- [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
-- [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
+TODO: review this entire section
 
-## Company Culture
 At Lambda we won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
 Of course, you can have days off to study, or if you feel sick, but you can also have days off if you feel brain fog, nervous, or a bit under the weather; we actually prefer it that way.
 
@@ -172,22 +158,21 @@ If you feel healthy and comfortable, you will be able to solve more efficiently 
 Nobody wants to give up, that's a common emotion. The good news is that you are not giving up, you are getting to know yourself better, so you can recharge your energies and keep learning and improving. In turn, when you are working we expect you to hit goals, be proactive, and be a valuable member of the team.
 
 There are three key elements we want you to have present at every moment: *Communication, Accountability, and Empathy*.
-
 - **Communication** is a key aspect of every human relationship. If you can measure your words to give a positive clear message, you can achieve anything in life through teamwork. Try labeling your emotions before communicating, since it is likely that people in front of you do not know what is going through your head. Also, be transparent but assertive if you disagree about something, it will help understand your point of view. Finally, try to avoid direct messages, working on channels allows more people to be in the loop and better feedback can be given.
 - **Accountability**. Everyone makes mistakes, learners do something about them. If you get something wrong, communicate poorly, or even feel overwhelmed about a situation, raise your hand and say it. It's very likely that a process failed, not you. Many people will be there to help you sort out the issue, and you will surely learn something along the way. If you keep quiet and don't say anything you will regret it later when the truth burst through another hole.
 - About **empathy**, we are all human beings and have complex emotions, if you are feeling great, it doesn't mean your colleague isn't feeling like shit. Perhaps your coworkers don't feel comfortable talking about emotions, so go talk with them and help them. You can talk to them or their manager if you feel something is going on with them. There is a time when everybody feels weak and needs someone else for support. So be a hero, be empathic.
 
 If you are reading this, you are probably giving your first -or second- steps on the long journey towards being a good developer, but first try to be a good human being and you will see how far that can get you.
 
-### Learn to fail
-As with most projects making mistakes fast and loudly will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
+- Read the [Hacker Manifesto](http://phrack.org/issues/7/3.html). 
 
+#### Learn to fail
+As with most projects making mistakes fast and loudly will make you learn faster, so you should not be ashamed to work directly on a repository through Pull Request rather than workshopping in a draft made elsewhere
 - **Avoid google docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
 - **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you
 
-### Principles for success and teamwork philosophy
+#### Principles for success and teamwork philosophy
 We follow a code of conduct that must be followed to ensure a safe space in the team. You signed it when you entered Lambda and we expect you to follow it. Basically, treat everyone with respect.
-
 - [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=oV8VSBSBrr4).
 - [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
@@ -202,26 +187,24 @@ We follow a code of conduct that must be followed to ensure a safe space in the 
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
 - [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
 
-### Even if you work with a client you're working for Lambda at the end
-
+#### Even if you work with a client you're working for Lambda at the end
 It's commonplace in Lambda to work collaboratively with clients in the development of apps and features, so maybe you will have more day to day rapport with them than with your other Lambda coworkers. If you're in that situation you should always remember a few key things:
-
 - Your work relation is with Lambda, not with the client so expect to get feedback from your Lambda's Tech Lead and Project Manager and not from the client, don't ask for it either.
 - The relationship between Lambda and the client is managed by the Tech Leads and Project Managers. If someone from the client side makes a request to you personally via DM please contact your Tech Lead and Project Manager about it. Make sure your Teach Lead and Project Manager are in the loop for all relevant information.
 
-### Do The Simplest Thing That Could Possibly Work (aka KISS)
+#### Do The Simplest Thing That Could Possibly Work (aka KISS)
 Strive for solving problems in the simplest way possible. To achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider will work in the fewest, tiniest steps. Afterwards, refactor. Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code as simple as possible. Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
 > "Always implement things when you actually need them, never when you just foresee that you need them" - Ron Jeffries
 - [Do The Simplest Thing That Could Possibly Work](https://www.artima.com/articles/the-simplest-thing-that-could-possibly-work)
 - [Yagni by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 
-### Development process/workflow
+#### Development process/workflow
 - There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
 - When working on projects, the specific tasks to tackle are written in tickets on Github Projects. Some actual Lambda's projects are working on other project management software, but these are legacy.
 - [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
-    - Chapter 1 *Estimate reading time: 1 hour*
+    - Chapter 1
 
-### Design and coding standards
+#### Design and coding standards
 - Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 - Postgresql is the default database.
@@ -242,57 +225,61 @@ Strive for solving problems in the simplest way possible. To achieve this, you f
 - Always lock your dependencies. Pin a specific version and a commit of a dependency, don't use the version at master.
 Use git and commit often, even in one-person projects.
 
-#### GitHub & GitLab
-- If you are new to GitHub, you can put your hands on with [this course](https://github.com/skills/introduction-to-github)
-- Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
-- Doc files should always be added via pull request.
-  - Be sure those files are written in Markdown. 
-  - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for flowcharts, sequence diagrams, graphs, etc.
-- Never push to master directly, and only reviewers can merge branches to master.
-
-### Working on open-source projects
+#### Working on open-source projects
 - Suggested reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html).
 - Use MIT or Apache 2.0 license.
-	- [Apache vs MIT](https://snyk.io/learn/apache-license/)
-	- [How to make sense of the Apache 2 patent license](https://opensource.com/article/18/2/apache-2-patent-license)
+  - [Apache vs MIT](https://snyk.io/learn/apache-license/)
+  - [How to make sense of the Apache 2 patent license](https://opensource.com/article/18/2/apache-2-patent-license)
 - Fill the description field at the top of the repo page.
 - Write a decent README.
 - A good readme starts with a succinct description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
 - Use continuous integration, most likely GitHub Actions.
 - Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
-## Tool Stack
-We use a suite of tools to facilitate many tasks, as well as to enforce our security standards for all employees.
+#### Cryptography
+- [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
+- [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
 
-Please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), which aims to provide a simple overview of all of our tools.
+#### Machine Learning
 
-## Community projects
+TODO
+
+#### Gaming
+
+TODO
+
+#### Community projects
 We organize activities where we share thoughts and interests with anyone who wants to join us.
 
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
 - [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and interviews about programming.
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
 
-## Development Environment Setup
-Before beginning with this Journey, if you're a macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
+### Tool Stack & Development Environment 
 
+TODO
+
+We use a suite of tools to facilitate many tasks, as well as to enforce our security standards for all employees.
+
+Please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), which aims to provide a simple overview of all of our tools.
+
+Before beginning with this Journey, if you're a macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
 - Two-step authentication is mandatory for every login of the company accounts (e.g. Slack, mail, GitHub).
 - Also, the company's GitHub repositories are [accessed via SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
-### Homebrew
+#### Homebrew
 [Homebrew](https://brew.sh/) is a package manager for macOS.
 
-### GNU tools
+#### GNU tools
 Once you have installed Homebrew in your macOS system, you'll need to install some of the GNU tools/utilities for a better work experience.  
 Just type in your shell the following command lines:  
+- [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
+- [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
-* [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
-* [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
-
-### asdf Version manager
+#### asdf Version manager
 -  [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
-### Code Editors and IDEs
+#### Code Editors and IDEs
 **Do's and don'ts about the use of Vertical Whitespace**
 - If you'd like to visualize more vertical whitespace than it's established in these Do's and don'ts configure your text editor to show more space.
 - Most of these rules can be enforced automatically in your text editor, configure it to enforce them. 
@@ -306,11 +293,7 @@ Just type in your shell the following command lines:
 - Don't leave blank lines at the end of a file.
 - Don't forget to put a *single* end of the line at the end of a file.
 
-## Foundations
-
 ### Unix Philosophy
-*Estimate reading time: 2-3 hours*
-
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
 - [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 - [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html) (Whole chapter)
@@ -328,8 +311,6 @@ Just type in your shell the following command lines:
 - There is the approach of doing things in "one true way", how does it affect extensibility?
 
 ### Linux
-*Estimate reading time: 4-5 hours*
-
 As you already installed GNU-tools, there's no need to install Linux on a VM (Virtual Machine).
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
@@ -353,8 +334,6 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - What do `/root` and `/usr/bin` store?
 
 #### Networking
-*Estimate reading time: 5-6 hours*
-
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
     - Chapters [1-5] (RECOMMENDED)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
@@ -374,17 +353,12 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - What is the difference between asymmetric and symmetric cryptography?
 
 #### SSH 
-*Estimate reading time: 10 minutes*
-
 Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it, you will be able to connect to GitHub without supplying your username and personal access token each time.
-
 - [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [Authorizing an SSH key for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#)
 
 #### Git
-*Estimate reading time: 7-8 hours*
-
 **No one** should merge his/her own PR without it being reviewed and approved by a co-worker and/or a client.
 
 *Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, you will likely have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
@@ -415,28 +389,15 @@ It is considered good style - and sometimes a necessity - to always end files wi
 - Why are pull requests important?
 - How to clone a repository using SSH?
 
-### Python
-*Estimate reading time: 3-4 hours*
-
-- [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
-- [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
-    - Chapter 11
-- [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) is your bible.
-- Use Python 3 in greenfield projects.
-- Strive to migrate to Python 3 in non greenfield projects.
-- Read [this](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe/41573588#41573588) to understand environment hell in Python.
-- Use [pipenv](https://github.com/pypa/pipenv) to escape from environment hell in Python. You can even do this locally in projects that are set up to use virtualenv and virtualenvwrapper.
-- If you also need to stick with a specific minor version of Python (e.g. Python 2.7.14) you can use [pyenv](https://github.com/pyenv/pyenv) in combination with pipenv.
-
-
-**Some questions to guide your learning**
-- How do you return how many times a certain character appears in a string using Python?
-- How do you handle different routes for your web app in Flask?
-- Using the `logging` library, how do you log to a file?
+#### GitHub & GitLab
+- If you are new to GitHub, you can put your hands on with [this course](https://github.com/skills/introduction-to-github)
+- Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
+- Doc files should always be added via pull request.
+  - Be sure those files are written in Markdown. 
+  - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for flowcharts, sequence diagrams, graphs, etc.
+- Never push to master directly, and only reviewers can merge branches to master.
 
 ### Docker
-*Estimate reading time: 2-3 hours*
-
 - [Replacing Docker Desktop for Mac with Colima](https://www.arthurkoziel.com/replacing-docker-desktop-for-mac-with-colima/)
 - [Colima setup for macOS](src/colima.md)
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
@@ -448,41 +409,50 @@ It is considered good style - and sometimes a necessity - to always end files wi
 - In a Dockerfile, what is the difference between `RUN` and `CMD`?
 - Using port 8080, how do you run an image that exposes port 80?
 
-#### Colima setup for macOS
-Install Colima and Docker, then start Colima:
-```bash
-brew install colima
-brew install docker
-echo "{ \"credStore\" : \"desktop\" }" > ~/.docker/config.json
-colima start
-```
+### Debugging
 
-```bash
-$ uname
-Darwin
+TODO: add general resources
 
-$ colima ssh -- uname
-Linux
-```
+- [Give me 15 minutes and I'll change your view of Linux tracing](https://www.youtube.com/watch?v=GsMs3n8CB6g)
 
-**Sharing Files**
-```bash
-$ echo "files under /Users on macOS filesystem are readable from Linux" > some-file
+### Testing
 
-$ colima ssh -- cat some-file
-files under /Users on macOS filesystem are readable from Linux
-
-$ colima ssh -- sh -c 'echo "/tmp/colima is writable from both macOS and Linux" > /tmp/colima/another-file'
-
-$ cat /tmp/colima/another-file
-/tmp/colima is writable from both macOS and Linux
-```
+TODO: elaborate
+- Test-driven Design
+- Unit testing
+- Integration testing
+- Property-based testing
+- Fuzzy Testing
 
 ### Databases
 
-#### SQL and PostgreSQL
-*Estimate reading time: 9-10 hours*
+### Cloud Environments
 
+#### AWS and other cloud providers
+Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+
+**AWS tools**
+- IAM: It's used for managing users, groups, access policies & roles.
+- EC2: A web service that provides secure, resizable compute capacity in the cloud.
+- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
+- ECS:  "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
+ 
+(Optional) To further learn about AWS and its practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/blob/master/topics/aws) for exercises. (AWS - EC2/IAM/Containers). These exercises are purely optional and require creating a free tier AWS account, and even then, some of the exercises require a paid account.
+
+#### Kubernetes
+Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
+- [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/topics/kubernetes/exercises)
+
+### Continuous Integration
+
+#### GitHub Actions
+- [About continuous integration](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration)
+- [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+- [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
+
+#### SQL and PostgreSQL
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDED)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDED)
 - [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
@@ -513,8 +483,14 @@ $ cat /tmp/colima/another-file
 - What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
 - What makes each database type unique?
 
+---
+## Part II
+
+TODO
+
 ### Functional Programming
-*Estimate reading time: 1-2 hours*
+
+TODO
 
 - [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
 
@@ -524,24 +500,23 @@ $ cat /tmp/colima/another-file
 
 #### Functions as first-class citizens
 
-### Debugging
+### Python
+- [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
+- [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
+    - Chapter 11
+- [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) is your bible.
+- Use Python 3 in greenfield projects.
+- Strive to migrate to Python 3 in non greenfield projects.
+- Read [this](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe/41573588#41573588) to understand environment hell in Python.
+- Use [pipenv](https://github.com/pypa/pipenv) to escape from environment hell in Python. You can even do this locally in projects that are set up to use virtualenv and virtualenvwrapper.
+- If you also need to stick with a specific minor version of Python (e.g. Python 2.7.14) you can use [pyenv](https://github.com/pyenv/pyenv) in combination with pipenv.
 
-[Give me 15 minutes and I'll change your view of Linux tracing](https://www.youtube.com/watch?v=GsMs3n8CB6g)
+**Some questions to guide your learning**
+- How do you return how many times a certain character appears in a string using Python?
+- How do you handle different routes for your web app in Flask?
+- Using the `logging` library, how do you log to a file?
 
-### Testing
-
-#### Unit Testing
-
-#### Integration Testing
-
-#### Property-based Testing
-
-#### Fuzzy Testing
-
-## Core
-
-### Erlang
-*Estimate reading time: 4-5 hours*
+### The BEAM Ecosystem
 
 **Installing Erlang and Elixir**
 - On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing a specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
@@ -575,9 +550,7 @@ $ cat /tmp/colima/another-file
 **Exercises**
 - [Erlings](https://github.com/lambdaclass/erlings/)
 
-### Elixir
-*Estimate reading time: 40 hours*
-
+**Elixir**
 - [Learning Functional Programming With Elixir](https://pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/)
     - Must read: Chapter 1.
     - Recommended to read: Chapters 3, 4, 5.
@@ -585,7 +558,7 @@ $ cat /tmp/colima/another-file
 - [Immutable Data](src/immutable_data.md)
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
-### Phoenix
+#### Phoenix
 - [Phoenix Official Guides](https://hexdocs.pm/phoenix/overview.html)
   - Introduction
     - Except for _Community_
@@ -601,8 +574,12 @@ $ cat /tmp/colima/another-file
 - For Phoenix, all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database. To install older versions of Erlang and Elixir, use `asdf` to install them.
 - If `asdf` doesn't let you install a previous version of Erlang [this](https://github.com/asdf-vm/asdf-erlang/issues/221) might help.  
 
-#### ExCheck (QuickCheck)
-QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
+** Projects **
+
+- [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
+- [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
+- [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
+- [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
 
 #### OpenAPI
 The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
@@ -612,46 +589,12 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 - [Swagger integration to Phoenix framework](https://github.com/xerions/phoenix_swagger)
 - [Auto generate and run tests using swagger/OpenAPI spec, no coding needed](https://github.com/meqaio/swagger_meqa)
 
-#### Projects
-*Estimate time: 6-7 hours The idea is to apply everything learned.*
-
-- [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-- [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
-- [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
-- [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
-
-### Distributed Systems
-
-### Observability 
-
-### Cloud Environments
-
-#### AWS and other cloud providers
-Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
-
-**AWS tools**
-- IAM: It's used for managing users, groups, access policies & roles.
-- EC2: A web service that provides secure, resizable compute capacity in the cloud.
-- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
-- ECS:  "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
- 
-(Optional) To further learn about AWS and its practical uses go [HERE](https://github.com/bregman-arie/devops-exercises/blob/master/topics/aws) for exercises. (AWS - EC2/IAM/Containers). These exercises are purely optional and require creating a free tier AWS account, and even then, some of the exercises require a paid account.
-
-#### Kubernetes
-Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
-- [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
-- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-- [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/topics/kubernetes/exercises)
-
-### Continuous Integration
-
-#### GitHub Actions
-- [About continuous integration](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration)
-- [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
-- [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
+#### ExCheck (QuickCheck)
+QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
 
 ### Rust
-*Estimate reading time: 7-8 hours*
+
+TODO
 
 - [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
 - [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
@@ -666,8 +609,6 @@ rustlings lsp
 ```
 
 #### Exercise: Conway's Game of Life
-*Estimate time: 3-5 hours*
-
 Implement Conway's Game of Life using Rust + Wasm.
 
 We suggest you:
@@ -682,8 +623,6 @@ and here are some sources you might find useful in this journey:
 - [Wasm bindgen (*Optional*)](https://rustwasm.github.io/wasm-bindgen/)
 
 #### Exercise: Rusty Merkle Tree
-*Estimate reading time: 4-8 hours*
-
 Implement a simple Merkle Tree in Rust.
 
 - A Merkle Tree can be built out of an array.
@@ -699,32 +638,42 @@ Here are some sources that you might find useful:
 - [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
 - [Other resources](https://nimble-aftershave-74f.notion.site/Resources-a632c530ccfd477d9454c4345c1c554f)
 
+### Julia
+
+TODO
+
+### Distributed Systems
+
+TODO
+
+#### Consensus
+
+### Observability
+
+TODO
+
 ### Performance Engineering
 
-## Advanced
-The articles, book chapters, exercises, and projects here are just the tip of the iceberg, there is a lot more material that unfortunately cannot be covered. Here are some relevant but more advanced topics. 
-There is even more present in the [reference material chapter](Reference.md). You can go over all that at your own pace.
+TODO
 
-### Hardware
-*Estimate reading time: 2 hours*
+#### Algorithmics
 
-- [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
-
-### Parsing
-
-### Type Systems
-
-### Virtual Machines and Runtimes
-- [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
-- [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
-
-### Algorithmics
-*Estimate reading time: 15 minutes*
+TODO
 
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
-### Computability
+### Cryptography and Blockchains
 
-### Consensus
+TODO
 
-### Cryptography
+### Language Engineering
+
+TODO
+
+#### Virtual Machines & Runtimes
+- [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+- [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
+
+#### Parsing
+
+TODO
