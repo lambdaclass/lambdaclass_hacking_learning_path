@@ -1,8 +1,14 @@
 # Group Readings
 
-Once a week we meet to discuss one or more articules.
+Once a week we meet to discuss one or more articles, blog posts, book chapters, or presentations.
+We find that these articles either have content very relevant to the experience of working at lambdaclass, or align with our principles, or at least give excellent talking points.
+They constitute part of our folklore and shared language and as such we think it's important to make sure everyone is familiar with them, even if you don't agree or can't yet see the point when it requires having gone through some experience. Some of them are controversial on purpose!
+This is why the goal of the activity is not just to read the articles or watch the talks but also to discuss and relate their contents to your experience.
+Ideally everyone should participate, and each session someone is chosen to lead the next one.
 
-Each session elegimos una persona para llevar adelante la siguiente.
+The contents are organized into several units, roughly grouped by topic, and each unit is organized into sessions with group one or more items.
+The sessions are held in round robin fashion, so when the last one is done we start over. Don't worry if we are in the middle of it when you join, you'll come round eventually.
+Once you'ved participated in all sessions participation in the reading group is no longer required but you're welcome anyway. Sometimes views change over time, and hearing from more senior members gives perspective.
 
 ## Unit 1: General Software Engineering
 
