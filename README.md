@@ -457,9 +457,10 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - Never push to master directly, and only reviewers can merge branches to master.
 
 ### Docker
-- [Replacing Docker Desktop for Mac with Colima](https://www.arthurkoziel.com/replacing-docker-desktop-for-mac-with-colima/)
-- [Colima setup for macOS](src/colima.md)
-- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ&t=30s)
+
+TODO: get better docker tutorials and references
+
+- [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ)
 - [Anti-Patterns When Building Docker Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
 
 **Some questions to guide your learning**
@@ -469,10 +470,16 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - Using port 8080, how do you run an image that exposes port 80?
 
 ### Debugging
+- [The Debugging Mindset](https://queue.acm.org/detail.cfm?id=3068754) Understanding the psychology of learning strategies leads to effective problem-solving skills.
 
-TODO: add general resources
-
+#### GDB, DTrace
 - [Give me 15 minutes and I'll change your view of Linux tracing](https://www.youtube.com/watch?v=GsMs3n8CB6g)
+- [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
+- [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
+- [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
+- [Tracing in Linux and macOS](https://blog.xfbs.net/posts/tracing-linux-macos)
+- [Ptrace](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
+- [Dtrace One Liners](https://www.brendangregg.com/dtrace.html#OneLiners)
 
 ### Testing
 
@@ -746,7 +753,18 @@ Here are some sources that you might find useful:
 
 ### Julia
 
-TODO
+- [Julia Koans](https://github.com/lambdaclass/julia_koans) that will give you some short but effective understanding.
+- [Julia Academy](https://juliaacademy.com/) for getting your hands dirty with some great tutorials.
+
+### Lisp
+
+Although we do not currently use any Lisps at Lambda, we have in the past and there is much to learn from this most venerable family of tools.
+
+#### Clojure
+- [Clojure, Made Simple](https://www.youtube.com/watch?v=VSdnJDO-xdg)
+
+**Installing Clojure**
+- All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
 
 ### Distributed Systems
 
