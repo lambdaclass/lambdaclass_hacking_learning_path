@@ -73,7 +73,7 @@
     - [Computability](#computability)
     - [Consensus](#consensus)
     - [Cryptography](#cryptography)
-
+    - [Ethereum](#ethereum)
 ---
 > You can choose a life of ease and comfort or you can choose a life of service and adventure - Jeff Bezos
 
@@ -731,3 +731,12 @@ There is even more present in the [reference material chapter](Reference.md). Yo
 *Estimate time: 6 hours*
 - [Introduction To Cryptocurrency](https://nakamoto.com/introduction-to-cryptocurrency/) A brief introduction to cryptography and P2P networking used in Bitcoin. 
 Avoid The History of Bitcoin module. Also, if you already implemented the Rusty Merkle Tree you can skip the Merkle Trees lecture
+
+### Ethereum
+- [What happens when you send one DAI](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai)
+- [Ethereum in 30 minutes by Vitalik Buterin | Devcon SEA](https://youtu.be/ei3tDRMjw6k)
+- [Keynote: [title redacted] by Justin Drake | Devcon SEA](https://youtu.be/lRqnFrqpq4k)
+- [Open sourcing rbuilder | Flashbots Writings](https://writings.flashbots.net/open-sourcing-rbuilder)
+- [Illuminating Ethereum's Order Flow Landscape | Flashbots Writings](https://writings.flashbots.net/illuminate-the-order-flow)
+- [Electronification, Trading, and Crypto](https://blog.uniswap.org/electronification-trading-and-crypto)
+- [Ethereum is a Dark Forest](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest)
