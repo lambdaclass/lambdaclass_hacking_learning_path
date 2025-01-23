@@ -617,7 +617,7 @@ The OpenAPI Specification (OAS) defines a standard, programming language-agnosti
 
 - [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
 - [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
-- [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
+- [Phoenix ecto encryption](https://github.com/dwyl/phoenix-ecto-encryption-example)
 - [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
 
 ### Distributed Systems
