@@ -770,6 +770,8 @@ Although we do not currently use any Lisps at Lambda, we have in the past and th
 
 TODO
 
+### DDIA: Klepmman
+
 #### Consensus
 
 ### Observability
@@ -786,16 +788,38 @@ TODO
 
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
-### Cryptography and Blockchains
-
-TODO
-
+### Blockchains
 - [Introduction To Cryptocurrency](https://nakamoto.com/introduction-to-cryptocurrency/)
   A brief introduction to cryptography and P2P networking used in Bitcoin.
   Avoid The History of Bitcoin module. Also, if you already implemented the Rusty
   Merkle Tree you can skip the Merkle Trees lecture.
 
+- [Electronification, Trading, and Crypto](https://blog.uniswap.org/electronification-trading-and-crypto) - Analysis of technology's impact on trading systems.
+- [A Cambrian Explosion of Crypto Proofs](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/) - Exploration of the surge in zero-knowledge proofs.
+- [A Brief History of Money](https://nakamoto.com/a-brief-history-of-money/) - The background of money leading up to cryptocurrencies.
+- [The Cypherpunks](https://nakamoto.com/the-cypherpunks/) - The role of software in privacy defense.
+- [Satoshi Nakamoto](https://nakamoto.com/satoshi-nakamoto/) - Exploring the enigma of Bitcoin's creator.
+- [Hash Functions](https://nakamoto.com/hash-functions/) - Discussing this critical component of cryptocurrencies.
+- [Merkle Trees](https://nakamoto.com/merkle-trees/) - Explanation of data representation in crypto.
+- [Public-Key Cryptography](https://nakamoto.com/public-key-cryptography/) - The foundation of digital identities in the crypto world.
+- [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
+
+#### Cryptography
+TODO
+
+
+#### Bitcoin
+TODO
+
+- [Hashcash](https://nakamoto.com/hashcash/) Insights into Bitcoin's consensus mechanism.
+
 #### Ethereum
+- [What happens when you send one DAI?](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai) A look at the process of Ethereum transactions.
+- [Layer 2 Rollups: Ethereum's Scalability Strategy](https://mirror.xyz/cliffton.eth/mCO-oaRIOyvEpIZ5hJrmU-cNDZ3Z9Es7mXOPH_I9uoM)
+
+##### Presentations
+
+##### Texts
 
 ### Language Engineering
 
