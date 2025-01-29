@@ -39,7 +39,7 @@
         1. [GitHub Actions](#github-actions)
         1. [SQL and PostgreSQL](#sql-and-postgresql)
         1. [Redis](#redis)
-1. [Part II](#part-ii)
+1. [Part II Specific Topics](#part-ii-specific-topics)
     1. [Functional Programming](#functional-programming)
         1. [Referential Transparency](#referential-transparency)
         1. [Immutability](#immutability)
@@ -88,30 +88,66 @@
 
 Welcome! 
 
+If you are reading this, you are probably giving your first -or second- steps on
+the long journey towards being a good developer, but first try to be a good
+human being and you will see how far that can get you.
+
+This text is a guide intended to aid employees in their first days at the
+company, it will guide you in setting up expectations and working tools, and a
+includes a whirlwind tour of the background knowledge necessary to work on the
+kinds of projects common at LambdaClass. 
+The comprises the first part of the path.
+
+The second part is a repository of selected reference material, exercises and 
+projects for engineers at any stage, including  material for various projects. 
+
+During the initial onboarding of new employees, the first part must be read 
+(end eventually re-read!) by everyone during this process, while the second part
+can be read on demand.
+
 ---
 
 ## Part I The Foundation
 
-TODO: add introduction about this part
 
 ### Our Worldview & Company Culture
+- [The Hacker Manifesto](http://phrack.org/issues/7/3.html). 
 
-TODO: review this entire section
+Before tackling the technical challenges ahead of us, we realized that the most 
+important thing any institution aspiring to greatness must have are clear and 
+shared values and principles. These characteristics, along with several others, 
+define a company's culture.
 
-At Lambda we won't micromanage you because we don't want to: **we give
-flexibility but ask for responsibility in exchange**.
-Of course, you can have days off to study, or if you feel sick, but you can also
-have days off if you feel brain fog, nervous, or a bit under the weather; we
-actually prefer it that way.
+In these pages, you will find these principles and values, which are expected of 
+anyone who is part of this institution, whether they are a newcomer or a settled 
+employee, an intern or a manager, and how to solve non-technical problems. 
+LambdaClass is a company with high technical content, but this knowledge must be 
+enhanced by cultural values that allow a fast identification of problems, as 
+well as ways to solve them, based on different learnings and heuristics that 
+many have experienced throughout this journey.
 
-If you feel healthy and comfortable, you will be able to solve more efficiently
-the problems you have in front of you. And even better, you will contribute to a
-healthier workspace.
+While this document aims to be useful, organized, and verified, it is important 
+to note that knowledge and wisdom must be challenged, evaluated, and modified 
+over time. The ideas in these pages are not set in stone but are constantly 
+being assessed and seeking to be refuted or improved.
 
-Nobody wants to give up, that's a common emotion. The good news is that you are
-not giving up, you are getting to know yourself better, so you can recharge your
-energies and keep learning and improving. In turn, when you are working we expect
-you to hit goals, be proactive, and be a valuable member of the team.
+- What is LambdaClass?
+- Where do you fit in LambdaClass?
+- What is expected from you?
+- What do you need to know?
+- Our core Principles
+    1. We hire, dismiss, and promote people as quickly as possible. 
+    2. Adhere to the truth and be transparent
+    3. Do what is right for the product.
+
+#### Attitude
+Attitude is how you feel, think, and what you believe regarding something, in other words, these things determine how you approach it. 
+
+Although the points we are going to discuss may seem obvious to someone with experience, most of the people who join us are trainees, meaning they have little or no experience in the development industry. Therefore, it becomes necessary to make these clarifications to ensure that everyone understands what we expect.
+
+At Lambda you'll be surrounded by highly skilled professionals. We focus on building a high-performance team, so everyone here excels at what they do. In fact, being exceptional is the standard, which creates a paradox—because in a sense, no one is truly exceptional. Achieving top grades and finishing your degree on time, being passionate about System Programming or Cryptography, or mastering coding skills may have brought you here, but won’t suffice to ensure that you will continue to be a valuable team. Everyone must continually prove they deserve to be part of this team.
+
+Please don't interpret this point as an invitation to break rules, procedures, or timelines in the pursuit of excellence. While striving for exceptional performance is encouraged, it must be done within the boundaries of established guidelines. For example, completing the Learning Path in a week doesn't demonstrate mastery — it only shows that you rushed through the content without taking the time to truly absorb it. You won’t gain a deeper understanding by rushing through it. Additionally, we explicitly address the importance of ethical conduct, and cutting corners is never acceptable.
 
 There are three key elements we want you to have present at every moment:
 *Communication, Accountability, and Empathy*.
@@ -136,28 +172,13 @@ There are three key elements we want you to have present at every moment:
   feel something is going on with them. There is a time when everybody feels
   weak and needs someone else for support. So be a hero, be empathic.
 
-If you are reading this, you are probably giving your first -or second- steps on
-the long journey towards being a good developer, but first try to be a good
-human being and you will see how far that can get you.
-
-- Read the [Hacker Manifesto](http://phrack.org/issues/7/3.html). 
-
-#### Learn to fail
-As with most projects making mistakes fast and loudly will make you learn
-faster, so you should not be ashamed to work directly on a repository through
-Pull Request rather than workshopping in a draft made elsewhere
-- **Avoid google docs**. Work directly with Git, it will help get more eyes on
-  your work to get corrections earlier.
-- **Default to git**. As said earlier, Git snapshots your work and makes it
-  more accessible to the public, more eyes means more people eager to help you.
-
 #### Principles for success and teamwork philosophy
 We follow a code of conduct that must be followed to ensure a safe space in the
 team. You signed it when you entered Lambda and we expect you to follow it.
-Basically, treat everyone with respect.
+Basically, treat everyone with respect.         
 - [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=oV8VSBSBrr4).
-- Chapters 1 & 15 of [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
+- Chapter 1 of [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
 - [Citogenesis in science and the importance of real problems](https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/)
 - Chapter 1 of [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
@@ -167,34 +188,106 @@ Basically, treat everyone with respect.
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
 - [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
 
-#### Even if you work with a client you're working for Lambda at the end
-It's commonplace in Lambda to work collaboratively with clients in the
-development of apps and features, so maybe you will have more day to day rapport
-with them than with your other Lambda coworkers. If you're in that situation you
-should always remember a few key things:
-- Your work relation is with Lambda, not with the client so expect to get
-  feedback from your Lambda's Tech Lead and Project Manager and not from the
-  client, don't ask for it either.
-- The relationship between Lambda and the client is managed by the Tech Leads
-  and Project Managers. If someone from the client side makes a request to you
-  personally via DM please contact your Tech Lead and Project Manager about it.
-  Make sure your Teach Lead and Project Manager are in the loop for all relevant
-  information.
+#### Ego, Learning to fail, & Your relationship with your own work
+Those truly exceptional at Lambda do not believe they are exceptional. 
+You may know how to code, but dealing with your own perception and emotions related is a soft skill that appears more rarely in young developers. 
+Trust is earned over time, skills are learned and perfected over time, outliers in one context may not be so in another, and being an excellent team member and understanding one’s role in an organization is more important than standing out. 
 
-#### Do The Simplest Thing That Could Possibly Work (aka KISS)
-> "Always implement things when you actually need them, never when you just
-> foresee that you need them" - Ron Jeffries
+Excellency is a habit, and no one is above making mistakes. These two facts together lead to a an important conclusion: in order to be exceptional, it's crucial to learn from your mistakes. This starts with acknowledging them. Making mistakes isn’t the same as failing—pretending they didn’t happen is. Mistakes are an essential part of learning; you can’t grow without them. The next step is communicating them. Your work impacts others, so if you make a mistake, it’s important to acknowledge it. This not only makes it easier for others to help, but it also shows accountability. 
 
-Strive for solving problems in the simplest way possible. To achieve this, you
-first need to figure out a handful of ways to confront the issue at hand, and
-only then pick the one you consider will work in the fewest, tiniest steps.
-Afterwards, refactor. Tomorrow’s code may need to be more complex, so do
-everything in your power to facilitate tomorrow’s code as simple as possible.
-Also, while you shouldn't be blind to the future, avoid investing time and
-effort into developing features that are not currently necessary and might be a
-waste.
-- [Do The Simplest Thing That Could Possibly Work](https://www.artima.com/articles/the-simplest-thing-that-could-possibly-work)
-- [YAGNI by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
+On the other hand, self-doubt can also become unhelpful and crippling. We can guarantee that alkmost everyone at Lambda is constantly asking "how can I be better?" of themselves, but believing you don't belong will eventually lead to making it true.
+
+As with most projects making mistakes fast and loudly will make you learn
+faster, so you should not be ashamed to work directly on a repository through
+Pull Requests rather than workshopping in a draft made elsewhere.
+- **Avoid google docs**. Work directly with Git, it will help get more eyes on
+  your work to get corrections earlier.
+- **Default to git**. As said earlier, Git snapshots your work and makes it
+  more accessible to the public, more eyes means more people eager to help you.
+- **Avoid asking questions in private chats**: asking in the project channel is
+  much better, as the question can be answered by anyone, more voices are heard,
+  others with the same questions may also benefit from the answers, and finally
+  the discussion if worthwhile can be captured as documentation.
+
+Much is said about the Dunning-Kruger Effect and Impostor Syndrome, but the important points can be boiled down to:
+- Keep your ego in check
+- Learn to fail, and learn from mistakes
+- Learn from others and help others in need
+- Listen to feedback and do not worry about evaluating your own performance
+
+Some resources on this topic:
+- [Dunning Kruger effect in Software development life cycle.(SDLC)](https://www.linkedin.com/pulse/dunning-kruger-effect-software-development-life-cyclesdlc-rauf-rahman/)
+- [Software engineers suffer from Dunning-Kruger - do you too?](https://www.dateo-software.de/blog/dunning-kruger)
+- [What Is Programmer Imposter Syndrome and How Can You Deal With It?](https://www.turing.com/blog/programmer-imposter-syndrome-tips)
+
+Developing equanimity and focusing on the truth revelead by results is The Lambda Way.
+You’ll come across more lessons on this throughout your learning path.
+
+#### Your relationship with others and work hierarchy
+At Lambda we won't micromanage you because we don't want to: **we give
+flexibility but ask for responsibility in exchange**.
+Of course, you can have days off to study, or if you feel sick, but you can also
+have days off if you feel brain fog, nervous, or a bit under the weather; we
+actually prefer it that way.
+
+If you feel healthy and comfortable, you will be able to solve more efficiently
+the problems you have in front of you. And even better, you will contribute to a
+healthier workspace.
+
+Nobody wants to give up, that's a common emotion. The good news is that you are
+not giving up, you are getting to know yourself better, so you can recharge your
+energies and keep learning and improving. In turn, when you are working we expect
+you to hit goals, be proactive, and be a valuable member of the team.
+
+One of the first thing you’ll learn during your onboarding process is that feedback is our most valuable tool, and the ability to give and receive it is something we continuously develop here at Lambda. One quality we all share as collaborators is the ability to take feedback and act on it. Here, feedback is direct and to the point—we’re transparent and clear. If you’re making a mistake or there’s something to improve, you’ll be told as soon as possible. The same goes for positive feedback: if something stands out, we’ll make sure to highlight it. 
+
+For us, feedback isn’t a one-way street. It’s not just top-down from managers to team members—we encourage and value feedback in all directions. Now, I’d like to make two clarifications:
+
+1. If you receive an instruction you disagree with, you can express your concerns respectfully, offering your reasoning and suggesting an alternative. However, if your Tech Lead still asks you to proceed with the original directive, you must follow it and continue with the assigned task.
+2. Valuing feedback and continuously seeking to improve processes doesn’t mean you can voice any comment or suggestion that crosses your mind, nor that we will implement everything you propose. It’s important to understand that those in charge have likely already considered the same questions or alternatives. If something is in place, it's because it was determined to be the most effective solution.
+
+When you enter the workforce, giving feedback, especially negative feedback may be one of the most challenging skills you have to build. Here’s the key: It’s not just about what you say — it’s about how you say it.
+
+1. **Be timely - F**eedback should always be given in a one-on-one setting. So, make sure that you aren't catching anyone off-guard. And, above all, *read the play*. If your Tech Lead seems particularly stressed, distracted, or disinterested, abort the discussion.
+2. Before you launch into feedback, **ask permission first**. Never launch into unsolicited feedback without checking. 
+3. **Be prepared -** Feedback should be specific. You should be able to explain the problem and how it’s impacting you, your team, or the organization.
+4. **Be constructive and solution-oriented** - Aim to approach the conversation with a helpful attitude rather than pointing out their flaws. Always couch your feedback as an opportunity to improve performance, or to optimize, or to get better outcomes. 
+5. **Be respectful and be honest -** make sure your tone is assertive but it pays appropriate deference to your lead's authority.
+
+Keep in mind that feedback, regardless of which direction it's going in, is affected by this power dynamic. This is why: 
+
+1. **Your own performance has to be strong**. That is to say, you need to have demonstrated competent and consistent delivery of high-value outcomes.
+2. **You have to know what you are talking about.** You have to have thought it through carefully. The surest way to kill your credibility is to go in with half-baked opinions.
+
+References: 
+- [](https://hbr.org/2023/04/how-to-give-negative-feedback-to-your-peers-boss-or-direct-reports)
+- [](https://www.linkedin.com/pulse/right-way-give-feedback-your-boss-martin-g-moore-dhq9e/)
+
+#### Ethics
+A lot can be said about ethics, both in general and as applied to computer 
+science and engineering and their industrial applications, but a few basic 
+things must be spelled out:s
+- Stealing, in any way, is explicitly forbidden and is grounds for immediate 
+  dismissal. This include stealing software from other projects, open source or 
+  not, without attribution or credit. 
+- Work towards making your environment better than the way you found it. This 
+  ranges from cleaning tableware used at the office to helping others with your 
+  strengths. 
+- Remember you are employed by Lambda even if you work on a client project
+  It's commonplace in Lambda to work collaboratively with clients in the
+  development of apps and features, so maybe you will have more day to day rapport
+  with them than with your other Lambda coworkers. If you're in that situation you
+  should always remember a few key things:
+  - Your work relation is with Lambda, not with the client so expect to get
+    feedback from your Lambda's Tech Lead and Project Manager and not from the
+    client, don't ask for it either.
+  - The relationship between Lambda and the client is managed by the Tech Leads
+    and Project Managers. If someone from the client side makes a request to you
+    personally via DM please contact your Tech Lead and Project Manager about it.
+    Make sure your Teach Lead and Project Manager are in the loop for all relevant
+    information.
+
+### Practices at Lambda
 
 #### Development process/workflow
 - There is a weekly call with every member of the team to set the most important
@@ -254,27 +347,16 @@ waste.
 - Make a good balance of features vs maintenance. Maintenance details usually
   matter more than adding a lot of features.
 
-#### Cryptography
-- [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
-- [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
-
-#### Machine Learning
-
-TODO
-
-#### Gaming
-
-TODO
-
 #### Group Readings
+Software has over the decades, developed a culture and folklore of its own. As trends fade in and out, older tools and practices give way to newer ones, and flame wars rage one, we gather battle stories, wisdom, quotes, bibles, and memes with which we talk about our craft. 
 
-TODO
+We have selected a few articles and posts we consider especially important to be familiar with, because they align with our values and way of working. To ensure everyone has time to be exposed to this material, we set up discussion groups in which someone volunteers to present some material, and the ensuing debate involving everyone, including more senior members, always results in relating the information to concrete experiences. 
 
-It is often
-folklore
-In addition to the Hacking Learning Path, new employees
+In addition to the Hacking Learning Path, new employees must participate in these Readings until they cycle out of the contents. You can see the program [here](readings.md).
 
-See the [program](readings.md).
+However, we encourage everyone to continue to embed themselves in this engineering folklore and to continue studying and gainig new skills. For this reason, once the mandatory readings are done with, we invite them to the Book Club, which votes on what research papers, books, posts, or presentations they will study and debate.
+
+#### Mentorship and One-to-Ones
 
 #### Community projects
 We organize activities where we share thoughts and interests with anyone who wants to join us.
@@ -286,10 +368,16 @@ We organize activities where we share thoughts and interests with anyone who wan
   Once a month we organize a meeting where we discuss scientific papers we love.
   Join us on [Telegram](https://t.me/pwlba).
 
-### Tool Stack & Development Environment 
+---
 
-TODO
+#### Cryptography
+One of Lambda's core goals is the betterment of society via technology, and cryptography (and soon AI) are central to these goals. 
+- [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
+- [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
 
+### Technical Foundations
+
+#### Development Environment
 We use a suite of tools to facilitate many tasks, as well as to enforce our
 security standards for all employees.
 
@@ -303,24 +391,24 @@ skip this section.
   (e.g. Slack, mail, GitHub).
 - Also, the company's GitHub repositories are [accessed via SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
-#### Homebrew
-[Homebrew](https://brew.sh/) is a package manager for macOS.
+##### Homebrew
+[Homebrew](https://brew.sh/) is a package manager for macOS. It is a must on any developer machine.
 
-#### GNU tools
+##### GNU tools
 Once you have installed Homebrew in your macOS system, you'll need to install
 some of the GNU tools/utilities for a better work experience.
 Just type in your shell the following command lines:
 - [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
 - [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
-#### asdf Version manager
+##### `asdf` version manager
 - [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager
   with the idea purpose of generating environmental variables to choose the
   specific version desired. Remember that to be able to use the environmental
   variables you need to set their path for the shell to check, you can see how
   to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
-#### Code Editors and IDEs
+##### Code Editors and IDEs
 **Do's and don'ts about the use of Vertical Whitespace**
 - If you'd like to visualize more vertical whitespace than it's established in
   these Do's and don'ts configure your text editor to show more space.
@@ -336,7 +424,28 @@ Just type in your shell the following command lines:
 - Don't leave blank lines at the end of a file.
 - Don't forget to put a *single* end of the line at the end of a file.
 
-### Unix Philosophy
+#### Software Engineering
+- [Basic Things](https://matklad.github.io/2024/03/22/basic-things.html)
+
+##### Complexity & KISS (Do The Simplest Thing That Could Possibly Work)
+> "Always implement things when you actually need them, never when you just
+> foresee that you need them" - Ron Jeffries
+
+Strive for solving problems in the simplest way possible. To achieve this, you
+first need to figure out a handful of ways to confront the issue at hand, and
+only then pick the one you consider will work in the fewest, tiniest steps.
+Afterwards, refactor. Tomorrow’s code may need to be more complex, so do
+everything in your power to facilitate tomorrow’s code as simple as possible.
+Also, while you shouldn't be blind to the future, avoid investing time and
+effort into developing features that are not currently necessary and might be a
+waste.
+- [Do The Simplest Thing That Could Possibly Work](https://www.artima.com/articles/the-simplest-thing-that-could-possibly-work)
+- [YAGNI by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
+- The two root causes of software complexity](https://pressupinc.com/blog/2014/05/root-causes-software-complexity/)
+- [Encapsulated vs systemic complexity in protocol design](https://vitalik.eth.limo/general/2022/02/28/complexity.html)
+- [Practices of Reliable Software Design](https://entropicthoughts.com/practices-of-reliable-software-design)
+
+#### The Unix Philosophy
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
 - [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 - [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html) (Whole chapter)
@@ -353,7 +462,7 @@ Just type in your shell the following command lines:
 - Why premature local optimization reduces overall performance?
 - There is the approach of doing things in "one true way", how does it affect extensibility?
 
-### Linux
+#### Linux
 As you already installed GNU-tools, there's no need to install Linux on a VM (Virtual Machine).
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
@@ -361,10 +470,10 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
     - Chapters [8-10] Bash scripting, Filesystems, and compression
 
-#### How to try some commands in MacOS with a VM
-1. There’s some commands that doesn’t work in MacOS. If you want to try them,
-   you can use a VM to use Linux. For this, we can use [UTM](https://mac.getutm.app/),
-   a Virtual Machine for MacOS. Follow the next steps [here](https://docs.getutm.app/guides/ubuntu/).
+##### How to try some commands in MacOS with a VM
+1. There are some commands that don't work in MacOS. If you want to try them,
+   you can use a VM to use Linux. For this, we can use [UTM](https://mac.getutm.app/). 
+   Follow the next steps [here](https://docs.getutm.app/guides/ubuntu/).
 2. After the installation is complete, close the VM and press “Stop selected VM”.
 3. Run the VM again.
 4. Now you can use this VM to run the commands.
@@ -378,7 +487,7 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - What does the `sda2` folder represent?
 - What do `/root` and `/usr/bin` store?
 
-#### Networking
+#### Networking & SSH
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
   - Chapters [1-5] (RECOMMENDED)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
@@ -397,7 +506,6 @@ As you already installed GNU-tools, there's no need to install Linux on a VM (Vi
 - What is the difference between HTTPS and HTTP?
 - What is the difference between asymmetric and symmetric cryptography?
 
-#### SSH 
 Before you embark on your Git journey, it is important to learn what an SSH Key
 (Secure Shell Key) is and how to generate one and add it to your GitHub account.
 This key will allow you to connect and authenticate to remote servers and
@@ -407,7 +515,9 @@ without supplying your username and personal access token each time.
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [Authorizing an SSH key for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#)
 
-#### Git
+#### Version Control, Git, & Github
+
+##### Git
 **No one** should merge his/her own PR without it being reviewed and approved by
 a co-worker and/or a client.
 
@@ -444,7 +554,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - Why are pull requests important?
 - How to clone a repository using SSH?
 
-#### GitHub & GitLab
+##### GitHub & GitLab
 - If you are new to GitHub, you can put your hands on with
   [this course](https://github.com/skills/introduction-to-github)
 - Progress in any project must be pushed every day. This must be done within a
@@ -456,10 +566,24 @@ Make sure your editor of choice is correctly configured to add them automaticall
     flowcharts, sequence diagrams, graphs, etc.
 - Never push to master directly, and only reviewers can merge branches to master.
 
-### Docker
+#### Testing
+- Test-driven Design
+- Unit testing
+- Integration testing
+- Property-based testing
+- Fuzzy Testing
 
-TODO: get better docker tutorials and references
+#### Debugging, GDB, DTrace
+- [The Debugging Mindset](https://queue.acm.org/detail.cfm?id=3068754) Understanding the psychology of learning strategies leads to effective problem-solving skills.
+- [Give me 15 minutes and I'll change your view of Linux tracing](https://www.youtube.com/watch?v=GsMs3n8CB6g)
+- [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
+- [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
+- [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
+- [Tracing in Linux and macOS](https://blog.xfbs.net/posts/tracing-linux-macos)
+- [Ptrace](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
+- [Dtrace One Liners](https://www.brendangregg.com/dtrace.html#OneLiners)
 
+#### Docker
 - [Getting Started](https://www.youtube.com/watch?v=iqqDU2crIEQ)
 - [Anti-Patterns When Building Docker Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/)
 
@@ -469,73 +593,12 @@ TODO: get better docker tutorials and references
 - In a Dockerfile, what is the difference between `RUN` and `CMD`?
 - Using port 8080, how do you run an image that exposes port 80?
 
-### Debugging
-- [The Debugging Mindset](https://queue.acm.org/detail.cfm?id=3068754) Understanding the psychology of learning strategies leads to effective problem-solving skills.
-
-#### GDB, DTrace
-- [Give me 15 minutes and I'll change your view of Linux tracing](https://www.youtube.com/watch?v=GsMs3n8CB6g)
-- [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
-- [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
-- [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
-- [Tracing in Linux and macOS](https://blog.xfbs.net/posts/tracing-linux-macos)
-- [Ptrace](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
-- [Dtrace One Liners](https://www.brendangregg.com/dtrace.html#OneLiners)
-
-### Testing
-
-TODO: elaborate
-
-- Test-driven Design
-- Unit testing
-- Integration testing
-- Property-based testing
-- Fuzzy Testing
-
-### Databases
-
-### Cloud Environments
-
-#### AWS and other cloud providers
-Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted
-cloud platform, offering over 200 fully featured services from data centers
-globally. Millions of customers—including the fastest-growing startups, largest
-enterprises, and leading government agencies—are using AWS to lower costs,
-become more agile, and innovate faster.
-
-**AWS tools**
-- IAM: It's used for managing users, groups, access policies & roles.
-- EC2: A web service that provides secure, resizable compute capacity in the
-  cloud.
-- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the
-  information required to launch an instance".
-- ECS: "Amazon Elastic Container Service (Amazon ECS) is a fully managed
-  container orchestration service. Customers such as Duolingo, Samsung, GE, and
-  Cook Pad use ECS to run their most sensitive and mission critical applications
-  because of its security, reliability, and scalability." In simpler words, it
-  allows you to launch containers on AWS.
- 
-(Optional) To further learn about AWS and its practical uses go
-[here](https://github.com/bregman-arie/devops-exercises/blob/master/topics/aws)
-for exercises. These exercises are purely optional and require creating a free
-tier AWS account, and even then, some of the exercises require a paid account.
-
-#### Kubernetes
-Kubernetes is a portable, extensible, open-source platform for managing
-containerized workloads and services, that facilitates both declarative
-configuration and automation. It has a large, rapidly growing ecosystem.
-Kubernetes services, support, and tools are widely available.
-- [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
-- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-- [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/topics/kubernetes/exercises)
-
-### Continuous Integration
-
-#### GitHub Actions
+#### Continuous Integration & GitHub Actions
 - [About continuous integration](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration)
 - [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
 - [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
-#### SQL and PostgreSQL
+#### Databases: SQL and PostgreSQL
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDED)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDED)
 - Chapters [10-11] from [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
@@ -550,13 +613,11 @@ Kubernetes services, support, and tools are widely available.
 - What does `COALESCE` do?
 - What does `LIKE 'S%'` do in a query?
 
-#### Redis
+#### Databases: Redis
 - [Introduction to Redis performance](https://www.youtube.com/watch?v=-5RTyEim384)
 - [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
 - [Redis Transactions](https://redis.io/topics/transactions)
-
-> Reference:
->- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
+- [Redis Cheatsheet](https://cheatography.com/tasjaevan/cheat-sheets/redis/pdf/)
 
 **Some questions to guide your learning**
 - What is the difference between PostgreSQL and Redis?
@@ -565,22 +626,11 @@ Kubernetes services, support, and tools are widely available.
 - What makes each database type unique?
 
 ---
-## Part II
+## Part II Specific Topics
 
 TODO
 
-### Functional Programming
-
-TODO
-
-- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
-
-#### Referential Transparency
-
-#### Immutability
-
-#### Functions as first-class citizens
-
+---
 ### Python
 - [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
@@ -602,6 +652,7 @@ TODO
 - How do you handle different routes for your web app in Flask?
 - Using the `logging` library, how do you log to a file?
 
+---
 ### The BEAM Ecosystem
 
 **Installing Erlang and Elixir**
@@ -702,6 +753,7 @@ then testing it extensively against randomly-generated variables automatically.
 [ExCheck](https://github.com/parroty/excheck) is a property-based testing
 library that resembles QuickCheck.
 
+---
 ### Rust
 
 TODO
@@ -751,49 +803,103 @@ Here are some sources that you might find useful:
 - [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
 - [Other resources](https://nimble-aftershave-74f.notion.site/Resources-a632c530ccfd477d9454c4345c1c554f)
 
+---
 ### Julia
-
 - [Julia Koans](https://github.com/lambdaclass/julia_koans) that will give you some short but effective understanding.
 - [Julia Academy](https://juliaacademy.com/) for getting your hands dirty with some great tutorials.
+- [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
 
+---
 ### Lisp
-
 Although we do not currently use any Lisps at Lambda, we have in the past and there is much to learn from this most venerable family of tools.
 
 #### Clojure
 - [Clojure, Made Simple](https://www.youtube.com/watch?v=VSdnJDO-xdg)
 
-**Installing Clojure**
-- All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
+All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
 
+---
+### Devops & Cloud Environments
+
+#### AWS and other cloud providers
+Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted
+cloud platform, offering over 200 fully featured services from data centers
+globally. Millions of customers—including the fastest-growing startups, largest
+enterprises, and leading government agencies—are using AWS to lower costs,
+become more agile, and innovate faster.
+
+**AWS tools**
+- IAM: It's used for managing users, groups, access policies & roles.
+- EC2: A web service that provides secure, resizable compute capacity in the
+  cloud.
+- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the
+  information required to launch an instance".
+- ECS: "Amazon Elastic Container Service (Amazon ECS) is a fully managed
+  container orchestration service. Customers such as Duolingo, Samsung, GE, and
+  Cook Pad use ECS to run their most sensitive and mission critical applications
+  because of its security, reliability, and scalability." In simpler words, it
+  allows you to launch containers on AWS.
+ 
+(Optional) To further learn about AWS and its practical uses go
+[here](https://github.com/bregman-arie/devops-exercises/blob/master/topics/aws)
+for exercises. These exercises are purely optional and require creating a free
+tier AWS account, and even then, some of the exercises require a paid account.
+
+#### Kubernetes
+Kubernetes is a portable, extensible, open-source platform for managing
+containerized workloads and services, that facilitates both declarative
+configuration and automation. It has a large, rapidly growing ecosystem.
+Kubernetes services, support, and tools are widely available.
+- [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Extra exercises](https://github.com/bregman-arie/devops-exercises/tree/master/topics/kubernetes/exercises)
+
+---
+### Functional Programming
+- [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
+
+<!-- 
+#### Referential Transparency
+#### Immutability
+#### Functions as first-class citizens
+-->
+
+---
 ### Distributed Systems
 
-TODO
-
-### DDIA: Klepmman
-
-#### Consensus
+#### Designing Data-Intensive Applications
+The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) is an excellent introduction to many topics related to building scalable and fault-tolerant systems. It provides a decent map of the territory and jumping-off points for anone beginning to understand how systems are architected to provide these characteristics since it provides many references for further reading. 
 
 ### Observability
 
 TODO
 
+---
 ### Performance Engineering
 
 TODO
 
 #### Algorithmics
+- [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
 TODO
 
-- [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
+---
+### Machine Learning
 
+TODO
+
+---
+### Gaming
+
+TODO
+
+---
 ### Blockchains
 - [Introduction To Cryptocurrency](https://nakamoto.com/introduction-to-cryptocurrency/)
   A brief introduction to cryptography and P2P networking used in Bitcoin.
   Avoid The History of Bitcoin module. Also, if you already implemented the Rusty
   Merkle Tree you can skip the Merkle Trees lecture.
-
 - [Electronification, Trading, and Crypto](https://blog.uniswap.org/electronification-trading-and-crypto) - Analysis of technology's impact on trading systems.
 - [A Cambrian Explosion of Crypto Proofs](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/) - Exploration of the surge in zero-knowledge proofs.
 - [A Brief History of Money](https://nakamoto.com/a-brief-history-of-money/) - The background of money leading up to cryptocurrencies.
@@ -804,23 +910,122 @@ TODO
 - [Public-Key Cryptography](https://nakamoto.com/public-key-cryptography/) - The foundation of digital identities in the crypto world.
 - [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
 
-#### Cryptography
-TODO
+### General Cryptography
+- [crypto101](https://www.crypto101.io/) Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels.
 
-
-#### Bitcoin
+---
+### Bitcoin
 TODO
 
 - [Hashcash](https://nakamoto.com/hashcash/) Insights into Bitcoin's consensus mechanism.
 
-#### Ethereum
+---
+### Ethereum
+
+#### Introductory Material
 - [What happens when you send one DAI?](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai) A look at the process of Ethereum transactions.
+- [Ethereum in 30 minutes by Vitalik Buterin | Devcon Bogotá](https://www.youtube.com/watch?v=UihMqcj-cqc)
+- [Research, Spec, Clients, & Nodes](https://youtu.be/vzgNqO_obH4)
+- [The EVM](https://youtu.be/kCswGz9naZg)
+- [Accounts, Private Keys, Wallets](https://youtu.be/A_c3bCkBtPA)
+- [Smart Contracts](https://youtu.be/PLgawr4pbqE)
+- [The modular Vision & Roll-ups](https://youtu.be/cPorRAyA9qg)
+- [ZK Roll-Ups](https://youtu.be/3C0g-60bAWc)
+
+#### Official Documentation
+- [Developer Docs Homepage](https://ethereum.org/en/developers/docs/)
+  - [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
+  - [Accounts](https://ethereum.org/en/developers/docs/accounts/)
+  - [Transactions](https://ethereum.org/en/developers/docs/transactions/)
+  - [Blocks](https://ethereum.org/en/developers/docs/blocks/)
+  - [EVM](https://ethereum.org/en/developers/docs/evm/)
+  - [Gas](https://ethereum.org/en/developers/docs/gas/)
+  - [Data Structures and Encoding](https://ethereum.org/en/developers/docs/data-structures-and-encoding/)
+  - [Patricia Merkle Tree](https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/)
+  - [Nodes and Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/)
+
+#### EVM
+- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- [EVM Handbook](https://www.notion.so/bb38e175cc404111a391907c4975426d?pvs=21)
+- [EVM Codes](https://www.evm.codes/)
+- [EVM Deep Dives](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy)
+- [Mega EOF Specification](https://github.com/ipsilon/eof/blob/main/spec/eof.md)
+
+#### Account Abstraction
+- [An ultimate guide to account abstraction](https://blog.getclave.io/p/ultimate-account-abstraction-guide)
+- [Part I: WTF is Account Abstraction](https://www.argent.xyz/blog/wtf-is-account-abstraction/)
+- [Part II: WTF is Account Abstraction](https://www.argent.xyz/blog/part-2-wtf-is-account-abstraction)
+- [Part III: WTF is Account Abstraction](https://www.argent.xyz/blog/part-3-wtf-is-account-abstraction)
+- [Why EOA Wallets are a Threat to the Future of Blockchain](https://www.argent.xyz/blog/self-custody-mass-adoption)
+- [Argent Twitter Thread on ](https://twitter.com/argentHQ/status/1506302039982284816)
+- [EIP 2938: Account Abstraction](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2938.md)
+- [EIP 3074: AUTH and AUTHCALL opcodes](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3074.md)
+- [EIP 7702: Set EOA account code](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md)
+- [ERC 4337: Account Abstraction Using Alt Mempool](https://eips.ethereum.org/EIPS/eip-4337)
+- [EXP-0001: Account Delegation with EIP-7702](https://www.ithaca.xyz/writings/exp-0001) Example AA with EIP 7702
+
+#### Consensus
+- [Geth docs: Sync modes](https://geth.ethereum.org/docs/fundamentals/sync-modes)
+- [Ethereum's Proof of Stake consensus explained](https://www.youtube.com/watch?v=5gfNUVmX3Es)
+- [Engine API: A Visual Guide](https://hackmd.io/@danielrachi/engine_api)
+
+#### Scalability & Rollups
+- [How Rollups **Actually Actually Actually** Work](https://dba.mirror.xyz/LYUb_Y2huJhNUw_z8ltqui2d6KY8Fc3t_cnSE9rDL_o)
 - [Layer 2 Rollups: Ethereum's Scalability Strategy](https://mirror.xyz/cliffton.eth/mCO-oaRIOyvEpIZ5hJrmU-cNDZ3Z9Es7mXOPH_I9uoM)
+- [Discussing ZK-rollups (with Toghrul Maharramov from Scroll)](https://www.youtube.com/watch?v=KEsnbUbj7T0)
+- [Rollups Through the Prism of the Bridges by Toghrul Maharramov](https://www.youtube.com/watch?v=GlxSP_ABE4Y)
 
-##### Presentations
+#### Validium
+- [Official Docs](https://ethereum.org/en/developers/docs/scaling/validium/)
+- [zkPorter: a breakthrough in L2 scaling](https://blog.matter-labs.io/zkporter-a-breakthrough-in-l2-scaling-ed5e48842fbf)
+- [Volition and the Emerging Data Availability spectrum](https://starkware.medium.com/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb)
+- [Validium And The Layer 2 Two-By-Two — Issue No. 99](https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two)
 
-##### Texts
+#### Provers & zkVMs
 
+##### zkVMs
+- [The different types of ZK-EVMs](https://vitalik.eth.limo/general/2022/08/04/zkevm.html)
+
+##### SP1
+- [What is SP1](https://docs.succinct.xyz/introduction.html)
+- [Why use SP1](https://docs.succinct.xyz/why-use-sp1.html)
+- [What is a zkVM](https://docs.succinct.xyz/what-is-a-zkvm.html)
+- [Succinct - How SP1 is making ZK easy, cheap, and production ready](https://www.youtube.com/watch?v=D4DiDayFDvc)
+- [Episode 314 - Succinct's Platform, Prover Network and SP1](https://www.youtube.com/watch?v=vKZWHtWFlJ0)
+
+#### Multi Prover/TEEs
+- [Securing Validating Bridges](https://www.youtube.com/watch?v=F239cxeWYfQ)
+- [2FA zk-Rollups using SGX](https://ethresear.ch/t/2fa-zk-rollups-using-sgx/14462)
+- [Scaling Security Multi-Prover Implementation on Scroll](https://scroll.io/blog/scaling-security)
+- [Intro to TEEs and Gramine](https://www.youtube.com/watch?v=TVmeuJ_HgYg)
+- [Gramine Repo](https://github.com/gramineproject/gramine)
+
+#### MEV
+- [The MEV Book](https://www.monoceros.com/insights/maximal-extractable-value-book)
+- [Everything you need to know about Order Flow Auctions (OFA)](https://www.monoceros.com/insights/order-flow-auctions)
+- [Flashbots: What is MEV Boost?](https://docs.flashbots.net/flashbots-mev-boost/introduction)
+- [Illuminating Ethereum’s Order Flow Landscape](https://writings.flashbots.net/illuminate-the-order-flow)
+- [The MEV Supply Chain](https://flashbots.mirror.xyz/bqCakwfQZkMsq63b50vib-nibo5eKai0QuK7m-Dsxpo)
+
+#### Based Rollups & Rogue
+- [Based Rollups: Superpowers from L1 sequencing](https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016)
+- [Based Rollups: The next frontier of Ethereum Scaling](https://www.youtube.com/watch?v=thPIc-_h2ms)
+- [Taiko Protocol Overview](https://taiko.mirror.xyz/y_47kIOL5kavvBmG0zVujD2TRztMZt-xgM5d4oqp4_Y)
+- [Taiko Transaction Fees](https://taiko.mirror.xyz/qvZV19UrPOPbWwJ3hwdppNlnqn4nM_LXoS1uztKs6DE)
+- [Mina: How to price SNARK work](https://docs.minaprotocol.com/mina-protocol/snark-workers#how-to-price-snark-work)
+- [Mina: SNARKs and SNARK Workers](https://docs.minaprotocol.com/node-operators/faq#snarks-and-snark-workers)
+- [Based Rollups can reward proposers first come first serve](https://ethresear.ch/t/based-rollups-can-reward-proposers-first-come-first-serve/18317)
+- [Implementing a simple, batch-based auction system for prover cost-efficiency](https://github.com/taikoxyz/taiko-mono/issues/13813#issuecomment-1562539366)
+- [https://community.starknet.io/t/starknet-decentralized-protocol-iv-proofs-in-the-protocol/6030/18](https://community.starknet.io/t/starknet-decentralized-protocol-iv-proofs-in-the-protocol/6030/18)
+- [Execution Tickets](https://ethresear.ch/t/execution-tickets/17944)
+- [Economic Analysis of Execution Tickets](https://ethresear.ch/t/economic-analysis-of-execution-tickets/18894)
+- [Based Preconfirmations](https://taiko.mirror.xyz/ejciROGOGM9L_DuuqM3KloZan0EQR73fJt8qzTZmVzg)
+- [To be Based or not to be Based](https://taiko.mirror.xyz/rQcCRvD4OTDLf_wwiPQmrqYgJvScMdn37lHctHSwttA)
+
+#### Ethrex L2 Documentation
+- [https://github.com/lambdaclass/ethrex/tree/main/crates/l2/docs](https://github.com/lambdaclass/ethrex/tree/main/crates/l2/docs)
+
+---
 ### Language Engineering
 
 TODO
