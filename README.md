@@ -2,66 +2,94 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-1. [Part I The Foundation](#part-i-the-foundation)
+1. [LambdaClass Hacking Learning Path](#lambdaclass-hacking-learning-path)
+  1. [Introduction](#introduction)
+  1. [Part I The Foundation](#part-i-the-foundation)
     1. [Our Worldview & Company Culture](#our-worldview-&-company-culture)
-        1. [Learn to fail](#learn-to-fail)
-        1. [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
-        1. [Even if you work with a client you're working for Lambda at the end](#even-if-you-work-with-a-client-you're-working-for-lambda-at-the-end)
-        1. [Do The Simplest Thing That Could Possibly Work (aka KISS)](#do-the-simplest-thing-that-could-possibly-work-(aka-kiss))
-        1. [Development process/workflow](#development-process/workflow)
-        1. [Design and coding standards](#design-and-coding-standards)
-        1. [Working on open-source projects](#working-on-open-source-projects)
-        1. [Cryptography](#cryptography)
-        1. [Machine Learning](#machine-learning)
-        1. [Gaming](#gaming)
-        1. [Community projects](#community-projects)
-    1. [Tool Stack & Development Environment](#tool-stack-&-development-environment)
+      1. [Attitude](#attitude)
+      1. [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
+      1. [Ego, Learning to fail, & Your relationship with your own work](#ego,-learning-to-fail,-&-your-relationship-with-your-own-work)
+      1. [Your relationship with others and work hierarchy](#your-relationship-with-others-and-work-hierarchy)
+      1. [Ethics](#ethics)
+    1. [Practices at Lambda](#practices-at-lambda)
+      1. [Development process/workflow](#development-process/workflow)
+      1. [Design and coding standards](#design-and-coding-standards)
+      1. [Working on open-source projects](#working-on-open-source-projects)
+      1. [Group Readings](#group-readings)
+      1. [Mentorship and One-to-Ones](#mentorship-and-one-to-ones)
+      1. [Community projects](#community-projects)
+      1. [Cryptography](#cryptography)
+    1. [Technical Foundations](#technical-foundations)
+      1. [Development Environment](#development-environment)
         1. [Homebrew](#homebrew)
         1. [GNU tools](#gnu-tools)
-        1. [asdf Version manager](#asdf-version-manager)
+        1. [`asdf` version manager](#`asdf`-version-manager)
         1. [Code Editors and IDEs](#code-editors-and-ides)
-    1. [Unix Philosophy](#unix-philosophy)
-    1. [Linux](#linux)
+      1. [Software Engineering](#software-engineering)
+        1. [Complexity & KISS (Do The Simplest Thing That Could Possibly Work)](#complexity-&-kiss-(do-the-simplest-thing-that-could-possibly-work))
+      1. [The Unix Philosophy](#the-unix-philosophy)
+      1. [Linux](#linux)
         1. [How to try some commands in MacOS with a VM](#how-to-try-some-commands-in-macos-with-a-vm)
-        1. [Networking](#networking)
-        1. [SSH](#ssh)
+      1. [Networking & SSH](#networking-&-ssh)
+      1. [Version Control, Git, & Github](#version-control,-git,-&-github)
         1. [Git](#git)
         1. [GitHub & GitLab](#github-&-gitlab)
-    1. [Docker](#docker)
-    1. [Debugging](#debugging)
-    1. [Testing](#testing)
-    1. [Databases](#databases)
-    1. [Cloud Environments](#cloud-environments)
-        1. [AWS and other cloud providers](#aws-and-other-cloud-providers)
-        1. [Kubernetes](#kubernetes)
-    1. [Continuous Integration](#continuous-integration)
-        1. [GitHub Actions](#github-actions)
-        1. [SQL and PostgreSQL](#sql-and-postgresql)
-        1. [Redis](#redis)
-1. [Part II Specific Topics](#part-ii-specific-topics)
-    1. [Functional Programming](#functional-programming)
-        1. [Referential Transparency](#referential-transparency)
-        1. [Immutability](#immutability)
-        1. [Functions as first-class citizens](#functions-as-first-class-citizens)
+      1. [Testing](#testing)
+      1. [Debugging, GDB, DTrace](#debugging,-gdb,-dtrace)
+      1. [Docker](#docker)
+      1. [Continuous Integration & GitHub Actions](#continuous-integration-&-github-actions)
+      1. [Databases: SQL and PostgreSQL](#databases:-sql-and-postgresql)
+      1. [Databases: Redis](#databases:-redis)
+  1. [Part II Specific Topics](#part-ii-specific-topics)
     1. [Python](#python)
     1. [The BEAM Ecosystem](#the-beam-ecosystem)
-        1. [Phoenix](#phoenix)
-        1. [OpenAPI](#openapi)
-        1. [ExCheck (QuickCheck)](#excheck-(quickcheck))
+      1. [Phoenix](#phoenix)
+      1. [Projects](#projects)
+      1. [OpenAPI](#openapi)
+      1. [ExCheck (QuickCheck)](#excheck-(quickcheck))
     1. [Rust](#rust)
-        1. [Exercise: Conway's Game of Life](#exercise:-conway's-game-of-life)
-        1. [Exercise: Rusty Merkle Tree](#exercise:-rusty-merkle-tree)
+      1. [Exercise: Conway's Game of Life](#exercise:-conway's-game-of-life)
+      1. [Exercise: Rusty Merkle Tree](#exercise:-rusty-merkle-tree)
     1. [Julia](#julia)
+    1. [Lisp](#lisp)
+      1. [Clojure](#clojure)
+    1. [Devops & Cloud Environments](#devops-&-cloud-environments)
+      1. [AWS and other cloud providers](#aws-and-other-cloud-providers)
+      1. [Kubernetes](#kubernetes)
+    1. [Functional Programming](#functional-programming)
+      1. [Referential Transparency](#referential-transparency)
+      1. [Immutability](#immutability)
+      1. [Functions as first-class citizens](#functions-as-first-class-citizens)
     1. [Distributed Systems](#distributed-systems)
-        1. [Consensus](#consensus)
+      1. [Designing Data-Intensive Applications](#designing-data-intensive-applications)
     1. [Observability](#observability)
     1. [Performance Engineering](#performance-engineering)
-        1. [Algorithmics](#algorithmics)
-    1. [Cryptography and Blockchains](#cryptography-and-blockchains)
+      1. [Algorithmics](#algorithmics)
+    1. [Machine Learning](#machine-learning)
+    1. [Gaming](#gaming)
+    1. [General Cryptography](#general-cryptography)
+    1. [Blockchains](#blockchains)
+    1. [Bitcoin](#bitcoin)
+    1. [Ethereum](#ethereum)
+      1. [Introductory Material](#introductory-material)
+      1. [Official Documentation](#official-documentation)
+      1. [EVM](#evm)
+      1. [Account Abstraction](#account-abstraction)
+      1. [Consensus](#consensus)
+      1. [Scalability & Rollups](#scalability-&-rollups)
+      1. [Validium](#validium)
+      1. [Provers & zkVMs](#provers-&-zkvms)
+        1. [zkVMs](#zkvms)
+        1. [SP1](#sp1)
+      1. [Multi Prover/TEEs](#multi-prover/tees)
+      1. [MEV](#mev)
+      1. [Based Rollups & Rogue](#based-rollups-&-rogue)
+      1. [Ethrex L2 Documentation](#ethrex-l2-documentation)
     1. [Language Engineering](#language-engineering)
-        1. [Virtual Machines & Runtimes](#virtual-machines-&-runtimes)
-        1. [Parsing](#parsing)
+      1. [Virtual Machines & Runtimes](#virtual-machines-&-runtimes)
+      1. [Parsing](#parsing)
+    1. [Hardware](#hardware)
+
 
 ---
 ## Introduction
@@ -84,7 +112,8 @@
 > developers up to think about important stuff and deliver value to the business.
 > Just as I want my language to be boring so I can focus on interesting stuff, I
 > also want my tech stack to be boring - the interesting bits should be in the
-> value added, not the stuff under that.
+> value added, not the stuff under that. 
+> - [HN](https://news.ycombinator.com/item?id=33215003)
 
 Welcome! 
 
@@ -93,10 +122,10 @@ the long journey towards being a good developer, but first try to be a good
 human being and you will see how far that can get you.
 
 This text is a guide intended to aid employees in their first days at the
-company, it will guide you in setting up expectations and working tools, and a
+company, it will guide you in setting up expectations and working tools, and
 includes a whirlwind tour of the background knowledge necessary to work on the
 kinds of projects common at LambdaClass. 
-The comprises the first part of the path.
+This comprises the first part of the path.
 
 The second part is a repository of selected reference material, exercises and 
 projects for engineers at any stage, including  material for various projects. 
@@ -108,7 +137,6 @@ can be read on demand.
 ---
 
 ## Part I The Foundation
-
 
 ### Our Worldview & Company Culture
 - [The Hacker Manifesto](http://phrack.org/issues/7/3.html). 
@@ -131,23 +159,39 @@ to note that knowledge and wisdom must be challenged, evaluated, and modified
 over time. The ideas in these pages are not set in stone but are constantly 
 being assessed and seeking to be refuted or improved.
 
-- What is LambdaClass?
+<!-- - What is LambdaClass?
 - Where do you fit in LambdaClass?
 - What is expected from you?
 - What do you need to know?
-- Our core Principles
-    1. We hire, dismiss, and promote people as quickly as possible. 
-    2. Adhere to the truth and be transparent
-    3. Do what is right for the product.
+-->
 
 #### Attitude
-Attitude is how you feel, think, and what you believe regarding something, in other words, these things determine how you approach it. 
+Attitude is how you feel, think, and what you believe regarding something, in 
+other words, these things determine how you approach it. 
 
-Although the points we are going to discuss may seem obvious to someone with experience, most of the people who join us are trainees, meaning they have little or no experience in the development industry. Therefore, it becomes necessary to make these clarifications to ensure that everyone understands what we expect.
+Although the points we are going to discuss may seem obvious to someone with 
+experience, most of the people who join us are trainees, meaning they have 
+little or no experience in the development industry. Therefore, it becomes 
+necessary to make these clarifications to ensure that everyone understands what 
+we expect.
 
-At Lambda you'll be surrounded by highly skilled professionals. We focus on building a high-performance team, so everyone here excels at what they do. In fact, being exceptional is the standard, which creates a paradox—because in a sense, no one is truly exceptional. Achieving top grades and finishing your degree on time, being passionate about System Programming or Cryptography, or mastering coding skills may have brought you here, but won’t suffice to ensure that you will continue to be a valuable team. Everyone must continually prove they deserve to be part of this team.
+At Lambda you'll be surrounded by highly skilled professionals. We focus on 
+building a high-performance team, so everyone here excels at what they do. 
+In fact, being exceptional is the standard, which creates a paradox—because in a 
+sense, no one is truly exceptional. Achieving top grades and finishing your 
+degree on time, being passionate about System Programming or Cryptography, or 
+mastering coding skills may have brought you here, but won’t suffice to ensure 
+that you will continue to be a valuable team. Everyone must continually prove 
+they deserve to be part of this team.
 
-Please don't interpret this point as an invitation to break rules, procedures, or timelines in the pursuit of excellence. While striving for exceptional performance is encouraged, it must be done within the boundaries of established guidelines. For example, completing the Learning Path in a week doesn't demonstrate mastery — it only shows that you rushed through the content without taking the time to truly absorb it. You won’t gain a deeper understanding by rushing through it. Additionally, we explicitly address the importance of ethical conduct, and cutting corners is never acceptable.
+Please don't interpret this point as an invitation to break rules, procedures, 
+or timelines in the pursuit of excellence. While striving for exceptional 
+performance is encouraged, it must be done within the boundaries of established 
+guidelines. For example, completing the Learning Path in a week doesn't 
+demonstrate mastery — it only shows that you rushed through the content without 
+taking the time to truly absorb it. You won’t gain a deeper understanding by 
+rushing through it. Additionally, we explicitly address the importance of 
+ethical conduct, and cutting corners is never acceptable.
 
 There are three key elements we want you to have present at every moment:
 *Communication, Accountability, and Empathy*.
@@ -172,6 +216,11 @@ There are three key elements we want you to have present at every moment:
   feel something is going on with them. There is a time when everybody feels
   weak and needs someone else for support. So be a hero, be empathic.
 
+Also remember our core principles are:
+1. We hire, dismiss, and promote people as quickly as possible. 
+2. Adhere to the truth and be transparent
+3. Do what is right for the product.
+
 #### Principles for success and teamwork philosophy
 We follow a code of conduct that must be followed to ensure a safe space in the
 team. You signed it when you entered Lambda and we expect you to follow it.
@@ -189,16 +238,29 @@ Basically, treat everyone with respect.
 - [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
 
 #### Ego, Learning to fail, & Your relationship with your own work
-Those truly exceptional at Lambda do not believe they are exceptional. 
-You may know how to code, but dealing with your own perception and emotions related is a soft skill that appears more rarely in young developers. 
-Trust is earned over time, skills are learned and perfected over time, outliers in one context may not be so in another, and being an excellent team member and understanding one’s role in an organization is more important than standing out. 
+Those truly exceptional at Lambda are the least likely to believe they are. 
+You may know how to code, but dealing with your own perception and emotions 
+related is a soft skill that appears more rarely in young developers. 
+Trust is earned over time, skills are learned and perfected over time, outliers 
+in one context may not be so in another, and being an excellent team member and 
+understanding one’s role in an organization is more important than standing out. 
 
-Excellency is a habit, and no one is above making mistakes. These two facts together lead to a an important conclusion: in order to be exceptional, it's crucial to learn from your mistakes. This starts with acknowledging them. Making mistakes isn’t the same as failing—pretending they didn’t happen is. Mistakes are an essential part of learning; you can’t grow without them. The next step is communicating them. Your work impacts others, so if you make a mistake, it’s important to acknowledge it. This not only makes it easier for others to help, but it also shows accountability. 
+Excellency is a habit, and no one is above making mistakes. These two facts 
+together lead to a an important conclusion: in order to be exceptional, it's 
+crucial to learn from your mistakes. This starts with acknowledging them. 
+Making mistakes isn’t the same as failing—pretending they didn’t happen is. 
+Mistakes are an essential part of learning; you can’t grow without them. The 
+next step is communicating them. Your work impacts others, so if you make a 
+mistake, it’s important to acknowledge it. This not only makes it easier for 
+others to help, but it also shows accountability. 
 
-On the other hand, self-doubt can also become unhelpful and crippling. We can guarantee that alkmost everyone at Lambda is constantly asking "how can I be better?" of themselves, but believing you don't belong will eventually lead to making it true.
+On the other hand, self-doubt can also become unhelpful and crippling. We can 
+guarantee that almost everyone at Lambda is constantly asking "how can I be 
+better?" of themselves, but believing you don't belong will eventually lead to 
+making it true.
 
 As with most projects making mistakes fast and loudly will make you learn
-faster, so you should not be ashamed to work directly on a repository through
+faster, this is why you must work directly on a repository through
 Pull Requests rather than workshopping in a draft made elsewhere.
 - **Avoid google docs**. Work directly with Git, it will help get more eyes on
   your work to get corrections earlier.
@@ -209,7 +271,8 @@ Pull Requests rather than workshopping in a draft made elsewhere.
   others with the same questions may also benefit from the answers, and finally
   the discussion if worthwhile can be captured as documentation.
 
-Much is said about the Dunning-Kruger Effect and Impostor Syndrome, but the important points can be boiled down to:
+Much is said about the Dunning-Kruger Effect and Impostor Syndrome, but the 
+important points can be boiled down to:
 - Keep your ego in check
 - Learn to fail, and learn from mistakes
 - Learn from others and help others in need
@@ -220,7 +283,8 @@ Some resources on this topic:
 - [Software engineers suffer from Dunning-Kruger - do you too?](https://www.dateo-software.de/blog/dunning-kruger)
 - [What Is Programmer Imposter Syndrome and How Can You Deal With It?](https://www.turing.com/blog/programmer-imposter-syndrome-tips)
 
-Developing equanimity and focusing on the truth revelead by results is The Lambda Way.
+Developing equanimity and focusing on the truth revelead by results is The 
+Lambda Way.
 You’ll come across more lessons on this throughout your learning path.
 
 #### Your relationship with others and work hierarchy
@@ -236,56 +300,93 @@ healthier workspace.
 
 Nobody wants to give up, that's a common emotion. The good news is that you are
 not giving up, you are getting to know yourself better, so you can recharge your
-energies and keep learning and improving. In turn, when you are working we expect
-you to hit goals, be proactive, and be a valuable member of the team.
+energies and keep learning and improving. In turn, when you are working we 
+expect you to hit goals, be proactive, and be a valuable member of the team.
 
-One of the first thing you’ll learn during your onboarding process is that feedback is our most valuable tool, and the ability to give and receive it is something we continuously develop here at Lambda. One quality we all share as collaborators is the ability to take feedback and act on it. Here, feedback is direct and to the point—we’re transparent and clear. If you’re making a mistake or there’s something to improve, you’ll be told as soon as possible. The same goes for positive feedback: if something stands out, we’ll make sure to highlight it. 
+One of the first thing you’ll learn during your onboarding process is that 
+feedback is our most valuable tool, and the ability to give and receive it is 
+something we continuously develop here at Lambda. One quality we all share as 
+collaborators is the ability to take feedback and act on it. Here, feedback is 
+direct and to the point—we’re transparent and clear. If you’re making a mistake 
+or there’s something to improve, you’ll be told as soon as possible. The same 
+goes for positive feedback: if something stands out, we’ll make sure to 
+highlight it. 
 
-For us, feedback isn’t a one-way street. It’s not just top-down from managers to team members—we encourage and value feedback in all directions. Now, I’d like to make two clarifications:
+For us, feedback isn’t a one-way street. It’s not just top-down from managers 
+to team members—we encourage and value feedback in all directions. 
+Two clarifications are in order:
 
-1. If you receive an instruction you disagree with, you can express your concerns respectfully, offering your reasoning and suggesting an alternative. However, if your Tech Lead still asks you to proceed with the original directive, you must follow it and continue with the assigned task.
-2. Valuing feedback and continuously seeking to improve processes doesn’t mean you can voice any comment or suggestion that crosses your mind, nor that we will implement everything you propose. It’s important to understand that those in charge have likely already considered the same questions or alternatives. If something is in place, it's because it was determined to be the most effective solution.
+1. If you receive an instruction you disagree with, you can express your 
+   concerns respectfully, offering your reasoning and suggesting an alternative. 
+   However, if your Tech Lead still asks you to proceed with the original 
+   directive, you must follow it and continue with the assigned task.
+2. Valuing feedback and continuously seeking to improve processes doesn’t mean 
+   you can voice any comment or suggestion that crosses your mind, nor that we 
+   will implement everything you propose. It’s important to understand that 
+   those in charge have likely already considered the same questions or 
+   alternatives. 
+If something is in place, it's because it was determined to be the most 
+effective solution.
 
-When you enter the workforce, giving feedback, especially negative feedback may be one of the most challenging skills you have to build. Here’s the key: It’s not just about what you say — it’s about how you say it.
+When you enter the workforce, giving feedback, especially negative feedback may 
+be one of the most challenging skills you have to build. Here’s the key: It’s 
+not just about what you say — it’s about how you say it.
 
-1. **Be timely - F**eedback should always be given in a one-on-one setting. So, make sure that you aren't catching anyone off-guard. And, above all, *read the play*. If your Tech Lead seems particularly stressed, distracted, or disinterested, abort the discussion.
-2. Before you launch into feedback, **ask permission first**. Never launch into unsolicited feedback without checking. 
-3. **Be prepared -** Feedback should be specific. You should be able to explain the problem and how it’s impacting you, your team, or the organization.
-4. **Be constructive and solution-oriented** - Aim to approach the conversation with a helpful attitude rather than pointing out their flaws. Always couch your feedback as an opportunity to improve performance, or to optimize, or to get better outcomes. 
-5. **Be respectful and be honest -** make sure your tone is assertive but it pays appropriate deference to your lead's authority.
+1. **Be timely** - There is a time and place to express your point of view. 
+   So, make sure that you aren't catching anyone off-guard. And, above all, 
+   *read the room*.
+2. Before you launch into feedback, **ask permission first**. Never launch into 
+   unsolicited feedback without checking. 
+3. **Be prepared -** Feedback should be specific. You should be able to explain 
+   the problem and how it’s impacting you, your team, or the organization.
+4. **Be constructive and solution-oriented** - Aim to approach the conversation 
+   with a helpful attitude rather than pointing out their flaws. Always couch 
+   your feedback as an opportunity to improve performance, or to optimize, or to 
+   get better outcomes. 
+5. **Be respectful and be honest -** make sure your tone is assertive but it 
+   pays appropriate deference to your lead's authority.
 
-Keep in mind that feedback, regardless of which direction it's going in, is affected by this power dynamic. This is why: 
+Keep in mind that feedback, regardless of which direction it's going in, is 
+affected by this power dynamic. This is why: 
 
-1. **Your own performance has to be strong**. That is to say, you need to have demonstrated competent and consistent delivery of high-value outcomes.
-2. **You have to know what you are talking about.** You have to have thought it through carefully. The surest way to kill your credibility is to go in with half-baked opinions.
+1. **Your own performance has to be solid**. In other words, you should 
+   consistently prove your competence and deliver valuable outcomes.
+2. **You have to know what you are talking about.** You have to know what you 
+   are talking about. The quickest way to lose credibility is by presenting 
+   unthought-out or half-formed opinions.
 
 References: 
-- [](https://hbr.org/2023/04/how-to-give-negative-feedback-to-your-peers-boss-or-direct-reports)
-- [](https://www.linkedin.com/pulse/right-way-give-feedback-your-boss-martin-g-moore-dhq9e/)
+- [How to Give Negative Feedback to Your Peers, Boss, or Direct Reports](https://hbr.org/2023/04/how-to-give-negative-feedback-to-your-peers-boss-or-direct-reports)
+- [The Right Way to Give Feedback to Your Boss](https://www.linkedin.com/pulse/right-way-give-feedback-your-boss-martin-g-moore-dhq9e/)
 
 #### Ethics
 A lot can be said about ethics, both in general and as applied to computer 
 science and engineering and their industrial applications, but a few basic 
-things must be spelled out:s
+things must be spelled out:
 - Stealing, in any way, is explicitly forbidden and is grounds for immediate 
   dismissal. This include stealing software from other projects, open source or 
   not, without attribution or credit. 
+- Times are changing fast, and we always encourage trying out new tools, but at 
+  Lambda, using code provided by AI or LLMs is stricly forbidden. You can still 
+  use LLMs for other purposes, but copilot-style integrations which write code 
+  for you are a net loss, as they are not accountable regarding where they get 
+  their inspiration from and do not understand code licensing issues.
 - Work towards making your environment better than the way you found it. This 
   ranges from cleaning tableware used at the office to helping others with your 
   strengths. 
 - Remember you are employed by Lambda even if you work on a client project
   It's commonplace in Lambda to work collaboratively with clients in the
-  development of apps and features, so maybe you will have more day to day rapport
-  with them than with your other Lambda coworkers. If you're in that situation you
-  should always remember a few key things:
+  development of apps and features, so maybe you will have more day to day 
+  rapport with them than with your other Lambda coworkers. If you're in that 
+  situation you should always remember a few key things:
   - Your work relation is with Lambda, not with the client so expect to get
     feedback from your Lambda's Tech Lead and Project Manager and not from the
     client, don't ask for it either.
   - The relationship between Lambda and the client is managed by the Tech Leads
     and Project Managers. If someone from the client side makes a request to you
     personally via DM please contact your Tech Lead and Project Manager about it.
-    Make sure your Teach Lead and Project Manager are in the loop for all relevant
-    information.
+    Make sure your Teach Lead and Project Manager are in the loop for all 
+    relevant information.
 
 ### Practices at Lambda
 
@@ -348,20 +449,34 @@ things must be spelled out:s
   matter more than adding a lot of features.
 
 #### Group Readings
-Software has over the decades, developed a culture and folklore of its own. As trends fade in and out, older tools and practices give way to newer ones, and flame wars rage one, we gather battle stories, wisdom, quotes, bibles, and memes with which we talk about our craft. 
+Software has over the decades, developed a culture and folklore of its own. 
+As trends fade in and out, older tools and practices give way to newer ones, and 
+flame wars rage one, we gather battle stories, wisdom, quotes, bibles, and memes 
+with which we talk about our craft. 
 
-We have selected a few articles and posts we consider especially important to be familiar with, because they align with our values and way of working. To ensure everyone has time to be exposed to this material, we set up discussion groups in which someone volunteers to present some material, and the ensuing debate involving everyone, including more senior members, always results in relating the information to concrete experiences. 
+We have selected a few articles and posts we consider especially important to be 
+familiar with, because they align with our values and way of working. To ensure 
+everyone has time to be exposed to this material, we set up discussion groups in 
+which someone volunteers to present some material, and the ensuing debate 
+involving everyone, including more senior members, always results in relating 
+the information to concrete experiences. 
 
-In addition to the Hacking Learning Path, new employees must participate in these Readings until they cycle out of the contents. You can see the program [here](readings.md).
+In addition to the Hacking Learning Path, new employees must participate in 
+these Readings until they cycle out of the contents. You can see the program 
+[here](readings.md).
 
-However, we encourage everyone to continue to embed themselves in this engineering folklore and to continue studying and gainig new skills. For this reason, once the mandatory readings are done with, we invite them to the Book Club, which votes on what research papers, books, posts, or presentations they will study and debate.
-
-#### Mentorship and One-to-Ones
+However, we encourage everyone to continue to embed themselves in this 
+engineering folklore and to continue studying and gainig new skills. For this 
+reason, once the mandatory readings are done with, we invite them to the Book 
+Club, which votes on what research papers, books, posts, or presentations they 
+will study and debate.
 
 #### Community projects
-We organize activities where we share thoughts and interests with anyone who wants to join us.
+We organize activities where we share thoughts and interests with anyone who 
+wants to join us.
 
-- [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and interviews about programming.
+- [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and 
+  interviews about programming.
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers.
   Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires)
@@ -371,7 +486,8 @@ We organize activities where we share thoughts and interests with anyone who wan
 ---
 
 #### Cryptography
-One of Lambda's core goals is the betterment of society via technology, and cryptography (and soon AI) are central to these goals. 
+One of Lambda's core goals is the betterment of society via technology, and 
+cryptography (and soon AI) are central to these goals. 
 - [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
 - [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
 
@@ -392,7 +508,8 @@ skip this section.
 - Also, the company's GitHub repositories are [accessed via SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ##### Homebrew
-[Homebrew](https://brew.sh/) is a package manager for macOS. It is a must on any developer machine.
+[Homebrew](https://brew.sh/) is a package manager for macOS. It is a must on any 
+developer machine.
 
 ##### GNU tools
 Once you have installed Homebrew in your macOS system, you'll need to install
@@ -444,6 +561,9 @@ waste.
 - The two root causes of software complexity](https://pressupinc.com/blog/2014/05/root-causes-software-complexity/)
 - [Encapsulated vs systemic complexity in protocol design](https://vitalik.eth.limo/general/2022/02/28/complexity.html)
 - [Practices of Reliable Software Design](https://entropicthoughts.com/practices-of-reliable-software-design)
+- [Exit the Haunted Forest](https://increment.com/software-architecture/exit-the-haunted-forest/)
+- [Constraints and guarantees](https://jfmengels.net/constraints-and-guarantees/)
+- [Hyrum's Law](https://www.hyrumslaw.com/)
 
 #### The Unix Philosophy
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
@@ -463,7 +583,7 @@ waste.
 - There is the approach of doing things in "one true way", how does it affect extensibility?
 
 #### Linux
-As you already installed GNU-tools, there's no need to install Linux on a VM (Virtual Machine).
+If you've already installed GNU-tools, there's no need to install Linux on a VM.
 
 - [The Linux Command Line](https://nostarch.com/tlcl2)
     - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
@@ -628,7 +748,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 ---
 ## Part II Specific Topics
 
-TODO
+⚠️WIP⚠️
 
 ---
 ### Python
@@ -689,7 +809,7 @@ TODO
 - When building libraries, try to make them both easily usable from the shell
   and easily configurable via application environment.
 - Indent with two spaces.
-- Avoid using header files (.hrl) [TODO ELABORATE].
+- Avoid using header files (.hrl)
 - Supervised processes provide guarantees in their initialization phase, not a
   best effort. [If you expect failure to happen on an external service, do not
   make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
@@ -699,6 +819,7 @@ TODO
 
 **Exercises**
 - [Erlings](https://github.com/lambdaclass/erlings/)
+- [Erlang workshop](https://github.com/lambdaclass/erlang_workshop)
 
 **Elixir**
 - [Learning Functional Programming With Elixir](https://pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/)
@@ -730,7 +851,7 @@ TODO
 #### Projects
 - [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
 - [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
-- [Phoenix ecto encrytion](https://github.com/dwyl/phoenix-ecto-encryption-example)
+- [Phoenix ecto encryption](https://github.com/dwyl/phoenix-ecto-encryption-example)
 - [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
 
 #### OpenAPI
@@ -756,13 +877,14 @@ library that resembles QuickCheck.
 ---
 ### Rust
 
-TODO
+⚠️WIP⚠️
 
 - [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
 - [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
 - [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 - [Learning Rust](https://learning-rust.github.io/) Example project
+- [Guide on how to write documentation for a Rust crate](https://blog.guillaume-gomez.fr/articles/2020-03-12+Guide+on+how+to+write+documentation+for+a+Rust+crate)
 
 Exercises
 - [Rustlings](https://github.com/rust-lang/rustlings). To enable *rust-analyzer* and its features (such as autocomplete and documentation), run this command in the rustlings directory: 
@@ -794,7 +916,7 @@ Implement a simple Merkle Tree in Rust.
 - A Merkle Tree can verify that a given hash is contained in it.
 - A Merkle Tree can be dynamic, this means that elements can be added once it is built.
 
-We suggest to start simple, do not optimize prematurely because it's pretty sure
+We suggest starting simple, do not optimize prematurely because it's pretty sure
 that you're not gonna need those optimizations.
 
 Here are some sources that you might find useful:
@@ -816,7 +938,7 @@ Although we do not currently use any Lisps at Lambda, we have in the past and th
 #### Clojure
 - [Clojure, Made Simple](https://www.youtube.com/watch?v=VSdnJDO-xdg)
 
-All distributions are shown in this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
+All distributions are shown on this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
 
 ---
 ### Devops & Cloud Environments
@@ -836,7 +958,7 @@ become more agile, and innovate faster.
   information required to launch an instance".
 - ECS: "Amazon Elastic Container Service (Amazon ECS) is a fully managed
   container orchestration service. Customers such as Duolingo, Samsung, GE, and
-  Cook Pad use ECS to run their most sensitive and mission critical applications
+  Cook Pad uses ECS to run their most sensitive and mission-critical applications
   because of its security, reliability, and scalability." In simpler words, it
   allows you to launch containers on AWS.
  
@@ -856,6 +978,7 @@ Kubernetes services, support, and tools are widely available.
 
 ---
 ### Functional Programming
+- [What's Functional Programming All About](https://www.lihaoyi.com/post/WhatsFunctionalProgrammingAllAbout.html)
 - [Lambda Calculus vs. Turing Machines](https://youtu.be/ruOnPmI_40g)
 
 <!-- 
@@ -868,31 +991,40 @@ Kubernetes services, support, and tools are widely available.
 ### Distributed Systems
 
 #### Designing Data-Intensive Applications
-The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) is an excellent introduction to many topics related to building scalable and fault-tolerant systems. It provides a decent map of the territory and jumping-off points for anone beginning to understand how systems are architected to provide these characteristics since it provides many references for further reading. 
+The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) 
+is an excellent introduction to many topics related to building scalable and 
+fault-tolerant systems. It provides a decent map of the territory and 
+jumping-off points for anyone beginning to understand how systems are architected 
+to provide these characteristics since it provides many references for further 
+reading. 
 
 ### Observability
 
-TODO
+⚠️WIP⚠️
 
 ---
 ### Performance Engineering
 
-TODO
+⚠️WIP⚠️
 
 #### Algorithmics
 - [Big O notation](https://www.youtube.com/watch?v=gCzOhZ_LUps)
 
-TODO
+⚠️WIP⚠️
 
 ---
 ### Machine Learning
 
-TODO
+⚠️WIP⚠️
 
 ---
 ### Gaming
 
-TODO
+⚠️WIP⚠️
+
+---
+### General Cryptography
+- [crypto101](https://www.crypto101.io/) Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels.
 
 ---
 ### Blockchains
@@ -908,14 +1040,10 @@ TODO
 - [Hash Functions](https://nakamoto.com/hash-functions/) - Discussing this critical component of cryptocurrencies.
 - [Merkle Trees](https://nakamoto.com/merkle-trees/) - Explanation of data representation in crypto.
 - [Public-Key Cryptography](https://nakamoto.com/public-key-cryptography/) - The foundation of digital identities in the crypto world.
-- [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
-
-### General Cryptography
-- [crypto101](https://www.crypto101.io/) Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels.
 
 ---
 ### Bitcoin
-TODO
+⚠️WIP⚠️
 
 - [Hashcash](https://nakamoto.com/hashcash/) Insights into Bitcoin's consensus mechanism.
 
@@ -924,13 +1052,16 @@ TODO
 
 #### Introductory Material
 - [What happens when you send one DAI?](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai) A look at the process of Ethereum transactions.
-- [Ethereum in 30 minutes by Vitalik Buterin | Devcon Bogotá](https://www.youtube.com/watch?v=UihMqcj-cqc)
+- [Ethereum in 30 minutes by Vitalik Buterin | Devcon SEA](https://www.youtube.com/watch?v=ei3tDRMjw6k)
+- [Keynote: Beam Chain by Justin Drake | Devcon SEA](https://youtu.be/lRqnFrqpq4k)
 - [Research, Spec, Clients, & Nodes](https://youtu.be/vzgNqO_obH4)
 - [The EVM](https://youtu.be/kCswGz9naZg)
 - [Accounts, Private Keys, Wallets](https://youtu.be/A_c3bCkBtPA)
 - [Smart Contracts](https://youtu.be/PLgawr4pbqE)
-- [The modular Vision & Roll-ups](https://youtu.be/cPorRAyA9qg)
 - [ZK Roll-Ups](https://youtu.be/3C0g-60bAWc)
+- [Open sourcing rbuilder | Flashbots Writings](https://writings.flashbots.net/open-sourcing-rbuilder)
+- [Illuminating Ethereum's Order Flow Landscape | Flashbots Writings](https://writings.flashbots.net/illuminate-the-order-flow)
+- [Ethereum is a Dark Forest](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest)
 
 #### Official Documentation
 - [Developer Docs Homepage](https://ethereum.org/en/developers/docs/)
@@ -970,15 +1101,17 @@ TODO
 - [Engine API: A Visual Guide](https://hackmd.io/@danielrachi/engine_api)
 
 #### Scalability & Rollups
+- [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
 - [How Rollups **Actually Actually Actually** Work](https://dba.mirror.xyz/LYUb_Y2huJhNUw_z8ltqui2d6KY8Fc3t_cnSE9rDL_o)
 - [Layer 2 Rollups: Ethereum's Scalability Strategy](https://mirror.xyz/cliffton.eth/mCO-oaRIOyvEpIZ5hJrmU-cNDZ3Z9Es7mXOPH_I9uoM)
+- [The modular Vision & Roll-ups](https://youtu.be/cPorRAyA9qg)
 - [Discussing ZK-rollups (with Toghrul Maharramov from Scroll)](https://www.youtube.com/watch?v=KEsnbUbj7T0)
 - [Rollups Through the Prism of the Bridges by Toghrul Maharramov](https://www.youtube.com/watch?v=GlxSP_ABE4Y)
 
 #### Validium
 - [Official Docs](https://ethereum.org/en/developers/docs/scaling/validium/)
 - [zkPorter: a breakthrough in L2 scaling](https://blog.matter-labs.io/zkporter-a-breakthrough-in-l2-scaling-ed5e48842fbf)
-- [Volition and the Emerging Data Availability spectrum](https://starkware.medium.com/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb)
+- [Volition and the Emerging Data Availability Spectrum](https://starkware.medium.com/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb)
 - [Validium And The Layer 2 Two-By-Two — Issue No. 99](https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two)
 
 #### Provers & zkVMs
@@ -990,7 +1123,7 @@ TODO
 - [What is SP1](https://docs.succinct.xyz/introduction.html)
 - [Why use SP1](https://docs.succinct.xyz/why-use-sp1.html)
 - [What is a zkVM](https://docs.succinct.xyz/what-is-a-zkvm.html)
-- [Succinct - How SP1 is making ZK easy, cheap, and production ready](https://www.youtube.com/watch?v=D4DiDayFDvc)
+- [Succinct - How SP1 is making ZK easy, cheap, and production-ready](https://www.youtube.com/watch?v=D4DiDayFDvc)
 - [Episode 314 - Succinct's Platform, Prover Network and SP1](https://www.youtube.com/watch?v=vKZWHtWFlJ0)
 
 #### Multi Prover/TEEs
@@ -1016,7 +1149,7 @@ TODO
 - [Mina: SNARKs and SNARK Workers](https://docs.minaprotocol.com/node-operators/faq#snarks-and-snark-workers)
 - [Based Rollups can reward proposers first come first serve](https://ethresear.ch/t/based-rollups-can-reward-proposers-first-come-first-serve/18317)
 - [Implementing a simple, batch-based auction system for prover cost-efficiency](https://github.com/taikoxyz/taiko-mono/issues/13813#issuecomment-1562539366)
-- [https://community.starknet.io/t/starknet-decentralized-protocol-iv-proofs-in-the-protocol/6030/18](https://community.starknet.io/t/starknet-decentralized-protocol-iv-proofs-in-the-protocol/6030/18)
+- [Starknet Decentralized Protocol IV - Proofs in the Protocol](https://community.starknet.io/t/starknet-decentralized-protocol-iv-proofs-in-the-protocol/6030/18)
 - [Execution Tickets](https://ethresear.ch/t/execution-tickets/17944)
 - [Economic Analysis of Execution Tickets](https://ethresear.ch/t/economic-analysis-of-execution-tickets/18894)
 - [Based Preconfirmations](https://taiko.mirror.xyz/ejciROGOGM9L_DuuqM3KloZan0EQR73fJt8qzTZmVzg)
@@ -1028,15 +1161,16 @@ TODO
 ---
 ### Language Engineering
 
-TODO
+⚠️WIP⚠️
 
 #### Virtual Machines & Runtimes
-
-TODO make this into an exercise
-
-- [A python interpreter written in python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+- [A Python interpreter written in Python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
 
 #### Parsing
 
-TODO
+⚠️WIP⚠️
+
+---
+### Hardware
+- [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
