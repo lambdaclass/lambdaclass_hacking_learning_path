@@ -73,10 +73,10 @@
 ### Session: N+1 Query Problem
 - [What is the N+1 Query Problem and How to Solve it?](https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it)
 
-### Session: The Log Part 1
+### Session: The Log Parts 1 & 2
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 
-### Session: The Log Part 2
+### Session: The Log Parts 3 & 4
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 
 ### Session: Queues Don't Fix Overload
