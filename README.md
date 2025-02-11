@@ -5,127 +5,63 @@
 ---
 ## Introduction
 
-> You can choose a life of ease and comfort or you can choose a life of service
-> and adventure. When you're 90, which one of those things do you think you'll
-> be more proud of? - Jeff Bezos
+> You can choose a life of ease and comfort or you can choose a life of service and adventure. When you're 90, which one of those things do you think you'll be more proud of? - Jeff Bezos
 
-> My algorithm has always been: You put smart people together, you give them a
-> lot of freedom, create an atmosphere where everyone talks to everyone else.
-> They're not hiding in the corner with their own little thing. They talk to
-> everybody else. And you provide the best infrastructure. The best computers
-> and so on that people can work with and make everyone partners. - Jim Simons
+> My algorithm has always been: You put smart people together, you give them a lot of freedom, create an atmosphere where everyone talks to everyone else. They're not hiding in the corner with their own little thing. They talk to everybody else. And you provide the best infrastructure. The best computers and so on that people can work with and make everyone partners. - Jim Simons
 
-> Top-down management leveraging command-and-control hierarchies are for the
-> mahogany boardrooms of yesteryear. We are navigators, adventurers, and
-> explorers of the future. We are married to the sea - Yearn's Blue Pill
+> Top-down management leveraging command-and-control hierarchies are for the mahogany boardrooms of yesteryear. We are navigators, adventurers, and explorers of the future. We are married to the sea - Yearn's Blue Pill
 
-> A boring codebase doesn't make a bored developer, on the contrary, it frees
-> developers up to think about important stuff and deliver value to the business.
-> Just as I want my language to be boring so I can focus on interesting stuff, I
-> also want my tech stack to be boring - the interesting bits should be in the
-> value added, not the stuff under that. 
-> - [HN](https://news.ycombinator.com/item?id=33215003)
+> A boring codebase doesn't make a bored developer, on the contrary, it frees developers up to think about important stuff and deliver value to the business. Just as I want my language to be boring so I can focus on interesting stuff, I also want my tech stack to be boring - the interesting bits should be in the value added, not the stuff under that. - [HN](https://news.ycombinator.com/item?id=33215003)
 
 Welcome! 
 
-If you are reading this, you are probably giving your first -or second- steps on
-the long journey towards being a good developer, but first try to be a good
-human being and you will see how far that can get you.
+If you are reading this, you are probably giving your first -or second- steps on the long journey towards being a good developer, but first try to be a good human being and you will see how far that can get you.
 
-This text is a guide intended to aid employees in their first days at the
-company, it will guide you in setting up expectations and working tools, and
-includes a whirlwind tour of the background knowledge necessary to work on the
-kinds of projects common at LambdaClass. 
+This text is a guide intended to aid employees in their first days at the company, it will guide you in setting up expectations and working tools, and includes a whirlwind tour of the background knowledge necessary to work on the kinds of projects common at LambdaClass.
 This comprises the first part of the path.
 
-The second part is a repository of selected and categorized reference material, 
-exercises and projects for engineers at any stage. 
+The second part is a repository of selected and categorized reference material, exercises and projects for engineers at any stage.
 
-During the initial onboarding of new employees, the first part must be read 
-(end eventually re-read!) by everyone during this process, while the second part
-can be read on demand.
+During the initial onboarding of new employees, the first part must be read (end eventually re-read!) by everyone during this process, while the second part can be read on demand.
 
 ---
 
 ## Part I The Foundation
 
 ### Our Worldview & Company Culture
-- [The Hacker Manifesto](http://phrack.org/issues/7/3.html). 
+Before tackling the technical challenges ahead of us, we realized that the most important thing any institution aspiring to greatness must have are clear and shared values and principles. 
+These characteristics, along with several others, define a company's culture.
 
-Before tackling the technical challenges ahead of us, we realized that the most 
-important thing any institution aspiring to greatness must have are clear and 
-shared values and principles. These characteristics, along with several others, 
-define a company's culture.
+In these pages, you will find these principles and values, which are expected of anyone who is part of this institution, whether they are a newcomer or a settled employee, an intern or a manager, and how to solve non-technical problems. 
+LambdaClass is a company with high technical content, but this knowledge must be enhanced by cultural values that allow a fast identification of problems, as well as ways to solve them, based on different learnings and heuristics that many have experienced throughout this journey.
 
-In these pages, you will find these principles and values, which are expected of 
-anyone who is part of this institution, whether they are a newcomer or a settled 
-employee, an intern or a manager, and how to solve non-technical problems. 
-LambdaClass is a company with high technical content, but this knowledge must be 
-enhanced by cultural values that allow a fast identification of problems, as 
-well as ways to solve them, based on different learnings and heuristics that 
-many have experienced throughout this journey.
+While this document aims to be useful, organized, and verified, it is important to note that knowledge and wisdom must be challenged, evaluated, and modified over time. 
+The ideas in these pages are not set in stone but are constantly being assessed and seeking to be refuted or improved.
 
-While this document aims to be useful, organized, and verified, it is important 
-to note that knowledge and wisdom must be challenged, evaluated, and modified 
-over time. The ideas in these pages are not set in stone but are constantly 
-being assessed and seeking to be refuted or improved.
-
-<!-- - What is LambdaClass?
-- Where do you fit in LambdaClass?
-- What is expected from you?
-- What do you need to know?
--->
+c.f. [The Hacker Manifesto](http://phrack.org/issues/7/3.html). 
 
 #### Attitude
-Attitude is how you feel, think, and what you believe regarding something, in 
-other words, these things determine how you approach it. 
+Attitude is how you feel, think, and what you believe regarding something, in other words, these things determine how you approach it.
 
-Although the points we are going to discuss may seem obvious to someone with 
-experience, most of the people who join us are trainees, meaning they have 
-little or no experience in the development industry. Therefore, it becomes 
-necessary to make these clarifications to ensure that everyone understands what 
-we expect.
+Although the points we are going to discuss may seem obvious to someone with experience, most of the people who join us are trainees, meaning they have little or no experience in the development industry. 
+Therefore, it becomes necessary to make these clarifications to ensure that everyone understands what we expect.
 
-At Lambda you'll be surrounded by highly skilled professionals. We focus on 
-building a high-performance team, so everyone here excels at what they do. 
-In fact, being exceptional is the standard, which creates a paradox—because in a 
-sense, no one is truly exceptional. Achieving top grades and finishing your 
-degree on time, being passionate about System Programming or Cryptography, or 
-mastering coding skills may have brought you here, but won’t suffice to ensure 
-that you will continue to be a valuable team member. Everyone must continually prove 
-they deserve to be part of this team.
+At Lambda you'll be surrounded by highly skilled professionals. We focus on building a high-performance team, so everyone here excels at what they do. 
+In fact, being exceptional is the standard, which creates a paradox—because in a sense, no one is truly exceptional. 
+Achieving top grades and finishing your degree on time, being passionate about System Programming or Cryptography, or mastering coding skills may have brought you here, but won’t suffice to ensure that you will continue to be a valuable team member. 
+Everyone must continually prove they deserve to be part of this team.
 
-Please don't interpret this point as an invitation to break rules, procedures, 
-or timelines in the pursuit of excellence. While striving for exceptional 
-performance is encouraged, it must be done within the boundaries of established 
-guidelines. For example, completing the Learning Path in a week doesn't 
-demonstrate mastery — it only shows that you rushed through the content without 
-taking the time to truly absorb it. You won’t gain a deeper understanding by 
-rushing through it. Additionally, we explicitly address the importance of 
-ethical conduct, and cutting corners is never acceptable.
+Please don't interpret this point as an invitation to break rules, procedures, or timelines in the pursuit of excellence. 
+While striving for exceptional performance is encouraged, it must be done within the boundaries of established guidelines. 
+For example, completing the Learning Path in a week doesn't demonstrate mastery — it only shows that you rushed through the content without taking the time to truly absorb it. 
+You won’t gain a deeper understanding by rushing through it. 
+Additionally, we explicitly address the importance of ethical conduct, and cutting corners is never acceptable.
 
 There are three key elements we want you to have present at every moment:
 *Communication, Accountability, and Empathy*.
-- **Communication** is a key aspect of every human relationship. If you can
-  measure your words to give a positive clear message, you can achieve anything
-  in life through teamwork. Try labeling your emotions before communicating,
-  since it is likely that people in front of you do not know what is going
-  through your head. Also, be transparent but assertive if you disagree about
-  something, it will help understand your point of view. Finally, try to avoid
-  direct messages, working on channels allows more people to be in the loop and
-  better feedback can be given.
-- **Accountability**. Everyone makes mistakes, learners do something about them.
-  If you get something wrong, communicate poorly, or even feel overwhelmed about
-  a situation, raise your hand and say it. It's very likely that a process
-  failed, not you. Many people will be there to help you sort out the issue, and
-  you will surely learn something along the way. If you keep quiet and don't say
-  anything you will regret it later when the truth burst through another hole.
-- About **empathy**, we are all human beings and have complex emotions, if you
-  are feeling great, it doesn't mean your colleague isn't feeling like shit.
-  Perhaps your coworkers don't feel comfortable talking about emotions, so go
-  talk with them and help them. You can talk to them or their manager if you
-  feel something is going on with them. There is a time when everybody feels
-  weak and needs someone else for support. So be a hero, be empathic.
+- **Communication** is a key aspect of every human relationship. If you can measure your words to give a positive clear message, you can achieve anything in life through teamwork. Try labeling your emotions before communicating, since it is likely that people in front of you do not know what is going through your head. Also, be transparent but assertive if you disagree about something, it will help understand your point of view. Finally, try to avoid direct messages, working on channels allows more people to be in the loop and better feedback can be given.
+- **Accountability**. Everyone makes mistakes, learners do something about them. If you get something wrong, communicate poorly, or even feel overwhelmed about a situation, raise your hand and say it. It's very likely that a process failed, not you. Many people will be there to help you sort out the issue, and you will surely learn something along the way. If you keep quiet and don't say anything you will regret it later when the truth burst through another hole.
+- About **empathy**, we are all human beings and have complex emotions, if you are feeling great, it doesn't mean your colleague isn't feeling like shit. Perhaps your coworkers don't feel comfortable talking about emotions, so go talk with them and help them. You can talk to them or their manager if you feel something is going on with them. There is a time when everybody feels weak and needs someone else for support. So be a hero, be empathic.
 
 Also remember our core principles are:
 1. We hire fast, fire faster, promote the fastest. 
@@ -133,9 +69,9 @@ Also remember our core principles are:
 3. Do what is right for the product.
 
 #### Principles for success and teamwork philosophy
-We follow a code of conduct that must be followed to ensure a safe space in the
-team. You signed it when you entered Lambda and we expect you to follow it.
-Basically, treat everyone with respect.         
+We follow a code of conduct that must be followed to ensure a safe space in the team. 
+You signed it when you entered Lambda and we expect you to follow it. 
+Basically, treat everyone with respect.
 - [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
 - [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=oV8VSBSBrr4).
 - Chapter 1 of [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
@@ -150,40 +86,27 @@ Basically, treat everyone with respect.
 
 #### Ego, Learning to fail, & Your relationship with your own work
 Those truly exceptional at Lambda are the least likely to believe they are. 
-You may know how to code, but dealing with your own perception and emotions 
-related is a soft skill that appears more rarely in young developers. 
-Trust is earned over time, skills are learned and perfected over time, outliers 
-in one context may not be so in another, and being an excellent team member and 
-understanding one’s role in an organization is more important than standing out. 
+You may know how to code, but dealing with your own perception and emotions related is a soft skill that appears more rarely in young developers. 
+Trust is earned over time, skills are learned and perfected over time, outliers in one context may not be so in another, and being an excellent team member and understanding one’s role in an organization is more important than standing out.
 
-Excellency is a habit, and no one is above making mistakes. These two facts 
-together lead to a an important conclusion: in order to be exceptional, it's 
-crucial to learn from your mistakes. This starts with acknowledging them. 
+Excellency is a habit, and no one is above making mistakes. 
+These two facts together lead to a an important conclusion: in order to be exceptional, it's crucial to learn from your mistakes. 
+This starts with acknowledging them. 
 Making mistakes isn’t the same as failing—pretending they didn’t happen is. 
-Mistakes are an essential part of learning; you can’t grow without them. The 
-next step is communicating them. Your work impacts others, so if you make a 
-mistake, it’s important to acknowledge it. This not only makes it easier for 
-others to help, but it also shows accountability. 
+Mistakes are an essential part of learning; you can’t grow without them. 
+The next step is communicating them. 
+Your work impacts others, so if you make a mistake, it’s important to acknowledge it. 
+This not only makes it easier for others to help, but it also shows accountability.
 
-On the other hand, self-doubt can also become unhelpful and crippling. We can 
-guarantee that almost everyone at Lambda is constantly asking "how can I be 
-better?" of themselves, but believing you don't belong will eventually lead to 
-making it true.
+On the other hand, self-doubt can also become unhelpful and crippling. 
+We can guarantee that almost everyone at Lambda is constantly asking "how can I be better?" of themselves, but believing you don't belong will eventually lead to making it true.
 
-As with most projects making mistakes fast and loudly will make you learn
-faster, this is why you must work directly on a repository through
-Pull Requests rather than workshopping in a draft made elsewhere.
-- **Avoid google docs**. Work directly with Git, it will help get more eyes on
-  your work to get corrections earlier.
-- **Default to git**. As said earlier, Git snapshots your work and makes it
-  more accessible to the public, more eyes means more people eager to help you.
-- **Avoid asking questions in private chats**: asking in the project channel is
-  much better, as the question can be answered by anyone, more voices are heard,
-  others with the same questions may also benefit from the answers, and finally
-  the discussion if worthwhile can be captured as documentation.
+As with most projects making mistakes fast and loudly will make you learn faster, this is why you must work directly on a repository through Pull Requests rather than workshopping in a draft made elsewhere.
+- **Avoid google docs**. Work directly with Git, it will help get more eyes on your work to get corrections earlier.
+- **Default to git**. As said earlier, Git snapshots your work and makes it more accessible to the public, more eyes means more people eager to help you.
+- **Avoid asking questions in private chats**: asking in the project channel is much better, as the question can be answered by anyone, more voices are heard, others with the same questions may also benefit from the answers, and finally the discussion if worthwhile can be captured as documentation.
 
-Much is said about the Dunning-Kruger Effect and Impostor Syndrome, but the 
-important points can be boiled down to:
+Much is said about the Dunning-Kruger Effect and Impostor Syndrome, but the important points can be boiled down to:
 - Keep your ego in check
 - Learn to fail, and learn from mistakes
 - Learn from others and help others in need
@@ -194,77 +117,46 @@ Some resources on this topic:
 - [Software engineers suffer from Dunning-Kruger - do you too?](https://www.dateo-software.de/blog/dunning-kruger)
 - [What Is Programmer Imposter Syndrome and How Can You Deal With It?](https://www.turing.com/blog/programmer-imposter-syndrome-tips)
 
-Developing equanimity and focusing on the truth revelead by results is The 
-Lambda Way.
+Developing equanimity and focusing on the truth revelead by results is The Lambda Way.
 You’ll come across more lessons on this throughout your learning path.
 
 #### Your relationship with others and work hierarchy
-At Lambda we won't micromanage you because we don't want to: **we give
-flexibility but ask for responsibility in exchange**.
-Of course, you can have days off to study, or if you feel sick, but you can also
-have days off if you feel brain fog, nervous, or a bit under the weather; we
-actually prefer it that way.
+At Lambda we won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
+Of course, you can have days off to study, or if you feel sick, but you can also have days off if you feel brain fog, nervous, or a bit under the weather; we actually prefer it that way.
 
-If you feel healthy and comfortable, you will be able to solve more efficiently
-the problems you have in front of you. And even better, you will contribute to a
-healthier workspace.
+If you feel healthy and comfortable, you will be able to solve more efficiently the problems you have in front of you. And even better, you will contribute to a healthier workspace.
 
-Nobody wants to give up, that's a common emotion. The good news is that you are
-not giving up, you are getting to know yourself better, so you can recharge your
-energies and keep learning and improving. In turn, when you are working we 
-expect you to hit goals, be proactive, and be a valuable member of the team.
+Nobody wants to give up, that's a common emotion. 
+The good news is that you are not giving up, you are getting to know yourself better, so you can recharge your energies and keep learning and improving. 
+In turn, when you are working we expect you to hit goals, be proactive, and be a valuable member of the team.
 
-One of the first thing you’ll learn during your onboarding process is that 
-feedback is our most valuable tool, and the ability to give and receive it is 
-something we continuously develop here at Lambda. One quality we all share as 
-collaborators is the ability to take feedback and act on it. Here, feedback is 
-direct and to the point—we’re transparent and clear. If you’re making a mistake 
-or there’s something to improve, you’ll be told as soon as possible. The same 
-goes for positive feedback: if something stands out, we’ll make sure to 
-highlight it. 
+One of the first thing you’ll learn during your onboarding process is that feedback is our most valuable tool, and the ability to give and receive it is something we continuously develop here at Lambda. 
+One quality we all share as collaborators is the ability to take feedback and act on it. 
+Here, feedback is direct and to the point—we’re transparent and clear. 
+If you’re making a mistake or there’s something to improve, you’ll be told as soon as possible. 
+The same goes for positive feedback: if something stands out, we’ll make sure to highlight it.
 
-For us, feedback isn’t a one-way street. It’s not just top-down from managers 
-to team members—we encourage and value feedback in all directions. 
+For us, feedback isn’t a one-way street. It’s not just top-down from managers to team members—we encourage and value feedback in all directions.
 Two clarifications are in order:
 
-1. If you receive an instruction you disagree with, you can express your 
-   concerns respectfully, offering your reasoning and suggesting an alternative. 
-   However, if your Tech Lead still asks you to proceed with the original 
-   directive, you must follow it and continue with the assigned task.
-2. Valuing feedback and continuously seeking to improve processes doesn’t mean 
-   you can voice any comment or suggestion that crosses your mind, nor that we 
-   will implement everything you propose. It’s important to understand that 
-   those in charge have likely already considered the same questions or 
-   alternatives. 
-If something is in place, it's because it was determined to be the most 
-effective solution.
+1. If you receive an instruction you disagree with, you can express your concerns respectfully, offering your reasoning and suggesting an alternative. However, if your Tech Lead still asks you to proceed with the original directive, you must follow it and continue with the assigned task.
+2. Valuing feedback and continuously seeking to improve processes doesn’t mean you can voice any comment or suggestion that crosses your mind, nor that we will implement everything you propose. It’s important to understand that those in charge have likely already considered the same questions or alternatives.
 
-When you enter the workforce, giving feedback, especially negative feedback may 
-be one of the most challenging skills you have to build. Here’s the key: It’s 
-not just about what you say — it’s about how you say it.
+If something is in place, it's because it was determined to be the most effective solution.
 
-1. **Be timely** - There is a time and place to express your point of view. 
-   So, make sure that you aren't catching anyone off-guard. And, above all, 
-   *read the room*.
-2. Before you launch into feedback, **ask permission first**. Never launch into 
-   unsolicited feedback without checking. 
-3. **Be prepared -** Feedback should be specific. You should be able to explain 
-   the problem and how it’s impacting you, your team, or the organization.
-4. **Be constructive and solution-oriented** - Aim to approach the conversation 
-   with a helpful attitude rather than pointing out their flaws. Always couch 
-   your feedback as an opportunity to improve performance, or to optimize, or to 
-   get better outcomes. 
-5. **Be respectful and be honest -** make sure your tone is assertive but it 
-   pays appropriate deference to your lead's authority.
+When you enter the workforce, giving feedback, especially negative feedback may be one of the most challenging skills you have to build. 
+Here’s the key: It’s not just about what you say — it’s about how you say it.
 
-Keep in mind that feedback, regardless of which direction it's going in, is 
-affected by this power dynamic. This is why: 
+1. **Be timely** - There is a time and place to express your point of view. So, make sure that you aren't catching anyone off-guard. And, above all, *read the room*.
+2. Before you launch into feedback, **ask permission first**. Never launch into unsolicited feedback without checking.
+3. **Be prepared -** Feedback should be specific. You should be able to explain the problem and how it’s impacting you, your team, or the organization.
+4. **Be constructive and solution-oriented** - Aim to approach the conversation with a helpful attitude rather than pointing out their flaws. Always couch your feedback as an opportunity to improve performance, or to optimize, or to get better outcomes.
+5. **Be respectful and be honest -** make sure your tone is assertive but it pays appropriate deference to your lead's authority.
 
-1. **Your own performance has to be solid**. In other words, you should 
-   consistently prove your competence and deliver valuable outcomes.
-2. **You have to know what you are talking about.** You have to know what you 
-   are talking about. The quickest way to lose credibility is by presenting 
-   unthought-out or half-formed opinions.
+Keep in mind that feedback, regardless of which direction it's going in, is affected by this power dynamic. This is why:
+
+1. **Your own performance has to be solid**. In other words, you should consistently prove your competence and deliver valuable outcomes.
+2. **You have to know what you are talking about.** You have to know what you are talking about. The quickest way to lose credibility is by presenting unthought-out or half-formed opinions.
 
 References: 
 - [How to Give Negative Feedback to Your Peers, Boss, or Direct Reports](https://hbr.org/2023/04/how-to-give-negative-feedback-to-your-peers-boss-or-direct-reports)
@@ -272,79 +164,43 @@ References:
 
 ##### Working on client projects
 Remember you are employed by Lambda even if you work on a client project.
-It's commonplace in Lambda to work collaboratively with clients in the
-development of apps and features, so maybe you will have more day to day 
-rapport with them than with your other Lambda coworkers. If you're in that 
-situation you should always remember a few key things:
-- Your work relation is with Lambda, not with the client so expect to get
-  feedback from your Lambda's Tech Lead and Project Manager and not from the
-  client, don't ask for it either.
-- The relationship between Lambda and the client is managed by the Tech Leads
-  and Project Managers. If someone from the client side makes a request to you
-  personally via DM please contact your Tech Lead and Project Manager about it.
-  Make sure your Teach Lead and Project Manager are in the loop for all 
-  relevant information.
+It's commonplace in Lambda to work collaboratively with clients in the development of apps and features, so maybe you will have more day to day rapport with them than with your other Lambda coworkers. 
+If you're in that situation you should always remember a few key things:
+- Your work relation is with Lambda, not with the client so expect to get feedback from your Lambda's Tech Lead and Project Manager and not from the client, don't ask for it either.
+- The relationship between Lambda and the client is managed by the Tech Leads and Project Managers. If someone from the client side makes a request to you personally via DM please contact your Tech Lead and Project Manager about it. Make sure your Teach Lead and Project Manager are in the loop for all relevant information.
 
 #### Ethics
-A lot can be said about ethics, both in general and as applied to computer 
-science and engineering and their industrial applications, but a few basic 
-things must be spelled out:
-- Stealing, in any way, is explicitly forbidden and is grounds for immediate 
-  dismissal. This include stealing software from other projects, open source or 
-  not, without attribution or credit. 
-- Times are changing fast, and we always encourage trying out new tools, but at 
-  Lambda, using code provided by AI or LLMs is stricly forbidden. You can still 
-  use LLMs for other purposes, but copilot-style integrations which write code 
-  for you are a net loss, as they are not accountable regarding where they get 
-  their inspiration from and do not understand code licensing issues.
-- Work towards making your environment better than the way you found it. This 
-  ranges from cleaning tableware used at the office to helping others with your 
-  strengths. 
+A lot can be said about ethics, both in general and as applied to computer science and engineering and their industrial applications, but a few basic things must be spelled out:
+- Stealing, in any way, is explicitly forbidden and is grounds for immediate dismissal. This include stealing software from other projects, open source or not, without attribution or credit.
+- Times are changing fast, and we always encourage trying out new tools, but at Lambda, using code provided by AI or LLMs is stricly forbidden. You can still use LLMs for other purposes, but copilot-style integrations which write code for you are a net loss, as they are not accountable regarding where they get their inspiration from and do not understand code licensing issues.
+- Work towards making your environment better than the way you found it. This ranges from cleaning tableware used at the office to helping others with your strengths.
 
 ### Practices at Lambda
 
 #### Development process/workflow
-- There is a weekly call with every member of the team to set the most important
-  goals of the week, as well as a daily call to focus on the problems of the
-  daily tasks.
-- When working on projects, the specific tasks to tackle are written in tickets
-  on Github Projects. Some actual Lambda's projects are working on other project
-  management software, but these are legacy.
+- There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
+- When working on projects, the specific tasks to tackle are written in tickets on Github Projects. Some actual Lambda's projects are working on other project management software, but these are legacy.
 - Chapter 1 of [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
 
 #### Design and coding standards
 - Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
-- [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4).
-  Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
+- [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 - Postgresql is the default database.
 - Write tests.
-- Favor integration tests over unit tests. A project's first tests should be
-  end-to-end smoke and sanity tests, and only after that, if ever, should unit
-  tests be written to test API's, system invariants and help pinpoint bug causes
-  and locations.
-- Do not write tests before you have solved the problem, you may waste time
-  writing tests for the wrong implementation.
-- Write for humans: coding for computers is easy, but writing code that is
-  understandable by another person is an art.
+- Favor integration tests over unit tests. A project's first tests should be end-to-end smoke and sanity tests, and only after that, if ever, should unit tests be written to test API's, system invariants and help pinpoint bug causes and locations.
+- Do not write tests before you have solved the problem, you may waste time writing tests for the wrong implementation.
+- Write for humans: coding for computers is easy, but writing code that is understandable by another person is an art.
 - Code and document in english unless you have a very specific reason not to.
-- Use meaningful, readable names for variables, functions, and files. Don't try
-  to save characters.
-- Documentation is a sign of the quality of an API. It's easier to write it when
-  the design is right.
+- Use meaningful, readable names for variables, functions, and files. Don't try to save characters.
+- Documentation is a sign of the quality of an API. It's easier to write it when the design is right.
 - The less code you have the better. Deleted code is debugged code.
 - Aim for simplicity, not performance. The latter is a by-product of the first.
-- Only introduce optimizations if you have benchmarks that prove an improvement
-  and that the improvement is relevant in the context of the program.
-- Only introduce optimizations if they represent a concrete gain (e.g. cost
-  savings, improved user experience).
-- Follow the [Zen of Python](https://www.python.org/dev/peps/pep-0020/),
-  regardless of the language you are using at the moment. English also counts as
-  a language.
-- Don't introduce dependencies prematurely. You must evaluate your requirements,
-  maintenance, and integration costs first.
+- Only introduce optimizations if you have benchmarks that prove an improvement and that the improvement is relevant in the context of the program.
+- Only introduce optimizations if they represent a concrete gain (e.g. cost savings, improved user experience).
+- Follow the [Zen of Python](https://www.python.org/dev/peps/pep-0020/), regardless of the language you are using at the moment. English also counts as a language.
+- Don't introduce dependencies prematurely. You must evaluate your requirements, maintenance, and integration costs first.
 - If you want to upgrade a dependency, test it first.
-- Always lock your dependencies. Pin a specific version and a commit of a
-  dependency, don't use the version at master.
+- Always lock your dependencies. Pin a specific version and a commit of a dependency, don't use the version at master.
 - Use git and commit often, even in one-person projects.
 
 #### Working on open-source projects
@@ -354,98 +210,66 @@ things must be spelled out:
   - [How to make sense of the Apache 2 patent license](https://opensource.com/article/18/2/apache-2-patent-license)
 - Fill the description field at the top of the repo page.
 - Write a decent README.
-- A good readme starts with a succinct description (one or two sentences) and,
-  when possible, a very short and illustrative example use. The rest of the
-  details go after this header.
+- A good readme starts with a succinct description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
 - Use continuous integration, most likely GitHub Actions.
-- Make a good balance of features vs maintenance. Maintenance details usually
-  matter more than adding a lot of features.
+- Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
 #### Documentation
 
 #### Group Readings
 Software has over the decades, developed a culture and folklore of its own. 
-As trends fade in and out, older tools and practices give way to newer ones, and 
-flame wars rage one, we gather battle stories, wisdom, quotes, bibles, and memes 
-with which we talk about our craft. 
+As trends fade in and out, older tools and practices give way to newer ones, and flame wars rage one, we gather battle stories, wisdom, quotes, bibles, and memes with which we talk about our craft.
 
-We have selected a few articles and posts we consider especially important to be 
-familiar with, because they align with our values and way of working. To ensure 
-everyone has time to be exposed to this material, we set up discussion groups in 
-which someone volunteers to present some material, and the ensuing debate 
-involving everyone, including more senior members, always results in relating 
-the information to concrete experiences. 
+We have selected a few articles and posts we consider especially important to be familiar with, because they align with our values and way of working. 
+To ensure everyone has time to be exposed to this material, we set up discussion groups in which someone volunteers to present some material, and the ensuing debate involving everyone, including more senior members, always results in relating the information to concrete experiences.
 
-In addition to the Hacking Learning Path, new employees must participate in 
-these Readings until they cycle out of the contents. You can see the program 
-[here](readings.md).
+In addition to the Hacking Learning Path, new employees must participate in these Readings until they cycle out of the contents. 
+You can see the program [here](readings.md).
 
-However, we encourage everyone to continue to embed themselves in this 
-engineering folklore and to continue studying and gainig new skills. For this 
-reason, once the mandatory readings are done with, we invite them to the Book 
-Club, which votes on what research papers, books, posts, or presentations they 
-will study and debate.
+However, we encourage everyone to continue to embed themselves in this engineering folklore and to continue studying and gainig new skills. 
+For this reason, once the mandatory readings are done with, we invite them to the Book Club, which votes on what research papers, books, posts, or presentations they will study and debate.
 
 #### Community projects
-We organize activities where we share thoughts and interests with anyone who 
-wants to join us.
+We organize activities where we share thoughts and interests with anyone who wants to join us.
 
-- [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and 
-  interviews about programming.
-- [BuzzConf](https://buzzconf.org/) A conference for developers, by developers.
-  Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
-- [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires)
-  Once a month we organize a meeting where we discuss scientific papers we love.
-  Join us on [Telegram](https://t.me/pwlba).
+- [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and interviews about programming.
+- [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
+- [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
 
 ---
 
 #### Cryptography
-One of Lambda's core goals is the betterment of society via technology, and 
-cryptography (and soon AI) are central to these goals. 
+One of Lambda's core goals is the betterment of society via technology, and cryptography (and soon AI) are central to these goals.
 - [Lambda Crypto Doctrine](https://blog.lambdaclass.com/lambda-crypto-doctrine/)
 - [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
 
 ### Technical Foundations
 
 #### Development Environment
-We use a suite of tools to facilitate many tasks, as well as to enforce our
-security standards for all employees.
+We use a suite of tools to facilitate many tasks, as well as to enforce our security standards for all employees.
 
-Please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4),
-which aims to provide a simple overview of all of our tools.
+Please refer to our [Notion document](https://www.notion.so/lambdaclass/Tool-Stack-c87055f2b3944624a6245e1cbfa904a5?pvs=4), which aims to provide a simple overview of all of our tools.
 
-Before beginning with this Journey, if you're a macOS user, you may need some
-tools or utils for a better experience in your learning path, otherwise, you can
-skip this section.
-- Two-step authentication is mandatory for every login of the company accounts
-  (e.g. Slack, mail, GitHub).
+Before beginning with this Journey, if you're a macOS user, you may need some tools or utils for a better experience in your learning path, otherwise, you can skip this section.
+- Two-step authentication is mandatory for every login of the company accounts (e.g. Slack, mail, GitHub).
 - Also, the company's GitHub repositories are [accessed via SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ##### Homebrew
-[Homebrew](https://brew.sh/) is a package manager for macOS. It is a must on any 
-developer machine.
+[Homebrew](https://brew.sh/) is a package manager for macOS. It is a must on any developer machine.
 
 ##### GNU tools
-Once you have installed Homebrew in your macOS system, you'll need to install
-some of the GNU tools/utilities for a better work experience.
+Once you have installed Homebrew in your macOS system, you'll need to install some of the GNU tools/utilities for a better work experience. 
 Just type in your shell the following command lines:
 - [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
 - [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
 ##### `asdf` version manager
-- [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager
-  with the idea purpose of generating environmental variables to choose the
-  specific version desired. Remember that to be able to use the environmental
-  variables you need to set their path for the shell to check, you can see how
-  to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
+- [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
 ##### Code Editors and IDEs
 **Do's and don'ts about the use of Vertical Whitespace**
-- If you'd like to visualize more vertical whitespace than it's established in
-  these Do's and don'ts configure your text editor to show more space.
-- Most of these rules can be enforced automatically in your text editor,
-  configure it to enforce them.
+- If you'd like to visualize more vertical whitespace than it's established in these Do's and don'ts configure your text editor to show more space.
+- Most of these rules can be enforced automatically in your text editor, configure it to enforce them.
 - Minimize the use of vertical whitespace.
 - Do not end functions with blank lines.
 - Do not start functions with blank lines.
@@ -460,17 +284,12 @@ Just type in your shell the following command lines:
 - [Basic Things](https://matklad.github.io/2024/03/22/basic-things.html)
 
 ##### Complexity & KISS (Do The Simplest Thing That Could Possibly Work)
-> "Always implement things when you actually need them, never when you just
-> foresee that you need them" - Ron Jeffries
+> "Always implement things when you actually need them, never when you just foresee that you need them" - Ron Jeffries
 
-Strive for solving problems in the simplest way possible. To achieve this, you
-first need to figure out a handful of ways to confront the issue at hand, and
-only then pick the one you consider will work in the fewest, tiniest steps.
-Afterwards, refactor. Tomorrow’s code may need to be more complex, so do
-everything in your power to facilitate tomorrow’s code as simple as possible.
-Also, while you shouldn't be blind to the future, avoid investing time and
-effort into developing features that are not currently necessary and might be a
-waste.
+Strive for solving problems in the simplest way possible. To achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider will work in the fewest, tiniest steps.
+Afterwards, refactor. 
+Tomorrow’s code may need to be more complex, so do everything in your power to facilitate tomorrow’s code as simple as possible.
+Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
 - [Do The Simplest Thing That Could Possibly Work](https://www.artima.com/articles/the-simplest-thing-that-could-possibly-work)
 - [YAGNI by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
 - The two root causes of software complexity](https://pressupinc.com/blog/2014/05/root-causes-software-complexity/)
@@ -481,7 +300,6 @@ waste.
 - [Hyrum's Law](https://www.hyrumslaw.com/)
 - [Cognitive Load is What Matters](https://minds.md/zakirullin/cognitive)
 - [Software Design is Knowledge Building](https://olano.dev/blog/software-design-is-knowledge-building/)
-
 
 #### The Unix Philosophy
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
@@ -502,16 +320,13 @@ waste.
 
 #### Linux
 If you've already installed GNU-tools, there's no need to install Linux on a VM.
-
 - [The Linux Command Line](https://nostarch.com/tlcl2)
-    - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
+  - Chapters [1-7], [9-10], 14, [16-17] Basic shell usage
 - [Linux Basics for Hackers](https://nostarch.com/linuxbasicsforhackers)
-    - Chapters [8-10] Bash scripting, Filesystems, and compression
+  - Chapters [8-10] Bash scripting, Filesystems, and compression
 
 ##### How to try some commands in MacOS with a VM
-1. There are some commands that don't work in MacOS. If you want to try them,
-   you can use a VM to use Linux. For this, we can use [UTM](https://mac.getutm.app/). 
-   Follow the next steps [here](https://docs.getutm.app/guides/ubuntu/).
+1. There are some commands that don't work in MacOS. If you want to try them, you can use a VM to use Linux. For this, we can use [UTM](https://mac.getutm.app/). Follow the next steps [here](https://docs.getutm.app/guides/ubuntu/).
 2. After the installation is complete, close the VM and press “Stop selected VM”.
 3. Run the VM again.
 4. Now you can use this VM to run the commands.
@@ -544,11 +359,8 @@ If you've already installed GNU-tools, there's no need to install Linux on a VM.
 - What is the difference between HTTPS and HTTP?
 - What is the difference between asymmetric and symmetric cryptography?
 
-Before you embark on your Git journey, it is important to learn what an SSH Key
-(Secure Shell Key) is and how to generate one and add it to your GitHub account.
-This key will allow you to connect and authenticate to remote servers and
-services using the SSH protocol. With it, you will be able to connect to GitHub
-without supplying your username and personal access token each time.
+Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. 
+This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it, you will be able to connect to GitHub without supplying your username and personal access token each time.
 - [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [Authorizing an SSH key for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#)
@@ -556,13 +368,9 @@ without supplying your username and personal access token each time.
 #### Version Control, Git, & Github
 
 ##### Git
-**No one** should merge his/her own PR without it being reviewed and approved by
-a co-worker and/or a client.
+**No one** should merge his/her own PR without it being reviewed and approved by a co-worker and/or a client.
 
-*Note: commit and **push** every day. Don't expect something perfect, go for the
-concrete. In one way or another, you will likely have to iterate later about
-that work done. Also, since that work isn't only stored on your computer, it
-won't be lost.*
+*Note: commit and **push** every day. Don't expect something perfect, go for the concrete. In one way or another, you will likely have to iterate later about that work done. Also, since that work isn't only stored on your computer, it won't be lost.*
 
 - [Introduction to GitHub](https://github.com/skills/introduction-to-github) (MUST)
 - [Development workflows in GIT](https://docs.google.com/document/d/1k11yRykUpFjNEycxmjZbvg4piFqWAnjzujCmFXiK3ns/edit?usp=sharing)
@@ -575,9 +383,7 @@ won't be lost.*
 - [Configure your end of line (EOL) management in your development environment](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)
 
 **Note on Newlines at end of file**
-It is considered good style - and sometimes a necessity - to always end files
-with a newline (see [here](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline)
-and [here](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)).
+It is considered good style - and sometimes a necessity - to always end files with a newline (see [here](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline) and [here](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)).
 Make sure your editor of choice is correctly configured to add them automatically.
 
 **Some questions to guide your learning**
@@ -593,15 +399,11 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - How to clone a repository using SSH?
 
 ##### GitHub & GitLab
-- If you are new to GitHub, you can put your hands on with
-  [this course](https://github.com/skills/introduction-to-github)
-- Progress in any project must be pushed every day. This must be done within a
-  branch of the master repository and a Pull Request (PR) must be opened for
-  reviewing the code, previous to merging the branch to master.
+- If you are new to GitHub, you can put your hands on with [this course](https://github.com/skills/introduction-to-github)
+- Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
 - Doc files should always be added via pull request.
   - Be sure those files are written in Markdown. 
-  - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for
-    flowcharts, sequence diagrams, graphs, etc.
+  - We always use [Mermaid](https://mermaid-js.github.io/mermaid/#/README) for flowcharts, sequence diagrams, graphs, etc.
 - Never push to master directly, and only reviewers can merge branches to master.
 
 #### Testing
@@ -640,8 +442,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDED)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDED)
 - Chapters [10-11] from [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
-- The introduction, chapter 2, and days 1 and 2 from chapter 8 of
-  [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
+- The introduction, chapter 2, and days 1 and 2 from chapter 8 of [Seven Databases in Seven Weeks](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
 
 > Reference:
 >- [SQL Cheatsheet](https://hackmd.io/POclvM30TbCT2IpB81a6bg)
@@ -659,8 +460,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 
 **Some questions to guide your learning**
 - What is the difference between PostgreSQL and Redis?
-- What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL,
-  HBase, Neo4J, DynamoDB.
+- What type of databases are the following? PostgreSQL, Redis, MongoDB, MySQL, HBase, Neo4J, DynamoDB.
 - What makes each database type unique?
 
 ---
@@ -676,14 +476,9 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) is your bible.
 - Use Python 3 in greenfield projects.
 - Strive to migrate to Python 3 in non greenfield projects.
-- Read [this](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe/41573588#41573588)
-  to understand environment hell in Python.
-- Use [pipenv](https://github.com/pypa/pipenv) to escape from environment hell
-  in Python. You can even do this locally in projects that are set up to use
-  virtualenv and virtualenvwrapper.
-- If you also need to stick with a specific minor version of Python (e.g.
-  Python 2.7.14) you can use [pyenv](https://github.com/pyenv/pyenv) in
-  combination with pipenv.
+- Read [this](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe/41573588#41573588) to understand environment hell in Python.
+- Use [pipenv](https://github.com/pypa/pipenv) to escape from environment hell in Python. You can even do this locally in projects that are set up to use virtualenv and virtualenvwrapper.
+- If you also need to stick with a specific minor version of Python (e.g. Python 2.7.14) you can use [pyenv](https://github.com/pyenv/pyenv) in combination with pipenv.
 
 **Some questions to guide your learning**
 - How do you return how many times a certain character appears in a string using Python?
@@ -694,21 +489,14 @@ Make sure your editor of choice is correctly configured to add them automaticall
 ### The BEAM Ecosystem
 
 **Installing Erlang and Elixir**
-- On Mac distributions, you can just `brew install erlang` to get the latest
-  installation. In case of needing a specific version you can use asdf and install
-  with `asdf install erlang [VERSION_DESIRED]`.
-- Same can be achieved with Elixir through the same means `brew install elixir`
-  for the latest version, use `asdf` for a specific version.
-- For other distributions, check [here](https://learnyousomeerlang.com/introduction)
-  for Erlang and [here](https://elixir-lang.org/install.html#distributions) for
-  Elixir.
+- On Mac distributions, you can just `brew install erlang` to get the latest installation. In case of needing a specific version you can use asdf and install with `asdf install erlang [VERSION_DESIRED]`.
+- Same can be achieved with Elixir through the same means `brew install elixir` for the latest version, use `asdf` for a specific version.
+- For other distributions, check [here](https://learnyousomeerlang.com/introduction) for Erlang and [here](https://elixir-lang.org/install.html#distributions) for Elixir.
 
 **Introductory**
-- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html)
-  Erlang base principles and good practices
+- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) Erlang base principles and good practices
 - [When would you choose Erlang?](https://web.archive.org/web/20230529050818/https://blog.troutwine.us/2013/07/10/choose-erlang/)
-- [An Open Letter to the Erlang Beginner](https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html)
-  Erlang's quirks and perks
+- [An Open Letter to the Erlang Beginner](https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html) Erlang's quirks and perks
 - [Where Erlang blooms](https://ferd.ca/rtb-where-erlang-blooms.html)
 
 **Language Tutorial**
@@ -720,19 +508,13 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - [EEP 49: Value-Based Error Handling Mechanisms](https://www.erlang.org/eeps/eep-0049)
 
 **Some coding guidelines**
-- Use rebar3. Include the binary in the repository so it's not an external
-  dependency and the tested version is used. rebar3 is not used directly but
-  through make targets.
+- Use rebar3. Include the binary in the repository so it's not an external dependency and the tested version is used. rebar3 is not used directly but through make targets.
 - Support the most recent Erlang version.
-- When building libraries, try to make them both easily usable from the shell
-  and easily configurable via application environment.
+- When building libraries, try to make them both easily usable from the shell and easily configurable via application environment.
 - Indent with two spaces.
 - Avoid using header files (.hrl)
-- Supervised processes provide guarantees in their initialization phase, not a
-  best effort. [If you expect failure to happen on an external service, do not
-  make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
-- Try to avoid timer:sleep on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28)
-  can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
+- Supervised processes provide guarantees in their initialization phase, not a best effort. [If you expect failure to happen on an external service, do not make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
+- Try to avoid timer:sleep on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
 - Prefer maps to records.
 
 **Exercises**
@@ -759,12 +541,8 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - [Phoenix Chat Example](https://github.com/dwyl/phoenix-chat-example)
 
 **Installing Phoenix**
-- For Phoenix, all dependencies and versions needed for installing can be found
-  [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended
-  as the de facto database. To install older versions of Erlang and Elixir, use
-  `asdf` to install them.
-- If `asdf` doesn't let you install a previous version of Erlang
-  [this](https://github.com/asdf-vm/asdf-erlang/issues/221) might help.
+- For Phoenix, all dependencies and versions needed for installing can be found [here](https://hexdocs.pm/phoenix/installation.html). Postgres is recommended as the de facto database. To install older versions of Erlang and Elixir, use `asdf` to install them.
+- If `asdf` doesn't let you install a previous version of Erlang [this](https://github.com/asdf-vm/asdf-erlang/issues/221) might help.
 
 #### Projects
 - [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
@@ -773,24 +551,14 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
 
 #### OpenAPI
-The OpenAPI Specification (OAS) defines a standard, programming language-agnostic
-interface description for HTTP APIs, which allows both humans and computers to
-discover and understand the capabilities of a service without requiring access
-to source code, additional documentation, or inspection of network traffic.
-
+The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
 - [Open API Specifications for Elixir Plug applications](https://github.com/open-api-spex/open_api_spex)
 - [How to design better APIs. 15 language-agnostic, actionable tips on REST API design](https://r.bluethl.net/how-to-design-better-apis)
 - [Swagger integration to Phoenix framework](https://github.com/xerions/phoenix_swagger)
 - [Auto generate and run tests using swagger/OpenAPI spec, no coding needed](https://github.com/meqaio/swagger_meqa)
 
 #### ExCheck (QuickCheck)
-QuickCheck is a testing method (formerly a
-[Haskell library](https://hackage.haskell.org/package/QuickCheck) that got
-[adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/))
-that consists of defining expected properties of your program or function, and
-then testing it extensively against randomly-generated variables automatically.
-[ExCheck](https://github.com/parroty/excheck) is a property-based testing
-library that resembles QuickCheck.
+QuickCheck is a testing method (formerly a [Haskell library](https://hackage.haskell.org/package/QuickCheck) that got [adapted to many more languages](https://hypothesis.works/articles/quickcheck-in-every-language/)) that consists of defining expected properties of your program or function, and then testing it extensively against randomly-generated variables automatically. [ExCheck](https://github.com/parroty/excheck) is a property-based testing library that resembles QuickCheck.
 
 ---
 ### Rust
@@ -815,9 +583,7 @@ Implement Conway's Game of Life using Rust + Wasm.
 
 We suggest you:
 - Use the macroquad crate
-- Do not follow the tutorial from section 4 of
-  [Introduction to Rust+Wasm](https://rustwasm.github.io/book/) (read only 4.3
-  because the rules are better explained there than on Wikipedia)
+- Do not follow the tutorial from section 4 of [Introduction to Rust+Wasm](https://rustwasm.github.io/book/) (read only 4.3 because the rules are better explained there than on Wikipedia)
 
 and here are some sources you might find useful in this journey:
 
@@ -828,17 +594,14 @@ and here are some sources you might find useful in this journey:
 
 #### Exercise: Rusty Merkle Tree
 Implement a simple Merkle Tree in Rust.
-
 - A Merkle Tree can be built out of an array.
 - A Merkle Tree can generate a proof that it contains an element.
 - A Merkle Tree can verify that a given hash is contained in it.
 - A Merkle Tree can be dynamic, this means that elements can be added once it is built.
 
-We suggest starting simple, do not optimize prematurely because it's pretty sure
-that you're not gonna need those optimizations.
+We suggest starting simple, do not optimize prematurely because it's pretty sure that you're not gonna need those optimizations.
 
 Here are some sources that you might find useful:
-
 - [Merkle Tree - Brilliant.org](https://brilliant.org/wiki/merkle-tree/)
 - [Merkle Tree Verify in Solidity](https://www.youtube.com/watch?v=n6nEPaE7KZ8)
 - [Other resources](https://nimble-aftershave-74f.notion.site/Resources-a632c530ccfd477d9454c4345c1c554f)
@@ -862,33 +625,20 @@ All distributions are shown on this [page](https://clojure.org/guides/getting_st
 ### Devops & Cloud Environments
 
 #### AWS and other cloud providers
-Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted
-cloud platform, offering over 200 fully featured services from data centers
-globally. Millions of customers—including the fastest-growing startups, largest
-enterprises, and leading government agencies—are using AWS to lower costs,
-become more agile, and innovate faster.
+Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
 
 **AWS tools**
 - IAM: It's used for managing users, groups, access policies & roles.
-- EC2: A web service that provides secure, resizable compute capacity in the
-  cloud.
-- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the
-  information required to launch an instance".
-- ECS: "Amazon Elastic Container Service (Amazon ECS) is a fully managed
-  container orchestration service. Customers such as Duolingo, Samsung, GE, and
-  Cook Pad uses ECS to run their most sensitive and mission-critical applications
-  because of its security, reliability, and scalability." In simpler words, it
-  allows you to launch containers on AWS.
+- EC2: A web service that provides secure, resizable compute capacity in the cloud.
+- AMI: Amazon Machine Images is "An Amazon Machine Image (AMI) provides the information required to launch an instance".
+- ECS: "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad uses ECS to run their most sensitive and mission-critical applications because of its security, reliability, and scalability." In simpler words, it allows you to launch containers on AWS.
  
-(Optional) To further learn about AWS and its practical uses go
-[here](https://github.com/bregman-arie/devops-exercises/blob/master/topics/aws)
-for exercises. These exercises are purely optional and require creating a free
-tier AWS account, and even then, some of the exercises require a paid account.
+(Optional) To further learn about AWS and its practical uses go [here](https://github.com/bregman-arie/devops-exercises/blob/master/topics/aws) for exercises. 
+These exercises are purely optional and require creating a free tier AWS account, and even then, some of the exercises require a paid account.
 
 #### Kubernetes
-Kubernetes is a portable, extensible, open-source platform for managing
-containerized workloads and services, that facilitates both declarative
-configuration and automation. It has a large, rapidly growing ecosystem.
+Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. 
+It has a large, rapidly growing ecosystem.
 Kubernetes services, support, and tools are widely available.
 - [Getting started with kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
@@ -909,12 +659,7 @@ Kubernetes services, support, and tools are widely available.
 ### Distributed Systems
 
 #### Designing Data-Intensive Applications
-The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) 
-is an excellent introduction to many topics related to building scalable and 
-fault-tolerant systems. It provides a decent map of the territory and 
-jumping-off points for anyone beginning to understand how systems are architected 
-to provide these characteristics since it provides many references for further 
-reading. 
+The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) is an excellent introduction to many topics related to building scalable and fault-tolerant systems. It provides a decent map of the territory and jumping-off points for anyone beginning to understand how systems are architected to provide these characteristics since it provides many references for further reading.
 
 ### Observability
 
@@ -946,10 +691,7 @@ reading.
 
 ---
 ### Blockchains
-- [Introduction To Cryptocurrency](https://nakamoto.com/introduction-to-cryptocurrency/)
-  A brief introduction to cryptography and P2P networking used in Bitcoin.
-  Avoid The History of Bitcoin module. Also, if you already implemented the Rusty
-  Merkle Tree you can skip the Merkle Trees lecture.
+- [Introduction To Cryptocurrency](https://nakamoto.com/introduction-to-cryptocurrency/) A brief introduction to cryptography and P2P networking used in Bitcoin. Avoid The History of Bitcoin module. Also, if you already implemented the Rusty Merkle Tree you can skip the Merkle Trees lecture.
 - [Electronification, Trading, and Crypto](https://blog.uniswap.org/electronification-trading-and-crypto) - Analysis of technology's impact on trading systems.
 - [A Cambrian Explosion of Crypto Proofs](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/) - Exploration of the surge in zero-knowledge proofs.
 - [A Brief History of Money](https://nakamoto.com/a-brief-history-of-money/) - The background of money leading up to cryptocurrencies.
