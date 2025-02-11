@@ -565,12 +565,32 @@ QuickCheck is a testing method (formerly a [Haskell library](https://hackage.has
 
 ⚠️WIP⚠️
 
+There are now many books on Rust and specific topics within Rust but we consider the following to be of the highest quality/relevance:
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/) Days 1-4
+- [The Rust Brown Book](https://rust-book.cs.brown.edu/) Chapters 1-19
+- [Programming Rust 2nd Ed](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+- [Rust for Rustaceans](https://nostarch.com/rust-rustaceans)
+- [Rust in Action](https://www.oreilly.com/library/view/rust-in-action/9781617294556/)
+- [Effective Rust](https://www.oreilly.com/library/view/effective-rust/9781098151393/) [Online](https://www.lurklurk.org/effective-rust/)
+- [Zero to Production in Rust](https://www.zero2prod.com/index.html)
+- [Rust Atomics and Locks](https://www.oreilly.com/library/view/rust-atomics-and/9781098119430/)
+
+Posts:
+- [Learning Rust: Mindsets and Expectations](https://ferrous-systems.com/blog/mindsets-and-expectations/)
 - [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) Basic syntax, very easy if you know C language
-- [I am a Java, C#, C or C++ developer, time to do some Rust](https://fasterthanli.me/articles/i-am-a-java-csharp-c-or-cplusplus-dev-time-to-do-some-rust) Quick introduction leaning on previous knowledge
 - [Three Kinds of Polymorphism in Rust](https://www.brandons.me/blog/polymorphism-in-rust)
 - [Some mistakes Rust doesn't catch](https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch)
 - [Learning Rust](https://learning-rust.github.io/) Example project
 - [Guide on how to write documentation for a Rust crate](https://blog.guillaume-gomez.fr/articles/2020-03-12+Guide+on+how+to+write+documentation+for+a+Rust+crate)
+- [2020 Rust Starter Kit](https://wiki.alopex.li/RustStarterKit2020)
+
+Other resources:
+- [cheats.rs](https://cheats.rs/)
+- [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
+- [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+- [Rust 101](https://www.ralfj.de/projects/rust-101/main.html)
+- [Ferrous Systems' Elements of Rust](https://github.com/ferrous-systems/elements-of-rust)
+- [Rust Quiz](https://dtolnay.github.io/rust-quiz/)
 
 Exercises
 - [Rustlings](https://github.com/rust-lang/rustlings). To enable *rust-analyzer* and its features (such as autocomplete and documentation), run this command in the rustlings directory: 
