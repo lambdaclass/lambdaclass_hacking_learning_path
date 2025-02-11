@@ -1,94 +1,5 @@
 # LambdaClass Hacking Learning Path
 
-## Table of Contents
-
-1. [LambdaClass Hacking Learning Path](#lambdaclass-hacking-learning-path)
-  1. [Introduction](#introduction)
-  1. [Part I The Foundation](#part-i-the-foundation)
-    1. [Our Worldview & Company Culture](#our-worldview-&-company-culture)
-      1. [Attitude](#attitude)
-      1. [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
-      1. [Ego, Learning to fail, & Your relationship with your own work](#ego,-learning-to-fail,-&-your-relationship-with-your-own-work)
-      1. [Your relationship with others and work hierarchy](#your-relationship-with-others-and-work-hierarchy)
-      1. [Ethics](#ethics)
-    1. [Practices at Lambda](#practices-at-lambda)
-      1. [Development process/workflow](#development-process/workflow)
-      1. [Design and coding standards](#design-and-coding-standards)
-      1. [Working on open-source projects](#working-on-open-source-projects)
-      1. [Group Readings](#group-readings)
-      1. [Mentorship and One-to-Ones](#mentorship-and-one-to-ones)
-      1. [Community projects](#community-projects)
-      1. [Cryptography](#cryptography)
-    1. [Technical Foundations](#technical-foundations)
-      1. [Development Environment](#development-environment)
-        1. [Homebrew](#homebrew)
-        1. [GNU tools](#gnu-tools)
-        1. [`asdf` version manager](#`asdf`-version-manager)
-        1. [Code Editors and IDEs](#code-editors-and-ides)
-      1. [Software Engineering](#software-engineering)
-        1. [Complexity & KISS (Do The Simplest Thing That Could Possibly Work)](#complexity-&-kiss-(do-the-simplest-thing-that-could-possibly-work))
-      1. [The Unix Philosophy](#the-unix-philosophy)
-      1. [Linux](#linux)
-        1. [How to try some commands in MacOS with a VM](#how-to-try-some-commands-in-macos-with-a-vm)
-      1. [Networking & SSH](#networking-&-ssh)
-      1. [Version Control, Git, & Github](#version-control,-git,-&-github)
-        1. [Git](#git)
-        1. [GitHub & GitLab](#github-&-gitlab)
-      1. [Testing](#testing)
-      1. [Debugging, GDB, DTrace](#debugging,-gdb,-dtrace)
-      1. [Docker](#docker)
-      1. [Continuous Integration & GitHub Actions](#continuous-integration-&-github-actions)
-      1. [Databases: SQL and PostgreSQL](#databases:-sql-and-postgresql)
-      1. [Databases: Redis](#databases:-redis)
-  1. [Part II Specific Topics](#part-ii-specific-topics)
-    1. [Python](#python)
-    1. [The BEAM Ecosystem](#the-beam-ecosystem)
-      1. [Phoenix](#phoenix)
-      1. [Projects](#projects)
-      1. [OpenAPI](#openapi)
-      1. [ExCheck (QuickCheck)](#excheck-(quickcheck))
-    1. [Rust](#rust)
-      1. [Exercise: Conway's Game of Life](#exercise:-conway's-game-of-life)
-      1. [Exercise: Rusty Merkle Tree](#exercise:-rusty-merkle-tree)
-    1. [Julia](#julia)
-    1. [Lisp](#lisp)
-      1. [Clojure](#clojure)
-    1. [Devops & Cloud Environments](#devops-&-cloud-environments)
-      1. [AWS and other cloud providers](#aws-and-other-cloud-providers)
-      1. [Kubernetes](#kubernetes)
-    1. [Functional Programming](#functional-programming)
-      1. [Referential Transparency](#referential-transparency)
-      1. [Immutability](#immutability)
-      1. [Functions as first-class citizens](#functions-as-first-class-citizens)
-    1. [Distributed Systems](#distributed-systems)
-      1. [Designing Data-Intensive Applications](#designing-data-intensive-applications)
-    1. [Observability](#observability)
-    1. [Performance Engineering](#performance-engineering)
-      1. [Algorithmics](#algorithmics)
-    1. [Machine Learning](#machine-learning)
-    1. [Gaming](#gaming)
-    1. [General Cryptography](#general-cryptography)
-    1. [Blockchains](#blockchains)
-    1. [Bitcoin](#bitcoin)
-    1. [Ethereum](#ethereum)
-      1. [Introductory Material](#introductory-material)
-      1. [Official Documentation](#official-documentation)
-      1. [EVM](#evm)
-      1. [Account Abstraction](#account-abstraction)
-      1. [Consensus](#consensus)
-      1. [Scalability & Rollups](#scalability-&-rollups)
-      1. [Validium](#validium)
-      1. [Provers & zkVMs](#provers-&-zkvms)
-        1. [zkVMs](#zkvms)
-        1. [SP1](#sp1)
-      1. [Multi Prover/TEEs](#multi-prover/tees)
-      1. [MEV](#mev)
-      1. [Based Rollups & Rogue](#based-rollups-&-rogue)
-      1. [Ethrex L2 Documentation](#ethrex-l2-documentation)
-    1. [Language Engineering](#language-engineering)
-      1. [Virtual Machines & Runtimes](#virtual-machines-&-runtimes)
-      1. [Parsing](#parsing)
-    1. [Hardware](#hardware)
 
 
 ---
@@ -127,8 +38,8 @@ includes a whirlwind tour of the background knowledge necessary to work on the
 kinds of projects common at LambdaClass. 
 This comprises the first part of the path.
 
-The second part is a repository of selected reference material, exercises and 
-projects for engineers at any stage, including  material for various projects. 
+The second part is a repository of selected and categorized reference material, 
+exercises and projects for engineers at any stage. 
 
 During the initial onboarding of new employees, the first part must be read 
 (end eventually re-read!) by everyone during this process, while the second part
@@ -181,7 +92,7 @@ In fact, being exceptional is the standard, which creates a paradox—because in
 sense, no one is truly exceptional. Achieving top grades and finishing your 
 degree on time, being passionate about System Programming or Cryptography, or 
 mastering coding skills may have brought you here, but won’t suffice to ensure 
-that you will continue to be a valuable team. Everyone must continually prove 
+that you will continue to be a valuable team member. Everyone must continually prove 
 they deserve to be part of this team.
 
 Please don't interpret this point as an invitation to break rules, procedures, 
@@ -217,7 +128,7 @@ There are three key elements we want you to have present at every moment:
   weak and needs someone else for support. So be a hero, be empathic.
 
 Also remember our core principles are:
-1. We hire, dismiss, and promote people as quickly as possible. 
+1. We hire fast, fire faster, promote the fastest. 
 2. Adhere to the truth and be transparent
 3. Do what is right for the product.
 
@@ -359,6 +270,21 @@ References:
 - [How to Give Negative Feedback to Your Peers, Boss, or Direct Reports](https://hbr.org/2023/04/how-to-give-negative-feedback-to-your-peers-boss-or-direct-reports)
 - [The Right Way to Give Feedback to Your Boss](https://www.linkedin.com/pulse/right-way-give-feedback-your-boss-martin-g-moore-dhq9e/)
 
+##### Working on client projects
+Remember you are employed by Lambda even if you work on a client project.
+It's commonplace in Lambda to work collaboratively with clients in the
+development of apps and features, so maybe you will have more day to day 
+rapport with them than with your other Lambda coworkers. If you're in that 
+situation you should always remember a few key things:
+- Your work relation is with Lambda, not with the client so expect to get
+  feedback from your Lambda's Tech Lead and Project Manager and not from the
+  client, don't ask for it either.
+- The relationship between Lambda and the client is managed by the Tech Leads
+  and Project Managers. If someone from the client side makes a request to you
+  personally via DM please contact your Tech Lead and Project Manager about it.
+  Make sure your Teach Lead and Project Manager are in the loop for all 
+  relevant information.
+
 #### Ethics
 A lot can be said about ethics, both in general and as applied to computer 
 science and engineering and their industrial applications, but a few basic 
@@ -374,19 +300,6 @@ things must be spelled out:
 - Work towards making your environment better than the way you found it. This 
   ranges from cleaning tableware used at the office to helping others with your 
   strengths. 
-- Remember you are employed by Lambda even if you work on a client project
-  It's commonplace in Lambda to work collaboratively with clients in the
-  development of apps and features, so maybe you will have more day to day 
-  rapport with them than with your other Lambda coworkers. If you're in that 
-  situation you should always remember a few key things:
-  - Your work relation is with Lambda, not with the client so expect to get
-    feedback from your Lambda's Tech Lead and Project Manager and not from the
-    client, don't ask for it either.
-  - The relationship between Lambda and the client is managed by the Tech Leads
-    and Project Managers. If someone from the client side makes a request to you
-    personally via DM please contact your Tech Lead and Project Manager about it.
-    Make sure your Teach Lead and Project Manager are in the loop for all 
-    relevant information.
 
 ### Practices at Lambda
 
@@ -447,6 +360,8 @@ things must be spelled out:
 - Use continuous integration, most likely GitHub Actions.
 - Make a good balance of features vs maintenance. Maintenance details usually
   matter more than adding a lot of features.
+
+#### Documentation
 
 #### Group Readings
 Software has over the decades, developed a culture and folklore of its own. 
@@ -564,6 +479,9 @@ waste.
 - [Exit the Haunted Forest](https://increment.com/software-architecture/exit-the-haunted-forest/)
 - [Constraints and guarantees](https://jfmengels.net/constraints-and-guarantees/)
 - [Hyrum's Law](https://www.hyrumslaw.com/)
+- [Cognitive Load is What Matters](https://minds.md/zakirullin/cognitive)
+- [Software Design is Knowledge Building](https://olano.dev/blog/software-design-is-knowledge-building/)
+
 
 #### The Unix Philosophy
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
