@@ -13,7 +13,7 @@
         - [Working on client projects](#working-on-client-projects)
       - [Ethics](#ethics)
     - [Practices at Lambda](#practices-at-lambda)
-      - [Development process/workflow](#development-process/workflow)
+      - [Development processes and workflows](#development-processes-and-workflows)
       - [Design and coding standards](#design-and-coding-standards)
       - [Working on open-source projects](#working-on-open-source-projects)
       - [Documentation](#documentation)
@@ -24,7 +24,7 @@
       - [Development Environment](#development-environment)
         - [Homebrew](#homebrew)
         - [GNU tools](#gnu-tools)
-        - [`asdf` version manager](#`asdf`-version-manager)
+        - [ASDF version manager](#asdf-version-manager)
         - [Code Editors and IDEs](#code-editors-and-ides)
       - [Software Engineering](#software-engineering)
         - [Complexity and KISS (Do The Simplest Thing That Could Possibly Work)](#complexity-and-kiss-(do-the-simplest-thing-that-could-possibly-work))
@@ -79,10 +79,10 @@
       - [Consensus](#consensus)
       - [Scalability and Rollups](#scalability-and-rollups)
       - [Validium](#validium)
-      - [Provers & zkVMs](#provers-&-zkvms)
+      - [Provers and zkVMs](#provers-and-zkvms)
         - [zkVMs](#zkvms)
         - [SP1](#sp1)
-      - [Multi Prover/TEEs](#multi-prover/tees)
+      - [Multi Provers and TEEs](#multi-provers-and-tees)
       - [MEV](#mev)
       - [Based Rollups and Rogue](#based-rollups-and-rogue)
       - [Ethrex L2 Documentation](#ethrex-l2-documentation)
@@ -266,7 +266,7 @@ A lot can be said about ethics, both in general and as applied to computer scien
 
 ### Practices at Lambda
 
-#### Development process/workflow
+#### Development processes and workflows
 - There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
 - When working on projects, the specific tasks to tackle are written in tickets on Github Projects. Some actual Lambda's projects are working on other project management software, but these are legacy.
 - Chapter 1 of [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
@@ -352,7 +352,7 @@ Just type in your shell the following command lines:
 - [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
 - [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
-##### `asdf` version manager
+##### ASDF version manager
 - [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
 ##### Code Editors and IDEs
@@ -883,7 +883,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Volition and the Emerging Data Availability Spectrum](https://starkware.medium.com/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb)
 - [Validium And The Layer 2 Two-By-Two — Issue No. 99](https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two)
 
-#### Provers & zkVMs
+#### Provers and zkVMs
 
 ##### zkVMs
 - [The different types of ZK-EVMs](https://vitalik.eth.limo/general/2022/08/04/zkevm.html)
@@ -895,7 +895,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Succinct - How SP1 is making ZK easy, cheap, and production-ready](https://www.youtube.com/watch?v=D4DiDayFDvc)
 - [Episode 314 - Succinct's Platform, Prover Network and SP1](https://www.youtube.com/watch?v=vKZWHtWFlJ0)
 
-#### Multi Prover/TEEs
+#### Multi Provers and TEEs
 - [Securing Validating Bridges](https://www.youtube.com/watch?v=F239cxeWYfQ)
 - [2FA zk-Rollups using SGX](https://ethresear.ch/t/2fa-zk-rollups-using-sgx/14462)
 - [Scaling Security Multi-Prover Implementation on Scroll](https://scroll.io/blog/scaling-security)
