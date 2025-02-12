@@ -1,6 +1,95 @@
 # LambdaClass Hacking Learning Path
 
+## Table of Contents
 
+- [LambdaClass Hacking Learning Path](#lambdaclass-hacking-learning-path)
+  - [Introduction](#introduction)
+  - [Part I The Foundation](#part-i-the-foundation)
+    - [Our Worldview and Company Culture](#our-worldview-and-company-culture)
+      - [Attitude](#attitude)
+      - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
+      - [Ego, Learning to fail, and Your relationship with your own work](#ego,-learning-to-fail,-and-your-relationship-with-your-own-work)
+      - [Your relationship with others and work hierarchy](#your-relationship-with-others-and-work-hierarchy)
+        - [Working on client projects](#working-on-client-projects)
+      - [Ethics](#ethics)
+    - [Practices at Lambda](#practices-at-lambda)
+      - [Development processes and workflows](#development-processes-and-workflows)
+      - [Design and coding standards](#design-and-coding-standards)
+      - [Working on open-source projects](#working-on-open-source-projects)
+      - [Documentation](#documentation)
+      - [Group Readings](#group-readings)
+      - [Community projects](#community-projects)
+      - [Cryptography](#cryptography)
+    - [Technical Foundations](#technical-foundations)
+      - [Development Environment](#development-environment)
+        - [Homebrew](#homebrew)
+        - [GNU tools](#gnu-tools)
+        - [ASDF version manager](#asdf-version-manager)
+        - [Code Editors and IDEs](#code-editors-and-ides)
+      - [Software Engineering](#software-engineering)
+        - [Complexity and KISS (Do The Simplest Thing That Could Possibly Work)](#complexity-and-kiss-(do-the-simplest-thing-that-could-possibly-work))
+      - [The Unix Philosophy](#the-unix-philosophy)
+      - [Linux](#linux)
+        - [How to try some commands in MacOS with a VM](#how-to-try-some-commands-in-macos-with-a-vm)
+      - [Networking and SSH](#networking-and-ssh)
+      - [Version Control, Git, and Github](#version-control,-git,-and-github)
+        - [Git](#git)
+        - [GitHub and GitLab](#github-and-gitlab)
+      - [Testing](#testing)
+      - [Debugging, GDB, DTrace](#debugging,-gdb,-dtrace)
+      - [Docker](#docker)
+      - [Continuous Integration and GitHub Actions](#continuous-integration-and-github-actions)
+      - [SQL and PostgreSQL](#sql-and-postgresql)
+      - [Redis](#redis)
+  - [Part II Specific Topics](#part-ii-specific-topics)
+    - [Python](#python)
+    - [The BEAM Ecosystem](#the-beam-ecosystem)
+      - [Phoenix](#phoenix)
+      - [Projects](#projects)
+      - [OpenAPI](#openapi)
+      - [ExCheck (QuickCheck)](#excheck-(quickcheck))
+    - [Rust](#rust)
+      - [Exercise - Game of Life](#exercise---game-of-life)
+      - [Exercise - Rusty Merkle Tree](#exercise---rusty-merkle-tree)
+    - [Julia](#julia)
+    - [Lisp](#lisp)
+      - [Clojure](#clojure)
+    - [DevOps and Cloud Environments](#devops-and-cloud-environments)
+      - [AWS and other cloud providers](#aws-and-other-cloud-providers)
+      - [Kubernetes](#kubernetes)
+    - [Functional Programming](#functional-programming)
+      - [Referential Transparency](#referential-transparency)
+      - [Immutability](#immutability)
+      - [Functions as first-class citizens](#functions-as-first-class-citizens)
+    - [Distributed Systems](#distributed-systems)
+      - [Designing Data-Intensive Applications](#designing-data-intensive-applications)
+    - [Observability](#observability)
+    - [Performance Engineering](#performance-engineering)
+      - [Algorithmics](#algorithmics)
+    - [Machine Learning](#machine-learning)
+    - [Gaming](#gaming)
+    - [General Cryptography](#general-cryptography)
+    - [Blockchains](#blockchains)
+    - [Bitcoin](#bitcoin)
+    - [Ethereum](#ethereum)
+      - [Introductory Material](#introductory-material)
+      - [Official Documentation](#official-documentation)
+      - [EVM](#evm)
+      - [Account Abstraction](#account-abstraction)
+      - [Consensus](#consensus)
+      - [Scalability and Rollups](#scalability-and-rollups)
+      - [Validium](#validium)
+      - [Provers and zkVMs](#provers-and-zkvms)
+        - [zkVMs](#zkvms)
+        - [SP1](#sp1)
+      - [Multi Provers and TEEs](#multi-provers-and-tees)
+      - [MEV](#mev)
+      - [Based Rollups and Rogue](#based-rollups-and-rogue)
+      - [Ethrex L2 Documentation](#ethrex-l2-documentation)
+    - [Language Engineering](#language-engineering)
+      - [Virtual Machines and Runtimes](#virtual-machines-and-runtimes)
+      - [Parsing](#parsing)
+    - [Hardware](#hardware)
 
 ---
 ## Introduction
@@ -28,7 +117,7 @@ During the initial onboarding of new employees, the first part must be read (end
 
 ## Part I The Foundation
 
-### Our Worldview & Company Culture
+### Our Worldview and Company Culture
 Before tackling the technical challenges ahead of us, we realized that the most important thing any institution aspiring to greatness must have are clear and shared values and principles. 
 These characteristics, along with several others, define a company's culture.
 
@@ -84,7 +173,7 @@ Basically, treat everyone with respect.
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
 - [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
 
-#### Ego, Learning to fail, & Your relationship with your own work
+#### Ego, Learning to fail, and Your relationship with your own work
 Those truly exceptional at Lambda are the least likely to believe they are. 
 You may know how to code, but dealing with your own perception and emotions related is a soft skill that appears more rarely in young developers. 
 Trust is earned over time, skills are learned and perfected over time, outliers in one context may not be so in another, and being an excellent team member and understanding one’s role in an organization is more important than standing out.
@@ -177,7 +266,7 @@ A lot can be said about ethics, both in general and as applied to computer scien
 
 ### Practices at Lambda
 
-#### Development process/workflow
+#### Development processes and workflows
 - There is a weekly call with every member of the team to set the most important goals of the week, as well as a daily call to focus on the problems of the daily tasks.
 - When working on projects, the specific tasks to tackle are written in tickets on Github Projects. Some actual Lambda's projects are working on other project management software, but these are legacy.
 - Chapter 1 of [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
@@ -263,7 +352,7 @@ Just type in your shell the following command lines:
 - [*coreutils*](https://www.gnu.org/software/coreutils/): `brew install coreutils`
 - [*inetutils*](https://www.gnu.org/software/inetutils/): `brew install inetutils`
 
-##### `asdf` version manager
+##### ASDF version manager
 - [asdf](https://asdf-vm.com/guide/getting-started.html) is a version manager with the idea purpose of generating environmental variables to choose the specific version desired. Remember that to be able to use the environmental variables you need to set their path for the shell to check, you can see how to do it depending on how you installed asdf [here](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
 ##### Code Editors and IDEs
@@ -283,7 +372,7 @@ Just type in your shell the following command lines:
 #### Software Engineering
 - [Basic Things](https://matklad.github.io/2024/03/22/basic-things.html)
 
-##### Complexity & KISS (Do The Simplest Thing That Could Possibly Work)
+##### Complexity and KISS (Do The Simplest Thing That Could Possibly Work)
 > "Always implement things when you actually need them, never when you just foresee that you need them" - Ron Jeffries
 
 Strive for solving problems in the simplest way possible. To achieve this, you first need to figure out a handful of ways to confront the issue at hand, and only then pick the one you consider will work in the fewest, tiniest steps.
@@ -340,7 +429,7 @@ If you've already installed GNU-tools, there's no need to install Linux on a VM.
 - What does the `sda2` folder represent?
 - What do `/root` and `/usr/bin` store?
 
-#### Networking & SSH
+#### Networking and SSH
 - [How the Internet Really Works](https://www.amazon.com/Cats-Guide-Internet-Freedom/dp/1718500297)
   - Chapters [1-5] (RECOMMENDED)
 - [Practical Packet Analysis with Wireshark](https://nostarch.com/packetanalysis3)
@@ -365,7 +454,7 @@ This key will allow you to connect and authenticate to remote servers and servic
 - [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [Authorizing an SSH key for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#)
 
-#### Version Control, Git, & Github
+#### Version Control, Git, and Github
 
 ##### Git
 **No one** should merge his/her own PR without it being reviewed and approved by a co-worker and/or a client.
@@ -398,7 +487,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - Why are pull requests important?
 - How to clone a repository using SSH?
 
-##### GitHub & GitLab
+##### GitHub and GitLab
 - If you are new to GitHub, you can put your hands on with [this course](https://github.com/skills/introduction-to-github)
 - Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
 - Doc files should always be added via pull request.
@@ -433,12 +522,12 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - In a Dockerfile, what is the difference between `RUN` and `CMD`?
 - Using port 8080, how do you run an image that exposes port 80?
 
-#### Continuous Integration & GitHub Actions
+#### Continuous Integration and GitHub Actions
 - [About continuous integration](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration)
 - [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
 - [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
-#### Databases: SQL and PostgreSQL
+#### SQL and PostgreSQL
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDED)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDED)
 - Chapters [10-11] from [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
@@ -452,7 +541,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - What does `COALESCE` do?
 - What does `LIKE 'S%'` do in a query?
 
-#### Databases: Redis
+#### Redis
 - [Introduction to Redis performance](https://www.youtube.com/watch?v=-5RTyEim384)
 - [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
 - [Redis Transactions](https://redis.io/topics/transactions)
@@ -598,7 +687,7 @@ Exercises
 rustlings lsp
 ```
 
-#### Exercise: Conway's Game of Life
+#### Exercise - Game of Life
 Implement Conway's Game of Life using Rust + Wasm.
 
 We suggest you:
@@ -612,7 +701,7 @@ and here are some sources you might find useful in this journey:
 - [Macroquad crate](https://github.com/not-fl3/macroquad)
 - [Wasm bindgen (*Optional*)](https://rustwasm.github.io/wasm-bindgen/)
 
-#### Exercise: Rusty Merkle Tree
+#### Exercise - Rusty Merkle Tree
 Implement a simple Merkle Tree in Rust.
 - A Merkle Tree can be built out of an array.
 - A Merkle Tree can generate a proof that it contains an element.
@@ -642,7 +731,7 @@ Although we do not currently use any Lisps at Lambda, we have in the past and th
 All distributions are shown on this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
 
 ---
-### Devops & Cloud Environments
+### DevOps and Cloud Environments
 
 #### AWS and other cloud providers
 Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
@@ -780,7 +869,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Ethereum's Proof of Stake consensus explained](https://www.youtube.com/watch?v=5gfNUVmX3Es)
 - [Engine API: A Visual Guide](https://hackmd.io/@danielrachi/engine_api)
 
-#### Scalability & Rollups
+#### Scalability and Rollups
 - [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
 - [How Rollups **Actually Actually Actually** Work](https://dba.mirror.xyz/LYUb_Y2huJhNUw_z8ltqui2d6KY8Fc3t_cnSE9rDL_o)
 - [Layer 2 Rollups: Ethereum's Scalability Strategy](https://mirror.xyz/cliffton.eth/mCO-oaRIOyvEpIZ5hJrmU-cNDZ3Z9Es7mXOPH_I9uoM)
@@ -794,7 +883,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Volition and the Emerging Data Availability Spectrum](https://starkware.medium.com/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb)
 - [Validium And The Layer 2 Two-By-Two — Issue No. 99](https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two)
 
-#### Provers & zkVMs
+#### Provers and zkVMs
 
 ##### zkVMs
 - [The different types of ZK-EVMs](https://vitalik.eth.limo/general/2022/08/04/zkevm.html)
@@ -806,7 +895,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Succinct - How SP1 is making ZK easy, cheap, and production-ready](https://www.youtube.com/watch?v=D4DiDayFDvc)
 - [Episode 314 - Succinct's Platform, Prover Network and SP1](https://www.youtube.com/watch?v=vKZWHtWFlJ0)
 
-#### Multi Prover/TEEs
+#### Multi Provers and TEEs
 - [Securing Validating Bridges](https://www.youtube.com/watch?v=F239cxeWYfQ)
 - [2FA zk-Rollups using SGX](https://ethresear.ch/t/2fa-zk-rollups-using-sgx/14462)
 - [Scaling Security Multi-Prover Implementation on Scroll](https://scroll.io/blog/scaling-security)
@@ -820,7 +909,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Illuminating Ethereum’s Order Flow Landscape](https://writings.flashbots.net/illuminate-the-order-flow)
 - [The MEV Supply Chain](https://flashbots.mirror.xyz/bqCakwfQZkMsq63b50vib-nibo5eKai0QuK7m-Dsxpo)
 
-#### Based Rollups & Rogue
+#### Based Rollups and Rogue
 - [Based Rollups: Superpowers from L1 sequencing](https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016)
 - [Based Rollups: The next frontier of Ethereum Scaling](https://www.youtube.com/watch?v=thPIc-_h2ms)
 - [Taiko Protocol Overview](https://taiko.mirror.xyz/y_47kIOL5kavvBmG0zVujD2TRztMZt-xgM5d4oqp4_Y)
@@ -843,7 +932,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 
 ⚠️WIP⚠️
 
-#### Virtual Machines & Runtimes
+#### Virtual Machines and Runtimes
 - [A Python interpreter written in Python](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Write your own virtual machine](https://justinmeiners.github.io/lc3-vm/)
 
