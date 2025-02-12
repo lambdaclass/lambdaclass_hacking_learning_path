@@ -39,8 +39,8 @@
       - [Debugging, GDB, DTrace](#debugging,-gdb,-dtrace)
       - [Docker](#docker)
       - [Continuous Integration and GitHub Actions](#continuous-integration-and-github-actions)
-      - [SQL and PostgreSQL Databases](#sql-and-postgresql-databases)
-      - [Databases: Redis](#databases:-redis)
+      - [SQL and PostgreSQL](#sql-and-postgresql)
+      - [Redis](#redis)
   - [Part II Specific Topics](#part-ii-specific-topics)
     - [Python](#python)
     - [The BEAM Ecosystem](#the-beam-ecosystem)
@@ -527,7 +527,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
 - [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
-#### SQL and PostgreSQL Databases
+#### SQL and PostgreSQL
 - [SQL Bolt](https://sqlbolt.com/) (RECOMMENDED)
 - [Mystery solver with SQL](https://mystery.knightlab.com/) (PRACTICE-RECOMMENDED)
 - Chapters [10-11] from [SQL: Practical Guide for Developers](https://www.amazon.com/SQL-Practical-Guide-Developers-Guides/dp/0122205316)
@@ -541,7 +541,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - What does `COALESCE` do?
 - What does `LIKE 'S%'` do in a query?
 
-#### Databases: Redis
+#### Redis
 - [Introduction to Redis performance](https://www.youtube.com/watch?v=-5RTyEim384)
 - [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
 - [Redis Transactions](https://redis.io/topics/transactions)
