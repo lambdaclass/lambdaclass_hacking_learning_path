@@ -7,8 +7,8 @@
   - [Part I The Foundation](#part-i-the-foundation)
     - [Our Worldview and Company Culture](#our-worldview-and-company-culture)
       - [Attitude](#attitude)
-      - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
       - [Ego, Learning to fail, and Your relationship with your own work](#ego,-learning-to-fail,-and-your-relationship-with-your-own-work)
+      - [Principles for success and teamwork philosophy](#principles-for-success-and-teamwork-philosophy)
       - [Your relationship with others and work hierarchy](#your-relationship-with-others-and-work-hierarchy)
         - [Working on client projects](#working-on-client-projects)
       - [Ethics](#ethics)
@@ -118,7 +118,7 @@ During the initial onboarding of new employees, the first part must be read (end
 ## Part I The Foundation
 
 ### Our Worldview and Company Culture
-Before tackling the technical challenges ahead of us, we realized that the most important thing any institution aspiring to greatness must have are clear and shared values and principles. 
+Before tackling the technical challenges ahead of us, we realized that the most important things any institution aspiring to greatness must have are clear and shared values and principles. 
 These characteristics, along with several others, define a company's culture.
 
 In these pages, you will find these principles and values, which are expected of anyone who is part of this institution, whether they are a newcomer or a settled employee, an intern or a manager, and how to solve non-technical problems. 
@@ -157,22 +157,6 @@ Also remember our core principles are:
 2. Adhere to the truth and be transparent
 3. Do what is right for the product.
 
-#### Principles for success and teamwork philosophy
-We follow a code of conduct that must be followed to ensure a safe space in the team. 
-You signed it when you entered Lambda and we expect you to follow it. 
-Basically, treat everyone with respect.
-- [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38).
-- [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=oV8VSBSBrr4).
-- Chapter 1 of [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
-- [Citogenesis in science and the importance of real problems](https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/)
-- Chapter 1 of [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
-- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
-- [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
-- [The XY Problem](https://xyproblem.info/)
-- [The Biggest Mistake I See Engineers Make](https://web.archive.org/web/20220125174724/https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
-- [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
-- [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
-
 #### Ego, Learning to fail, and Your relationship with your own work
 Those truly exceptional at Lambda are the least likely to believe they are. 
 You may know how to code, but dealing with your own perception and emotions related is a soft skill that appears more rarely in young developers. 
@@ -208,6 +192,21 @@ Some resources on this topic:
 
 Developing equanimity and focusing on the truth revelead by results is The Lambda Way.
 You’ll come across more lessons on this throughout your learning path.
+
+#### Principles for success and teamwork philosophy
+We follow a code of conduct designed to ensure a safe team environment. You signed it when you entered Lambda and we expect you to follow it. 
+Basically, treat everyone with respect.
+- [Principles for success by Ray Dalio](https://www.youtube.com/embed/B9XGUpQZY38)
+- [Charity Majors - The Sociotechnical Path to High-Performing Teams](https://www.youtube.com/watch?v=oV8VSBSBrr4)
+- Chapter 1 of [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
+- [Citogenesis in science and the importance of real problems](https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/)
+- Chapter 1 of [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
+- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
+- [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
+- [The XY Problem](https://xyproblem.info/)
+- [The Biggest Mistake I See Engineers Make](https://web.archive.org/web/20220125174724/https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
+- [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
+- [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
 
 #### Your relationship with others and work hierarchy
 At Lambda we won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
@@ -245,7 +244,7 @@ Here’s the key: It’s not just about what you say — it’s about how you sa
 Keep in mind that feedback, regardless of which direction it's going in, is affected by this power dynamic. This is why:
 
 1. **Your own performance has to be solid**. In other words, you should consistently prove your competence and deliver valuable outcomes.
-2. **You have to know what you are talking about.** You have to know what you are talking about. The quickest way to lose credibility is by presenting unthought-out or half-formed opinions.
+2. **You have to know what you are talking about.** The quickest way to lose credibility is by presenting unthought-out or half-formed opinions.
 
 References: 
 - [How to Give Negative Feedback to Your Peers, Boss, or Direct Reports](https://hbr.org/2023/04/how-to-give-negative-feedback-to-your-peers-boss-or-direct-reports)
@@ -259,7 +258,7 @@ If you're in that situation you should always remember a few key things:
 - The relationship between Lambda and the client is managed by the Tech Leads and Project Managers. If someone from the client side makes a request to you personally via DM please contact your Tech Lead and Project Manager about it. Make sure your Teach Lead and Project Manager are in the loop for all relevant information.
 
 #### Ethics
-A lot can be said about ethics, both in general and as applied to computer science and engineering and their industrial applications, but a few basic things must be spelled out:
+A lot can be said about ethics, both in general terms and as applied to computer science, engineering, and their industrial applications, but a few basic things must be spelled out:
 - Stealing, in any way, is explicitly forbidden and is grounds for immediate dismissal. This include stealing software from other projects, open source or not, without attribution or credit.
 - Times are changing fast, and we always encourage trying out new tools, but at Lambda, using code provided by AI or LLMs is stricly forbidden. You can still use LLMs for other purposes, but copilot-style integrations which write code for you are a net loss, as they are not accountable regarding where they get their inspiration from and do not understand code licensing issues.
 - Work towards making your environment better than the way you found it. This ranges from cleaning tableware used at the office to helping others with your strengths.
