@@ -380,7 +380,7 @@ Tomorrow’s code may need to be more complex, so do everything in your power to
 Also, while you shouldn't be blind to the future, avoid investing time and effort into developing features that are not currently necessary and might be a waste.
 - [Do The Simplest Thing That Could Possibly Work](https://www.artima.com/articles/the-simplest-thing-that-could-possibly-work)
 - [YAGNI by Martin Fowler](https://martinfowler.com/bliki/Yagni.html)
-- The two root causes of software complexity](https://pressupinc.com/blog/2014/05/root-causes-software-complexity/)
+- [The two root causes of software complexity](https://pressupinc.com/blog/2014/05/root-causes-software-complexity/)
 - [Encapsulated vs systemic complexity in protocol design](https://vitalik.eth.limo/general/2022/02/28/complexity.html)
 - [Practices of Reliable Software Design](https://entropicthoughts.com/practices-of-reliable-software-design)
 - [Exit the Haunted Forest](https://increment.com/software-architecture/exit-the-haunted-forest/)
