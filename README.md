@@ -487,7 +487,6 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - How to clone a repository using SSH?
 
 ##### GitHub and GitLab
-- If you are new to GitHub, you can put your hands on with [this course](https://github.com/skills/introduction-to-github)
 - Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
 - Doc files should always be added via pull request.
   - Be sure those files are written in Markdown. 
