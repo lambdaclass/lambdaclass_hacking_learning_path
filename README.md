@@ -312,7 +312,7 @@ We have selected a few articles and posts we consider especially important to be
 To ensure everyone has time to be exposed to this material, we set up discussion groups in which someone volunteers to present some material, and the ensuing debate involving everyone, including more senior members, always results in relating the information to concrete experiences.
 
 In addition to the Hacking Learning Path, new employees must participate in these Readings until they cycle out of the contents. 
-You can see the program [here](readings.md).
+You can see the program [here](src/readings.md).
 
 However, we encourage everyone to continue to embed themselves in this engineering folklore and to continue studying and gainig new skills. 
 For this reason, once the mandatory readings are done with, we invite them to the Book Club, which votes on what research papers, books, posts, or presentations they will study and debate.
