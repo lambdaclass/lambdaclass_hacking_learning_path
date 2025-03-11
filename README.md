@@ -201,12 +201,12 @@ Basically, treat everyone with respect.
 - Chapter 1 of [Antifragile: Things That Gain from Disorder](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
 - [Citogenesis in science and the importance of real problems](https://lemire.me/blog/2023/06/14/citogenesis-in-science-and-the-importance-of-real-problems/)
 - Chapter 1 of [Data science in Julia for hackers](https://datasciencejuliahackers.com/)
-- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
-- [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
-- [The XY Problem](https://xyproblem.info/)
 - [The Biggest Mistake I See Engineers Make](https://web.archive.org/web/20220125174724/https://www.thezbook.com/the-biggest-mistake-i-see-engineers-make/)
+- [The XY Problem](https://xyproblem.info/)
 - [The Sunk Cost Fallacy](https://thedecisionlab.com/biases/the-sunk-cost-fallacy/)
 - [The most important goal in designing software is understandability](https://ntietz.com/blog/the-most-important-goal-in-designing-software-is-understandability/)
+- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
+- [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
 
 #### Your relationship with others and work hierarchy
 At Lambda we won't micromanage you because we don't want to: **we give flexibility but ask for responsibility in exchange**.
