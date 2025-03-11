@@ -447,12 +447,6 @@ If you've already installed GNU-tools, there's no need to install Linux on a VM.
 - What is the difference between HTTPS and HTTP?
 - What is the difference between asymmetric and symmetric cryptography?
 
-Before you embark on your Git journey, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account. 
-This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it, you will be able to connect to GitHub without supplying your username and personal access token each time.
-- [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
-- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-- [Authorizing an SSH key for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#)
-
 #### Version Control, Git, and Github
 
 ##### Git
@@ -487,6 +481,20 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - How to clone a repository using SSH?
 
 ##### GitHub and GitLab
+Before you continue on your Git journey and learn how to use git together with GitHub, it is important to learn what an SSH Key (Secure Shell Key) is and how to generate one and add it to your GitHub account.
+This key will allow you to connect and authenticate to remote servers and services using the SSH protocol. With it, you will be able to connect to GitHub without supplying your username and personal access token each time.
+- [SSH Keys for GitHub](https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html)
+- [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [Authorizing an SSH key for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#)
+
+Once you have an SSH key associated with your GitHub account, managing it will become a pain.
+The most basic next step is learning that instead of entering your SSH passphrase every time you have to authenticate, you can tell your operating system's SSH Agent to remember it for you and provide it.
+
+In addition, you can tell 1password to manage it as well: [instructions](https://developer.1password.com/docs/ssh/get-started/).
+
+Once your system is configured to use the 1password SSH agent with your key, you can configure your local git client to use the ssh key to sign your commits, ensuring that your authorship of the code is verified.
+You can find the instructions [here](https://developer.1password.com/docs/ssh/git-commit-signing/).
+
 - Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
 - Doc files should always be added via pull request.
   - Be sure those files are written in Markdown. 
@@ -941,3 +949,4 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 ---
 ### Hardware
 - [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
+
