@@ -492,7 +492,7 @@ The most basic next step is learning that instead of entering your SSH passphras
 
 In addition, you can tell 1password to manage it as well: [instructions](https://developer.1password.com/docs/ssh/get-started/).
 
-Once your system is configured to use the 1password SSH agent with your key, you can configure your local git client to use the ssh key to sign your commits, ensuring that your authorship of the code is verified.
+Once your system is configured to use the 1password SSH agent with your key, you can configure your local git client to use the SSH key to sign your commits, ensuring that your authorship of the code is verified.
 You can find the instructions [here](https://developer.1password.com/docs/ssh/git-commit-signing/).
 
 - Progress in any project must be pushed every day. This must be done within a branch of the master repository and a Pull Request (PR) must be opened for reviewing the code, previous to merging the branch to master.
