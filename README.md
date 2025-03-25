@@ -190,7 +190,7 @@ Some resources on this topic:
 - [Software engineers suffer from Dunning-Kruger - do you too?](https://www.dateo-software.de/blog/dunning-kruger)
 - [What Is Programmer Imposter Syndrome and How Can You Deal With It?](https://www.turing.com/blog/programmer-imposter-syndrome-tips)
 
-Developing equanimity and focusing on the truth revelead by results is The Lambda Way.
+Developing equanimity and focusing on the truth revealed by results is The Lambda Way.
 You’ll come across more lessons on this throughout your learning path.
 
 #### Principles for success and teamwork philosophy
