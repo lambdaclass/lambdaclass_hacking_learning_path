@@ -506,7 +506,7 @@ Make sure your editor of choice is correctly configured to add them automaticall
 - [Introduction to gdb](https://youtu.be/xQ0ONbt-qPs)
 - [Ptrace syscall example](https://www.linuxjournal.com/article/6100)
 - [Using Dtrace on MacOS](https://poweruser.blog/using-dtrace-with-sip-enabled-3826a352e64b)
-- [Tracing in Linux and macOS](https://blog.xfbs.net/posts/tracing-linux-macos)
+- [Tracing in Linux and macOS](https://web.archive.org/web/20220228193322/https://blog.xfbs.net/posts/tracing-linux-macos)
 - [Ptrace](https://refspecs.linuxbase.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-ptrace-1.html)
 - [Dtrace One Liners](https://www.brendangregg.com/dtrace.html#OneLiners)
 
