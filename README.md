@@ -895,8 +895,8 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [The different types of ZK-EVMs](https://vitalik.eth.limo/general/2022/08/04/zkevm.html)
 
 ##### SP1
-- [What is SP1](https://docs.succinct.xyz/introduction.html)
-- [Why use SP1](https://docs.succinct.xyz/why-use-sp1.html)
+- [What is SP1](https://docs.succinct.xyz/docs/sp1/introduction)
+- [Why use SP1](https://docs.succinct.xyz/docs/sp1/why-use-sp1)
 - [What is a zkVM](https://docs.succinct.xyz/docs/sp1/what-is-a-zkvm)
 - [Succinct - How SP1 is making ZK easy, cheap, and production-ready](https://www.youtube.com/watch?v=D4DiDayFDvc)
 - [Episode 314 - Succinct's Platform, Prover Network and SP1](https://www.youtube.com/watch?v=vKZWHtWFlJ0)
