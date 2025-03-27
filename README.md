@@ -732,7 +732,7 @@ Here are some sources that you might find useful:
 Although we do not currently use any Lisps at Lambda, we have in the past and there is much to learn from this most venerable family of tools.
 
 #### Clojure
-- [Clojure, Made Simple](https://www.youtube.com/watch?v=VSdnJDO-xdg)
+- [Clojure, Made Simple](https://www.youtube.com/watch?v=028LZLUB24s)
 
 All distributions are shown on this [page](https://clojure.org/guides/getting_started), for Mac follow [this](https://clojure.org/guides/getting_started#_installation_on_mac_via_homebrew) link.
 
