@@ -290,6 +290,7 @@ A lot can be said about ethics, both in general terms and as applied to computer
 - If you want to upgrade a dependency, test it first.
 - Always lock your dependencies. Pin a specific version and a commit of a dependency, don't use the version at master.
 - Use git and commit often, even in one-person projects.
+- In general, avoid pining the patch version of dependencies, more info [here](https://semver.org/).
 
 #### Working on open-source projects
 - Suggested reading: [The Architecture of Open Source Applications](http://aosabook.org/en/index.html).
