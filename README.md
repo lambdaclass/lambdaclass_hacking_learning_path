@@ -617,11 +617,22 @@ You can find the instructions [here](https://developer.1password.com/docs/ssh/gi
 - [Erlang workshop](https://github.com/lambdaclass/erlang_workshop)
 
 **Elixir**
+- Read the entire `Getting started` section starting at [the introduction](https://elixir-lang.org/getting-started/introduction.html)  EXCEPT:
+  - "Module attributes"
+  - "Protocols"
+  - "Sigils"
+  - "Writing documentation"
+  - "Optional syntax cheatsheet"
+  - "Erlang Libraries"
+
+In addition, read:
+- the documentation for Mix (https://hexdocs.pm/mix/Mix.html)
+- the documentation for ExUnit (https://hexdocs.pm/ex_unit/ExUnit.html
+
+Other useful resources:
+- "Programming Elixir" by Dave Thomas
 - [Learning Functional Programming With Elixir](https://pragprog.com/titles/cdc-elixir/learn-functional-programming-with-elixir/)
-  - Must read: Chapter 1.
-  - Recommended to read: Chapters 3, 4, 5.
-- [Elixir getting started](https://elixir-lang.org/getting-started/introduction.html)
-- [Immutable Data](src/immutable_data.md)
+  - Recommended reading: Chapters 3, 4, 5.
 - [StreamData: Property-based testing and data generation](https://elixir-lang.org/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/)
 
 #### Phoenix
@@ -640,10 +651,7 @@ You can find the instructions [here](https://developer.1password.com/docs/ssh/gi
 - If `asdf` doesn't let you install a previous version of Erlang [this](https://github.com/asdf-vm/asdf-erlang/issues/221) might help.
 
 #### Projects
-- [Phoenix live counter](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-- [Phoenix todo-list](https://github.com/dwyl/phoenix-todo-list-tutorial)
-- [Phoenix ecto encryption](https://github.com/dwyl/phoenix-ecto-encryption-example)
-- [Phoenix append-only log](https://github.com/dwyl/phoenix-ecto-append-only-log-example)
+Check out the [project description](src/elixir_project_forth.md)
 
 #### OpenAPI
 The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic.
