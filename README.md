@@ -839,6 +839,7 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [The EVM](https://youtu.be/kCswGz9naZg)
 - [Accounts, Private Keys, Wallets](https://youtu.be/A_c3bCkBtPA)
 - [Smart Contracts](https://youtu.be/PLgawr4pbqE)
+- [Roll-Ups](https://www.youtube.com/watch?v=7pWxCklcNsU)
 - [ZK Roll-Ups](https://youtu.be/3C0g-60bAWc)
 - [Open sourcing rbuilder | Flashbots Writings](https://writings.flashbots.net/open-sourcing-rbuilder)
 - [Illuminating Ethereum's Order Flow Landscape | Flashbots Writings](https://writings.flashbots.net/illuminate-the-order-flow)
