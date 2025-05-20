@@ -859,6 +859,8 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 #### EVM
 - [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [EVM Handbook](https://www.notion.so/bb38e175cc404111a391907c4975426d?pvs=21)
+- Parts I and II from: [Building an EVM from scratch](https://karmacoma.notion.site/Building-an-EVM-from-scratch-series-90ee3c827b314e0599e705a1152eecf9) 
+- [A Playdate with the EVM](https://web.archive.org/web/20250126120648/https://femboy.capital/evm-pt1)
 - [EVM Codes](https://www.evm.codes/)
 - [EVM Deep Dives](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy)
 - [Mega EOF Specification](https://github.com/ipsilon/eof/blob/main/spec/eof.md)
