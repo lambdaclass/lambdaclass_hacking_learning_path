@@ -19,6 +19,7 @@
       - [Documentation](#documentation)
       - [Group Readings](#group-readings)
       - [Community projects](#community-projects)
+      - [Learning Projects](#learning-projects)
       - [Cryptography](#cryptography)
     - [Technical Foundations](#technical-foundations)
       - [Development Environment](#development-environment)
@@ -73,6 +74,7 @@
     - [Bitcoin](#bitcoin)
     - [Ethereum](#ethereum)
       - [Introductory Material](#introductory-material)
+      - [Ecosystem](#ecosystem)
       - [Official Documentation](#official-documentation)
       - [EVM](#evm)
       - [Account Abstraction](#account-abstraction)
@@ -325,6 +327,13 @@ We organize activities where we share thoughts and interests with anyone who wan
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
 
+#### Learning Projects
+
+The learning path is not just 
+
+##### General project guidelines
+- Create a Github repository under your own username.
+
 ---
 
 #### Cryptography
@@ -565,6 +574,11 @@ You can find the instructions [here](https://developer.1password.com/docs/ssh/gi
 ⚠️WIP⚠️
 
 ---
+
+### JavaScript
+- [WAT](https://www.destroyallsoftware.com/talks/wat)
+
+---
 ### Python
 - [HTTP server in Python with Flask](https://medium.com/swlh/flask-framework-basics-python-f9d46f463846)
 - [Automate the Boring Stuff with Python](https://nostarch.com/automatestuff2)
@@ -787,8 +801,19 @@ Kubernetes services, support, and tools are widely available.
 ---
 ### Distributed Systems
 
+- [Make your cluster SWIM](https://www.bartoszsypytkowski.com/make-your-cluster-swim/)
+
 #### Designing Data-Intensive Applications
 The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) is an excellent introduction to many topics related to building scalable and fault-tolerant systems. It provides a decent map of the territory and jumping-off points for anyone beginning to understand how systems are architected to provide these characteristics since it provides many references for further reading.
+
+#### CRDTs
+- https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/
+- https://www.bartoszsypytkowski.com/hyparview/
+- https://www.bartoszsypytkowski.com/plumtree/
+- https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/
+- ["Turning the database inside out with Apache Samza" by Martin Kleppmann](https://www.youtube.com/watch?v=fU9hR3kiOK0)
+- https://raft.github.io/raft.pdf
+- https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/
 
 ### Observability
 
@@ -834,28 +859,37 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 ### Bitcoin
 ⚠️WIP⚠️
 
+- [3blue1brown: But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - [Hashcash](https://nakamoto.com/hashcash/) Insights into Bitcoin's consensus mechanism.
 
 ---
 ### Ethereum
 
+When onboarding to Ethereum-related projects it is important to get a general idea of the high-level components, how they relate, and the general design tradeoffs involved, and then a deeper understanding of some central components.
+However, understanding everything from the get-go is impossible. Read the `Introductory Material`, `Ecosystem`, the selected subsections of the official docs, and the `EVM` sections. The rest are for reference or reading at your own pace.
+
 #### Introductory Material
-- [What happens when you send one DAI?](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai) A look at the process of Ethereum transactions.
+- [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
 - [Ethereum in 30 minutes by Vitalik Buterin | Devcon SEA](https://www.youtube.com/watch?v=ei3tDRMjw6k)
-- [Keynote: Beam Chain by Justin Drake | Devcon SEA](https://youtu.be/lRqnFrqpq4k)
+- [What happens when you send one DAI?](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai) A look at the process of Ethereum transactions.
 - [Research, Spec, Clients, & Nodes](https://youtu.be/vzgNqO_obH4)
 - [The EVM](https://youtu.be/kCswGz9naZg)
 - [Accounts, Private Keys, Wallets](https://youtu.be/A_c3bCkBtPA)
 - [Smart Contracts](https://youtu.be/PLgawr4pbqE)
+- [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
 - [Roll-Ups](https://www.youtube.com/watch?v=7pWxCklcNsU)
 - [ZK Roll-Ups](https://youtu.be/3C0g-60bAWc)
-- [Open sourcing rbuilder | Flashbots Writings](https://writings.flashbots.net/open-sourcing-rbuilder)
+
+#### Ecosystem
 - [Illuminating Ethereum's Order Flow Landscape | Flashbots Writings](https://writings.flashbots.net/illuminate-the-order-flow)
 - [Ethereum is a Dark Forest](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest)
+- [Keynote: Beam Chain by Justin Drake | Devcon SEA](https://youtu.be/lRqnFrqpq4k)
 
 #### Official Documentation
+This is the official documentation at `ethereum.org`.
+Reading through it all in the beginning is not necessary but these highlighted subsections are recommended. 
+
 - [Developer Docs Homepage](https://ethereum.org/en/developers/docs/)
-  - [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
   - [Accounts](https://ethereum.org/en/developers/docs/accounts/)
   - [Transactions](https://ethereum.org/en/developers/docs/transactions/)
   - [Blocks](https://ethereum.org/en/developers/docs/blocks/)
@@ -866,7 +900,9 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
   - [Nodes and Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/)
 
 #### EVM
-- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- [Ethereum White Paper](https://ethereum.org/en/whitepaper/) The white paper is a more high level, executive summary.
+- [Ethereum Beige Paper](https://cryptopapers.info/assets/pdf/eth_beige.pdf) The beige paper is more technical but doesn't go into the deeper details.
+- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) The yellow paper is an in-depth technical description that may be too detailed for a first reading. 
 - [EVM Handbook](https://www.notion.so/bb38e175cc404111a391907c4975426d?pvs=21)
 - Parts I and II from: [Building an EVM from scratch](https://karmacoma.notion.site/Building-an-EVM-from-scratch-series-90ee3c827b314e0599e705a1152eecf9) 
 - [A Playdate with the EVM](https://web.archive.org/web/20250126120648/https://femboy.capital/evm-pt1)
@@ -893,10 +929,11 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Engine API: A Visual Guide](https://hackmd.io/@danielrachi/engine_api)
 
 #### Scalability and Rollups
-- [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
+- [ROLLUPS - The Ultimate Ethereum Scaling Strategy? Arbitrum & Optimism Explained](https://www.youtube.com/watch?v=7pWxCklcNsU)
 - [How Rollups **Actually Actually Actually** Work](https://dba.mirror.xyz/LYUb_Y2huJhNUw_z8ltqui2d6KY8Fc3t_cnSE9rDL_o)
 - [Layer 2 Rollups: Ethereum's Scalability Strategy](https://mirror.xyz/cliffton.eth/mCO-oaRIOyvEpIZ5hJrmU-cNDZ3Z9Es7mXOPH_I9uoM)
 - [The modular Vision & Roll-ups](https://youtu.be/cPorRAyA9qg)
+- [ZK Roll-Ups](https://youtu.be/3C0g-60bAWc)
 - [Discussing ZK-rollups (with Toghrul Maharramov from Scroll)](https://www.youtube.com/watch?v=KEsnbUbj7T0)
 - [Rollups Through the Prism of the Bridges by Toghrul Maharramov](https://www.youtube.com/watch?v=GlxSP_ABE4Y)
 
@@ -933,6 +970,8 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [The MEV Supply Chain](https://flashbots.mirror.xyz/bqCakwfQZkMsq63b50vib-nibo5eKai0QuK7m-Dsxpo)
 
 #### Based Rollups and Rogue
+- [Becoming Based: A Path towards Decentralised Sequencing](https://ethresear.ch/t/becoming-based-a-path-towards-decentralised-sequencing/21733)
+- [Based OP Stack Docs](https://gattaca-com.github.io/based-op/)
 - [Based Rollups: Superpowers from L1 sequencing](https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016)
 - [Based Rollups: The next frontier of Ethereum Scaling](https://www.youtube.com/watch?v=thPIc-_h2ms)
 - [Taiko Protocol Overview](https://taiko.mirror.xyz/y_47kIOL5kavvBmG0zVujD2TRztMZt-xgM5d4oqp4_Y)
