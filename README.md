@@ -273,6 +273,7 @@ A lot can be said about ethics, both in general terms and as applied to computer
 - Chapter 1 of [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
 
 #### Design and coding standards
+- [The Basics](https://matklad.github.io/2024/03/22/basic-things.html)
 - Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 - Postgresql is the default database.
@@ -398,12 +399,23 @@ Also, while you shouldn't be blind to the future, avoid investing time and effor
 - [Hyrum's Law](https://www.hyrumslaw.com/)
 - [Cognitive Load is What Matters](https://minds.md/zakirullin/cognitive)
 - [Software Design is Knowledge Building](https://olano.dev/blog/software-design-is-knowledge-building/)
+- [Write Code that is easy to delete not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+- [Negotiable Abstractions](https://ferd.ca/negotiable-abstractions.html)
 
 #### The Unix Philosophy
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
 - [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 - [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html) (Whole chapter)
 - [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
+
+### Worse is Better
+- [Wikipedia: Worse is Better](https://en.wikipedia.org/wiki/Worse_is_better)
+- [Worse is Better](https://www.dreamsongs.com/WorseIsBetter.html)
+- [Worse is Better is Worse](https://www.dreamsongs.com/Files/worse-is-worse.pdf)
+- [Is Worse Really Better?](https://www.dreamsongs.com/Files/IsWorseReallyBetter.pdf)
+- [Worse is Better vs. Better is Better](https://andrumyers.wordpress.com/2014/09/20/worse-is-better-vs-better-is-better/)
+- [What "Worse is Better vs The Right Thing" is really about](https://yosefk.com/blog/what-worse-is-better-vs-the-right-thing-is-really-about.html)
+- [Worse is Better (is Worse (is Better))](https://olano.dev/blog/worse-is-better-is-worse-is-better)
 
 **Some questions to guide your learning**
 - How does complexity relate to modularity?
@@ -800,7 +812,7 @@ Kubernetes services, support, and tools are widely available.
 
 ---
 ### Distributed Systems
-
+- [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - [Make your cluster SWIM](https://www.bartoszsypytkowski.com/make-your-cluster-swim/)
 
 #### Designing Data-Intensive Applications
@@ -838,6 +850,8 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 ### Gaming
 
 ⚠️WIP⚠️
+
+- [1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond](https://zoo.cs.yale.edu/classes/cs538/readings/papers/terrano_1500arch.pdf)
 
 ---
 ### General Cryptography
@@ -1005,4 +1019,5 @@ Reading through it all in the beginning is not necessary but these highlighted s
 ---
 ### Hardware
 - [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
+- [What Every Programmer Should Know about How CPUs Work • Matt Godbolt • GOTO 2024](https://youtu.be/-HNpim5x-IE?si=_T0lB-FoEEQipQZC)
 
