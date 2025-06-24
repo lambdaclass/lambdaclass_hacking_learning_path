@@ -19,7 +19,6 @@
       - [Documentation](#documentation)
       - [Group Readings](#group-readings)
       - [Community projects](#community-projects)
-      - [Learning Projects](#learning-projects)
       - [Cryptography](#cryptography)
     - [Technical Foundations](#technical-foundations)
       - [Development Environment](#development-environment)
@@ -327,10 +326,6 @@ We organize activities where we share thoughts and interests with anyone who wan
 - [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and interviews about programming.
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
-
-#### Learning Projects
-
-The learning path is not just 
 
 ##### General project guidelines
 - Create a Github repository under your own username.
