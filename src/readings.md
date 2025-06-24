@@ -92,9 +92,6 @@ Once you'ved participated in all sessions participation in the reading group is 
 - [Transforming the Future with Zero-Knowledge Proofs, Fully Homomorphic Encryption and new Distributed Systems algorithms](https://blog.lambdaclass.com/transforming-the-future-with-zero-knowledge-proofs-fully-homomorphic-encryption-and-new-distributed-systems-algorithms/)
 - [My techno-optimism](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html)
 
-### Session: Electronification, Trading, and Crypto
-- [Electronification, Trading, and Crypto](https://blog.uniswap.org/electronification-trading-and-crypto)
-
 ## Unit 5 Gaming
 
 ### Session: 1500 Archers on a 28.8: Network Programming in Age of Empires

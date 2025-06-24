@@ -73,6 +73,7 @@
     - [Bitcoin](#bitcoin)
     - [Ethereum](#ethereum)
       - [Introductory Material](#introductory-material)
+      - [Ecosystem](#ecosystem)
       - [Official Documentation](#official-documentation)
       - [EVM](#evm)
       - [Account Abstraction](#account-abstraction)
@@ -271,6 +272,7 @@ A lot can be said about ethics, both in general terms and as applied to computer
 - Chapter 1 of [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?dchild=1&keywords=the+managers+path&qid=1625162711&s=books&sr=1-1)
 
 #### Design and coding standards
+- [The Basics](https://matklad.github.io/2024/03/22/basic-things.html)
 - Suggested reading: [Coders at work](https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483)
 - [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
 - Postgresql is the default database.
@@ -324,6 +326,9 @@ We organize activities where we share thoughts and interests with anyone who wan
 - [LambdaClass Blog](https://blog.lambdaclass.com/) Writings, reviews, and interviews about programming.
 - [BuzzConf](https://buzzconf.org/) A conference for developers, by developers. Past talks [here](https://www.youtube.com/channel/UCE6_WdRbp8pN2IPNwXcu9Ww/videos).
 - [Papers We Love Buenos Aires](https://github.com/papers-we-love/buenos-aires) Once a month we organize a meeting where we discuss scientific papers we love. Join us on [Telegram](https://t.me/pwlba).
+
+##### General project guidelines
+- Create a Github repository under your own username.
 
 ---
 
@@ -389,12 +394,23 @@ Also, while you shouldn't be blind to the future, avoid investing time and effor
 - [Hyrum's Law](https://www.hyrumslaw.com/)
 - [Cognitive Load is What Matters](https://minds.md/zakirullin/cognitive)
 - [Software Design is Knowledge Building](https://olano.dev/blog/software-design-is-knowledge-building/)
+- [Write Code that is easy to delete not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+- [Negotiable Abstractions](https://ferd.ca/negotiable-abstractions.html)
 
 #### The Unix Philosophy
 - [Unix Timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
 - [Basics of the Unix Philosophy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 - [Modularity](http://www.catb.org/~esr/writings/taoup/html/modularitychapter.html) (Whole chapter)
 - [Transparency](http://www.catb.org/~esr/writings/taoup/html/ch06s02.html)
+
+### Worse is Better
+- [Wikipedia: Worse is Better](https://en.wikipedia.org/wiki/Worse_is_better)
+- [Worse is Better](https://www.dreamsongs.com/WorseIsBetter.html)
+- [Worse is Better is Worse](https://www.dreamsongs.com/Files/worse-is-worse.pdf)
+- [Is Worse Really Better?](https://www.dreamsongs.com/Files/IsWorseReallyBetter.pdf)
+- [Worse is Better vs. Better is Better](https://andrumyers.wordpress.com/2014/09/20/worse-is-better-vs-better-is-better/)
+- [What "Worse is Better vs The Right Thing" is really about](https://yosefk.com/blog/what-worse-is-better-vs-the-right-thing-is-really-about.html)
+- [Worse is Better (is Worse (is Better))](https://olano.dev/blog/worse-is-better-is-worse-is-better)
 
 **Some questions to guide your learning**
 - How does complexity relate to modularity?
@@ -563,6 +579,11 @@ You can find the instructions [here](https://developer.1password.com/docs/ssh/gi
 ## Part II Specific Topics
 
 ⚠️WIP⚠️
+
+---
+
+### JavaScript
+- [WAT](https://www.destroyallsoftware.com/talks/wat)
 
 ---
 ### Python
@@ -786,9 +807,20 @@ Kubernetes services, support, and tools are widely available.
 
 ---
 ### Distributed Systems
+- [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- [Make your cluster SWIM](https://www.bartoszsypytkowski.com/make-your-cluster-swim/)
 
 #### Designing Data-Intensive Applications
 The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) is an excellent introduction to many topics related to building scalable and fault-tolerant systems. It provides a decent map of the territory and jumping-off points for anyone beginning to understand how systems are architected to provide these characteristics since it provides many references for further reading.
+
+#### CRDTs
+- https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/
+- https://www.bartoszsypytkowski.com/hyparview/
+- https://www.bartoszsypytkowski.com/plumtree/
+- https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/
+- ["Turning the database inside out with Apache Samza" by Martin Kleppmann](https://www.youtube.com/watch?v=fU9hR3kiOK0)
+- https://raft.github.io/raft.pdf
+- https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/
 
 ### Observability
 
@@ -814,6 +846,8 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 
 ⚠️WIP⚠️
 
+- [1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond](https://zoo.cs.yale.edu/classes/cs538/readings/papers/terrano_1500arch.pdf)
+
 ---
 ### General Cryptography
 - [crypto101](https://www.crypto101.io/) Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels.
@@ -834,28 +868,37 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 ### Bitcoin
 ⚠️WIP⚠️
 
+- [3blue1brown: But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - [Hashcash](https://nakamoto.com/hashcash/) Insights into Bitcoin's consensus mechanism.
 
 ---
 ### Ethereum
 
+When onboarding to Ethereum-related projects it is important to get a general idea of the high-level components, how they relate, and the general design tradeoffs involved, and then a deeper understanding of some central components.
+However, understanding everything from the get-go is impossible. Read the `Introductory Material`, `Ecosystem`, the selected subsections of the official docs, and the `EVM` sections. The rest are for reference or reading at your own pace.
+
 #### Introductory Material
-- [What happens when you send one DAI?](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai) A look at the process of Ethereum transactions.
+- [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
 - [Ethereum in 30 minutes by Vitalik Buterin | Devcon SEA](https://www.youtube.com/watch?v=ei3tDRMjw6k)
-- [Keynote: Beam Chain by Justin Drake | Devcon SEA](https://youtu.be/lRqnFrqpq4k)
+- [What happens when you send one DAI?](https://www.notonlyowner.com/learn/what-happens-when-you-send-one-dai) A look at the process of Ethereum transactions.
 - [Research, Spec, Clients, & Nodes](https://youtu.be/vzgNqO_obH4)
 - [The EVM](https://youtu.be/kCswGz9naZg)
 - [Accounts, Private Keys, Wallets](https://youtu.be/A_c3bCkBtPA)
 - [Smart Contracts](https://youtu.be/PLgawr4pbqE)
+- [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
 - [Roll-Ups](https://www.youtube.com/watch?v=7pWxCklcNsU)
 - [ZK Roll-Ups](https://youtu.be/3C0g-60bAWc)
-- [Open sourcing rbuilder | Flashbots Writings](https://writings.flashbots.net/open-sourcing-rbuilder)
+
+#### Ecosystem
 - [Illuminating Ethereum's Order Flow Landscape | Flashbots Writings](https://writings.flashbots.net/illuminate-the-order-flow)
 - [Ethereum is a Dark Forest](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest)
+- [Keynote: Beam Chain by Justin Drake | Devcon SEA](https://youtu.be/lRqnFrqpq4k)
 
 #### Official Documentation
+This is the official documentation at `ethereum.org`.
+Reading through it all in the beginning is not necessary but these highlighted subsections are recommended. 
+
 - [Developer Docs Homepage](https://ethereum.org/en/developers/docs/)
-  - [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
   - [Accounts](https://ethereum.org/en/developers/docs/accounts/)
   - [Transactions](https://ethereum.org/en/developers/docs/transactions/)
   - [Blocks](https://ethereum.org/en/developers/docs/blocks/)
@@ -866,7 +909,9 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
   - [Nodes and Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/)
 
 #### EVM
-- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- [Ethereum White Paper](https://ethereum.org/en/whitepaper/) The white paper is a more high level, executive summary.
+- [Ethereum Beige Paper](https://cryptopapers.info/assets/pdf/eth_beige.pdf) The beige paper is more technical but doesn't go into the deeper details.
+- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) The yellow paper is an in-depth technical description that may be too detailed for a first reading. 
 - [EVM Handbook](https://www.notion.so/bb38e175cc404111a391907c4975426d?pvs=21)
 - Parts I and II from: [Building an EVM from scratch](https://karmacoma.notion.site/Building-an-EVM-from-scratch-series-90ee3c827b314e0599e705a1152eecf9) 
 - [A Playdate with the EVM](https://web.archive.org/web/20250126120648/https://femboy.capital/evm-pt1)
@@ -893,10 +938,11 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [Engine API: A Visual Guide](https://hackmd.io/@danielrachi/engine_api)
 
 #### Scalability and Rollups
-- [Understanding Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin's guide on rollups, a key scalability solution.
+- [ROLLUPS - The Ultimate Ethereum Scaling Strategy? Arbitrum & Optimism Explained](https://www.youtube.com/watch?v=7pWxCklcNsU)
 - [How Rollups **Actually Actually Actually** Work](https://dba.mirror.xyz/LYUb_Y2huJhNUw_z8ltqui2d6KY8Fc3t_cnSE9rDL_o)
 - [Layer 2 Rollups: Ethereum's Scalability Strategy](https://mirror.xyz/cliffton.eth/mCO-oaRIOyvEpIZ5hJrmU-cNDZ3Z9Es7mXOPH_I9uoM)
 - [The modular Vision & Roll-ups](https://youtu.be/cPorRAyA9qg)
+- [ZK Roll-Ups](https://youtu.be/3C0g-60bAWc)
 - [Discussing ZK-rollups (with Toghrul Maharramov from Scroll)](https://www.youtube.com/watch?v=KEsnbUbj7T0)
 - [Rollups Through the Prism of the Bridges by Toghrul Maharramov](https://www.youtube.com/watch?v=GlxSP_ABE4Y)
 
@@ -933,6 +979,8 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 - [The MEV Supply Chain](https://flashbots.mirror.xyz/bqCakwfQZkMsq63b50vib-nibo5eKai0QuK7m-Dsxpo)
 
 #### Based Rollups and Rogue
+- [Becoming Based: A Path towards Decentralised Sequencing](https://ethresear.ch/t/becoming-based-a-path-towards-decentralised-sequencing/21733)
+- [Based OP Stack Docs](https://gattaca-com.github.io/based-op/)
 - [Based Rollups: Superpowers from L1 sequencing](https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016)
 - [Based Rollups: The next frontier of Ethereum Scaling](https://www.youtube.com/watch?v=thPIc-_h2ms)
 - [Taiko Protocol Overview](https://taiko.mirror.xyz/y_47kIOL5kavvBmG0zVujD2TRztMZt-xgM5d4oqp4_Y)
@@ -966,4 +1014,5 @@ The book [Designing Data-Intensive Applications](https://www.oreilly.com/library
 ---
 ### Hardware
 - [Moore's Law, Microprocessors, and First Principles](https://www.youtube.com/watch?v=Nb2tebYAaOA)
+- [What Every Programmer Should Know about How CPUs Work • Matt Godbolt • GOTO 2024](https://youtu.be/-HNpim5x-IE?si=_T0lB-FoEEQipQZC)
 
