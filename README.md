@@ -807,20 +807,22 @@ Kubernetes services, support, and tools are widely available.
 
 ---
 ### Distributed Systems
+- [Notes on Distributed Systems for Young Bloods](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - [Make your cluster SWIM](https://www.bartoszsypytkowski.com/make-your-cluster-swim/)
+- [Gossip Glomers: A series of distributed systems challenges brought to you by Fly.io](https://fly.io/dist-sys/)
+- [PingCAP Talent Plan](https://github.com/pingcap/talent-plan)
+- [TinyKV](https://github.com/talent-plan/tinykv)
+- [Raft](https://raft.github.io/raft.pdf)
+- [HyParView](https://www.bartoszsypytkowski.com/hyparview/)
+- [PlumTree](https://www.bartoszsypytkowski.com/plumtree/)
+- ["Turning the database inside out with Apache Samza" by Martin Kleppmann](https://www.youtube.com/watch?v=fU9hR3kiOK0)
 
 #### Designing Data-Intensive Applications
 The book [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) is an excellent introduction to many topics related to building scalable and fault-tolerant systems. It provides a decent map of the territory and jumping-off points for anyone beginning to understand how systems are architected to provide these characteristics since it provides many references for further reading.
 
 #### CRDTs
-- https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/
-- https://www.bartoszsypytkowski.com/hyparview/
-- https://www.bartoszsypytkowski.com/plumtree/
-- https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/
-- ["Turning the database inside out with Apache Samza" by Martin Kleppmann](https://www.youtube.com/watch?v=fU9hR3kiOK0)
-- https://raft.github.io/raft.pdf
-- https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/
+- [The State of State Based CRDTs](https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/)
 
 ### Observability
 
