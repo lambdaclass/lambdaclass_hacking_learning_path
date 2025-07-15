@@ -283,7 +283,7 @@ A lot can be said about ethics, both in general terms and as applied to computer
 - Code and document in english unless you have a very specific reason not to.
 - Use meaningful, readable names for variables, functions, and files. Don't try to save characters.
 - Documentation is a sign of the quality of an API. It's easier to write it when the design is right.
-- The less code you have the better. Deleted code is debugged code.
+- [The less code you have the better. Deleted code is debugged code](https://suckless.org/philosophy/).
 - Aim for simplicity, not performance. The latter is a by-product of the first.
 - Only introduce optimizations if you have benchmarks that prove an improvement and that the improvement is relevant in the context of the program.
 - Only introduce optimizations if they represent a concrete gain (e.g. cost savings, improved user experience).
